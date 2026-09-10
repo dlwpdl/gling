@@ -4,7 +4,7 @@ Review access (build 5 or later): Open the app, tap the person icon ("나", Prof
 
 Choose Vancouver or Toronto manually. Review post details, posting, comments, conversations, reporting and blocking. Demo posts and authors are seeded content for initial review, not evidence of real user activity. Normal member posting and anti-abuse limits also apply to this account.
 
-Account deletion is under Profile > Settings > Delete account. Apple-linked accounts reauthorize before provider token revocation and deletion. An external account-deletion request page is also available at https://dlwpdl.github.io/gling/account-deletion.
+Account deletion is under Profile > Settings > Delete account. Apple-linked accounts reauthorize before provider token revocation and deletion. An external account-deletion request page is also available at https://gling.ej-entertainment.com/account-deletion.
 
 Ordinary members use Kakao sign-in, with native Sign in with Apple also available on iOS. Users must accept the terms, privacy policy and external AI safety-processing disclosure before creating or continuing a profile.
 

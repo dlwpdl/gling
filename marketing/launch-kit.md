@@ -15,7 +15,7 @@
 출시 준비 중 · 오픈 알림은 아래 링크에서 ↓
 ```
 
-- 소개 링크: https://dlwpdl.github.io/gling?utm_source=instagram&utm_medium=organic_social&utm_campaign=prelaunch
+- 소개 링크: https://gling.ej-entertainment.com?utm_source=instagram&utm_medium=organic_social&utm_campaign=prelaunch
 - Threads용 링크는 `utm_source=threads`로 바꾼다. UTM은 링크 구분용이며, 현재 웹사이트에 채널별 전환 집계가 구현됐다는 뜻은 아니다.
 - 프로필 이미지: [기존 글링 앱 아이콘](../assets/brand/gling-app-icon.png). 유료 디자인 도구나 새 로고가 필요하지 않다.
 - 이메일: 도메인 확정 후 글링 전용 주소를 만들고 `eunsense0308@gmail.com`으로 전달한다. SNS 가입에는 개인 Gmail이나 Gmail 별칭을 사용하지 않는다. 도메인이 아직 없어 가입을 기다리는 중이다.
