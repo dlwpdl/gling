@@ -1,7 +1,7 @@
 # App Review response — draft, not sent
 
-Submission: `86deeeed-7156-484d-aa26-e3ee81a1b1a5`  
-App: 글링 - 캐나다 한인 커뮤니티, 1.0.0 (9)  
+Submission: `86deeeed-7156-484d-aa26-e3ee81a1b1a5`
+App: 글링 - 캐나다 한인 커뮤니티, 1.0.0 (9)
 Issue: Guideline 2.1 — Information Needed — New App Submission
 
 **Pending before submission:** capture and inspect the physical-device video, record the exact model/OS/build and attachment name below, and obtain approval to send the completed response. Do not describe simulator footage as physical-device footage.
@@ -18,10 +18,10 @@ VIDEO PENDING — complete this section after recording and verification.
 
 The recording must start with launching the submitted app and demonstrate ordinary registration/onboarding, login, feed browsing, posting and comments, direct conversations and group meetups, reporting, blocking, and account deletion. Record the Membership screen as it actually appears in this build. The submitted build currently has no paid products available for purchase.
 
-Device: iPhone X (owner-selected physical device)  
-iOS version: PENDING recording verification; connected device currently reports 16.7.14 (20H370). Check supported updates before capture.  
-App version/build: 1.0.0 (9), verify on device  
-Recording/attachment: PENDING  
+Device: iPhone X (owner-selected physical device)
+iOS version: PENDING recording verification; connected device currently reports 16.7.14 (20H370). Check supported updates before capture.
+App version/build: 1.0.0 (9), verify on device
+Recording/attachment: PENDING
 Flow timestamps and physical-device QA result: PENDING
 
 Before sending, state the actual OS and clarify that this is an iPhone X recording. Do not claim it demonstrates the current iOS 26 release or that App Review has accepted the device's latest supported OS as satisfying its latest-OS request.
@@ -65,6 +65,6 @@ Gling is a community platform and does not itself provide regulated medical, fin
 
 The app does not depend on a licensed third-party media catalog, broadcast content or professional-service credentials. User-submitted content is subject to the community rules and reporting/moderation process. One seeded Vancouver image is attributed in its post to Vlad D on Unsplash (photo reference: https://unsplash.com/photos/19aJ-K6fUmY). The general Unsplash license is available at https://unsplash.com/license. The source attribution is retained in the post and our seed-content migration.
 
-Support: https://gling.ej-entertainment.com  
-Privacy: https://gling.ej-entertainment.com/privacy  
+Support: https://gling.ej-entertainment.com
+Privacy: https://gling.ej-entertainment.com/privacy
 Terms: https://gling.ej-entertainment.com/terms
