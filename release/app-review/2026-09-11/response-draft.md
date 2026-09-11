@@ -18,11 +18,13 @@ VIDEO PENDING — complete this section after recording and verification.
 
 The recording must start with launching the submitted app and demonstrate ordinary registration/onboarding, login, feed browsing, posting and comments, direct conversations and group meetups, reporting, blocking, and account deletion. Record the Membership screen as it actually appears in this build. The submitted build currently has no paid products available for purchase.
 
-Device: PENDING  
-iOS version: PENDING  
+Device: iPhone X (owner-selected physical device)  
+iOS version: PENDING recording verification; connected device currently reports 16.7.14 (20H370). Check supported updates before capture.  
 App version/build: 1.0.0 (9), verify on device  
 Recording/attachment: PENDING  
 Flow timestamps and physical-device QA result: PENDING
+
+Before sending, state the actual OS and clarify that this is an iPhone X recording. Do not claim it demonstrates the current iOS 26 release or that App Review has accepted the device's latest supported OS as satisfying its latest-OS request.
 
 ## 2. Purpose and audience
 
