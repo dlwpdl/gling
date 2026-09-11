@@ -1,0 +1,30 @@
+DRAFT — physical-device video pending. Do not submit until the video and device/OS/build details are added.
+
+Gling 1.0.0 (9) is a Korean-language public community for residents, newcomers and students in Vancouver and Toronto, Canada. City-based posts, comments, group meetups and consent-based direct conversations help people exchange local information and connect with neighbors. It is not restricted to an organization or its employees.
+
+1. Physical-device demonstration
+Pending: recording attachment/link, physical iPhone model, current iOS version, app version/build and flow timestamps. The recording must begin with launch and show signup/onboarding, login, main features, reporting, blocking and actual account deletion using a separate disposable account.
+
+2. Review access
+Tap the person icon at the top-right beside Search, then "심사용 계정 로그인 / Review access". Use the supplied App Review Information username/password and tap "심사 계정으로 로그인 / Sign in". This pre-created account has ordinary member permissions, no admin privileges and the same functionality/rules as other members. No personal Kakao/Apple account, OTP, payment, sample files or presence in Canada is required. Keep this account available for review.
+
+3. Main flows
+Browse the feed without login and select Vancouver or Toronto manually. The bottom tabs are Today, Meetups, Write, Chat and Notifications. Ordinary signup uses Kakao or native Sign in with Apple, followed by nickname/city setup and terms/privacy/external-AI disclosure consent. Public email signup is not available.
+Open post details for comments and reporting/blocking. Direct conversations require recipient acceptance; group membership requires host approval. Free members have 1 post/day, 3 group slots and 3 independent direct-conversation slots. A closed direct conversation locks the original requester's slot for 24h; the recipient's slot returns immediately. Voluntary group departure locks the leaver's group slot for 24h. Delete an account via Profile > Settings > Delete account; Apple-linked accounts reauthorize before provider revocation/deletion.
+Seeded posts/authors are initial review content, not claims of real customer activity. Plus/Premium information is shown, but paid products are not currently for sale. No credit packs, paid post promotion or advertising are exposed.
+
+4. External services
+Supabase: Auth, PostgreSQL, Storage, Realtime, Edge Functions.
+Kakao OAuth and Apple Sign in: authentication.
+OpenAI API: optional photo-to-draft assistance and server-side safety analysis of all new posts/comments/private and group messages after disclosure/consent. AI prioritizes human review; it does not independently impose permanent bans. Authorized admin access is audited; chats are not end-to-end encrypted.
+RevenueCat/StoreKit: integrated subscription infrastructure, with no paid products currently available.
+GitHub Pages: support/legal/share pages and owned-domain OAuth entry; Cloudflare: DNS/email routing. Resend is integrated for operator safety alerts when configured. Expo/React Native provides the app framework.
+
+5. Regions
+The same iOS functionality and rules apply across supported regions. City selection controls local content, not access by device location. Vancouver/Toronto are open; other cities are coming soon. No GPS permission is required. The interface is Korean.
+
+6. Regulated services/material
+A public community, not a medical, financial, gambling, escrow or rent-payment provider. No licensed media catalog is required. A seeded Vancouver photo credits Vlad D/Unsplash in its post (https://unsplash.com/photos/19aJ-K6fUmY); general license: https://unsplash.com/license.
+Support: https://gling.ej-entertainment.com
+Privacy: https://gling.ej-entertainment.com/privacy
+Terms: https://gling.ej-entertainment.com/terms
