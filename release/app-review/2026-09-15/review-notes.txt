@@ -1,0 +1,28 @@
+Gling 1.0.1 (19) is a Korean-language public community for residents, newcomers and students in Vancouver, Toronto and Edmonton, Canada. City-based posts, comments, group meetups and consent-based direct conversations help people exchange local information and connect with neighbors. It is not restricted to an organization or its employees.
+
+1. Review access
+Tap the profile icon at the top-right of the feed, then "심사용 계정 로그인 / Review access". Use the App Review Information username/password and tap "심사 계정으로 로그인 / Sign in". This pre-created account has ordinary member permissions, no admin privileges and the same functionality/rules as other members. No Kakao/Apple/Google account, OTP, payment, sample files or presence in Canada is required. Keep this account available for review.
+
+2. Main flows
+Browse the feed without login and select Vancouver, Toronto or Edmonton manually. The bottom tabs are Today, Meetups, Write, Chat and Me. Ordinary signup uses native Sign in with Apple, Google Sign-In or Kakao, followed by nickname/city setup and terms/privacy/external-AI disclosure consent. Public email signup is not available.
+Write offers two post kinds: a story post (free members 1/day) and a listing post for housing, used items or vehicles (up to 5 open listings, 14-day life, "bump" once per 24h). Open post details for comments (one nested reply level, edit/delete own comments), like, save and reporting/blocking. Tap an author to open a mini profile with a chat request. Direct conversations require recipient acceptance; group membership requires host approval. Free members have 3 group slots and 3 direct-conversation slots. A closed direct conversation locks the requester's slot for 24h. Delete an account via Me > Settings > Delete account; Apple-linked accounts reauthorize before revocation/deletion.
+Seeded posts/authors are initial review content, not claims of real customer activity.
+
+3. Subscriptions (submitted with this version)
+Me > Membership shows Gling Plus and Gling Premium (monthly/yearly) via StoreKit/RevenueCat. The launch price is shown with the regular price struck through and labeled 출시 기념가 (launch price). Membership tier is never displayed to other members; it only raises the member's own posting/listing/slot limits and shortens bump cooldown. No credit packs, paid post promotion or third-party advertising purchases.
+
+4. External services
+Supabase: Auth, PostgreSQL, Storage, Realtime, Edge Functions.
+Apple Sign in, Google Sign-In (native SDK), Kakao OAuth: authentication.
+OpenAI API: optional photo-to-draft assistance and server-side safety analysis of all new posts/comments/private and group messages after disclosure/consent. AI prioritizes human review; it does not independently impose permanent bans. Authorized admin access is audited; chats are not end-to-end encrypted.
+RevenueCat/StoreKit: subscriptions. Google AdMob: a native ad card appears in the feed after every 7 posts (test ads until release).
+GitHub Pages: support/legal/share pages; Cloudflare: DNS/email routing; Resend: operator safety alerts when configured. Expo/React Native: app framework.
+
+5. Regions
+The same iOS functionality and rules apply across supported regions. City selection controls local content, not access by device location. Vancouver, Toronto and Edmonton are open; other cities are coming soon. No GPS permission is required. The interface is Korean.
+
+6. Regulated services/material
+A public community, not a medical, financial, gambling, escrow or rent-payment provider. Listing posts are classifieds; the app does not process payments between members. A seeded Vancouver photo credits Vlad D/Unsplash in its post (https://unsplash.com/photos/19aJ-K6fUmY); general license: https://unsplash.com/license.
+Support: https://gling.ej-entertainment.com
+Privacy: https://gling.ej-entertainment.com/privacy
+Terms: https://gling.ej-entertainment.com/terms
