@@ -1,0 +1,374 @@
+{
+  "id": "58e5e8b4-b5cf-44ae-a941-549c028fb421",
+  "ok": true,
+  "result": {
+    "origin": "https://www.threads.com/@gling.app",
+    "refs": {
+      "e1": {
+        "name": "만들기",
+        "role": "button"
+      },
+      "e10": {
+        "name": "피드 수정",
+        "role": "button"
+      },
+      "e11": {
+        "name": "팔로잉",
+        "role": "link"
+      },
+      "e12": {
+        "name": "저장됨 저장됨",
+        "role": "link"
+      },
+      "e13": {
+        "name": "좋아요 좋아요",
+        "role": "link"
+      },
+      "e14": {
+        "name": "유령 게시물",
+        "role": "link"
+      },
+      "e15": {
+        "name": "보관함 보관함",
+        "role": "link"
+      },
+      "e16": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e17": {
+        "name": "취소",
+        "role": "button"
+      },
+      "e18": {
+        "name": "새로운 스레드",
+        "role": "heading"
+      },
+      "e19": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e2": {
+        "name": "Threads",
+        "role": "link"
+      },
+      "e20": {
+        "name": "미디어 첨부",
+        "role": "button"
+      },
+      "e21": {
+        "name": "GIF 추가",
+        "role": "button"
+      },
+      "e22": {
+        "name": "이모티콘 추가",
+        "role": "button"
+      },
+      "e23": {
+        "name": "스티커 추가",
+        "role": "button"
+      },
+      "e24": {
+        "name": "설문 추가",
+        "role": "button"
+      },
+      "e25": {
+        "name": "텍스트 첨부",
+        "role": "button"
+      },
+      "e26": {
+        "name": "위치 추가",
+        "role": "button"
+      },
+      "e27": {
+        "name": "음악 추가",
+        "role": "button"
+      },
+      "e28": {
+        "name": "스레드에 추가",
+        "role": "button"
+      },
+      "e29": {
+        "name": "임시 저장본",
+        "role": "button"
+      },
+      "e3": {
+        "name": "추천",
+        "role": "link"
+      },
+      "e30": {
+        "name": "커뮤니티 또는 주제",
+        "role": "searchbox"
+      },
+      "e31": {
+        "name": "텍스트 필드가 비어 있습니다. 입력하여 새 게시물을 작성해보세요.",
+        "role": "textbox"
+      },
+      "e32": {
+        "name": "게시",
+        "role": "button"
+      },
+      "e33": {
+        "name": "게시물 옵션",
+        "role": "button"
+      },
+      "e34": {
+        "name": "지난달",
+        "role": "button"
+      },
+      "e35": {
+        "name": "다음 달",
+        "role": "button"
+      },
+      "e36": {
+        "name": "날짜 선택",
+        "role": "grid"
+      },
+      "e37": {
+        "name": "",
+        "role": "generic"
+      },
+      "e38": {
+        "name": "",
+        "role": "generic"
+      },
+      "e39": {
+        "name": "2026년 9월",
+        "role": "heading"
+      },
+      "e4": {
+        "name": "새로운 스레드",
+        "role": "button"
+      },
+      "e40": {
+        "name": "월 화 수 목 금 토 일",
+        "role": "row"
+      },
+      "e41": {
+        "name": "2026년 8월 31일 월요일 2026년 9월 1일 화요일 2026년 9월 2일 수요일 2026년 9월 3일 목요일 2026년 9월 4일 금요일 2026년 9월 5일 토요일 2026년 9월 6일 일요일",
+        "role": "row"
+      },
+      "e42": {
+        "name": "2026년 9월 7일 월요일 2026년 9월 8일 화요일 2026년 9월 9일 수요일 2026년 9월 10일 목요일 2026년 9월 11일 금요일 2026년 9월 12일 토요일 2026년 9월 13일 일요일",
+        "role": "row"
+      },
+      "e43": {
+        "name": "2026년 9월 14일 월요일, 선택됨 2026년 9월 15일 화요일 2026년 9월 16일 수요일 2026년 9월 17일 목요일 2026년 9월 18일 금요일 2026년 9월 19일 토요일 2026년 9월 20일 일요일",
+        "role": "row"
+      },
+      "e44": {
+        "name": "2026년 9월 21일 월요일 2026년 9월 22일 화요일 2026년 9월 23일 수요일 2026년 9월 24일 목요일 2026년 9월 25일 금요일 2026년 9월 26일 토요일 2026년 9월 27일 일요일",
+        "role": "row"
+      },
+      "e45": {
+        "name": "2026년 9월 28일 월요일 2026년 9월 29일 화요일 2026년 9월 30일 수요일 2026년 10월 1일 목요일 2026년 10월 2일 금요일 2026년 10월 3일 토요일 2026년 10월 4일 일요일",
+        "role": "row"
+      },
+      "e46": {
+        "name": "hh",
+        "role": "textbox"
+      },
+      "e47": {
+        "name": "mm",
+        "role": "textbox"
+      },
+      "e48": {
+        "name": "완료",
+        "role": "button"
+      },
+      "e49": {
+        "name": "월",
+        "role": "gridcell"
+      },
+      "e5": {
+        "name": "검색 검색",
+        "role": "link"
+      },
+      "e50": {
+        "name": "화",
+        "role": "gridcell"
+      },
+      "e51": {
+        "name": "수",
+        "role": "gridcell"
+      },
+      "e52": {
+        "name": "목",
+        "role": "gridcell"
+      },
+      "e53": {
+        "name": "금",
+        "role": "gridcell"
+      },
+      "e54": {
+        "name": "토",
+        "role": "gridcell"
+      },
+      "e55": {
+        "name": "일",
+        "role": "gridcell"
+      },
+      "e56": {
+        "name": "2026년 8월 31일 월요일",
+        "role": "gridcell"
+      },
+      "e57": {
+        "name": "2026년 9월 1일 화요일",
+        "role": "gridcell"
+      },
+      "e58": {
+        "name": "2026년 9월 2일 수요일",
+        "role": "gridcell"
+      },
+      "e59": {
+        "name": "2026년 9월 3일 목요일",
+        "role": "gridcell"
+      },
+      "e6": {
+        "name": "메시지 메시지",
+        "role": "link"
+      },
+      "e60": {
+        "name": "2026년 9월 4일 금요일",
+        "role": "gridcell"
+      },
+      "e61": {
+        "name": "2026년 9월 5일 토요일",
+        "role": "gridcell"
+      },
+      "e62": {
+        "name": "2026년 9월 6일 일요일",
+        "role": "gridcell"
+      },
+      "e63": {
+        "name": "2026년 9월 7일 월요일",
+        "role": "gridcell"
+      },
+      "e64": {
+        "name": "2026년 9월 8일 화요일",
+        "role": "gridcell"
+      },
+      "e65": {
+        "name": "2026년 9월 9일 수요일",
+        "role": "gridcell"
+      },
+      "e66": {
+        "name": "2026년 9월 10일 목요일",
+        "role": "gridcell"
+      },
+      "e67": {
+        "name": "2026년 9월 11일 금요일",
+        "role": "gridcell"
+      },
+      "e68": {
+        "name": "2026년 9월 12일 토요일",
+        "role": "gridcell"
+      },
+      "e69": {
+        "name": "2026년 9월 13일 일요일",
+        "role": "gridcell"
+      },
+      "e7": {
+        "name": "알림 활동",
+        "role": "link"
+      },
+      "e70": {
+        "name": "2026년 9월 14일 월요일, 선택됨",
+        "role": "gridcell"
+      },
+      "e71": {
+        "name": "2026년 9월 15일 화요일",
+        "role": "gridcell"
+      },
+      "e72": {
+        "name": "2026년 9월 16일 수요일",
+        "role": "gridcell"
+      },
+      "e73": {
+        "name": "2026년 9월 17일 목요일",
+        "role": "gridcell"
+      },
+      "e74": {
+        "name": "2026년 9월 18일 금요일",
+        "role": "gridcell"
+      },
+      "e75": {
+        "name": "2026년 9월 19일 토요일",
+        "role": "gridcell"
+      },
+      "e76": {
+        "name": "2026년 9월 20일 일요일",
+        "role": "gridcell"
+      },
+      "e77": {
+        "name": "2026년 9월 21일 월요일",
+        "role": "gridcell"
+      },
+      "e78": {
+        "name": "2026년 9월 22일 화요일",
+        "role": "gridcell"
+      },
+      "e79": {
+        "name": "2026년 9월 23일 수요일",
+        "role": "gridcell"
+      },
+      "e8": {
+        "name": "프로필 프로필",
+        "role": "link"
+      },
+      "e80": {
+        "name": "2026년 9월 24일 목요일",
+        "role": "gridcell"
+      },
+      "e81": {
+        "name": "2026년 9월 25일 금요일",
+        "role": "gridcell"
+      },
+      "e82": {
+        "name": "2026년 9월 26일 토요일",
+        "role": "gridcell"
+      },
+      "e83": {
+        "name": "2026년 9월 27일 일요일",
+        "role": "gridcell"
+      },
+      "e84": {
+        "name": "2026년 9월 28일 월요일",
+        "role": "gridcell"
+      },
+      "e85": {
+        "name": "2026년 9월 29일 화요일",
+        "role": "gridcell"
+      },
+      "e86": {
+        "name": "2026년 9월 30일 수요일",
+        "role": "gridcell"
+      },
+      "e87": {
+        "name": "2026년 10월 1일 목요일",
+        "role": "gridcell"
+      },
+      "e88": {
+        "name": "2026년 10월 2일 금요일",
+        "role": "gridcell"
+      },
+      "e89": {
+        "name": "2026년 10월 3일 토요일",
+        "role": "gridcell"
+      },
+      "e9": {
+        "name": "인사이트 인사이트",
+        "role": "link"
+      },
+      "e90": {
+        "name": "2026년 10월 4일 일요일",
+        "role": "gridcell"
+      }
+    },
+    "snapshot": "- generic\n  - navigation\n    - link \"Threads\" [ref=e2]\n      - image \"Threads\"\n    - button \"더 보기\" [expanded=false, ref=e16]\n      - image \"더 보기\"\n    - link \"추천\" [ref=e3]\n      - generic\n        - image\n        - StaticText \"추천\"\n    - button \"새로운 스레드\" [ref=e4]\n      - generic\n        - image\n        - StaticText \"새로운 스레드\"\n    - link \"검색 검색\" [ref=e5]\n      - generic\n        - image \"검색\"\n        - StaticText \"검색\"\n    - link \"메시지 메시지\" [ref=e6]\n      - generic\n        - image \"메시지\"\n        - StaticText \"메시지\"\n    - link \"알림 활동\" [ref=e7]\n      - generic\n        - image \"알림\"\n        - StaticText \"활동\"\n    - link \"프로필 프로필\" [ref=e8]\n      - generic\n        - image \"프로필\"\n        - StaticText \"프로필\"\n    - link \"인사이트 인사이트\" [ref=e9]\n      - generic\n        - image \"인사이트\"\n        - StaticText \"인사이트\"\n    - StaticText \"기타 피드\"\n    - button \"피드 수정\" [ref=e10]\n      - StaticText \"수정\"\n    - link \"팔로잉\" [ref=e11]\n      - StaticText \"팔로잉\"\n    - link \"저장됨 저장됨\" [ref=e12]\n      - generic\n        - image \"저장됨\"\n        - StaticText \"저장됨\"\n    - link \"좋아요 좋아요\" [ref=e13]\n      - generic\n        - image \"좋아요\"\n        - StaticText \"좋아요\"\n    - link \"유령 게시물\" [ref=e14]\n      - generic\n        - StaticText \"유령 게시물\"\n        - image\n    - link \"보관함 보관함\" [ref=e15]\n      - generic\n        - image \"보관함\"\n        - StaticText \"보관함\"\n  - button \"만들기\" [expanded=false, ref=e1]\n    - image \"만들기\"\n  - generic\n    - list\n  - generic\n    - generic\n      - dialog\n        - generic\n          - button \"취소\" [ref=e17]\n            - StaticText \"취소\"\n          - heading \"새로운 스레드\" [level=1, ref=e18]\n            - StaticText \"새로운 스레드\"\n          - button \"임시 저장본\" [ref=e29]\n            - image \"임시 저장본\"\n          - button \"더 보기\" [expanded=true, ref=e19]\n            - image \"더 보기\"\n          - image \"gling.app님의 프로필 사진\"\n          - StaticText \"gling.app\"\n          - image\n          - searchbox \"커뮤니티 또는 주제\" [ref=e30]\n          - textbox \"텍스트 필드가 비어 있습니다. 입력하여 새 게시물을 작성해보세요.\" [ref=e31]: 글링에는 라이프·맛집·여행·쇼핑·정착·이동·주거·교육·모임까지, 모두 9개 카테고리가 있어요.\n첫 화면에 어떤 이야기가 보여야 다시 들어와 보고 싶을까요?\n운영자가 먼저 준비한 이야기로, 함께 시작해 볼 분들을 기다리고 있어요.\n            - paragraph\n              - StaticText \"글링에는 라이프·맛집·여행·쇼핑·정착·이동·주거·교육·모임까지, 모두 9개 카테고리가 있어요.\"\n              - LineBreak \"\\n\"\n              - StaticText \"첫 화면에 어떤 이야기가 보여야 다시 들어와 보고 싶을까요?\"\n              - LineBreak \"\\n\"\n              - StaticText \"운영자가 먼저 준비한 이야기로, 함께 시작해 볼 분들을 기다리고 있어요.\"\n          - button \"미디어 첨부\" [ref=e20]\n            - image \"미디어 첨부\"\n          - button \"GIF 추가\" [ref=e21]\n            - image \"GIF 추가\"\n          - button \"이모티콘 추가\" [expanded=false, ref=e22]\n            - image \"이모티콘 추가\"\n          - button \"스티커 추가\" [expanded=false, ref=e23]\n            - image \"스티커 추가\"\n          - button \"설문 추가\" [ref=e24]\n            - image \"설문 추가\"\n          - button \"텍스트 첨부\" [ref=e25]\n            - image \"텍스트 첨부\"\n          - button \"위치 추가\" [ref=e26]\n            - image \"위치 추가\"\n          - button \"음악 추가\" [ref=e27]\n            - image \"음악 추가\"\n          - image \"gling.app님의 프로필 사진\"\n          - button \"스레드에 추가\" [ref=e28]\n            - StaticText \"스레드에 추가\"\n          - button \"게시\" [ref=e32]\n            - StaticText \"게시\"\n          - button \"게시물 옵션\" [expanded=false, ref=e33]\n            - image\n            - StaticText \"게시물 옵션\"\n      - generic\n        - menu\n          - generic\n            - group\n              - status\n                - heading \"2026년 9월\" [level=2, ref=e39]\n                  - StaticText \"2026년 9월\"\n              - button \"지난달\" [ref=e34]\n                - image\n              - button \"다음 달\" [ref=e35]\n                - image\n              - grid \"날짜 선택\" [ref=e36] focusable [tabindex]\n                - row \"월 화 수 목 금 토 일\" [ref=e40] clickable [cursor:pointer]\n                  - gridcell \"월\" [ref=e49]\n                    - StaticText \"월\"\n                  - gridcell \"화\" [ref=e50]\n                    - StaticText \"화\"\n                  - gridcell \"수\" [ref=e51]\n                    - StaticText \"수\"\n                  - gridcell \"목\" [ref=e52]\n                    - StaticText \"목\"\n                  - gridcell \"금\" [ref=e53]\n                    - StaticText \"금\"\n                  - gridcell \"토\" [ref=e54]\n                    - StaticText \"토\"\n                  - gridcell \"일\" [ref=e55]\n                    - StaticText \"일\"\n                - row \"2026년 8월 31일 월요일 2026년 9월 1일 화요일 2026년 9월 2일 수요일 2026년 9월 3일 목요일 2026년 9월 4일 금요일 2026년 9월 5일 토요일 2026년 9월 6일 일요일\" [ref=e41] clickable [cursor:pointer]\n                  - gridcell \"2026년 8월 31일 월요일\" [disabled, ref=e56]\n                    - StaticText \"2026년 8월 31일 월요일\"\n                  - gridcell \"2026년 9월 1일 화요일\" [disabled, ref=e57]\n                    - StaticText \"2026년 9월 1일 화요일\"\n                  - gridcell \"2026년 9월 2일 수요일\" [disabled, ref=e58]\n                    - StaticText \"2026년 9월 2일 수요일\"\n                  - gridcell \"2026년 9월 3일 목요일\" [disabled, ref=e59]\n                    - StaticText \"2026년 9월 3일 목요일\"\n                  - gridcell \"2026년 9월 4일 금요일\" [disabled, ref=e60]\n                    - StaticText \"2026년 9월 4일 금요일\"\n                  - gridcell \"2026년 9월 5일 토요일\" [disabled, ref=e61]\n                    - StaticText \"2026년 9월 5일 토요일\"\n                  - gridcell \"2026년 9월 6일 일요일\" [disabled, ref=e62]\n                    - StaticText \"2026년 9월 6일 일요일\"\n                - row \"2026년 9월 7일 월요일 2026년 9월 8일 화요일 2026년 9월 9일 수요일 2026년 9월 10일 목요일 2026년 9월 11일 금요일 2026년 9월 12일 토요일 2026년 9월 13일 일요일\" [ref=e42] clickable [cursor:pointer]\n                  - gridcell \"2026년 9월 7일 월요일\" [disabled, ref=e63]\n                    - StaticText \"2026년 9월 7일 월요일\"\n                  - gridcell \"2026년 9월 8일 화요일\" [disabled, ref=e64]\n                    - StaticText \"2026년 9월 8일 화요일\"\n                  - gridcell \"2026년 9월 9일 수요일\" [disabled, ref=e65]\n                    - StaticText \"2026년 9월 9일 수요일\"\n                  - gridcell \"2026년 9월 10일 목요일\" [ref=e66] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 10일 목요일\"\n                  - gridcell \"2026년 9월 11일 금요일\" [ref=e67] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 11일 금요일\"\n                  - gridcell \"2026년 9월 12일 토요일\" [ref=e68] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 12일 토요일\"\n                  - gridcell \"2026년 9월 13일 일요일\" [ref=e69] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 13일 일요일\"\n                - row \"2026년 9월 14일 월요일, 선택됨 2026년 9월 15일 화요일 2026년 9월 16일 수요일 2026년 9월 17일 목요일 2026년 9월 18일 금요일 2026년 9월 19일 토요일 2026년 9월 20일 일요일\" [ref=e43] clickable [cursor:pointer]\n                  - gridcell \"2026년 9월 14일 월요일, 선택됨\" [ref=e70] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 14일 월요일, 선택됨\"\n                  - gridcell \"2026년 9월 15일 화요일\" [ref=e71] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 15일 화요일\"\n                  - gridcell \"2026년 9월 16일 수요일\" [ref=e72] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 16일 수요일\"\n                  - gridcell \"2026년 9월 17일 목요일\" [ref=e73] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 17일 목요일\"\n                  - gridcell \"2026년 9월 18일 금요일\" [ref=e74] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 18일 금요일\"\n                  - gridcell \"2026년 9월 19일 토요일\" [ref=e75] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 19일 토요일\"\n                  - gridcell \"2026년 9월 20일 일요일\" [ref=e76] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 20일 일요일\"\n                - row \"2026년 9월 21일 월요일 2026년 9월 22일 화요일 2026년 9월 23일 수요일 2026년 9월 24일 목요일 2026년 9월 25일 금요일 2026년 9월 26일 토요일 2026년 9월 27일 일요일\" [ref=e44] clickable [cursor:pointer]\n                  - gridcell \"2026년 9월 21일 월요일\" [ref=e77] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 21일 월요일\"\n                  - gridcell \"2026년 9월 22일 화요일\" [ref=e78] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 22일 화요일\"\n                  - gridcell \"2026년 9월 23일 수요일\" [ref=e79] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 23일 수요일\"\n                  - gridcell \"2026년 9월 24일 목요일\" [ref=e80] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 24일 목요일\"\n                  - gridcell \"2026년 9월 25일 금요일\" [ref=e81] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 25일 금요일\"\n                  - gridcell \"2026년 9월 26일 토요일\" [ref=e82] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 26일 토요일\"\n                  - gridcell \"2026년 9월 27일 일요일\" [ref=e83] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 27일 일요일\"\n                - row \"2026년 9월 28일 월요일 2026년 9월 29일 화요일 2026년 9월 30일 수요일 2026년 10월 1일 목요일 2026년 10월 2일 금요일 2026년 10월 3일 토요일 2026년 10월 4일 일요일\" [ref=e45] clickable [cursor:pointer]\n                  - gridcell \"2026년 9월 28일 월요일\" [ref=e84] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 28일 월요일\"\n                  - gridcell \"2026년 9월 29일 화요일\" [ref=e85] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 29일 화요일\"\n                  - gridcell \"2026년 9월 30일 수요일\" [ref=e86] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 9월 30일 수요일\"\n                  - gridcell \"2026년 10월 1일 목요일\" [ref=e87] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 10월 1일 목요일\"\n                  - gridcell \"2026년 10월 2일 금요일\" [ref=e88] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 10월 2일 금요일\"\n                  - gridcell \"2026년 10월 3일 토요일\" [ref=e89] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 10월 3일 토요일\"\n                  - gridcell \"2026년 10월 4일 일요일\" [ref=e90] clickable [cursor:pointer, onclick]\n                    - StaticText \"2026년 10월 4일 일요일\"\n              - separator\n              - image \"시간 선택 도구\"\n              - generic [ref=e37] clickable [onclick]\n                - textbox \"hh\" [ref=e46]: 18\n                  - StaticText \"18\"\n              - StaticText \":\"\n              - generic [ref=e38] clickable [onclick]\n                - textbox \"mm\" [ref=e47]: 30\n                  - StaticText \"30\"\n              - button \"완료\" [ref=e48]\n                - StaticText \"완료\"",
+    "browserPageId": "72425d9f-1d20-488b-92bd-8780972cb49c"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

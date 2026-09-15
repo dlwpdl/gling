@@ -1,0 +1,69 @@
+{
+  "run_id": "18743547-2828-4d4a-b6e8-67cb282d1aca",
+  "observed_at": "2026-09-10T00:10:09.370224-07:00",
+  "period": {
+    "kind": "automation_validation",
+    "timezone": "America/Vancouver"
+  },
+  "automation": {
+    "id": "cd56b1fc-9f2e-4fa2-8aa5-44e8db7661c0",
+    "enabled": true,
+    "schedule": "daily 09:30 America/Vancouver",
+    "reuseSession": true,
+    "native_run_status": "completed",
+    "verified_workflow_status": "incomplete"
+  },
+  "posts": [
+    {
+      "content_id": "GL-P002",
+      "status": "scheduled",
+      "scheduled_at": "2026-09-10T18:30:00-07:00",
+      "metrics": null
+    }
+  ],
+  "metric_observations": [],
+  "inbox_checks": [],
+  "experiments": [
+    {
+      "id": "GL-L001",
+      "status": "scheduled_observing_pending",
+      "result": null
+    }
+  ],
+  "learning_basis": [
+    "GL-L001",
+    "GL-L002"
+  ],
+  "content_actions": [
+    {
+      "content_id": "GL-P004",
+      "status": "draft_incomplete",
+      "input": "daily-000500/gl-p004.input.txt",
+      "output_bytes": 0,
+      "log": "daily-000500/gl-p004.patina.log",
+      "scheduled": false
+    }
+  ],
+  "blockers": [
+    {
+      "stage": "final_edit_and_report",
+      "observed": "Terminal was removed before Patina final output and dated report completion. Native completed status was premature.",
+      "cause_confidence": "Terminal cleanup path is confirmed in installed Orca code; exact initial done-signal source is not established.",
+      "change": "Enabled existing reuse-session option, which releases automatic terminal cleanup ownership.",
+      "retest_run_id": "bc68a075-f04b-41f0-a4c4-dc01f6369860",
+      "retest_status": "started_not_yet_verified"
+    }
+  ],
+  "highlights": {
+    "learned": "Verify actual report and saved queue, not scheduler completed flag.",
+    "applying": "Reuse existing automation session; verify Gling folder for every created browser tab.",
+    "unknown": "Actual public post performance and completed end-to-end retry."
+  },
+  "browser_scope": {
+    "parent_folder": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+    "profile": "Gling",
+    "verified_create_option": "--worktree all after parent terminal switch",
+    "runner_sidebar_group": "mobile (same dlwpdl/gling repository)"
+  },
+  "cost_rule": "All paid actions require explicit confirmation; no new paid action was performed."
+}

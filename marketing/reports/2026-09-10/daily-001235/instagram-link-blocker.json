@@ -1,0 +1,559 @@
+{
+  "id": "e60103a1-10fc-4b54-b242-efc48522e8a5",
+  "ok": true,
+  "result": {
+    "origin": "https://www.instagram.com/accounts/edit/",
+    "refs": {
+      "e1": {
+        "name": "",
+        "role": "generic"
+      },
+      "e10": {
+        "name": "광고 비용 결제",
+        "role": "link"
+      },
+      "e100": {
+        "name": "한국어",
+        "role": "option"
+      },
+      "e101": {
+        "name": "Bahasa Melayu",
+        "role": "option"
+      },
+      "e102": {
+        "name": "Norsk",
+        "role": "option"
+      },
+      "e103": {
+        "name": "Nederlands",
+        "role": "option"
+      },
+      "e104": {
+        "name": "Polski",
+        "role": "option"
+      },
+      "e105": {
+        "name": "Português (Brasil)",
+        "role": "option"
+      },
+      "e106": {
+        "name": "Português (Portugal)",
+        "role": "option"
+      },
+      "e107": {
+        "name": "Русский",
+        "role": "option"
+      },
+      "e108": {
+        "name": "Svenska",
+        "role": "option"
+      },
+      "e109": {
+        "name": "ภาษาไทย",
+        "role": "option"
+      },
+      "e11": {
+        "name": "계정 공개 범위",
+        "role": "link"
+      },
+      "e110": {
+        "name": "Filipino",
+        "role": "option"
+      },
+      "e111": {
+        "name": "Türkçe",
+        "role": "option"
+      },
+      "e112": {
+        "name": "中文(简体)",
+        "role": "option"
+      },
+      "e113": {
+        "name": "中文(台灣)",
+        "role": "option"
+      },
+      "e114": {
+        "name": "বাংলা",
+        "role": "option"
+      },
+      "e115": {
+        "name": "ગુજરાતી",
+        "role": "option"
+      },
+      "e116": {
+        "name": "हिन्दी",
+        "role": "option"
+      },
+      "e117": {
+        "name": "Hrvatski",
+        "role": "option"
+      },
+      "e118": {
+        "name": "Magyar",
+        "role": "option"
+      },
+      "e119": {
+        "name": "ಕನ್ನಡ",
+        "role": "option"
+      },
+      "e12": {
+        "name": "친한 친구",
+        "role": "link"
+      },
+      "e120": {
+        "name": "മലയാളം",
+        "role": "option"
+      },
+      "e121": {
+        "name": "मराठी",
+        "role": "option"
+      },
+      "e122": {
+        "name": "नेपाली",
+        "role": "option"
+      },
+      "e123": {
+        "name": "ਪੰਜਾਬੀ",
+        "role": "option"
+      },
+      "e124": {
+        "name": "සිංහල",
+        "role": "option"
+      },
+      "e125": {
+        "name": "Slovenčina",
+        "role": "option"
+      },
+      "e126": {
+        "name": "தமிழ்",
+        "role": "option"
+      },
+      "e127": {
+        "name": "తెలుగు",
+        "role": "option"
+      },
+      "e128": {
+        "name": "اردو",
+        "role": "option"
+      },
+      "e129": {
+        "name": "Tiếng Việt",
+        "role": "option"
+      },
+      "e13": {
+        "name": "차단됨",
+        "role": "link"
+      },
+      "e130": {
+        "name": "中文(香港)",
+        "role": "option"
+      },
+      "e131": {
+        "name": "Български",
+        "role": "option"
+      },
+      "e132": {
+        "name": "Français (Canada)",
+        "role": "option"
+      },
+      "e133": {
+        "name": "Română",
+        "role": "option"
+      },
+      "e134": {
+        "name": "Српски",
+        "role": "option"
+      },
+      "e135": {
+        "name": "Українська",
+        "role": "option"
+      },
+      "e136": {
+        "name": "gling.app님의 프로필 사진",
+        "role": "link"
+      },
+      "e14": {
+        "name": "스토리 및 위치",
+        "role": "link"
+      },
+      "e15": {
+        "name": "메시지 및 스토리 답장",
+        "role": "link"
+      },
+      "e16": {
+        "name": "태그 및 언급",
+        "role": "link"
+      },
+      "e17": {
+        "name": "댓글",
+        "role": "link"
+      },
+      "e18": {
+        "name": "공유 및 다시 사용",
+        "role": "link"
+      },
+      "e19": {
+        "name": "제한된 계정",
+        "role": "link"
+      },
+      "e2": {
+        "name": "메시지",
+        "role": "button"
+      },
+      "e20": {
+        "name": "숨겨진 단어",
+        "role": "link"
+      },
+      "e21": {
+        "name": "업데이트를 보지 않도록 설정한 계정",
+        "role": "link"
+      },
+      "e22": {
+        "name": "콘텐츠 기본 설정",
+        "role": "link"
+      },
+      "e23": {
+        "name": "좋아요 수 및 공유 수",
+        "role": "link"
+      },
+      "e24": {
+        "name": "크리에이터 구독",
+        "role": "link"
+      },
+      "e25": {
+        "name": "보관 및 다운로드",
+        "role": "link"
+      },
+      "e26": {
+        "name": "접근성",
+        "role": "link"
+      },
+      "e27": {
+        "name": "언어",
+        "role": "link"
+      },
+      "e28": {
+        "name": "웹사이트 권한",
+        "role": "link"
+      },
+      "e29": {
+        "name": "청소년 계정의 관리 감독",
+        "role": "link"
+      },
+      "e3": {
+        "name": "설정",
+        "role": "heading"
+      },
+      "e30": {
+        "name": "도움말",
+        "role": "link"
+      },
+      "e31": {
+        "name": "개인정보 보호 센터",
+        "role": "link"
+      },
+      "e32": {
+        "name": "계정 상태",
+        "role": "link"
+      },
+      "e33": {
+        "name": "프로필 편집",
+        "role": "heading"
+      },
+      "e34": {
+        "name": "사진 변경",
+        "role": "button"
+      },
+      "e35": {
+        "name": "웹사이트",
+        "role": "textbox"
+      },
+      "e36": {
+        "name": "프로필 사진 바꾸기",
+        "role": "button"
+      },
+      "e37": {
+        "name": "밝히고 싶지 않음 아래쪽 V자형 아이콘",
+        "role": "button"
+      },
+      "e38": {
+        "name": "공개되는 프로필 정보를 확인해보세요",
+        "role": "link"
+      },
+      "e39": {
+        "name": "제출",
+        "role": "button"
+      },
+      "e4": {
+        "name": "검색",
+        "role": "textbox"
+      },
+      "e40": {
+        "name": "릴스",
+        "role": "link"
+      },
+      "e41": {
+        "name": "메시지",
+        "role": "link"
+      },
+      "e42": {
+        "name": "검색",
+        "role": "link"
+      },
+      "e43": {
+        "name": "알림",
+        "role": "link"
+      },
+      "e44": {
+        "name": "프로페셔널 대시보드",
+        "role": "link"
+      },
+      "e45": {
+        "name": "설정",
+        "role": "link"
+      },
+      "e46": {
+        "name": "Meta의 다른 앱",
+        "role": "link"
+      },
+      "e47": {
+        "name": "소개",
+        "role": "textbox"
+      },
+      "e48": {
+        "name": "더 알아보기",
+        "role": "link"
+      },
+      "e49": {
+        "name": "Instagram",
+        "role": "link"
+      },
+      "e5": {
+        "name": "계정 센터 비밀번호, 보안, 개인정보, 연결된 환경, 광고 기본 설정",
+        "role": "link"
+      },
+      "e50": {
+        "name": "홈",
+        "role": "link"
+      },
+      "e51": {
+        "name": "새로운 게시물",
+        "role": "link"
+      },
+      "e52": {
+        "name": "gling.app님의 프로필 사진",
+        "role": "link"
+      },
+      "e53": {
+        "name": "내 계정",
+        "role": "heading"
+      },
+      "e54": {
+        "name": "내 Instagram 사용 방식",
+        "role": "heading"
+      },
+      "e55": {
+        "name": "프로페셔널",
+        "role": "heading"
+      },
+      "e56": {
+        "name": "내 콘텐츠를 볼 수 있는 사람",
+        "role": "heading"
+      },
+      "e57": {
+        "name": "다른 사람이 나와 소통할 수 있는 방법",
+        "role": "heading"
+      },
+      "e58": {
+        "name": "내가 볼 수 있는 내용",
+        "role": "heading"
+      },
+      "e59": {
+        "name": "내 앱 및 미디어",
+        "role": "heading"
+      },
+      "e6": {
+        "name": "프로필 편집",
+        "role": "link"
+      },
+      "e60": {
+        "name": "가족 센터",
+        "role": "heading"
+      },
+      "e61": {
+        "name": "더 많은 정보 및 지원",
+        "role": "heading"
+      },
+      "e62": {
+        "name": "Threads 배지 표시",
+        "role": "switch"
+      },
+      "e63": {
+        "name": "AI로 생성한 프로필",
+        "role": "switch"
+      },
+      "e64": {
+        "name": "프로필에 계정 추천 표시",
+        "role": "switch"
+      },
+      "e65": {
+        "name": "Facebook 연결",
+        "role": "button"
+      },
+      "e66": {
+        "name": "표시 언어 변경",
+        "role": "combobox"
+      },
+      "e67": {
+        "name": "Meta",
+        "role": "link"
+      },
+      "e68": {
+        "name": "소개",
+        "role": "link"
+      },
+      "e69": {
+        "name": "블로그",
+        "role": "link"
+      },
+      "e7": {
+        "name": "알림",
+        "role": "link"
+      },
+      "e70": {
+        "name": "채용 정보",
+        "role": "link"
+      },
+      "e71": {
+        "name": "도움말",
+        "role": "link"
+      },
+      "e72": {
+        "name": "API",
+        "role": "link"
+      },
+      "e73": {
+        "name": "개인정보처리방침",
+        "role": "link"
+      },
+      "e74": {
+        "name": "약관",
+        "role": "link"
+      },
+      "e75": {
+        "name": "위치",
+        "role": "link"
+      },
+      "e76": {
+        "name": "인기",
+        "role": "link"
+      },
+      "e77": {
+        "name": "Instagram Lite",
+        "role": "link"
+      },
+      "e78": {
+        "name": "Meta AI",
+        "role": "link"
+      },
+      "e79": {
+        "name": "Muse",
+        "role": "link"
+      },
+      "e8": {
+        "name": "프로페셔널 계정",
+        "role": "link"
+      },
+      "e80": {
+        "name": "Threads",
+        "role": "link"
+      },
+      "e81": {
+        "name": "연락처 업로드 & 비사용자",
+        "role": "link"
+      },
+      "e82": {
+        "name": "Meta Verified",
+        "role": "link"
+      },
+      "e83": {
+        "name": "Afrikaans",
+        "role": "option"
+      },
+      "e84": {
+        "name": "العربية",
+        "role": "option"
+      },
+      "e85": {
+        "name": "Čeština",
+        "role": "option"
+      },
+      "e86": {
+        "name": "Dansk",
+        "role": "option"
+      },
+      "e87": {
+        "name": "Deutsch",
+        "role": "option"
+      },
+      "e88": {
+        "name": "Ελληνικά",
+        "role": "option"
+      },
+      "e89": {
+        "name": "English",
+        "role": "option"
+      },
+      "e9": {
+        "name": "비즈니스 도구 및 관리 옵션",
+        "role": "link"
+      },
+      "e90": {
+        "name": "English (UK)",
+        "role": "option"
+      },
+      "e91": {
+        "name": "Español (España)",
+        "role": "option"
+      },
+      "e92": {
+        "name": "Español",
+        "role": "option"
+      },
+      "e93": {
+        "name": "فارسی",
+        "role": "option"
+      },
+      "e94": {
+        "name": "Suomi",
+        "role": "option"
+      },
+      "e95": {
+        "name": "Français",
+        "role": "option"
+      },
+      "e96": {
+        "name": "עברית",
+        "role": "option"
+      },
+      "e97": {
+        "name": "Bahasa Indonesia",
+        "role": "option"
+      },
+      "e98": {
+        "name": "Italiano",
+        "role": "option"
+      },
+      "e99": {
+        "name": "日本語",
+        "role": "option"
+      }
+    },
+    "snapshot": "- generic\n  - generic [ref=e1] clickable [onclick]\n    - generic\n      - generic\n        - link \"Instagram\" [ref=e49]\n          - image \"Instagram\"\n        - link \"홈\" [ref=e50]\n          - image \"홈\"\n        - link \"릴스\" [ref=e40]\n          - image \"릴스\"\n        - link \"메시지\" [ref=e41]\n          - generic\n            - image \"메시지\"\n        - link \"검색\" [ref=e42]\n          - image \"검색\"\n        - link \"알림\" [ref=e43]\n          - image \"알림\"\n        - generic\n          - link \"새로운 게시물\" [ref=e51]\n            - image \"새로운 게시물\"\n        - link \"프로페셔널 대시보드\" [ref=e44]\n          - image \"프로페셔널 대시보드\"\n        - link \"gling.app님의 프로필 사진\" [ref=e52]\n          - link \"gling.app님의 프로필 사진\" [ref=e136]\n            - image \"gling.app님의 프로필 사진\"\n        - link \"설정\" [ref=e45]\n          - image \"설정\"\n        - link \"Meta의 다른 앱\" [ref=e46]\n          - image \"Meta의 다른 앱\"\n        - generic\n          - main\n            - heading \"설정\" [level=3, ref=e3]\n            - image \"검색\"\n            - textbox \"검색\" [ref=e4]\n            - generic\n              - heading \"내 계정\" [level=4, ref=e53]\n              - image \"Meta 로고\"\n            - link \"계정 센터 비밀번호, 보안, 개인정보, 연결된 환경, 광고 기본 설정\" [ref=e5]\n              - generic\n                - image\n                - StaticText \"계정 센터\"\n                - StaticText \"비밀번호, 보안, 개인정보, 연결된 환경, 광고 기본 설정\"\n            - generic\n              - heading \"내 Instagram 사용 방식\" [level=4, ref=e54]\n            - link \"프로필 편집\" [ref=e6]\n              - generic\n                - image\n                - StaticText \"프로필 편집\"\n            - link \"알림\" [ref=e7]\n              - generic\n                - image\n                - StaticText \"알림\"\n            - generic\n              - heading \"프로페셔널\" [level=4, ref=e55]\n            - link \"프로페셔널 계정\" [ref=e8]\n              - generic\n                - image\n                - StaticText \"프로페셔널 계정\"\n            - link \"비즈니스 도구 및 관리 옵션\" [ref=e9]\n              - generic\n                - image\n                - StaticText \"비즈니스 도구 및 관리 옵션\"\n            - link \"광고 비용 결제\" [ref=e10]\n              - generic\n                - image\n                - StaticText \"광고 비용 결제\"\n            - generic\n              - heading \"내 콘텐츠를 볼 수 있는 사람\" [level=4, ref=e56]\n            - link \"계정 공개 범위\" [ref=e11]\n              - generic\n                - image\n                - StaticText \"계정 공개 범위\"\n            - link \"친한 친구\" [ref=e12]\n              - generic\n                - image\n                - StaticText \"친한 친구\"\n            - link \"차단됨\" [ref=e13]\n              - generic\n                - image\n                - StaticText \"차단됨\"\n            - link \"스토리 및 위치\" [ref=e14]\n              - generic\n                - image\n                - StaticText \"스토리 및 위치\"\n            - generic\n              - heading \"다른 사람이 나와 소통할 수 있는 방법\" [level=4, ref=e57]\n            - link \"메시지 및 스토리 답장\" [ref=e15]\n              - generic\n                - image\n                - StaticText \"메시지 및 스토리 답장\"\n            - link \"태그 및 언급\" [ref=e16]\n              - generic\n                - image\n                - StaticText \"태그 및 언급\"\n            - link \"댓글\" [ref=e17]\n              - generic\n                - image\n                - StaticText \"댓글\"\n            - link \"공유 및 다시 사용\" [ref=e18]\n              - generic\n                - image\n                - StaticText \"공유 및 다시 사용\"\n            - link \"제한된 계정\" [ref=e19]\n              - generic\n                - image\n                - StaticText \"제한된 계정\"\n            - link \"숨겨진 단어\" [ref=e20]\n              - generic\n                - image\n                - StaticText \"숨겨진 단어\"\n            - generic\n              - heading \"내가 볼 수 있는 내용\" [level=4, ref=e58]\n            - link \"업데이트를 보지 않도록 설정한 계정\" [ref=e21]\n              - generic\n                - image\n                - StaticText \"업데이트를 보지 않도록 설정한 계정\"\n            - link \"콘텐츠 기본 설정\" [ref=e22]\n              - generic\n                - image\n                - StaticText \"콘텐츠 기본 설정\"\n            - link \"좋아요 수 및 공유 수\" [ref=e23]\n              - generic\n                - image\n                - StaticText \"좋아요 수 및 공유 수\"\n            - link \"크리에이터 구독\" [ref=e24]\n              - generic\n                - image\n                - StaticText \"크리에이터 구독\"\n            - generic\n              - heading \"내 앱 및 미디어\" [level=4, ref=e59]\n            - link \"보관 및 다운로드\" [ref=e25]\n              - generic\n                - image\n                - StaticText \"보관 및 다운로드\"\n            - link \"접근성\" [ref=e26]\n              - generic\n                - image\n                - StaticText \"접근성\"\n            - link \"언어\" [ref=e27]\n              - generic\n                - image\n                - StaticText \"언어\"\n            - link \"웹사이트 권한\" [ref=e28]\n              - generic\n                - image\n                - StaticText \"웹사이트 권한\"\n            - generic\n              - heading \"가족 센터\" [level=4, ref=e60]\n            - link \"청소년 계정의 관리 감독\" [ref=e29]\n              - generic\n                - image\n                - StaticText \"청소년 계정의 관리 감독\"\n            - generic\n              - heading \"더 많은 정보 및 지원\" [level=4, ref=e61]\n            - link \"도움말\" [ref=e30]\n              - generic\n                - image\n                - StaticText \"도움말\"\n            - link \"개인정보 보호 센터\" [ref=e31]\n              - generic\n                - image\n                - StaticText \"개인정보 보호 센터\"\n            - link \"계정 상태\" [ref=e32]\n              - generic\n                - image\n                - StaticText \"계정 상태\"\n            - generic\n              - heading \"프로필 편집\" [level=2, ref=e33]\n              - generic\n                - button \"프로필 사진 바꾸기\" [ref=e36]\n                  - image \"프로필 사진 바꾸기\"\n              - StaticText \"gling.app\"\n              - StaticText \"글링 | 캐나다 한인 커뮤니티\"\n              - button \"사진 변경\" [ref=e34]\n              - StaticText \"웹사이트\"\n              - textbox \"웹사이트\" [disabled, ref=e35]\n              - StaticText \"링크 수정은 모바일에서만 가능합니다. Instagram 앱으로 이동하여 프로필의 소개에서 웹사이트를 변경하여 수정하세요.\"\n              - form\n                - generic\n                  - LabelText\n                    - StaticText \"소개\"\n                  - textbox \"소개\" [ref=e47]: 밴쿠버·토론토의 오늘을 한국어로.\n동네 이야기, 정착 질문, 취향이 닮은 이웃.\n출시 준비 중\ngling.ej-entertainment.com\n                    - generic\n                      - StaticText \"밴쿠버·토론토의 오늘을 한국어로.\"\n                      - LineBreak \"\\n\"\n                      - StaticText \"동네 이야기, 정착 질문, 취향이 닮은 이웃.\"\n                      - LineBreak \"\\n\"\n                      - StaticText \"출시 준비 중\"\n                      - LineBreak \"\\n\"\n                      - StaticText \"gling.ej-entertainment.com\"\n                  - StaticText \"79 / 150\"\n                - StaticText \"Threads 배지 표시\"\n                - StaticText \"Threads 배지 표시\"\n                - generic\n                  - switch \"Threads 배지 표시\" [checked=true, ref=e62]\n                - StaticText \"AI로 생성한 프로필\"\n                - StaticText \"AI로 생성한 프로필\"\n                - StaticText \"프로필에 AI로 생성한 사람이 표시되는 경우 이 레이블을 추가하세요. \"\n                - link \"더 알아보기\" [ref=e48]\n                - generic\n                  - switch \"AI로 생성한 프로필\" [checked=false, ref=e63]\n                - StaticText \"성별\"\n                - button \"밝히고 싶지 않음 아래쪽 V자형 아이콘\" [expanded=false, ref=e37]\n                  - StaticText \"밝히고 싶지 않음\"\n                  - image \"아래쪽 V자형 아이콘\"\n                - StaticText \"이 정보는 공개 프로필에 포함되지 않습니다.\"\n                - StaticText \"프로필에 계정 추천 표시\"\n                - StaticText \"프로필에 계정 추천 표시\"\n                - StaticText \"사람들이 회원님의 프로필에서 비슷한 계정 추천을 볼 수 있는지와 회원님의 계정이 다른 프로필에서 추천될 수 있는지를 선택하세요.\"\n                - generic\n                  - switch \"프로필에 계정 추천 표시\" [checked=true, ref=e64]\n                - generic\n                  - StaticText \"전체 공개 비즈니스 정보\"\n                  - button \"Facebook 연결\" [ref=e65]\n                    - StaticText \"Facebook\"\n                    - generic\n                      - StaticText \"연결\"\n                      - image\n                - StaticText \"회원님의 이름, 소개, 링크와 같은 특정 프로필 정보가 모든 사람에게 공개됩니다. \"\n                - link \"공개되는 프로필 정보를 확인해보세요\" [ref=e38]\n                - button \"제출\" [disabled, ref=e39]\n                  - StaticText \"제출\"\n              - contentinfo\n                - generic\n                  - generic\n                    - link \"Meta\" [ref=e67]\n                      - StaticText \"Meta\"\n                    - link \"소개\" [ref=e68]\n                      - StaticText \"소개\"\n                    - link \"블로그\" [ref=e69]\n                      - StaticText \"블로그\"\n                    - link \"채용 정보\" [ref=e70]\n                      - StaticText \"채용 정보\"\n                    - link \"도움말\" [ref=e71]\n                      - StaticText \"도움말\"\n                    - link \"API\" [ref=e72]\n                      - StaticText \"API\"\n                    - link \"개인정보처리방침\" [ref=e73]\n                      - StaticText \"개인정보처리방침\"\n                    - link \"약관\" [ref=e74]\n                      - StaticText \"약관\"\n                    - link \"위치\" [ref=e75]\n                      - StaticText \"위치\"\n                    - link \"인기\" [ref=e76]\n                      - StaticText \"인기\"\n                    - link \"Instagram Lite\" [ref=e77]\n                      - StaticText \"Instagram Lite\"\n                    - link \"Meta AI\" [ref=e78]\n                      - StaticText \"Meta AI\"\n                    - link \"Muse\" [ref=e79]\n                      - StaticText \"Muse\"\n                    - link \"Threads\" [ref=e80]\n                      - StaticText \"Threads\"\n                    - link \"연락처 업로드 & 비사용자\" [ref=e81]\n                      - StaticText \"연락처 업로드 & 비사용자\"\n                    - link \"Meta Verified\" [ref=e82]\n                      - StaticText \"Meta Verified\"\n                  - generic\n                    - StaticText \"한국어\"\n                    - image \"아래쪽 V자형 아이콘\"\n                    - combobox \"표시 언어 변경\" [expanded=false, ref=e66]: 한국어\n                      - MenuListPopup\n                        - option \"Afrikaans\" [ref=e83]\n                        - option \"العربية\" [ref=e84]\n                        - option \"Čeština\" [ref=e85]\n                        - option \"Dansk\" [ref=e86]\n                        - option \"Deutsch\" [ref=e87]\n                        - option \"Ελληνικά\" [ref=e88]\n                        - option \"English\" [ref=e89]\n                        - option \"English (UK)\" [ref=e90]\n                        - option \"Español (España)\" [ref=e91]\n                        - option \"Español\" [ref=e92]\n                        - option \"فارسی\" [ref=e93]\n                        - option \"Suomi\" [ref=e94]\n                        - option \"Français\" [ref=e95]\n                        - option \"עברית\" [ref=e96]\n                        - option \"Bahasa Indonesia\" [ref=e97]\n                        - option \"Italiano\" [ref=e98]\n                        - option \"日本語\" [ref=e99]\n                        - option \"한국어\" [selected, ref=e100]\n                        - option \"Bahasa Melayu\" [ref=e101]\n                        - option \"Norsk\" [ref=e102]\n                        - option \"Nederlands\" [ref=e103]\n                        - option \"Polski\" [ref=e104]\n                        - option \"Português (Brasil)\" [ref=e105]\n                        - option \"Português (Portugal)\" [ref=e106]\n                        - option \"Русский\" [ref=e107]\n                        - option \"Svenska\" [ref=e108]\n                        - option \"ภาษาไทย\" [ref=e109]\n                        - option \"Filipino\" [ref=e110]\n                        - option \"Türkçe\" [ref=e111]\n                        - option \"中文(简体)\" [ref=e112]\n                        - option \"中文(台灣)\" [ref=e113]\n                        - option \"বাংলা\" [ref=e114]\n                        - option \"ગુજરાતી\" [ref=e115]\n                        - option \"हिन्दी\" [ref=e116]\n                        - option \"Hrvatski\" [ref=e117]\n                        - option \"Magyar\" [ref=e118]\n                        - option \"ಕನ್ನಡ\" [ref=e119]\n                        - option \"മലയാളം\" [ref=e120]\n                        - option \"मराठी\" [ref=e121]\n                        - option \"नेपाली\" [ref=e122]\n                        - option \"ਪੰਜਾਬੀ\" [ref=e123]\n                        - option \"සිංහල\" [ref=e124]\n                        - option \"Slovenčina\" [ref=e125]\n                        - option \"தமிழ்\" [ref=e126]\n                        - option \"తెలుగు\" [ref=e127]\n                        - option \"اردو\" [ref=e128]\n                        - option \"Tiếng Việt\" [ref=e129]\n                        - option \"中文(香港)\" [ref=e130]\n                        - option \"Български\" [ref=e131]\n                        - option \"Français (Canada)\" [ref=e132]\n                        - option \"Română\" [ref=e133]\n                        - option \"Српски\" [ref=e134]\n                        - option \"Українська\" [ref=e135]\n                    - StaticText \"© 2026 Instagram from Meta\"\n    - button \"메시지\" [ref=e2]\n      - generic \"메시지\"\n        - image \"메시지\"\n        - StaticText \"메시지\"",
+    "browserPageId": "007cb0b2-390d-4805-94b7-628fad64cd5a"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  },
+  "observed_at": "2026-09-10T07:18:14.925553+00:00"
+}

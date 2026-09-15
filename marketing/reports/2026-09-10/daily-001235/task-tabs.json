@@ -1,0 +1,26 @@
+[
+  {
+    "browserPageId": "72425d9f-1d20-488b-92bd-8780972cb49c",
+    "index": 64,
+    "url": "https://www.threads.com/@gling.app",
+    "title": "\uae00\ub9c1 | \uce90\ub098\ub2e4 \ud55c\uc778 \ucee4\ubba4\ub2c8\ud2f0\ub2d8(@gling.app) \u2022 Threads, \uc790\uc720\ub85c\uc6b4 \uc18c\ud1b5 \uacf5\uac04",
+    "active": false,
+    "loadError": null,
+    "certificateFailure": null,
+    "worktreeId": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+    "profileId": "08a4dd8b-db5a-4255-b587-9da0b94df934",
+    "profileLabel": "Gling"
+  },
+  {
+    "browserPageId": "007cb0b2-390d-4805-94b7-628fad64cd5a",
+    "index": 65,
+    "url": "https://www.instagram.com/gling.app/",
+    "title": "Instagram",
+    "active": true,
+    "loadError": null,
+    "certificateFailure": null,
+    "worktreeId": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+    "profileId": "08a4dd8b-db5a-4255-b587-9da0b94df934",
+    "profileLabel": "Gling"
+  }
+]

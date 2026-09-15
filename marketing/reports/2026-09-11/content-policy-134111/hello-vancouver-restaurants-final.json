@@ -1,0 +1,1591 @@
+{
+  "observed_at": "2026-09-11T13:50:38.141298-07:00",
+  "id": "7eca2553-630f-4480-812c-a4e081436a33",
+  "ok": true,
+  "result": {
+    "origin": "https://cafe.naver.com/f-e/cafes/20907486/menus/111?viewType=L",
+    "refs": {
+      "e1": {
+        "name": "카페 가입하기",
+        "role": "button"
+      },
+      "e10": {
+        "name": "레스토랑",
+        "role": "link"
+      },
+      "e100": {
+        "name": "크루즈/올 인클루시브",
+        "role": "menuitem"
+      },
+      "e101": {
+        "name": "광역 밴쿠버",
+        "role": "menuitem"
+      },
+      "e102": {
+        "name": "근교, 외곽 & 기타 BC주",
+        "role": "menuitem"
+      },
+      "e103": {
+        "name": "휘슬러/조프리 레이크",
+        "role": "menuitem"
+      },
+      "e104": {
+        "name": "빅토리아/밴쿠버 아일랜드",
+        "role": "menuitem"
+      },
+      "e105": {
+        "name": "BC주 스키장/온천",
+        "role": "menuitem"
+      },
+      "e106": {
+        "name": "오카나간/켈로나/록키/알버타",
+        "role": "menuitem"
+      },
+      "e107": {
+        "name": "캐나다 중부/동부/북부",
+        "role": "menuitem"
+      },
+      "e108": {
+        "name": "시애틀/미국/중남미",
+        "role": "menuitem"
+      },
+      "e109": {
+        "name": "아시아/오세아니아",
+        "role": "menuitem"
+      },
+      "e11": {
+        "name": "카페 & 베이커리",
+        "role": "link"
+      },
+      "e110": {
+        "name": "유럽/중동/아프리카",
+        "role": "menuitem"
+      },
+      "e111": {
+        "name": "한국",
+        "role": "menuitem"
+      },
+      "e112": {
+        "name": "숙소 후기",
+        "role": "menuitem"
+      },
+      "e113": {
+        "name": "숙소 정보",
+        "role": "menuitem"
+      },
+      "e114": {
+        "name": "Bucket List",
+        "role": "menuitem"
+      },
+      "e115": {
+        "name": "레스토랑",
+        "role": "menuitem"
+      },
+      "e116": {
+        "name": "카페 & 베이커리",
+        "role": "menuitem"
+      },
+      "e117": {
+        "name": "맛집 정보 새 게시글",
+        "role": "menuitem"
+      },
+      "e118": {
+        "name": "쇼핑 플레이스",
+        "role": "menuitem"
+      },
+      "e119": {
+        "name": "쇼핑 정보 새 게시글",
+        "role": "menuitem"
+      },
+      "e12": {
+        "name": "쇼핑 플레이스",
+        "role": "link"
+      },
+      "e120": {
+        "name": "온라인 쇼핑",
+        "role": "menuitem"
+      },
+      "e121": {
+        "name": "축제, 행사 & 이벤트 새 게시글",
+        "role": "menuitem"
+      },
+      "e122": {
+        "name": "문화, 도서관 & 뮤지엄 새 게시글",
+        "role": "menuitem"
+      },
+      "e123": {
+        "name": "레저 & 스포츠",
+        "role": "menuitem"
+      },
+      "e124": {
+        "name": "골프",
+        "role": "menuitem"
+      },
+      "e125": {
+        "name": "이벤트 캘린더",
+        "role": "menuitem"
+      },
+      "e126": {
+        "name": "BC 교통/날씨 정보",
+        "role": "menuitem"
+      },
+      "e127": {
+        "name": "총영사관 게시판",
+        "role": "menuitem"
+      },
+      "e128": {
+        "name": "ISSofBC",
+        "role": "menuitem"
+      },
+      "e129": {
+        "name": "LCSS",
+        "role": "menuitem"
+      },
+      "e13": {
+        "name": "카페정보",
+        "role": "tab"
+      },
+      "e130": {
+        "name": "MHHS",
+        "role": "menuitem"
+      },
+      "e131": {
+        "name": "Mosaic",
+        "role": "menuitem"
+      },
+      "e132": {
+        "name": "Options",
+        "role": "menuitem"
+      },
+      "e133": {
+        "name": "RMCS",
+        "role": "menuitem"
+      },
+      "e134": {
+        "name": "SUCCESS",
+        "role": "menuitem"
+      },
+      "e135": {
+        "name": "YWCA",
+        "role": "menuitem"
+      },
+      "e136": {
+        "name": "Serena's 스노우스쿨",
+        "role": "menuitem"
+      },
+      "e137": {
+        "name": "덴탈코치님의 초대",
+        "role": "menuitem"
+      },
+      "e138": {
+        "name": "밴쿠버",
+        "role": "menuitem"
+      },
+      "e139": {
+        "name": "노스밴/웨스트밴",
+        "role": "menuitem"
+      },
+      "e14": {
+        "name": "나의활동",
+        "role": "tab"
+      },
+      "e140": {
+        "name": "버나비/뉴웨스트민스터 새 게시글",
+        "role": "menuitem"
+      },
+      "e141": {
+        "name": "코퀴틀람/포트 무디/포트 코퀴틀람 새 게시글",
+        "role": "menuitem"
+      },
+      "e142": {
+        "name": "써리/랭리 새 게시글",
+        "role": "menuitem"
+      },
+      "e143": {
+        "name": "리치몬드/델타",
+        "role": "menuitem"
+      },
+      "e144": {
+        "name": "메이플 릿지/피트 메도우",
+        "role": "menuitem"
+      },
+      "e145": {
+        "name": "아보츠포드/미션/칠리왁",
+        "role": "menuitem"
+      },
+      "e146": {
+        "name": "밴쿠버 아일랜드",
+        "role": "menuitem"
+      },
+      "e147": {
+        "name": "켈로나",
+        "role": "menuitem"
+      },
+      "e148": {
+        "name": "한국",
+        "role": "menuitem"
+      },
+      "e149": {
+        "name": "기타 지역",
+        "role": "menuitem"
+      },
+      "e15": {
+        "name": "카페소개",
+        "role": "link"
+      },
+      "e150": {
+        "name": "자랑스러운 한국인",
+        "role": "menuitem"
+      },
+      "e151": {
+        "name": "코로나 바이러스",
+        "role": "menuitem"
+      },
+      "e152": {
+        "name": "후기/광고게시판",
+        "role": "menuitem"
+      },
+      "e153": {
+        "name": "신고 & 제안",
+        "role": "menuitem"
+      },
+      "e154": {
+        "name": "설문조사",
+        "role": "menuitem"
+      },
+      "e155": {
+        "name": "데일리 베스트",
+        "role": "menuitem"
+      },
+      "e156": {
+        "name": "자유게시판 새 게시글",
+        "role": "menuitem"
+      },
+      "e157": {
+        "name": "지난 Q&A 게시판 그룹펴기",
+        "role": "button"
+      },
+      "e158": {
+        "name": "간편게시판",
+        "role": "menuitem"
+      },
+      "e159": {
+        "name": "Vault",
+        "role": "menuitem"
+      },
+      "e16": {
+        "name": "카페글 검색어 입력",
+        "role": "textbox"
+      },
+      "e160": {
+        "name": "스텝방",
+        "role": "menuitem"
+      },
+      "e161": {
+        "name": "교민동정",
+        "role": "menuitem"
+      },
+      "e162": {
+        "name": "이공 법률",
+        "role": "menuitem"
+      },
+      "e163": {
+        "name": "카드형",
+        "role": "button"
+      },
+      "e164": {
+        "name": "앨범형",
+        "role": "button"
+      },
+      "e165": {
+        "name": "목록형",
+        "role": "button"
+      },
+      "e166": {
+        "name": "15개씩",
+        "role": "button"
+      },
+      "e167": {
+        "name": "",
+        "role": "generic"
+      },
+      "e168": {
+        "name": "카페아이콘",
+        "role": "link"
+      },
+      "e169": {
+        "name": "푸저",
+        "role": "link"
+      },
+      "e17": {
+        "name": "검색",
+        "role": "button"
+      },
+      "e170": {
+        "name": "2010.06.10. 개설",
+        "role": "link"
+      },
+      "e171": {
+        "name": "레스토랑",
+        "role": "heading"
+      },
+      "e172": {
+        "name": "즐겨찾는 게시판 설정",
+        "role": "button"
+      },
+      "e173": {
+        "name": "공지 숨기기",
+        "role": "checkbox"
+      },
+      "e174": {
+        "name": "필독",
+        "role": "cell"
+      },
+      "e175": {
+        "name": "등업 방법 안내댓글수 [9,959]",
+        "role": "cell"
+      },
+      "e176": {
+        "name": "푸저 멤버등급 : 매니저",
+        "role": "cell"
+      },
+      "e177": {
+        "name": "2018.02.27.",
+        "role": "cell"
+      },
+      "e178": {
+        "name": "26만",
+        "role": "cell"
+      },
+      "e179": {
+        "name": "519",
+        "role": "cell"
+      },
+      "e18": {
+        "name": "전체글보기",
+        "role": "menuitem"
+      },
+      "e180": {
+        "name": "필독",
+        "role": "cell"
+      },
+      "e181": {
+        "name": "밴쿠버 한인 업소록댓글수 [2,718]",
+        "role": "cell"
+      },
+      "e182": {
+        "name": "푸저 멤버등급 : 매니저",
+        "role": "cell"
+      },
+      "e183": {
+        "name": "2017.08.05.",
+        "role": "cell"
+      },
+      "e184": {
+        "name": "21만",
+        "role": "cell"
+      },
+      "e185": {
+        "name": "677",
+        "role": "cell"
+      },
+      "e186": {
+        "name": "공지",
+        "role": "cell"
+      },
+      "e187": {
+        "name": "장터 게시판 이용 가능 등급이 '꿈꾸는 회원'에서 '행복한 회원'으로 변경되었습니다.댓글수 [712]",
+        "role": "cell"
+      },
+      "e188": {
+        "name": "푸저 멤버등급 : 매니저",
+        "role": "cell"
+      },
+      "e189": {
+        "name": "2023.01.05.",
+        "role": "cell"
+      },
+      "e19": {
+        "name": "인기글 새 게시글",
+        "role": "menuitem"
+      },
+      "e190": {
+        "name": "1.1만",
+        "role": "cell"
+      },
+      "e191": {
+        "name": "64",
+        "role": "cell"
+      },
+      "e192": {
+        "name": "공지",
+        "role": "cell"
+      },
+      "e193": {
+        "name": "헬로밴은 편을 나눠서 논쟁을 하기 위한 곳이 아닙니다.댓글수 [10,766]",
+        "role": "cell"
+      },
+      "e194": {
+        "name": "푸저 멤버등급 : 매니저",
+        "role": "cell"
+      },
+      "e195": {
+        "name": "2022.09.13.",
+        "role": "cell"
+      },
+      "e196": {
+        "name": "2.2만",
+        "role": "cell"
+      },
+      "e197": {
+        "name": "179",
+        "role": "cell"
+      },
+      "e198": {
+        "name": "공지",
+        "role": "cell"
+      },
+      "e199": {
+        "name": "장터 이용 삼진 아웃제댓글수 [883]",
+        "role": "cell"
+      },
+      "e2": {
+        "name": "카페 채팅",
+        "role": "button"
+      },
+      "e20": {
+        "name": "티키타카페 게시판 새 게시글",
+        "role": "menuitem"
+      },
+      "e200": {
+        "name": "푸저 멤버등급 : 매니저",
+        "role": "cell"
+      },
+      "e201": {
+        "name": "2020.05.25.",
+        "role": "cell"
+      },
+      "e202": {
+        "name": "3만",
+        "role": "cell"
+      },
+      "e203": {
+        "name": "111",
+        "role": "cell"
+      },
+      "e204": {
+        "name": "공지",
+        "role": "cell"
+      },
+      "e205": {
+        "name": "랭리 참나무 한식당 영업 안내 +프로모션 소개댓글수 [2]",
+        "role": "cell"
+      },
+      "e206": {
+        "name": "캘리블리 멤버등급 : 즐거운 회원",
+        "role": "cell"
+      },
+      "e207": {
+        "name": "2026.03.05.",
+        "role": "cell"
+      },
+      "e208": {
+        "name": "1,068",
+        "role": "cell"
+      },
+      "e209": {
+        "name": "25",
+        "role": "cell"
+      },
+      "e21": {
+        "name": "공지사항",
+        "role": "menuitem"
+      },
+      "e210": {
+        "name": "724741",
+        "role": "cell"
+      },
+      "e211": {
+        "name": "포코 유명한 brewery + 윙 맛집 사진 댓글수 [2]",
+        "role": "cell"
+      },
+      "e212": {
+        "name": "무사태평 멤버등급 : 행복한 회원",
+        "role": "cell"
+      },
+      "e213": {
+        "name": "2026.09.09.",
+        "role": "cell"
+      },
+      "e214": {
+        "name": "373",
+        "role": "cell"
+      },
+      "e215": {
+        "name": "11",
+        "role": "cell"
+      },
+      "e216": {
+        "name": "724740",
+        "role": "cell"
+      },
+      "e217": {
+        "name": "딤섬 맛있다? 요리도 맛있다! 사진 댓글수 [2]",
+        "role": "cell"
+      },
+      "e218": {
+        "name": "지서자매맘 멤버등급 : 행복한 회원",
+        "role": "cell"
+      },
+      "e219": {
+        "name": "2026.09.09.",
+        "role": "cell"
+      },
+      "e22": {
+        "name": "밴쿠버 한인 업소록",
+        "role": "menuitem"
+      },
+      "e220": {
+        "name": "290",
+        "role": "cell"
+      },
+      "e221": {
+        "name": "7",
+        "role": "cell"
+      },
+      "e222": {
+        "name": "724617",
+        "role": "cell"
+      },
+      "e223": {
+        "name": "Phnom Penh 맛집 후기 사진 댓글수 [5]",
+        "role": "cell"
+      },
+      "e224": {
+        "name": "후추참깨 멤버등급 : 꿈꾸는 회원",
+        "role": "cell"
+      },
+      "e225": {
+        "name": "2026.09.08.",
+        "role": "cell"
+      },
+      "e226": {
+        "name": "225",
+        "role": "cell"
+      },
+      "e227": {
+        "name": "6",
+        "role": "cell"
+      },
+      "e228": {
+        "name": "724605",
+        "role": "cell"
+      },
+      "e229": {
+        "name": "락사 맛집 추천! Deer Garden 🦌 사진 댓글수 [9]",
+        "role": "cell"
+      },
+      "e23": {
+        "name": "싹트는 회원 게시판 새 게시글",
+        "role": "menuitem"
+      },
+      "e230": {
+        "name": "참치a 멤버등급 : 행복한 회원",
+        "role": "cell"
+      },
+      "e231": {
+        "name": "2026.09.08.",
+        "role": "cell"
+      },
+      "e232": {
+        "name": "281",
+        "role": "cell"
+      },
+      "e233": {
+        "name": "24",
+        "role": "cell"
+      },
+      "e234": {
+        "name": "724504",
+        "role": "cell"
+      },
+      "e235": {
+        "name": "캐나다에선 중국집 어디가세요? 탕수육 찐만두는 이집 추천~~~♡ 사진 댓글수 [9]",
+        "role": "cell"
+      },
+      "e236": {
+        "name": "아이둘 멤버등급 : 행복한 회원",
+        "role": "cell"
+      },
+      "e237": {
+        "name": "2026.09.07.",
+        "role": "cell"
+      },
+      "e238": {
+        "name": "759",
+        "role": "cell"
+      },
+      "e239": {
+        "name": "6",
+        "role": "cell"
+      },
+      "e24": {
+        "name": "등업 신청 게시판 새 게시글",
+        "role": "menuitem"
+      },
+      "e240": {
+        "name": "724467",
+        "role": "cell"
+      },
+      "e241": {
+        "name": "Matsuzushi 포트무디 사진 댓글수 [3]",
+        "role": "cell"
+      },
+      "e242": {
+        "name": "사랑비 멤버등급 : 라이프 회원",
+        "role": "cell"
+      },
+      "e243": {
+        "name": "2026.09.07.",
+        "role": "cell"
+      },
+      "e244": {
+        "name": "270",
+        "role": "cell"
+      },
+      "e245": {
+        "name": "3",
+        "role": "cell"
+      },
+      "e246": {
+        "name": "724442",
+        "role": "cell"
+      },
+      "e247": {
+        "name": "[ 맛집후기 ] 서브웨이 어플이랑 쿠폰으로 절약하셈 🥪😋🥗 사진 댓글수 [2]",
+        "role": "cell"
+      },
+      "e248": {
+        "name": "도라애몽 멤버등급 : 행복한 회원",
+        "role": "cell"
+      },
+      "e249": {
+        "name": "2026.09.07.",
+        "role": "cell"
+      },
+      "e25": {
+        "name": "섹션 베스트",
+        "role": "menuitem"
+      },
+      "e250": {
+        "name": "450",
+        "role": "cell"
+      },
+      "e251": {
+        "name": "8",
+        "role": "cell"
+      },
+      "e252": {
+        "name": "724345",
+        "role": "cell"
+      },
+      "e253": {
+        "name": "Myst 랭리 사진 댓글수 [1]",
+        "role": "cell"
+      },
+      "e254": {
+        "name": "샤론 멤버등급 : 행복한 회원",
+        "role": "cell"
+      },
+      "e255": {
+        "name": "2026.09.06.",
+        "role": "cell"
+      },
+      "e256": {
+        "name": "388",
+        "role": "cell"
+      },
+      "e257": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e258": {
+        "name": "724342",
+        "role": "cell"
+      },
+      "e259": {
+        "name": "타이푸드 레스토랑_랭리 사진 댓글수 [1]",
+        "role": "cell"
+      },
+      "e26": {
+        "name": "카페 건의함",
+        "role": "menuitem"
+      },
+      "e260": {
+        "name": "샤론 멤버등급 : 행복한 회원",
+        "role": "cell"
+      },
+      "e261": {
+        "name": "2026.09.06.",
+        "role": "cell"
+      },
+      "e262": {
+        "name": "269",
+        "role": "cell"
+      },
+      "e263": {
+        "name": "6",
+        "role": "cell"
+      },
+      "e264": {
+        "name": "724275",
+        "role": "cell"
+      },
+      "e265": {
+        "name": "베트남쌀국수 맛집 사진",
+        "role": "cell"
+      },
+      "e266": {
+        "name": "감자 9312 멤버등급 : 꿈꾸는 회원",
+        "role": "cell"
+      },
+      "e267": {
+        "name": "2026.09.05.",
+        "role": "cell"
+      },
+      "e268": {
+        "name": "296",
+        "role": "cell"
+      },
+      "e269": {
+        "name": "5",
+        "role": "cell"
+      },
+      "e27": {
+        "name": "행복한 교육 IGE 조기유학 새 게시글",
+        "role": "menuitem"
+      },
+      "e270": {
+        "name": "724231",
+        "role": "cell"
+      },
+      "e271": {
+        "name": "로히드 새로 오픈한 일본 라멘 식당 Bodo Japanese Rojiura Ramen 사진 댓글수 [6]",
+        "role": "cell"
+      },
+      "e272": {
+        "name": "aus 멤버등급 : 행복한 회원",
+        "role": "cell"
+      },
+      "e273": {
+        "name": "2026.09.05.",
+        "role": "cell"
+      },
+      "e274": {
+        "name": "611",
+        "role": "cell"
+      },
+      "e275": {
+        "name": "19",
+        "role": "cell"
+      },
+      "e276": {
+        "name": "724148",
+        "role": "cell"
+      },
+      "e277": {
+        "name": "로히드 연경에 다녀왔어요. 사진 댓글수 [4]",
+        "role": "cell"
+      },
+      "e278": {
+        "name": "세나 멤버등급 : 행복한 회원",
+        "role": "cell"
+      },
+      "e279": {
+        "name": "2026.09.04.",
+        "role": "cell"
+      },
+      "e28": {
+        "name": "가자 밴쿠버 조기유학",
+        "role": "menuitem"
+      },
+      "e280": {
+        "name": "535",
+        "role": "cell"
+      },
+      "e281": {
+        "name": "3",
+        "role": "cell"
+      },
+      "e282": {
+        "name": "724147",
+        "role": "cell"
+      },
+      "e283": {
+        "name": "다운타운 Kirin 사진 댓글수 [1]",
+        "role": "cell"
+      },
+      "e284": {
+        "name": "썬플 멤버등급 : 행복한 회원",
+        "role": "cell"
+      },
+      "e285": {
+        "name": "2026.09.04.",
+        "role": "cell"
+      },
+      "e286": {
+        "name": "158",
+        "role": "cell"
+      },
+      "e287": {
+        "name": "2",
+        "role": "cell"
+      },
+      "e288": {
+        "name": "723887",
+        "role": "cell"
+      },
+      "e289": {
+        "name": "서리 길포드 중식당 \"취홍\" 다녀왔어요 사진",
+        "role": "cell"
+      },
+      "e29": {
+        "name": "성공한 사람들 새 게시글",
+        "role": "menuitem"
+      },
+      "e290": {
+        "name": "코크레니아 멤버등급 : 행복한 회원",
+        "role": "cell"
+      },
+      "e291": {
+        "name": "2026.09.02.",
+        "role": "cell"
+      },
+      "e292": {
+        "name": "245",
+        "role": "cell"
+      },
+      "e293": {
+        "name": "4",
+        "role": "cell"
+      },
+      "e294": {
+        "name": "723852",
+        "role": "cell"
+      },
+      "e295": {
+        "name": "다운타운 치킨버거 맛집 Frying Pan on Denman 사진",
+        "role": "cell"
+      },
+      "e296": {
+        "name": "옹키키 멤버등급 : 행복한 회원",
+        "role": "cell"
+      },
+      "e297": {
+        "name": "2026.09.02.",
+        "role": "cell"
+      },
+      "e298": {
+        "name": "158",
+        "role": "cell"
+      },
+      "e299": {
+        "name": "2",
+        "role": "cell"
+      },
+      "e3": {
+        "name": "즐거운 캐나다 라이프 ~ 헬로! 밴쿠버",
+        "role": "heading"
+      },
+      "e30": {
+        "name": "둥지이민 컨설팅 새 게시글",
+        "role": "menuitem"
+      },
+      "e300": {
+        "name": "1",
+        "role": "button"
+      },
+      "e301": {
+        "name": "2",
+        "role": "button"
+      },
+      "e302": {
+        "name": "3",
+        "role": "button"
+      },
+      "e303": {
+        "name": "4",
+        "role": "button"
+      },
+      "e304": {
+        "name": "5",
+        "role": "button"
+      },
+      "e305": {
+        "name": "6",
+        "role": "button"
+      },
+      "e306": {
+        "name": "7",
+        "role": "button"
+      },
+      "e307": {
+        "name": "8",
+        "role": "button"
+      },
+      "e308": {
+        "name": "9",
+        "role": "button"
+      },
+      "e309": {
+        "name": "10",
+        "role": "button"
+      },
+      "e31": {
+        "name": "정필균 법무법인 새 게시글",
+        "role": "menuitem"
+      },
+      "e310": {
+        "name": "다음",
+        "role": "button"
+      },
+      "e311": {
+        "name": "카페홈",
+        "role": "link"
+      },
+      "e312": {
+        "name": "이웃",
+        "role": "link"
+      },
+      "e313": {
+        "name": "가입카페",
+        "role": "button"
+      },
+      "e314": {
+        "name": "새글",
+        "role": "link"
+      },
+      "e315": {
+        "name": "내소식",
+        "role": "button"
+      },
+      "e316": {
+        "name": "채팅",
+        "role": "button"
+      },
+      "e317": {
+        "name": "카페등급 나무3단계",
+        "role": "link"
+      },
+      "e318": {
+        "name": "카페멤버수 125,478 멤버목록 비공개",
+        "role": "button"
+      },
+      "e319": {
+        "name": "초대",
+        "role": "link"
+      },
+      "e32": {
+        "name": "블루버드 이민컨설팅 새 게시글",
+        "role": "menuitem"
+      },
+      "e320": {
+        "name": "제목",
+        "role": "columnheader"
+      },
+      "e321": {
+        "name": "작성자",
+        "role": "columnheader"
+      },
+      "e322": {
+        "name": "작성일",
+        "role": "columnheader"
+      },
+      "e323": {
+        "name": "조회수",
+        "role": "columnheader"
+      },
+      "e324": {
+        "name": "좋아요 많은 순서로 보기 선택",
+        "role": "columnheader"
+      },
+      "e325": {
+        "name": "전체기간",
+        "role": "button"
+      },
+      "e326": {
+        "name": "제목만",
+        "role": "button"
+      },
+      "e327": {
+        "name": "검색어를 입력해주세요",
+        "role": "textbox"
+      },
+      "e328": {
+        "name": "검색",
+        "role": "button"
+      },
+      "e329": {
+        "name": "AD",
+        "role": "Iframe"
+      },
+      "e33": {
+        "name": "장수영 부동산-코퀴틀람/포트무디/포코",
+        "role": "menuitem"
+      },
+      "e330": {
+        "name": "좋아요 많은 순서로 보기 선택",
+        "role": "button"
+      },
+      "e331": {
+        "name": "등업 방법 안내",
+        "role": "link"
+      },
+      "e332": {
+        "name": "댓글수 [9,959]",
+        "role": "link"
+      },
+      "e333": {
+        "name": "푸저 멤버등급 : 매니저",
+        "role": "button"
+      },
+      "e334": {
+        "name": "밴쿠버 한인 업소록",
+        "role": "link"
+      },
+      "e335": {
+        "name": "댓글수 [2,718]",
+        "role": "link"
+      },
+      "e336": {
+        "name": "푸저 멤버등급 : 매니저",
+        "role": "button"
+      },
+      "e337": {
+        "name": "장터 게시판 이용 가능 등급이 '꿈꾸는 회원'에서 '행복한 회원'으로 변경되었습니다.",
+        "role": "link"
+      },
+      "e338": {
+        "name": "댓글수 [712]",
+        "role": "link"
+      },
+      "e339": {
+        "name": "푸저 멤버등급 : 매니저",
+        "role": "button"
+      },
+      "e34": {
+        "name": "샘리 부동산-써리/랭리",
+        "role": "menuitem"
+      },
+      "e340": {
+        "name": "헬로밴은 편을 나눠서 논쟁을 하기 위한 곳이 아닙니다.",
+        "role": "link"
+      },
+      "e341": {
+        "name": "댓글수 [10,766]",
+        "role": "link"
+      },
+      "e342": {
+        "name": "푸저 멤버등급 : 매니저",
+        "role": "button"
+      },
+      "e343": {
+        "name": "장터 이용 삼진 아웃제",
+        "role": "link"
+      },
+      "e344": {
+        "name": "댓글수 [883]",
+        "role": "link"
+      },
+      "e345": {
+        "name": "푸저 멤버등급 : 매니저",
+        "role": "button"
+      },
+      "e346": {
+        "name": "랭리 참나무 한식당 영업 안내 +프로모션 소개",
+        "role": "link"
+      },
+      "e347": {
+        "name": "댓글수 [2]",
+        "role": "link"
+      },
+      "e348": {
+        "name": "캘리블리 멤버등급 : 즐거운 회원",
+        "role": "button"
+      },
+      "e349": {
+        "name": "포코 유명한 brewery + 윙 맛집",
+        "role": "link"
+      },
+      "e35": {
+        "name": "브라이언 오 부동산-밴쿠버/웨스트밴/놀밴",
+        "role": "menuitem"
+      },
+      "e350": {
+        "name": "댓글수 [2]",
+        "role": "link"
+      },
+      "e351": {
+        "name": "무사태평 멤버등급 : 행복한 회원",
+        "role": "button"
+      },
+      "e352": {
+        "name": "딤섬 맛있다? 요리도 맛있다!",
+        "role": "link"
+      },
+      "e353": {
+        "name": "댓글수 [2]",
+        "role": "link"
+      },
+      "e354": {
+        "name": "지서자매맘 멤버등급 : 행복한 회원",
+        "role": "button"
+      },
+      "e355": {
+        "name": "Phnom Penh 맛집 후기",
+        "role": "link"
+      },
+      "e356": {
+        "name": "댓글수 [5]",
+        "role": "link"
+      },
+      "e357": {
+        "name": "후추참깨 멤버등급 : 꿈꾸는 회원",
+        "role": "button"
+      },
+      "e358": {
+        "name": "락사 맛집 추천! Deer Garden 🦌 ",
+        "role": "link"
+      },
+      "e359": {
+        "name": "댓글수 [9]",
+        "role": "link"
+      },
+      "e36": {
+        "name": "오지나 부동산-써리/랭리",
+        "role": "menuitem"
+      },
+      "e360": {
+        "name": "참치a 멤버등급 : 행복한 회원",
+        "role": "button"
+      },
+      "e361": {
+        "name": "캐나다에선 중국집 어디가세요? 탕수육 찐만두는 이집 추천~~~♡",
+        "role": "link"
+      },
+      "e362": {
+        "name": "댓글수 [9]",
+        "role": "link"
+      },
+      "e363": {
+        "name": "아이둘 멤버등급 : 행복한 회원",
+        "role": "button"
+      },
+      "e364": {
+        "name": "Matsuzushi 포트무디",
+        "role": "link"
+      },
+      "e365": {
+        "name": "댓글수 [3]",
+        "role": "link"
+      },
+      "e366": {
+        "name": "사랑비 멤버등급 : 라이프 회원",
+        "role": "button"
+      },
+      "e367": {
+        "name": "[ 맛집후기 ] 서브웨이 어플이랑 쿠폰으로 절약하셈 🥪😋🥗",
+        "role": "link"
+      },
+      "e368": {
+        "name": "댓글수 [2]",
+        "role": "link"
+      },
+      "e369": {
+        "name": "도라애몽 멤버등급 : 행복한 회원",
+        "role": "button"
+      },
+      "e37": {
+        "name": "밴센 VCEC 성인유학 새 게시글",
+        "role": "menuitem"
+      },
+      "e370": {
+        "name": "Myst 랭리",
+        "role": "link"
+      },
+      "e371": {
+        "name": "댓글수 [1]",
+        "role": "link"
+      },
+      "e372": {
+        "name": "샤론 멤버등급 : 행복한 회원",
+        "role": "button"
+      },
+      "e373": {
+        "name": "타이푸드 레스토랑_랭리",
+        "role": "link"
+      },
+      "e374": {
+        "name": "댓글수 [1]",
+        "role": "link"
+      },
+      "e375": {
+        "name": "샤론 멤버등급 : 행복한 회원",
+        "role": "button"
+      },
+      "e376": {
+        "name": "베트남쌀국수 맛집",
+        "role": "link"
+      },
+      "e377": {
+        "name": "감자 9312 멤버등급 : 꿈꾸는 회원",
+        "role": "button"
+      },
+      "e378": {
+        "name": "로히드 새로 오픈한 일본 라멘 식당 Bodo Japanese Rojiura Ramen",
+        "role": "link"
+      },
+      "e379": {
+        "name": "댓글수 [6]",
+        "role": "link"
+      },
+      "e38": {
+        "name": "VanBridge 성인유학",
+        "role": "menuitem"
+      },
+      "e380": {
+        "name": "aus 멤버등급 : 행복한 회원",
+        "role": "button"
+      },
+      "e381": {
+        "name": "로히드 연경에 다녀왔어요.",
+        "role": "link"
+      },
+      "e382": {
+        "name": "댓글수 [4]",
+        "role": "link"
+      },
+      "e383": {
+        "name": "세나 멤버등급 : 행복한 회원",
+        "role": "button"
+      },
+      "e384": {
+        "name": "다운타운 Kirin",
+        "role": "link"
+      },
+      "e385": {
+        "name": "댓글수 [1]",
+        "role": "link"
+      },
+      "e386": {
+        "name": "썬플 멤버등급 : 행복한 회원",
+        "role": "button"
+      },
+      "e387": {
+        "name": "서리 길포드 중식당 \"취홍\" 다녀왔어요",
+        "role": "link"
+      },
+      "e388": {
+        "name": "코크레니아 멤버등급 : 행복한 회원",
+        "role": "button"
+      },
+      "e389": {
+        "name": "다운타운 치킨버거 맛집 Frying Pan on Denman",
+        "role": "link"
+      },
+      "e39": {
+        "name": "오케이투어",
+        "role": "menuitem"
+      },
+      "e390": {
+        "name": "옹키키 멤버등급 : 행복한 회원",
+        "role": "button"
+      },
+      "e391": {
+        "name": "로그인",
+        "role": "link"
+      },
+      "e392": {
+        "name": "서비스 더보기",
+        "role": "link"
+      },
+      "e393": {
+        "name": "광고 이미지 국내 이산가족 위로 캠페인 \"살아온 흔적 하나만이라도 남기고 싶어...\" 이산가족들이 눈물 속에서 세상을 떠나지 않도록 광고 이미지 대한적십자사 더 알아보기",
+        "role": "link"
+      },
+      "e394": {
+        "name": "AD",
+        "role": "button"
+      },
+      "e4": {
+        "name": "https://cafe.naver.com/yoehang",
+        "role": "link"
+      },
+      "e40": {
+        "name": "파이도 공식 대리점",
+        "role": "menuitem"
+      },
+      "e41": {
+        "name": "통신 요금제 개통/상담",
+        "role": "menuitem"
+      },
+      "e42": {
+        "name": "TELUS & Koodo 개통/상담",
+        "role": "menuitem"
+      },
+      "e43": {
+        "name": "한인 모터스",
+        "role": "menuitem"
+      },
+      "e44": {
+        "name": "카매치 오토그룹 새 게시글",
+        "role": "menuitem"
+      },
+      "e45": {
+        "name": "Go Downtown KIA",
+        "role": "menuitem"
+      },
+      "e46": {
+        "name": "KIA West",
+        "role": "menuitem"
+      },
+      "e47": {
+        "name": "오토스타일",
+        "role": "menuitem"
+      },
+      "e48": {
+        "name": "로히드 아카데미",
+        "role": "menuitem"
+      },
+      "e49": {
+        "name": "공동구매",
+        "role": "menuitem"
+      },
+      "e5": {
+        "name": "NAVER 카페",
+        "role": "link"
+      },
+      "e50": {
+        "name": "사고팔고나누고 새 게시글",
+        "role": "menuitem"
+      },
+      "e51": {
+        "name": "렌트/숙박/매매 새 게시글",
+        "role": "menuitem"
+      },
+      "e52": {
+        "name": "테이크오버 새 게시글",
+        "role": "menuitem"
+      },
+      "e53": {
+        "name": "중고차 거래/렌트 새 게시글",
+        "role": "menuitem"
+      },
+      "e54": {
+        "name": "튜터/개인레슨 새 게시글",
+        "role": "menuitem"
+      },
+      "e55": {
+        "name": "구인구직 새 게시글",
+        "role": "menuitem"
+      },
+      "e56": {
+        "name": "세상사는 이야기 새 게시글",
+        "role": "menuitem"
+      },
+      "e57": {
+        "name": "포토 스토리",
+        "role": "menuitem"
+      },
+      "e58": {
+        "name": "뉴스, 도서 & 엔터테인먼트",
+        "role": "menuitem"
+      },
+      "e59": {
+        "name": "요리조리 쿡쿡냠냠 새 게시글",
+        "role": "menuitem"
+      },
+      "e6": {
+        "name": "",
+        "role": "link"
+      },
+      "e60": {
+        "name": "반려동식물",
+        "role": "menuitem"
+      },
+      "e61": {
+        "name": "쿠폰/할인/사은행사",
+        "role": "menuitem"
+      },
+      "e62": {
+        "name": "포토 앨범",
+        "role": "menuitem"
+      },
+      "e63": {
+        "name": "생활 정보 새 게시글",
+        "role": "menuitem"
+      },
+      "e64": {
+        "name": "DIY & 노하우 새 게시글",
+        "role": "menuitem"
+      },
+      "e65": {
+        "name": "의료/복지/보험/건강/뷰티 새 게시글",
+        "role": "menuitem"
+      },
+      "e66": {
+        "name": "인터넷/셀폰/케이블/가전 새 게시글",
+        "role": "menuitem"
+      },
+      "e67": {
+        "name": "세금 & 금융",
+        "role": "menuitem"
+      },
+      "e68": {
+        "name": "스캠 & 스팸",
+        "role": "menuitem"
+      },
+      "e69": {
+        "name": "헬로밴 잡학사전",
+        "role": "menuitem"
+      },
+      "e7": {
+        "name": "즐거운 캐나다 라이프 ~ 헬로! 밴쿠버",
+        "role": "link"
+      },
+      "e70": {
+        "name": "생활 주소록",
+        "role": "menuitem"
+      },
+      "e71": {
+        "name": "유용한 링크/앱",
+        "role": "menuitem"
+      },
+      "e72": {
+        "name": "조기 유학 & 전/입학 새 게시글",
+        "role": "menuitem"
+      },
+      "e73": {
+        "name": "대학 & 성인 유학/교육",
+        "role": "menuitem"
+      },
+      "e74": {
+        "name": "유학후 귀국",
+        "role": "menuitem"
+      },
+      "e75": {
+        "name": "스터디 퍼밋 & ETA",
+        "role": "menuitem"
+      },
+      "e76": {
+        "name": "학업 & 학교 생활 새 게시글",
+        "role": "menuitem"
+      },
+      "e77": {
+        "name": "학교 정보 새 게시글",
+        "role": "menuitem"
+      },
+      "e78": {
+        "name": "캠프, 클럽 & 과외 활동 새 게시글",
+        "role": "menuitem"
+      },
+      "e79": {
+        "name": "데이케어 & 킨더가든",
+        "role": "menuitem"
+      },
+      "e8": {
+        "name": "나들이 명소",
+        "role": "link"
+      },
+      "e80": {
+        "name": "육아 & 유아 새 게시글",
+        "role": "menuitem"
+      },
+      "e81": {
+        "name": "영어 교육/시험 새 게시글",
+        "role": "menuitem"
+      },
+      "e82": {
+        "name": "교육 기타",
+        "role": "menuitem"
+      },
+      "e83": {
+        "name": "부동산 정보",
+        "role": "menuitem"
+      },
+      "e84": {
+        "name": "렌트 정보 새 게시글",
+        "role": "menuitem"
+      },
+      "e85": {
+        "name": "관리/이사/생활 새 게시글",
+        "role": "menuitem"
+      },
+      "e86": {
+        "name": "지역 정보 새 게시글",
+        "role": "menuitem"
+      },
+      "e87": {
+        "name": "차량 매매/리스/렌트 정보",
+        "role": "menuitem"
+      },
+      "e88": {
+        "name": "정비/관리/사고/보험",
+        "role": "menuitem"
+      },
+      "e89": {
+        "name": "기타 교통/운전 관련",
+        "role": "menuitem"
+      },
+      "e9": {
+        "name": "포토 스토리",
+        "role": "link"
+      },
+      "e90": {
+        "name": "대중 교통 새 게시글",
+        "role": "menuitem"
+      },
+      "e91": {
+        "name": "이민, 워홀, EE & LMIA",
+        "role": "menuitem"
+      },
+      "e92": {
+        "name": "시민권 & 영주권",
+        "role": "menuitem"
+      },
+      "e93": {
+        "name": "입국/이주정착/장거리이사 새 게시글",
+        "role": "menuitem"
+      },
+      "e94": {
+        "name": "취업/창업/직장생활",
+        "role": "menuitem"
+      },
+      "e95": {
+        "name": "ECE 교육, 취업, 이민",
+        "role": "menuitem"
+      },
+      "e96": {
+        "name": "나들이 명소 새 게시글",
+        "role": "menuitem"
+      },
+      "e97": {
+        "name": "여행 정보 새 게시글",
+        "role": "menuitem"
+      },
+      "e98": {
+        "name": "야외 액티비티",
+        "role": "menuitem"
+      },
+      "e99": {
+        "name": "캠핑 & 알빙",
+        "role": "menuitem"
+      }
+    },
+    "snapshot": "- generic\n  - banner\n    - generic\n      - link [ref=e6]\n      - generic\n        - generic\n          - link \"카페홈\" [ref=e311]\n        - generic\n          - link \"이웃\" [ref=e312]\n        - generic\n          - button \"가입카페\" [expanded=false, ref=e313]\n            - StaticText \"가입카페\"\n        - generic\n          - link \"새글\" [ref=e314]\n        - generic\n          - button \"내소식\" [expanded=false, ref=e315]\n        - generic\n          - button \"채팅\" [ref=e316]\n        - generic\n          - strong\n            - StaticText \"사용자 링크\"\n          - list\n            - listitem [level=1]\n              - link \"로그인\" [ref=e391]\n                - StaticText \"로그인\"\n            - listitem [level=1]\n              - link \"서비스 더보기\" [ref=e392]\n                - StaticText \"서비스 더보기\"\n    - link \"즐거운 캐나다 라이프 ~ 헬로! 밴쿠버\" [ref=e7]\n      - image \"즐거운 캐나다 라이프 ~ 헬로! 밴쿠버\"\n  - list\n    - listitem [level=1]\n      - link \"나들이 명소\" [ref=e8]\n    - listitem [level=1]\n      - link \"포토 스토리\" [ref=e9]\n    - listitem [level=1]\n      - link \"레스토랑\" [ref=e10]\n    - listitem [level=1]\n      - link \"카페 & 베이커리\" [ref=e11]\n    - listitem [level=1]\n      - link \"쇼핑 플레이스\" [ref=e12]\n  - complementary\n    - tablist\n      - tab \"카페정보\" [selected, ref=e13]\n      - tab \"나의활동\" [ref=e14]\n    - tabpanel\n      - link \"카페아이콘\" [ref=e168]\n        - image \"카페아이콘\"\n      - generic\n        - link \"푸저\" [ref=e169]\n        - emphasis\n          - StaticText \"매니저\"\n      - link \"2010.06.10. 개설\" [ref=e170]\n        - StaticText \"2010.06.10. 개설\"\n      - link \"카페소개\" [ref=e15]\n      - list\n        - listitem [level=1]\n          - link \"카페등급 나무3단계\" [ref=e317]\n            - strong\n              - StaticText \"카페등급\"\n            - emphasis\n              - StaticText \"나무3단계\"\n        - listitem [level=1]\n          - button \"카페멤버수 125,478 멤버목록 비공개\" [ref=e318]\n            - generic\n              - image\n              - StaticText \"카페멤버수\"\n            - emphasis\n              - StaticText \"125,478\"\n              - image \"멤버목록 비공개\"\n          - link \"초대\" [ref=e319]\n        - listitem [level=1]\n          - strong\n            - StaticText \"카페지역\"\n          - image \"지역\"\n          - emphasis\n            - StaticText \"캐나다\"\n        - listitem [level=1]\n          - strong\n            - StaticText \"대표 인기카페\"\n          - image \"NAVER 대표카페\"\n    - button \"카페 가입하기\" [ref=e1]\n    - button \"카페 채팅\" [ref=e2]\n    - generic\n      - textbox \"카페글 검색어 입력\" [ref=e16]\n      - button \"검색\" [ref=e17]\n    - menu\n      - image\n      - menuitem \"전체글보기\" [ref=e18]\n      - StaticText \"448,536\"\n      - image\n      - menuitem \"인기글 새 게시글\" [ref=e19]\n        - StaticText \"인기글\"\n        - image \"새 게시글\"\n    - list\n      - image\n      - menuitem \"티키타카페 게시판 새 게시글\" [ref=e20]\n        - StaticText \"티키타카페 게시판\"\n        - image \"새 게시글\"\n    - strong\n      - StaticText \"필독 게시판\"\n    - list\n      - image\n      - menuitem \"공지사항\" [ref=e21]\n      - image\n      - menuitem \"밴쿠버 한인 업소록\" [ref=e22]\n      - image\n      - menuitem \"싹트는 회원 게시판 새 게시글\" [ref=e23]\n        - StaticText \"싹트는 회원 게시판\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"등업 신청 게시판 새 게시글\" [ref=e24]\n        - StaticText \"등업 신청 게시판\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"섹션 베스트\" [ref=e25]\n      - image\n      - menuitem \"카페 건의함\" [ref=e26]\n    - strong\n      - StaticText \"캐나다 조기유학\"\n    - list\n      - image\n      - menuitem \"행복한 교육 IGE 조기유학 새 게시글\" [ref=e27]\n        - StaticText \"행복한 교육 IGE 조기유학\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"가자 밴쿠버 조기유학\" [ref=e28]\n    - strong\n      - StaticText \"캐나다 이민\"\n    - list\n      - image\n      - menuitem \"성공한 사람들 새 게시글\" [ref=e29]\n        - StaticText \"성공한 사람들\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"둥지이민 컨설팅 새 게시글\" [ref=e30]\n        - StaticText \"둥지이민 컨설팅\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"정필균 법무법인 새 게시글\" [ref=e31]\n        - StaticText \"정필균 법무법인\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"블루버드 이민컨설팅 새 게시글\" [ref=e32]\n        - StaticText \"블루버드 이민컨설팅\"\n        - image \"새 게시글\"\n    - strong\n      - StaticText \"한인 리얼터\"\n    - list\n      - image\n      - menuitem \"장수영 부동산-코퀴틀람/포트무디/포코\" [ref=e33]\n      - image\n      - menuitem \"샘리 부동산-써리/랭리\" [ref=e34]\n      - image\n      - menuitem \"브라이언 오 부동산-밴쿠버/웨스트밴/놀밴\" [ref=e35]\n      - image\n      - menuitem \"오지나 부동산-써리/랭리\" [ref=e36]\n    - strong\n      - StaticText \"캐나다 성인유학\"\n    - list\n      - image\n      - menuitem \"밴센 VCEC 성인유학 새 게시글\" [ref=e37]\n        - StaticText \"밴센 VCEC 성인유학\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"VanBridge 성인유학\" [ref=e38]\n    - strong\n      - StaticText \"한인 여행사\"\n    - list\n      - image\n      - menuitem \"오케이투어\" [ref=e39]\n    - strong\n      - StaticText \"인터넷/통신사\"\n    - list\n      - image\n      - menuitem \"파이도 공식 대리점\" [ref=e40]\n      - image\n      - menuitem \"통신 요금제 개통/상담\" [ref=e41]\n      - image\n      - menuitem \"TELUS & Koodo 개통/상담\" [ref=e42]\n    - strong\n      - StaticText \"한인 자동차\"\n    - list\n      - image\n      - menuitem \"한인 모터스\" [ref=e43]\n      - image\n      - menuitem \"카매치 오토그룹 새 게시글\" [ref=e44]\n        - StaticText \"카매치 오토그룹\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"Go Downtown KIA\" [ref=e45]\n      - image\n      - menuitem \"KIA West\" [ref=e46]\n      - image\n      - menuitem \"오토스타일\" [ref=e47]\n    - strong\n      - StaticText \"캐나다 내신/입시\"\n    - list\n      - image\n      - menuitem \"로히드 아카데미\" [ref=e48]\n    - strong\n      - StaticText \"헬로밴 장터\"\n    - list\n      - image\n      - menuitem \"공동구매\" [ref=e49]\n      - image\n      - menuitem \"사고팔고나누고 새 게시글\" [ref=e50]\n        - StaticText \"사고팔고나누고\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"렌트/숙박/매매 새 게시글\" [ref=e51]\n        - StaticText \"렌트/숙박/매매\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"테이크오버 새 게시글\" [ref=e52]\n        - StaticText \"테이크오버\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"중고차 거래/렌트 새 게시글\" [ref=e53]\n        - StaticText \"중고차 거래/렌트\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"튜터/개인레슨 새 게시글\" [ref=e54]\n        - StaticText \"튜터/개인레슨\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"구인구직 새 게시글\" [ref=e55]\n        - StaticText \"구인구직\"\n        - image \"새 게시글\"\n    - strong\n      - StaticText \"헬로밴 투데이\"\n    - list\n      - image\n      - menuitem \"세상사는 이야기 새 게시글\" [ref=e56]\n        - StaticText \"세상사는 이야기\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"포토 스토리\" [ref=e57]\n      - image\n      - menuitem \"뉴스, 도서 & 엔터테인먼트\" [ref=e58]\n      - image\n      - menuitem \"요리조리 쿡쿡냠냠 새 게시글\" [ref=e59]\n        - StaticText \"요리조리 쿡쿡냠냠\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"반려동식물\" [ref=e60]\n      - image\n      - menuitem \"쿠폰/할인/사은행사\" [ref=e61]\n      - image\n      - menuitem \"포토 앨범\" [ref=e62]\n    - strong\n      - StaticText \"밴쿠버 라이프\"\n    - list\n      - image\n      - menuitem \"생활 정보 새 게시글\" [ref=e63]\n        - StaticText \"생활 정보\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"DIY & 노하우 새 게시글\" [ref=e64]\n        - StaticText \"DIY & 노하우\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"의료/복지/보험/건강/뷰티 새 게시글\" [ref=e65]\n        - StaticText \"의료/복지/보험/건강/뷰티\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"인터넷/셀폰/케이블/가전 새 게시글\" [ref=e66]\n        - StaticText \"인터넷/셀폰/케이블/가전\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"세금 & 금융\" [ref=e67]\n      - image\n      - menuitem \"스캠 & 스팸\" [ref=e68]\n      - image\n      - menuitem \"헬로밴 잡학사전\" [ref=e69]\n      - image\n      - menuitem \"생활 주소록\" [ref=e70]\n      - image\n      - menuitem \"유용한 링크/앱\" [ref=e71]\n    - strong\n      - StaticText \"밴쿠버 에듀\"\n    - list\n      - image\n      - menuitem \"조기 유학 & 전/입학 새 게시글\" [ref=e72]\n        - StaticText \"조기 유학 & 전/입학\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"대학 & 성인 유학/교육\" [ref=e73]\n      - image\n      - menuitem \"유학후 귀국\" [ref=e74]\n      - image\n      - menuitem \"스터디 퍼밋 & ETA\" [ref=e75]\n      - image\n      - menuitem \"학업 & 학교 생활 새 게시글\" [ref=e76]\n        - StaticText \"학업 & 학교 생활\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"학교 정보 새 게시글\" [ref=e77]\n        - StaticText \"학교 정보\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"캠프, 클럽 & 과외 활동 새 게시글\" [ref=e78]\n        - StaticText \"캠프, 클럽 & 과외 활동\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"데이케어 & 킨더가든\" [ref=e79]\n      - image\n      - menuitem \"육아 & 유아 새 게시글\" [ref=e80]\n        - StaticText \"육아 & 유아\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"영어 교육/시험 새 게시글\" [ref=e81]\n        - StaticText \"영어 교육/시험\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"교육 기타\" [ref=e82]\n    - strong\n      - StaticText \"밴쿠버 부동산\"\n    - list\n      - image\n      - menuitem \"부동산 정보\" [ref=e83]\n      - image\n      - menuitem \"렌트 정보 새 게시글\" [ref=e84]\n        - StaticText \"렌트 정보\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"관리/이사/생활 새 게시글\" [ref=e85]\n        - StaticText \"관리/이사/생활\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"지역 정보 새 게시글\" [ref=e86]\n        - StaticText \"지역 정보\"\n        - image \"새 게시글\"\n    - strong\n      - StaticText \"밴쿠버 차량 & 교통\"\n    - list\n      - image\n      - menuitem \"차량 매매/리스/렌트 정보\" [ref=e87]\n      - image\n      - menuitem \"정비/관리/사고/보험\" [ref=e88]\n      - image\n      - menuitem \"기타 교통/운전 관련\" [ref=e89]\n      - image\n      - menuitem \"대중 교통 새 게시글\" [ref=e90]\n        - StaticText \"대중 교통\"\n        - image \"새 게시글\"\n    - strong\n      - StaticText \"밴쿠버 이민\"\n    - list\n      - image\n      - menuitem \"이민, 워홀, EE & LMIA\" [ref=e91]\n      - image\n      - menuitem \"시민권 & 영주권\" [ref=e92]\n      - image\n      - menuitem \"입국/이주정착/장거리이사 새 게시글\" [ref=e93]\n        - StaticText \"입국/이주정착/장거리이사\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"취업/창업/직장생활\" [ref=e94]\n      - image\n      - menuitem \"ECE 교육, 취업, 이민\" [ref=e95]\n    - strong\n      - StaticText \"밴쿠버 여행\"\n    - list\n      - image\n      - menuitem \"나들이 명소 새 게시글\" [ref=e96]\n        - StaticText \"나들이 명소\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"여행 정보 새 게시글\" [ref=e97]\n        - StaticText \"여행 정보\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"야외 액티비티\" [ref=e98]\n      - image\n      - menuitem \"캠핑 & 알빙\" [ref=e99]\n      - image\n      - menuitem \"크루즈/올 인클루시브\" [ref=e100]\n      - image\n      - menuitem \"광역 밴쿠버\" [ref=e101]\n      - image\n      - menuitem \"근교, 외곽 & 기타 BC주\" [ref=e102]\n      - image\n      - menuitem \"휘슬러/조프리 레이크\" [ref=e103]\n      - image\n      - menuitem \"빅토리아/밴쿠버 아일랜드\" [ref=e104]\n      - image\n      - menuitem \"BC주 스키장/온천\" [ref=e105]\n      - image\n      - menuitem \"오카나간/켈로나/록키/알버타\" [ref=e106]\n      - image\n      - menuitem \"캐나다 중부/동부/북부\" [ref=e107]\n      - image\n      - menuitem \"시애틀/미국/중남미\" [ref=e108]\n      - image\n      - menuitem \"아시아/오세아니아\" [ref=e109]\n      - image\n      - menuitem \"유럽/중동/아프리카\" [ref=e110]\n      - image\n      - menuitem \"한국\" [ref=e111]\n      - image\n      - menuitem \"숙소 후기\" [ref=e112]\n      - image\n      - menuitem \"숙소 정보\" [ref=e113]\n      - image\n      - menuitem \"Bucket List\" [ref=e114]\n    - strong\n      - StaticText \"밴쿠버 맛집\"\n    - list\n      - image\n      - menuitem \"레스토랑\" [ref=e115]\n      - image\n      - menuitem \"카페 & 베이커리\" [ref=e116]\n      - image\n      - menuitem \"맛집 정보 새 게시글\" [ref=e117]\n        - StaticText \"맛집 정보\"\n        - image \"새 게시글\"\n    - strong\n      - StaticText \"밴쿠버 쇼핑\"\n    - list\n      - image\n      - menuitem \"쇼핑 플레이스\" [ref=e118]\n      - image\n      - menuitem \"쇼핑 정보 새 게시글\" [ref=e119]\n        - StaticText \"쇼핑 정보\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"온라인 쇼핑\" [ref=e120]\n    - strong\n      - StaticText \"밴쿠버 문화 & 레포츠\"\n    - list\n      - image\n      - menuitem \"축제, 행사 & 이벤트 새 게시글\" [ref=e121]\n        - StaticText \"축제, 행사 & 이벤트\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"문화, 도서관 & 뮤지엄 새 게시글\" [ref=e122]\n        - StaticText \"문화, 도서관 & 뮤지엄\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"레저 & 스포츠\" [ref=e123]\n      - image\n      - menuitem \"골프\" [ref=e124]\n      - image\n      - menuitem \"이벤트 캘린더\" [ref=e125]\n    - strong\n      - StaticText \"지역 정보 & 동정\"\n    - list\n      - image\n      - menuitem \"BC 교통/날씨 정보\" [ref=e126]\n      - image\n      - menuitem \"총영사관 게시판\" [ref=e127]\n      - image\n      - menuitem \"ISSofBC\" [ref=e128]\n      - image\n      - menuitem \"LCSS\" [ref=e129]\n      - image\n      - menuitem \"MHHS\" [ref=e130]\n      - image\n      - menuitem \"Mosaic\" [ref=e131]\n      - image\n      - menuitem \"Options\" [ref=e132]\n      - image\n      - menuitem \"RMCS\" [ref=e133]\n      - image\n      - menuitem \"SUCCESS\" [ref=e134]\n      - image\n      - menuitem \"YWCA\" [ref=e135]\n      - image\n      - menuitem \"Serena's 스노우스쿨\" [ref=e136]\n      - image\n      - menuitem \"덴탈코치님의 초대\" [ref=e137]\n      - image\n      - menuitem \"밴쿠버\" [ref=e138]\n      - image\n      - menuitem \"노스밴/웨스트밴\" [ref=e139]\n      - image\n      - menuitem \"버나비/뉴웨스트민스터 새 게시글\" [ref=e140]\n        - StaticText \"버나비/뉴웨스트민스터\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"코퀴틀람/포트 무디/포트 코퀴틀람 새 게시글\" [ref=e141]\n        - StaticText \"코퀴틀람/포트 무디/포트 코퀴틀람\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"써리/랭리 새 게시글\" [ref=e142]\n        - StaticText \"써리/랭리\"\n        - image \"새 게시글\"\n      - image\n      - menuitem \"리치몬드/델타\" [ref=e143]\n      - image\n      - menuitem \"메이플 릿지/피트 메도우\" [ref=e144]\n      - image\n      - menuitem \"아보츠포드/미션/칠리왁\" [ref=e145]\n      - image\n      - menuitem \"밴쿠버 아일랜드\" [ref=e146]\n      - image\n      - menuitem \"켈로나\" [ref=e147]\n      - image\n      - menuitem \"한국\" [ref=e148]\n      - image\n      - menuitem \"기타 지역\" [ref=e149]\n      - image\n      - menuitem \"자랑스러운 한국인\" [ref=e150]\n      - image\n      - menuitem \"코로나 바이러스\" [ref=e151]\n      - image\n      - menuitem \"후기/광고게시판\" [ref=e152]\n    - strong\n      - StaticText \"커뮤니티 쉼터\"\n    - list\n      - image\n      - menuitem \"신고 & 제안\" [ref=e153]\n      - image\n      - menuitem \"설문조사\" [ref=e154]\n      - image\n      - menuitem \"데일리 베스트\" [ref=e155]\n      - image\n      - menuitem \"자유게시판 새 게시글\" [ref=e156]\n        - StaticText \"자유게시판\"\n        - image \"새 게시글\"\n    - button \"지난 Q&A 게시판 그룹펴기\" [ref=e157]\n      - strong\n        - StaticText \"지난 Q&A 게시판\"\n      - StaticText \"그룹펴기\"\n      - image\n    - strong\n      - StaticText \"스텝 게시판\"\n    - list\n      - image\n      - menuitem \"간편게시판\" [ref=e158]\n      - image\n      - menuitem \"Vault\" [ref=e159]\n      - image\n      - menuitem \"스텝방\" [ref=e160]\n      - image\n      - menuitem \"교민동정\" [ref=e161]\n      - image\n      - menuitem \"이공 법률\" [ref=e162]\n  - generic\n    - LayoutTable\n      - generic\n        - heading \"레스토랑\" [level=3, ref=e171]\n        - button \"즐겨찾는 게시판 설정\" [ref=e172]\n          - StaticText \"즐겨찾는 게시판 설정\"\n    - paragraph\n      - StaticText \"캐나다 지역 게시판입니다.\"\n    - generic\n      - checkbox \"공지 숨기기\" [checked=false, ref=e173]\n    - generic\n      - button \"카드형\" [ref=e163]\n        - image\n        - StaticText \"카드형\"\n      - button \"앨범형\" [ref=e164]\n        - image\n        - StaticText \"앨범형\"\n      - button \"목록형\" [ref=e165]\n        - image\n        - StaticText \"목록형\"\n    - button \"15개씩\" [ref=e166]\n      - StaticText \"15개씩\"\n      - image\n    - table \"게시글 목록\"\n      - caption\n        - StaticText \"게시글 목록\"\n      - rowgroup\n        - row\n          - columnheader \"제목\" [ref=e320]\n          - columnheader \"작성자\" [ref=e321]\n          - columnheader \"작성일\" [ref=e322]\n          - columnheader \"조회수\" [ref=e323]\n          - columnheader \"좋아요 많은 순서로 보기 선택\" [ref=e324]\n            - button \"좋아요 많은 순서로 보기 선택\" [ref=e330]\n              - StaticText \"좋아요\"\n              - StaticText \"많은 순서로 보기 선택\"\n      - row\n        - cell \"필독\" [ref=e174]\n          - emphasis\n            - strong\n              - StaticText \"필독\"\n        - cell \"등업 방법 안내댓글수 [9,959]\" [ref=e175]\n          - generic\n            - link \"등업 방법 안내\" [ref=e331]\n            - link \"댓글수 [9,959]\" [ref=e332]\n              - StaticText \"댓글수\"\n              - StaticText \"[9,959]\"\n        - cell \"푸저 멤버등급 : 매니저\" [ref=e176]\n          - button \"푸저 멤버등급 : 매니저\" [expanded=false, ref=e333]\n            - StaticText \"푸저\"\n            - StaticText \"멤버등급 : 매니저\"\n        - cell \"2018.02.27.\" [ref=e177]\n        - cell \"26만\" [ref=e178]\n        - cell \"519\" [ref=e179]\n      - row\n        - cell \"필독\" [ref=e180]\n          - emphasis\n            - strong\n              - StaticText \"필독\"\n        - cell \"밴쿠버 한인 업소록댓글수 [2,718]\" [ref=e181]\n          - generic\n            - link \"밴쿠버 한인 업소록\" [ref=e334]\n            - link \"댓글수 [2,718]\" [ref=e335]\n              - StaticText \"댓글수\"\n              - StaticText \"[2,718]\"\n        - cell \"푸저 멤버등급 : 매니저\" [ref=e182]\n          - button \"푸저 멤버등급 : 매니저\" [expanded=false, ref=e336]\n            - StaticText \"푸저\"\n            - StaticText \"멤버등급 : 매니저\"\n        - cell \"2017.08.05.\" [ref=e183]\n        - cell \"21만\" [ref=e184]\n        - cell \"677\" [ref=e185]\n      - row\n        - cell \"공지\" [ref=e186]\n          - emphasis\n            - strong\n              - StaticText \"공지\"\n        - cell \"장터 게시판 이용 가능 등급이 '꿈꾸는 회원'에서 '행복한 회원'으로 변경되었습니다.댓글수 [712]\" [ref=e187]\n          - generic\n            - link \"장터 게시판 이용 가능 등급이 '꿈꾸는 회원'에서 '행복한 회원'으로 변경되었습니다.\" [ref=e337]\n            - link \"댓글수 [712]\" [ref=e338]\n              - StaticText \"댓글수\"\n              - StaticText \"[712]\"\n        - cell \"푸저 멤버등급 : 매니저\" [ref=e188]\n          - button \"푸저 멤버등급 : 매니저\" [expanded=false, ref=e339]\n            - StaticText \"푸저\"\n            - StaticText \"멤버등급 : 매니저\"\n        - cell \"2023.01.05.\" [ref=e189]\n        - cell \"1.1만\" [ref=e190]\n        - cell \"64\" [ref=e191]\n      - row\n        - cell \"공지\" [ref=e192]\n          - emphasis\n            - strong\n              - StaticText \"공지\"\n        - cell \"헬로밴은 편을 나눠서 논쟁을 하기 위한 곳이 아닙니다.댓글수 [10,766]\" [ref=e193]\n          - generic\n            - link \"헬로밴은 편을 나눠서 논쟁을 하기 위한 곳이 아닙니다.\" [ref=e340]\n            - link \"댓글수 [10,766]\" [ref=e341]\n              - StaticText \"댓글수\"\n              - StaticText \"[10,766]\"\n        - cell \"푸저 멤버등급 : 매니저\" [ref=e194]\n          - button \"푸저 멤버등급 : 매니저\" [expanded=false, ref=e342]\n            - StaticText \"푸저\"\n            - StaticText \"멤버등급 : 매니저\"\n        - cell \"2022.09.13.\" [ref=e195]\n        - cell \"2.2만\" [ref=e196]\n        - cell \"179\" [ref=e197]\n      - row\n        - cell \"공지\" [ref=e198]\n          - emphasis\n            - strong\n              - StaticText \"공지\"\n        - cell \"장터 이용 삼진 아웃제댓글수 [883]\" [ref=e199]\n          - generic\n            - link \"장터 이용 삼진 아웃제\" [ref=e343]\n            - link \"댓글수 [883]\" [ref=e344]\n              - StaticText \"댓글수\"\n              - StaticText \"[883]\"\n        - cell \"푸저 멤버등급 : 매니저\" [ref=e200]\n          - button \"푸저 멤버등급 : 매니저\" [expanded=false, ref=e345]\n            - StaticText \"푸저\"\n            - StaticText \"멤버등급 : 매니저\"\n        - cell \"2020.05.25.\" [ref=e201]\n        - cell \"3만\" [ref=e202]\n        - cell \"111\" [ref=e203]\n      - row\n        - cell \"공지\" [ref=e204]\n          - emphasis\n            - strong\n              - StaticText \"공지\"\n        - cell \"랭리 참나무 한식당 영업 안내 +프로모션 소개댓글수 [2]\" [ref=e205]\n          - generic\n            - link \"랭리 참나무 한식당 영업 안내 +프로모션 소개\" [ref=e346]\n            - link \"댓글수 [2]\" [ref=e347]\n              - StaticText \"댓글수\"\n              - StaticText \"[2]\"\n        - cell \"캘리블리 멤버등급 : 즐거운 회원\" [ref=e206]\n          - button \"캘리블리 멤버등급 : 즐거운 회원\" [expanded=false, ref=e348]\n            - StaticText \"캘리블리\"\n            - StaticText \"멤버등급 : 즐거운 회원\"\n        - cell \"2026.03.05.\" [ref=e207]\n        - cell \"1,068\" [ref=e208]\n        - cell \"25\" [ref=e209]\n      - row\n        - cell \"724741\" [ref=e210]\n        - cell \"포코 유명한 brewery + 윙 맛집 사진 댓글수 [2]\" [ref=e211]\n          - generic\n            - link \"포코 유명한 brewery + 윙 맛집\" [ref=e349]\n            - image \"사진\"\n            - link \"댓글수 [2]\" [ref=e350]\n              - StaticText \"댓글수\"\n              - StaticText \"[2]\"\n        - cell \"무사태평 멤버등급 : 행복한 회원\" [ref=e212]\n          - button \"무사태평 멤버등급 : 행복한 회원\" [expanded=false, ref=e351]\n            - StaticText \"무사태평\"\n            - StaticText \"멤버등급 : 행복한 회원\"\n        - cell \"2026.09.09.\" [ref=e213]\n        - cell \"373\" [ref=e214]\n        - cell \"11\" [ref=e215]\n      - row\n        - cell \"724740\" [ref=e216]\n        - cell \"딤섬 맛있다? 요리도 맛있다! 사진 댓글수 [2]\" [ref=e217]\n          - generic\n            - link \"딤섬 맛있다? 요리도 맛있다!\" [ref=e352]\n            - image \"사진\"\n            - link \"댓글수 [2]\" [ref=e353]\n              - StaticText \"댓글수\"\n              - StaticText \"[2]\"\n        - cell \"지서자매맘 멤버등급 : 행복한 회원\" [ref=e218]\n          - button \"지서자매맘 멤버등급 : 행복한 회원\" [expanded=false, ref=e354]\n            - StaticText \"지서자매맘\"\n            - StaticText \"멤버등급 : 행복한 회원\"\n        - cell \"2026.09.09.\" [ref=e219]\n        - cell \"290\" [ref=e220]\n        - cell \"7\" [ref=e221]\n      - row\n        - cell \"724617\" [ref=e222]\n        - cell \"Phnom Penh 맛집 후기 사진 댓글수 [5]\" [ref=e223]\n          - generic\n            - link \"Phnom Penh 맛집 후기\" [ref=e355]\n            - image \"사진\"\n            - link \"댓글수 [5]\" [ref=e356]\n              - StaticText \"댓글수\"\n              - StaticText \"[5]\"\n        - cell \"후추참깨 멤버등급 : 꿈꾸는 회원\" [ref=e224]\n          - button \"후추참깨 멤버등급 : 꿈꾸는 회원\" [expanded=false, ref=e357]\n            - StaticText \"후추참깨\"\n            - StaticText \"멤버등급 : 꿈꾸는 회원\"\n        - cell \"2026.09.08.\" [ref=e225]\n        - cell \"225\" [ref=e226]\n        - cell \"6\" [ref=e227]\n      - row\n        - cell \"724605\" [ref=e228]\n        - cell \"락사 맛집 추천! Deer Garden 🦌 사진 댓글수 [9]\" [ref=e229]\n          - generic\n            - link \"락사 맛집 추천! Deer Garden 🦌 \" [ref=e358]\n            - image \"사진\"\n            - link \"댓글수 [9]\" [ref=e359]\n              - StaticText \"댓글수\"\n              - StaticText \"[9]\"\n        - cell \"참치a 멤버등급 : 행복한 회원\" [ref=e230]\n          - button \"참치a 멤버등급 : 행복한 회원\" [expanded=false, ref=e360]\n            - StaticText \"참치a\"\n            - StaticText \"멤버등급 : 행복한 회원\"\n        - cell \"2026.09.08.\" [ref=e231]\n        - cell \"281\" [ref=e232]\n        - cell \"24\" [ref=e233]\n      - row\n        - cell \"724504\" [ref=e234]\n        - cell \"캐나다에선 중국집 어디가세요? 탕수육 찐만두는 이집 추천~~~♡ 사진 댓글수 [9]\" [ref=e235]\n          - generic\n            - link \"캐나다에선 중국집 어디가세요? 탕수육 찐만두는 이집 추천~~~♡\" [ref=e361]\n            - image \"사진\"\n            - link \"댓글수 [9]\" [ref=e362]\n              - StaticText \"댓글수\"\n              - StaticText \"[9]\"\n        - cell \"아이둘 멤버등급 : 행복한 회원\" [ref=e236]\n          - button \"아이둘 멤버등급 : 행복한 회원\" [expanded=false, ref=e363]\n            - StaticText \"아이둘\"\n            - StaticText \"멤버등급 : 행복한 회원\"\n        - cell \"2026.09.07.\" [ref=e237]\n        - cell \"759\" [ref=e238]\n        - cell \"6\" [ref=e239]\n      - row\n        - cell \"724467\" [ref=e240]\n        - cell \"Matsuzushi 포트무디 사진 댓글수 [3]\" [ref=e241]\n          - generic\n            - link \"Matsuzushi 포트무디\" [ref=e364]\n            - image \"사진\"\n            - link \"댓글수 [3]\" [ref=e365]\n              - StaticText \"댓글수\"\n              - StaticText \"[3]\"\n        - cell \"사랑비 멤버등급 : 라이프 회원\" [ref=e242]\n          - button \"사랑비 멤버등급 : 라이프 회원\" [expanded=false, ref=e366]\n            - StaticText \"사랑비\"\n            - StaticText \"멤버등급 : 라이프 회원\"\n        - cell \"2026.09.07.\" [ref=e243]\n        - cell \"270\" [ref=e244]\n        - cell \"3\" [ref=e245]\n      - row\n        - cell \"724442\" [ref=e246]\n        - cell \"[ 맛집후기 ] 서브웨이 어플이랑 쿠폰으로 절약하셈 🥪😋🥗 사진 댓글수 [2]\" [ref=e247]\n          - generic\n            - link \"[ 맛집후기 ] 서브웨이 어플이랑 쿠폰으로 절약하셈 🥪😋🥗\" [ref=e367]\n            - image \"사진\"\n            - link \"댓글수 [2]\" [ref=e368]\n              - StaticText \"댓글수\"\n              - StaticText \"[2]\"\n        - cell \"도라애몽 멤버등급 : 행복한 회원\" [ref=e248]\n          - button \"도라애몽 멤버등급 : 행복한 회원\" [expanded=false, ref=e369]\n            - StaticText \"도라애몽\"\n            - StaticText \"멤버등급 : 행복한 회원\"\n        - cell \"2026.09.07.\" [ref=e249]\n        - cell \"450\" [ref=e250]\n        - cell \"8\" [ref=e251]\n      - row\n        - cell \"724345\" [ref=e252]\n        - cell \"Myst 랭리 사진 댓글수 [1]\" [ref=e253]\n          - generic\n            - link \"Myst 랭리\" [ref=e370]\n            - image \"사진\"\n            - link \"댓글수 [1]\" [ref=e371]\n              - StaticText \"댓글수\"\n              - StaticText \"[1]\"\n        - cell \"샤론 멤버등급 : 행복한 회원\" [ref=e254]\n          - button \"샤론 멤버등급 : 행복한 회원\" [expanded=false, ref=e372]\n            - StaticText \"샤론\"\n            - StaticText \"멤버등급 : 행복한 회원\"\n        - cell \"2026.09.06.\" [ref=e255]\n        - cell \"388\" [ref=e256]\n        - cell \"0\" [ref=e257]\n      - row\n        - cell \"724342\" [ref=e258]\n        - cell \"타이푸드 레스토랑_랭리 사진 댓글수 [1]\" [ref=e259]\n          - generic\n            - link \"타이푸드 레스토랑_랭리\" [ref=e373]\n            - image \"사진\"\n            - link \"댓글수 [1]\" [ref=e374]\n              - StaticText \"댓글수\"\n              - StaticText \"[1]\"\n        - cell \"샤론 멤버등급 : 행복한 회원\" [ref=e260]\n          - button \"샤론 멤버등급 : 행복한 회원\" [expanded=false, ref=e375]\n            - StaticText \"샤론\"\n            - StaticText \"멤버등급 : 행복한 회원\"\n        - cell \"2026.09.06.\" [ref=e261]\n        - cell \"269\" [ref=e262]\n        - cell \"6\" [ref=e263]\n      - row\n        - cell \"724275\" [ref=e264]\n        - cell \"베트남쌀국수 맛집 사진\" [ref=e265]\n          - generic\n            - link \"베트남쌀국수 맛집\" [ref=e376]\n            - image \"사진\"\n        - cell \"감자 9312 멤버등급 : 꿈꾸는 회원\" [ref=e266]\n          - button \"감자 9312 멤버등급 : 꿈꾸는 회원\" [expanded=false, ref=e377]\n            - StaticText \"감자 9312\"\n            - StaticText \"멤버등급 : 꿈꾸는 회원\"\n        - cell \"2026.09.05.\" [ref=e267]\n        - cell \"296\" [ref=e268]\n        - cell \"5\" [ref=e269]\n      - row\n        - cell \"724231\" [ref=e270]\n        - cell \"로히드 새로 오픈한 일본 라멘 식당 Bodo Japanese Rojiura Ramen 사진 댓글수 [6]\" [ref=e271]\n          - generic\n            - link \"로히드 새로 오픈한 일본 라멘 식당 Bodo Japanese Rojiura Ramen\" [ref=e378]\n            - image \"사진\"\n            - link \"댓글수 [6]\" [ref=e379]\n              - StaticText \"댓글수\"\n              - StaticText \"[6]\"\n        - cell \"aus 멤버등급 : 행복한 회원\" [ref=e272]\n          - button \"aus 멤버등급 : 행복한 회원\" [expanded=false, ref=e380]\n            - StaticText \"aus\"\n            - StaticText \"멤버등급 : 행복한 회원\"\n        - cell \"2026.09.05.\" [ref=e273]\n        - cell \"611\" [ref=e274]\n        - cell \"19\" [ref=e275]\n      - row\n        - cell \"724148\" [ref=e276]\n        - cell \"로히드 연경에 다녀왔어요. 사진 댓글수 [4]\" [ref=e277]\n          - generic\n            - link \"로히드 연경에 다녀왔어요.\" [ref=e381]\n            - image \"사진\"\n            - link \"댓글수 [4]\" [ref=e382]\n              - StaticText \"댓글수\"\n              - StaticText \"[4]\"\n        - cell \"세나 멤버등급 : 행복한 회원\" [ref=e278]\n          - button \"세나 멤버등급 : 행복한 회원\" [expanded=false, ref=e383]\n            - StaticText \"세나\"\n            - StaticText \"멤버등급 : 행복한 회원\"\n        - cell \"2026.09.04.\" [ref=e279]\n        - cell \"535\" [ref=e280]\n        - cell \"3\" [ref=e281]\n      - row\n        - cell \"724147\" [ref=e282]\n        - cell \"다운타운 Kirin 사진 댓글수 [1]\" [ref=e283]\n          - generic\n            - link \"다운타운 Kirin\" [ref=e384]\n            - image \"사진\"\n            - link \"댓글수 [1]\" [ref=e385]\n              - StaticText \"댓글수\"\n              - StaticText \"[1]\"\n        - cell \"썬플 멤버등급 : 행복한 회원\" [ref=e284]\n          - button \"썬플 멤버등급 : 행복한 회원\" [expanded=false, ref=e386]\n            - StaticText \"썬플\"\n            - StaticText \"멤버등급 : 행복한 회원\"\n        - cell \"2026.09.04.\" [ref=e285]\n        - cell \"158\" [ref=e286]\n        - cell \"2\" [ref=e287]\n      - row\n        - cell \"723887\" [ref=e288]\n        - cell \"서리 길포드 중식당 \\\"취홍\\\" 다녀왔어요 사진\" [ref=e289]\n          - generic\n            - link \"서리 길포드 중식당 \\\"취홍\\\" 다녀왔어요\" [ref=e387]\n            - image \"사진\"\n        - cell \"코크레니아 멤버등급 : 행복한 회원\" [ref=e290]\n          - button \"코크레니아 멤버등급 : 행복한 회원\" [expanded=false, ref=e388]\n            - StaticText \"코크레니아\"\n            - StaticText \"멤버등급 : 행복한 회원\"\n        - cell \"2026.09.02.\" [ref=e291]\n        - cell \"245\" [ref=e292]\n        - cell \"4\" [ref=e293]\n      - row\n        - cell \"723852\" [ref=e294]\n        - cell \"다운타운 치킨버거 맛집 Frying Pan on Denman 사진\" [ref=e295]\n          - generic\n            - link \"다운타운 치킨버거 맛집 Frying Pan on Denman\" [ref=e389]\n            - image \"사진\"\n        - cell \"옹키키 멤버등급 : 행복한 회원\" [ref=e296]\n          - button \"옹키키 멤버등급 : 행복한 회원\" [expanded=false, ref=e390]\n            - StaticText \"옹키키\"\n            - StaticText \"멤버등급 : 행복한 회원\"\n        - cell \"2026.09.02.\" [ref=e297]\n        - cell \"158\" [ref=e298]\n        - cell \"2\" [ref=e299]\n    - generic\n      - generic\n        - strong\n          - StaticText \"페이징 이동\"\n        - button \"1\" [ref=e300]\n        - button \"2\" [ref=e301]\n        - button \"3\" [ref=e302]\n        - button \"4\" [ref=e303]\n        - button \"5\" [ref=e304]\n        - button \"6\" [ref=e305]\n        - button \"7\" [ref=e306]\n        - button \"8\" [ref=e307]\n        - button \"9\" [ref=e308]\n        - button \"10\" [ref=e309]\n        - button \"다음\" [ref=e310]\n          - image\n      - generic\n        - button \"전체기간\" [ref=e325]\n          - StaticText \"전체기간\"\n          - image\n        - button \"제목만\" [ref=e326]\n          - StaticText \"제목만\"\n          - image\n        - generic\n          - textbox \"검색어를 입력해주세요\" [ref=e327]\n          - button \"검색\" [ref=e328]\n            - image\n    - generic [ref=e167] clickable [onclick]\n      - Iframe \"AD\" [ref=e329] focusable [tabindex]\n        - generic\n          - link \"광고 이미지 국내 이산가족 위로 캠페인 \\\"살아온 흔적 하나만이라도 남기고 싶어...\\\" 이산가족들이 눈물 속에서 세상을 떠나지 않도록 광고 이미지 대한적십자사 더 알아보기\" [ref=e393]\n            - image \"광고 이미지\"\n            - strong\n              - StaticText \"국내 이산가족 위로 캠페인\"\n            - paragraph\n              - StaticText \"\\\"살아온 흔적 하나만이라도 남기고 싶어...\\\"\"\n            - paragraph\n              - StaticText \"이산가족들이 눈물 속에서 세상을 떠나지 않도록\"\n            - image \"광고 이미지\"\n            - StaticText \"대한적십자사\"\n            - StaticText \"더 알아보기\"\n          - button \"AD\" [ref=e394]\n            - StaticText \"AD\"\n  - contentinfo\n    - heading \"즐거운 캐나다 라이프 ~ 헬로! 밴쿠버\" [level=2, ref=e3]\n    - link \"https://cafe.naver.com/yoehang\" [ref=e4]\n      - StaticText \"https://cafe.naver.com/yoehang\"\n    - link \"NAVER 카페\" [ref=e5]\n      - StaticText \"NAVER 카페\"\n      - image\n  - alert",
+    "browserPageId": "677200c6-ecce-419b-810d-3d21e81c4d11"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

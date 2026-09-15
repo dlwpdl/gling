@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-09-11T09:38:57.943501-07:00",
+  "closed_task_owned": [
+    {
+      "name": "threads",
+      "page": "bb4fd529-be19-48f5-bfde-bf1d9d9a56b3",
+      "status": "closed"
+    },
+    {
+      "name": "instagram",
+      "page": "d70dc524-70b0-4c8e-83a6-a9a15adec974",
+      "status": "closed"
+    },
+    {
+      "name": "gmail",
+      "page": "85c9c692-9d58-427a-a4e4-493ac0876503",
+      "status": "closed"
+    },
+    {
+      "name": "landing",
+      "page": "341f0d18-4eb2-4783-9fca-f4a51d6b167c",
+      "status": "closed"
+    },
+    {
+      "name": "report",
+      "page": "60962fd8-32a7-403c-b28f-acaf92a21b21",
+      "status": "closed"
+    }
+  ],
+  "other_task_tabs": "preserved",
+  "existing_blocker_tab": "Instagram profile link editor preserved",
+  "report_note": "Viewed and then closed with other completed task-owned tabs; latest HTML remains available locally."
+}

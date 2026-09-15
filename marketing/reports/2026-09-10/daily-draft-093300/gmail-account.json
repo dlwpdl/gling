@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-09-10T09:33:58.993513-07:00",
+  "id": "7e9771cb-4314-45b0-87d9-88a705c6e0ee",
+  "ok": true,
+  "result": {
+    "result": "{\"title\":\"받은편지함 (5) - eunsense0308@gmail.com - Gmail\",\"url\":\"https://mail.google.com/mail/u/2/#inbox\",\"accountLabels\":[\"Google 계정: eun sense  \\n(eunsense0308@gmail.com)\"]}",
+    "origin": "https://mail.google.com/mail/u/2/#inbox"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

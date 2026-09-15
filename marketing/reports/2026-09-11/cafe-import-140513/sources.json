@@ -1,0 +1,99 @@
+[
+  {
+    "id": "CAFE-PHNOM",
+    "name": "헬로! 밴쿠버 · Phnom Penh 맛집 후기",
+    "url": "https://cafe.naver.com/yoehang/724617",
+    "published_at": "2026-09-08T11:13:00",
+    "time_zone": null,
+    "observed_at": "2026-09-11T14:07:10.792259-07:00",
+    "scope": "로그인 후 본문 5개 비어 있지 않은 문단; 전체 추출 문단 5개",
+    "used_for": "식당 주제 발견만. 맛·대기·주차·방문 경험은 미전재",
+    "access": "readable"
+  },
+  {
+    "id": "CAFE-DEER",
+    "name": "헬로! 밴쿠버 · 락사 맛집 추천! Deer Garden",
+    "url": "https://cafe.naver.com/yoehang/724605",
+    "published_at": "2026-09-08T08:33:00",
+    "time_zone": null,
+    "observed_at": "2026-09-11T14:07:12.802500-07:00",
+    "scope": "로그인 후 본문 7개 문단",
+    "used_for": "메뉴 선택 방식 발견 후 공식 메뉴로 검증. 회원 주문·평가는 미전재",
+    "access": "readable"
+  },
+  {
+    "id": "CAFE-BODO",
+    "name": "헬로! 밴쿠버 · Bodo Japanese Rojiura Ramen",
+    "url": "https://cafe.naver.com/yoehang/724231",
+    "published_at": "2026-09-05T08:40:00",
+    "time_zone": null,
+    "observed_at": "2026-09-11T14:07:15.649285-07:00",
+    "scope": "로그인 후 본문 6개 문단",
+    "used_for": "식당 주제 발견. 방문·맛·응대 경험과 기간성 프로모션 미전재",
+    "access": "readable"
+  },
+  {
+    "id": "OFF-PHNOM",
+    "name": "Phnom Penh Restaurant 공식 Instagram",
+    "url": "https://www.instagram.com/phnompenh.restaurant/",
+    "observed_at": "2026-09-11T14:15:24.378149-07:00",
+    "scope": "공식 프로필 소개",
+    "facts": [
+      "식당 주소 244 E. Georgia St.",
+      "1 East Broadway는 공식 DoorDash satellite kitchen으로 별도 안내"
+    ],
+    "reuse_permission": null
+  },
+  {
+    "id": "MICHELIN-PHNOM",
+    "name": "MICHELIN Guide · Phnom Penh",
+    "url": "https://guide.michelin.com/ca/en/british-columbia/ca-vancouver/restaurant/phnom-penh",
+    "observed_at": "2026-09-11T14:16:13.238333-07:00",
+    "scope": "무료로 보이는 식당 기본 정보만",
+    "facts": [
+      "244 E. Georgia St., Vancouver, V6A 1Z7",
+      "Vietnamese, Cambodian 분류"
+    ],
+    "excluded": "접근되지 않은 전체 리뷰·별점/수상 등급은 원고에 사용하지 않음"
+  },
+  {
+    "id": "OFF-DEER-MENU",
+    "name": "Deer Garden 공식 Signature 메뉴",
+    "url": "https://www.deergarden.ca/signature",
+    "observed_at": "2026-09-11T14:12:23.936128-07:00",
+    "scope": "공식 메뉴 이미지의 Orca 시각 확인",
+    "facts": [
+      "Soup base + toppings + noodles + drink 선택 구조",
+      "Malay laksa soup 표기",
+      "토핑 두 가지 또는 seafood combo 선택",
+      "굵은 쌀국수 및 우동 선택지"
+    ],
+    "excluded": "메뉴 이미지에 보이는 $18.25는 적용 지점·갱신일 미확인으로 원고에서 제외"
+  },
+  {
+    "id": "OFF-DEER-LOC",
+    "name": "Deer Garden 공식 홈페이지",
+    "url": "https://www.deergarden.ca/",
+    "observed_at": "2026-09-11T14:10:44.941872-07:00",
+    "scope": "현재 위치 카드",
+    "facts": [
+      "8580 Alexandra Rd #2015, Richmond",
+      "6200 River Rd, Richmond",
+      "6270 Fraser St, Vancouver"
+    ],
+    "excluded": "장식 헤더의 옛 지점 이름은 사용하지 않음"
+  },
+  {
+    "id": "OFF-BODO",
+    "name": "Bodo Ramen 공식 소개 게시물",
+    "url": "https://www.instagram.com/p/DcoXOu2FLTK/",
+    "published_date_display": "8월 29일",
+    "observed_at": "2026-09-11T14:15:46.726814-07:00",
+    "scope": "bodoramen.coquitlam 자체 작성 소개 캡션; 댓글·협찬 크리에이터 후기 제외",
+    "facts": [
+      "501 North Road, Coquitlam, BC V3J 1N7",
+      "Tonkotsu Ramen, Prawn Ramen, Teriyaki Chicken, Japanese Curry 소개"
+    ],
+    "reuse_permission": null
+  }
+]

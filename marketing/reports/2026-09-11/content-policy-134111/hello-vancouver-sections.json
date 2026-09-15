@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-09-11T13:48:56.530717-07:00",
+  "id": "1e3f43db-be01-4139-a210-c17a0835d5ea",
+  "ok": true,
+  "result": {
+    "result": "{\"title\":\"즐거운 캐나다 라이프 ~ 헬로! 밴쿠버 : 네이버 카페\",\"url\":\"https://cafe.naver.com/yoehang\",\"links\":[{\"text\":\"레스토랑\",\"url\":\"https://cafe.naver.com/ArticleList.nhn?search.clubid=20907486&search.menuid=111&search.boardtype=L\"},{\"text\":\"카페 & 베이커리\",\"url\":\"https://cafe.naver.com/ArticleList.nhn?search.clubid=20907486&search.menuid=55&search.boardtype=L\"},{\"text\":\"레스토랑\",\"url\":\"https://cafe.naver.com/ArticleList.nhn?search.clubid=20907486&search.menuid=111&search.boardtype=L\"},{\"text\":\"카페 & 베이커리\",\"url\":\"https://cafe.naver.com/ArticleList.nhn?search.clubid=20907486&search.menuid=55&search.boardtype=L\"},{\"text\":\"맛집 정보 \",\"url\":\"https://cafe.naver.com/ArticleList.nhn?search.clubid=20907486&search.menuid=168&search.boardtype=L\"},{\"text\":\"\\n\\t\\t\\t\\t\\t\\t\\t\\t맛집 Q&A\\n\\t\\t\\t\\t\\t\\t\\t\",\"url\":\"https://cafe.naver.com/ArticleList.nhn?search.clubid=20907486&search.menuid=192&search.boardtype=L\"}],\"frames\":[{\"name\":\"\",\"src\":\"\"},{\"name\":\"\",\"src\":\"https://cafe.naver.com/yoehang\"},{\"name\":\"padding\",\"src\":\"\"},{\"name\":\"padding\",\"src\":\"\"},{\"name\":\"padding\",\"src\":\"\"},{\"name\":\"padding\",\"src\":\"\"},{\"name\":\"\",\"src\":\"\"},{\"name\":\"cafe_main\",\"src\":\"https://cafe.naver.com/MyCafeIntro.nhn?clubid=20907486\"},{\"name\":\"cafe_check\",\"src\":\"\"},{\"name\":\"\",\"src\":\"\"},{\"name\":\"checkFrame\",\"src\":\"\"},{\"name\":\"\",\"src\":\"\"}]}",
+    "origin": "https://cafe.naver.com/yoehang"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

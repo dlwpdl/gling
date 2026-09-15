@@ -1,0 +1,17 @@
+{
+  "name": "Instagram Ranking Explained",
+  "publisher": "Instagram / Adam Mosseri",
+  "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+  "published_at": "2023-05-31",
+  "observed_at": "2026-09-11T13:43:30.357594-07:00",
+  "scope": "Instagram 설명문; 글링 계정 제재 상태나 Threads 알고리즘 관측 아님",
+  "actual_observation": "피드·탐색·릴스 등 표면별 순위 체계와 추천 자격, Account Status를 통한 상태 확인을 설명한다. 직접 링크 자체가 자동 노출 제한을 일으킨다는 명시적 설명은 확인하지 못했다.",
+  "limitations": [
+    "2023년 설명으로 2026년 모든 랭킹 신호를 검증한 자료가 아님",
+    "링크가 불이익이 없다는 반대 인과도 증명하지 않음",
+    "글링 Account Status 또는 Threads 랭킹은 이번 내용 수정에서 재확인하지 않음"
+  ],
+  "evidence": "instagram-ranking.json",
+  "attempts": 1,
+  "status": "accessed"
+}

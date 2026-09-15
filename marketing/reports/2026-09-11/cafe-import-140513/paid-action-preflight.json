@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-09-11T14:11:18.052774-07:00",
+  "action": "기존 글링 프로젝트에 GL-A002·003·004 세 글 등록 시 기존 자동 안전검사 실행",
+  "status": "not_authorized",
+  "paid_calls_initiated_by_run": 0,
+  "provider": "OpenAI",
+  "model": "gpt-5-mini",
+  "currency": "USD",
+  "input_per_million_tokens": 0.25,
+  "cached_input_per_million_tokens": 0.025,
+  "output_per_million_tokens": 2.0,
+  "total_charge": null,
+  "terms": "실제 입력·출력 토큰 종량제. 현재 설정상 글당 실패 재시도 포함 최대 5회, 세 글 최대 15회. 요청 출력 토큰 제한 미설정으로 고정 총액 보장 없음. 기존 전체 안전 모니터링 유지.",
+  "price_source": "https://developers.openai.com/api/docs/models/gpt-5-mini",
+  "evidence": [
+    "app-preflight-combined.json",
+    "supabase/functions/safety-monitor/index.ts:124",
+    "supabase/migrations/0010_abuse_controls.sql:546"
+  ],
+  "confirmation_reason": "사용자의 모든 유료 행동 사전 금액·조건 확인 지시. 기존 게시 위임만으로 과금 승인 추정 불가."
+}

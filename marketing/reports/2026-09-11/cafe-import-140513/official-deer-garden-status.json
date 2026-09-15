@@ -1,0 +1,25 @@
+{
+  "observed_at": "2026-09-11T14:10:36.385993-07:00",
+  "exit_code": 0,
+  "response": {
+    "id": "0e813697-f153-45be-936f-9e6fc91b9e1c",
+    "ok": true,
+    "result": {
+      "tab": {
+        "browserPageId": "f5d5dfa5-aa3e-45fb-a3ef-90ca5f262013",
+        "index": 5,
+        "url": "https://www.deergarden.ca/",
+        "title": "Home | deergarden",
+        "active": false,
+        "loadError": null,
+        "certificateFailure": null,
+        "worktreeId": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+        "profileId": "08a4dd8b-db5a-4255-b587-9da0b94df934",
+        "profileLabel": "Gling"
+      }
+    },
+    "_meta": {
+      "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+    }
+  }
+}

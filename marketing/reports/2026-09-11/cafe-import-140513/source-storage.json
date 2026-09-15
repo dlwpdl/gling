@@ -1,0 +1,23 @@
+{
+  "private_capture_names": [
+    "official-deer-garden-readback.json",
+    "bodo-search-retry-result-links.json",
+    "openai-safety-price-readback.json",
+    "phnom-instagram-profile.json",
+    "official-phnom-http-evidence.json",
+    "bodo-official-search-readback.json",
+    "phnom-official-search-result-links.json",
+    "phnom-michelin-readback.json",
+    "official-phnom-instagram-post-readback.json",
+    "official-bodo-instagram-evidence.json",
+    "official-bodo-instagram-post-readback.json",
+    "phnom-official-search-readback.json",
+    "bodo-instagram-fresh.json",
+    "deer-signature-screen.png",
+    "deer-signature-evidence.json"
+  ],
+  "raw_directory": "Gling private operations/cafe-research/cafe-import-140513",
+  "raw_body_republished": false,
+  "cafe_photos_copied": false,
+  "notes": "공식 식당 게시물 열람 중 화면에 포함된 댓글은 분석·원고에 사용하지 않음. 로그인 정보·OTP 수집 없음."
+}

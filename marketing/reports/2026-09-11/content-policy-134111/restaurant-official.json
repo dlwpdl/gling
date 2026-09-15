@@ -1,0 +1,167 @@
+{
+  "observed_at": "2026-09-11T13:48:01.470452-07:00",
+  "id": "e50fdf18-c31c-46d6-87dc-e50c0654534f",
+  "ok": true,
+  "result": {
+    "origin": "https://www.maruhachi.ca/",
+    "refs": {
+      "e1": {
+        "name": "MARUHACHI RA-MEN MAIN SITE logo",
+        "role": "link"
+      },
+      "e10": {
+        "name": " Facebook ",
+        "role": "link"
+      },
+      "e11": {
+        "name": " Instagram ",
+        "role": "link"
+      },
+      "e12": {
+        "name": "MARUHACHI RA-MEN MAIN SITE logo",
+        "role": "link"
+      },
+      "e13": {
+        "name": "",
+        "role": "generic"
+      },
+      "e14": {
+        "name": "ONLINE PICKUP ORDERS",
+        "role": "button"
+      },
+      "e15": {
+        "name": "Get directions",
+        "role": "link"
+      },
+      "e16": {
+        "name": "Get directions",
+        "role": "link"
+      },
+      "e17": {
+        "name": "Get directions",
+        "role": "link"
+      },
+      "e18": {
+        "name": "Get directions",
+        "role": "link"
+      },
+      "e19": {
+        "name": "Get directions",
+        "role": "link"
+      },
+      "e2": {
+        "name": "ABOUT MARUHACHI RA-MEN",
+        "role": "heading"
+      },
+      "e20": {
+        "name": "Get directions",
+        "role": "link"
+      },
+      "e21": {
+        "name": "Get directions",
+        "role": "link"
+      },
+      "e22": {
+        "name": "Customer account",
+        "role": "button"
+      },
+      "e23": {
+        "name": "Maruhachi Ramen",
+        "role": "heading"
+      },
+      "e24": {
+        "name": "Maruhachi Westend -Location & Hours- ",
+        "role": "heading"
+      },
+      "e25": {
+        "name": "Maruhachi Central Library -Location & Hours- ",
+        "role": "heading"
+      },
+      "e26": {
+        "name": "Maruhachi GAIDEN -Location & Hours-",
+        "role": "heading"
+      },
+      "e27": {
+        "name": "Maruhachi Metrotown -Location & Hours-",
+        "role": "heading"
+      },
+      "e28": {
+        "name": "Maruhachi Richmond -Location & Hours-",
+        "role": "heading"
+      },
+      "e29": {
+        "name": "Maruhachi Coquitlam -Location & Hours-",
+        "role": "heading"
+      },
+      "e3": {
+        "name": "780 Bidwell Street, Vancouver, V6G 2J6, CA",
+        "role": "Iframe"
+      },
+      "e30": {
+        "name": "Maruhachi Surrey -Location & Hours-",
+        "role": "heading"
+      },
+      "e31": {
+        "name": "Locations & Hours",
+        "role": "heading"
+      },
+      "e32": {
+        "name": "HOME",
+        "role": "link"
+      },
+      "e33": {
+        "name": "ABOUT US",
+        "role": "link"
+      },
+      "e34": {
+        "name": "ONLINE PICKUP ORDERS",
+        "role": "link"
+      },
+      "e35": {
+        "name": "LOCATIONS & HOURS",
+        "role": "link"
+      },
+      "e36": {
+        "name": "MORE",
+        "role": "link"
+      },
+      "e37": {
+        "name": "CONTACT US",
+        "role": "link"
+      },
+      "e38": {
+        "name": "CAREER",
+        "role": "link"
+      },
+      "e4": {
+        "name": "270 Robson Street, Vancouver, V6B 0E7, CA",
+        "role": "Iframe"
+      },
+      "e5": {
+        "name": "2858 Main Street, Vancouver, V5T 0C1, CA",
+        "role": "Iframe"
+      },
+      "e6": {
+        "name": "5278 Kingsway, Burnaby, V5H 2E9, CA",
+        "role": "Iframe"
+      },
+      "e7": {
+        "name": "2780 Number 3 Road, Richmond, V6X 2B3, CA",
+        "role": "Iframe"
+      },
+      "e8": {
+        "name": "1190 Pinetree Way Coquitlam BC V3B 0A3",
+        "role": "Iframe"
+      },
+      "e9": {
+        "name": "9082 152 Street Surrey BC V3R 4E7",
+        "role": "Iframe"
+      }
+    },
+    "snapshot": "- generic\n  - generic\n    - banner\n      - generic\n        - generic\n          - generic\n            - link \"MARUHACHI RA-MEN MAIN SITE logo\" [ref=e12]\n              - image \"MARUHACHI RA-MEN MAIN SITE logo\"\n            - navigation\n              - list\n                - listitem [level=1]\n                  - link \"HOME\" [ref=e32]\n                - listitem [level=1]\n                  - link \"ABOUT US\" [ref=e33]\n                - listitem [level=1]\n                  - link \"ONLINE PICKUP ORDERS\" [ref=e34]\n                - listitem [level=1]\n                  - link \"LOCATIONS & HOURS\" [ref=e35]\n                - listitem [level=1]\n                  - link \"MORE\" [ref=e36]\n                  - list\n                    - listitem [level=2]\n                      - link \"CONTACT US\" [ref=e37]\n                        - StaticText \"CONTACT US\"\n                    - listitem [level=2]\n                      - link \"CAREER\" [ref=e38]\n                        - StaticText \"CAREER\"\n            - generic [ref=e13] clickable [cursor:pointer]\n              - button \"Customer account\" [ref=e22]\n                - image\n        - image\n          - heading \"Maruhachi Ramen\" [level=1, ref=e23]\n          - button \"ONLINE PICKUP ORDERS\" [ref=e14]\n            - paragraph\n              - StaticText \"ONLINE PICKUP ORDERS\"\n    - main\n      - generic\n        - heading \"ABOUT MARUHACHI RA-MEN\" [level=3, ref=e2]\n          - StaticText \"ABOUT MARUHACHI RA-MEN\"\n        - paragraph\n          - StaticText \"MARUHACHI RA-MEN, the pioneer of Tori-Paitan (Creamy Chicken broth) opened its first door in 2013 in Vancouver, Canada. Now many branches in region.\"\n          - LineBreak \"\\n\"\n          - LineBreak \"\\n\"\n          - StaticText \"Chicken is one of the universal foods that you can find in almost every culture, every country. This is how our signature Tori-Paitan (Creamy Chicken broth) was inspired and created, and being loved by many people from different background and cultures.\"\n          - LineBreak \"\\n\"\n          - LineBreak \"\\n\"\n          - StaticText \"We wish to continue to spread MARUHACHI RA-MEN more and more.\"\n          - LineBreak \"\\n\"\n        - generic\n          - heading \"Locations & Hours\" [level=3, ref=e31]\n            - StaticText \"Locations & Hours\"\n          - paragraph\n            - StaticText \"Please note: We do not accept table reservations\"\n            - LineBreak \"\\n\"\n            - StaticText \"(first-come, first-served only)\"\n            - strong\n              - StaticText \".\"\n        - Iframe \"780 Bidwell Street, Vancouver, V6G 2J6, CA\" [ref=e3]\n        - heading \"Maruhachi Westend -Location & Hours- \" [level=3, ref=e24]\n          - StaticText \"Maruhachi Westend\"\n          - LineBreak \"\\n\"\n          - StaticText \"-Location & Hours-\"\n          - LineBreak \"\\n\"\n        - generic\n          - paragraph\n            - StaticText \"Maruhachi Westend\"\n            - LineBreak \"\\n\"\n            - StaticText \"780 Bidwell Street\"\n            - LineBreak \"\\n\"\n            - StaticText \"Vancouver, BC V6G 2J6, CA\"\n          - link \"Get directions\" [ref=e15]\n            - paragraph\n              - StaticText \"Get directions\"\n        - paragraph\n          - StaticText \"Open 7 Days\"\n          - LineBreak \"\\n\"\n          - StaticText \"Sun - Thur 11:30 am - 9:30 pm\"\n          - LineBreak \"\\n\"\n          - StaticText \"Fri & Sat 11:30 am- 10:00 pm\"\n          - LineBreak \"\\n\"\n        - Iframe \"270 Robson Street, Vancouver, V6B 0E7, CA\" [ref=e4]\n        - heading \"Maruhachi Central Library -Location & Hours- \" [level=3, ref=e25]\n          - StaticText \"Maruhachi Central Library\"\n          - LineBreak \"\\n\"\n          - StaticText \"-Location & Hours-\"\n          - LineBreak \"\\n\"\n        - generic\n          - paragraph\n            - StaticText \"Maruhachi Central Library\"\n            - LineBreak \"\\n\"\n            - StaticText \"270 Robson Street\"\n            - LineBreak \"\\n\"\n            - StaticText \"Vancouver, BC V6B 0E7, CA\"\n            - LineBreak \"\\n\"\n          - link \"Get directions\" [ref=e16]\n            - paragraph\n              - StaticText \"Get directions\"\n        - paragraph\n          - StaticText \"Open 7 Days\"\n          - LineBreak \"\\n\"\n          - StaticText \"Sun - Thur 11:00 am - 9:30 pm\"\n          - LineBreak \"\\n\"\n          - StaticText \"Fri & Sat 11:00 am- 10:00 pm\"\n        - Iframe \"2858 Main Street, Vancouver, V5T 0C1, CA\" [ref=e5]\n        - heading \"Maruhachi GAIDEN -Location & Hours-\" [level=3, ref=e26]\n          - StaticText \"Maruhachi GAIDEN\"\n          - LineBreak \"\\n\"\n          - StaticText \"-Location & Hours-\"\n        - generic\n          - paragraph\n            - StaticText \"Maruhachi GAIDEN\"\n            - LineBreak \"\\n\"\n            - StaticText \"2858 Main St\"\n            - LineBreak \"\\n\"\n            - StaticText \"Vancouver, BC V5T 0C1, CA\"\n          - link \"Get directions\" [ref=e17]\n            - paragraph\n              - StaticText \"Get directions\"\n        - paragraph\n          - StaticText \"Open 7DAYS\"\n          - LineBreak \"\\n\"\n          - StaticText \"11:30 am - 9:00 pm\"\n          - LineBreak \"\\n\"\n          - LineBreak \"\\n\"\n          - StaticText \"Closed Holidays\"\n        - Iframe \"5278 Kingsway, Burnaby, V5H 2E9, CA\" [ref=e6]\n        - heading \"Maruhachi Metrotown -Location & Hours-\" [level=3, ref=e27]\n          - StaticText \"Maruhachi Metrotown\"\n          - LineBreak \"\\n\"\n          - StaticText \"-Location & Hours-\"\n        - generic\n          - paragraph\n            - StaticText \"Maruhachi Metrotown\"\n            - LineBreak \"\\n\"\n            - StaticText \"5278 Kingsway\"\n            - LineBreak \"\\n\"\n            - StaticText \"Burnaby, BC V5H 2E9, CA\"\n            - LineBreak \"\\n\"\n          - link \"Get directions\" [ref=e18]\n            - paragraph\n              - StaticText \"Get directions\"\n        - paragraph\n          - StaticText \"Open 7 Days\"\n          - LineBreak \"\\n\"\n          - StaticText \"11:30 am - 9:30 pm\"\n        - Iframe \"2780 Number 3 Road, Richmond, V6X 2B3, CA\" [ref=e7]\n        - heading \"Maruhachi Richmond -Location & Hours-\" [level=3, ref=e28]\n          - StaticText \"Maruhachi Richmond\"\n          - LineBreak \"\\n\"\n          - StaticText \"-Location & Hours-\"\n        - generic\n          - paragraph\n            - StaticText \"Maruhachi Richmond\"\n            - LineBreak \"\\n\"\n            - StaticText \"2780 Number 3 Road\"\n            - LineBreak \"\\n\"\n            - StaticText \"Richmond, BC V6X 2B3, CA\"\n          - link \"Get directions\" [ref=e19]\n            - paragraph\n              - StaticText \"Get directions\"\n        - paragraph\n          - StaticText \"Open 7 Days\"\n          - LineBreak \"\\n\"\n          - StaticText \"11:30 am - 9:30 pm\"\n          - LineBreak \"\\n\"\n        - Iframe \"1190 Pinetree Way Coquitlam BC V3B 0A3\" [ref=e8]\n        - heading \"Maruhachi Coquitlam -Location & Hours-\" [level=3, ref=e29]\n          - StaticText \"Maruhachi Coquitlam\"\n          - LineBreak \"\\n\"\n          - StaticText \"-Location & Hours-\"\n        - generic\n          - paragraph\n            - StaticText \"Maruhachi Coquitlam\"\n            - LineBreak \"\\n\"\n            - StaticText \"108-1190 Pinetree Way\"\n            - LineBreak \"\\n\"\n            - StaticText \"Coquitlam, BC V3B 0A3, CA\"\n          - link \"Get directions\" [ref=e20]\n            - paragraph\n              - StaticText \"Get directions\"\n        - generic\n          - paragraph\n            - StaticText \"Open 7 Days\"\n          - paragraph\n            - StaticText \"11:30 am - 9:00 pm\"\n        - Iframe \"9082 152 Street Surrey BC V3R 4E7\" [ref=e9]\n        - heading \"Maruhachi Surrey -Location & Hours-\" [level=3, ref=e30]\n          - StaticText \"Maruhachi Surrey\"\n          - LineBreak \"\\n\"\n          - StaticText \"-Location & Hours-\"\n        - generic\n          - paragraph\n            - StaticText \"Maruhachi Surrey\"\n            - LineBreak \"\\n\"\n            - StaticText \"9082 152 Street, Unit 2\"\n            - LineBreak \"\\n\"\n            - StaticText \"Surrey, BC V3R 4E7, CA\"\n          - link \"Get directions\" [ref=e21]\n            - paragraph\n              - StaticText \"Get directions\"\n        - paragraph\n          - StaticText \"Open 7 Days\"\n          - LineBreak \"\\n\"\n          - StaticText \"11:30 am - 9:30 pm\"\n    - contentinfo\n      - generic\n        - link \"MARUHACHI RA-MEN MAIN SITE logo\" [ref=e1]\n          - image \"MARUHACHI RA-MEN MAIN SITE logo\"\n        - navigation\n          - list\n        - generic\n          - link \" Facebook \" [ref=e10]\n            - image \" Facebook \"\n          - link \" Instagram \" [ref=e11]\n            - image \" Instagram \"",
+    "browserPageId": "06aa1500-4818-468c-9f2c-54f8dd648687"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

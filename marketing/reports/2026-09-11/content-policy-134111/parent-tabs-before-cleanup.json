@@ -1,0 +1,101 @@
+{
+  "observed_at": "2026-09-11T13:54:08.910364-07:00",
+  "tabs": [
+    {
+      "browserPageId": "007cb0b2-390d-4805-94b7-628fad64cd5a",
+      "index": 34,
+      "url": "https://www.instagram.com/accounts/edit/",
+      "title": "프로필 편집 • Instagram",
+      "active": false,
+      "loadError": null,
+      "certificateFailure": null,
+      "worktreeId": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+      "profileId": "08a4dd8b-db5a-4255-b587-9da0b94df934",
+      "profileLabel": "Gling"
+    },
+    {
+      "browserPageId": "6f11e5e4-031a-420f-a84d-67bd6302c6f7",
+      "index": 39,
+      "url": "http://127.0.0.1:8181/",
+      "title": "127.0.0.1:8181",
+      "active": false,
+      "loadError": null,
+      "certificateFailure": null,
+      "worktreeId": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+      "profileId": "default",
+      "profileLabel": "Default"
+    },
+    {
+      "browserPageId": "2fd4f132-f301-4a48-b7e0-7391023540b2",
+      "index": 46,
+      "url": "https://console.cloud.google.com/auth/branding?project=gling-app-dlwpdl",
+      "title": "Google Auth Platform – Gling – Google Cloud console",
+      "active": false,
+      "loadError": null,
+      "certificateFailure": null,
+      "worktreeId": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+      "profileId": "default",
+      "profileLabel": "Default"
+    },
+    {
+      "browserPageId": "02e76f34-365b-4fa5-ae77-71e82298e26b",
+      "index": 47,
+      "url": "https://appstoreconnect.apple.com/teams/ab1b2c1a-a575-42c3-9c0e-1caed52877b1/apps/6809273242/testflight/groups/d403db93-bfb8-42da-b542-5184101817e4",
+      "title": "App Store Connect",
+      "active": false,
+      "loadError": null,
+      "certificateFailure": null,
+      "worktreeId": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+      "profileId": "default",
+      "profileLabel": "Default"
+    },
+    {
+      "browserPageId": "0c7b7475-83bd-414f-abf4-3b388922cda5",
+      "index": 48,
+      "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+      "title": "Instagram Ranking Explained | How Our Algorithm Works | About Instagram",
+      "active": false,
+      "loadError": null,
+      "certificateFailure": null,
+      "worktreeId": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+      "profileId": "08a4dd8b-db5a-4255-b587-9da0b94df934",
+      "profileLabel": "Gling"
+    },
+    {
+      "browserPageId": "727b24b6-7a24-487e-a4cb-d9373511a514",
+      "index": 49,
+      "url": "https://www.google.com/search?q=%ED%97%AC%EB%A1%9C%EB%B0%B4%EC%BF%A0%EB%B2%84+%EB%84%A4%EC%9D%B4%EB%B2%84+%EC%B9%B4%ED%8E%98&sei=tGikarT8F_-r0PEPkrDsgQI",
+      "title": "헬로밴쿠버 네이버 카페 - Google 검색",
+      "active": false,
+      "loadError": null,
+      "certificateFailure": null,
+      "worktreeId": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+      "profileId": "08a4dd8b-db5a-4255-b587-9da0b94df934",
+      "profileLabel": "Gling"
+    },
+    {
+      "browserPageId": "677200c6-ecce-419b-810d-3d21e81c4d11",
+      "index": 50,
+      "url": "https://cafe.naver.com/f-e/cafes/20907486/menus/111?viewType=L",
+      "title": "레스토랑,즐거운 캐나다 라이프 ~ 헬로! 밴쿠버 : 네이버 카페",
+      "active": false,
+      "loadError": null,
+      "certificateFailure": null,
+      "worktreeId": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+      "profileId": "08a4dd8b-db5a-4255-b587-9da0b94df934",
+      "profileLabel": "Gling"
+    },
+    {
+      "browserPageId": "06aa1500-4818-468c-9f2c-54f8dd648687",
+      "index": 51,
+      "url": "https://www.maruhachi.ca/",
+      "title": "Vancouver's Best Creamy Chicken Ramen | MARUHACHI RA-MEN MAIN SITE",
+      "active": true,
+      "loadError": null,
+      "certificateFailure": null,
+      "worktreeId": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+      "profileId": "08a4dd8b-db5a-4255-b587-9da0b94df934",
+      "profileLabel": "Gling"
+    }
+  ]
+}

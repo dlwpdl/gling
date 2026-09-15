@@ -1,0 +1,31 @@
+{
+  "version": "0.9.3",
+  "strategy": "JsonCssExtractionStrategy.extract",
+  "schema": {
+    "name": "Naver Cafe text paragraphs",
+    "baseSelector": ".se-text-paragraph",
+    "fields": [
+      {
+        "name": "text",
+        "type": "text"
+      }
+    ]
+  },
+  "browser_transport": "Orca only; source DOM captured in Gling profile",
+  "standalone_browser_started": false,
+  "paid_llm_used": false,
+  "sources_processed": 3,
+  "paragraph_counts": [
+    6,
+    7,
+    5
+  ],
+  "source_urls": [
+    "https://cafe.naver.com/yoehang/724231",
+    "https://cafe.naver.com/yoehang/724605",
+    "https://cafe.naver.com/yoehang/724617"
+  ],
+  "first_schema_attempt": "nested list field returned empty; current installed extraction code inspected and paragraph selector verified",
+  "photos_copied": false,
+  "raw_storage": "private Gling operations directory; article bodies only"
+}

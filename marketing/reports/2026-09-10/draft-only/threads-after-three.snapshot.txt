@@ -1,0 +1,10 @@
+- dialog
+  - generic
+    - generic
+      - button "돌아가기" [ref=e1]
+        - image "돌아가기"
+      - heading "임시 저장본" [level=1, ref=e2]
+        - StaticText "임시 저장본"
+      - image "임시 저장본"
+      - StaticText "아직 임시 저장본이 없습니다"
+      - StaticText "임시 저장본이 여기에 표시됩니다."

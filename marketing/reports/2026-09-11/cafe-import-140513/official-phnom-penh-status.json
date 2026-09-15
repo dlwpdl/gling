@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-09-11T14:10:36.150876-07:00",
+  "exit_code": 1,
+  "response": {
+    "id": "412baa24-09ef-4218-a0a7-e825927183c6",
+    "ok": false,
+    "error": {
+      "code": "browser_tab_not_found",
+      "message": "Browser page cd7333d6-88e0-482f-b95d-53a0f2626c24 was not found"
+    },
+    "_meta": {
+      "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+    }
+  }
+}

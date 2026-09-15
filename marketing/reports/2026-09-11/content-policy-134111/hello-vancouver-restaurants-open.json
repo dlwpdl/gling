@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-09-11T13:49:27.738790-07:00",
+  "id": "e3d0bed8-e234-4831-a00a-bcb13e81c876",
+  "ok": true,
+  "result": {
+    "clicked": "e24"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "content_id": "GL-A002",
+    "source_page": "https://www.instagram.com/p/DElPpkMy_P3/",
+    "type": "official_restaurant_post",
+    "status": "candidate_only",
+    "permission": null,
+    "downloaded_for_reuse": false,
+    "attached": false,
+    "notes": "2025-01-08 식당 자체 게시물; 현재 메뉴 증거로 쓰지 않음. 홈페이지 후보는 주차 도메인."
+  },
+  {
+    "content_id": "GL-A003",
+    "source_page": "https://www.deergarden.ca/signature",
+    "asset_url": "https://static.wixstatic.com/media/49edba_9777202b830845f69625d47031d676b9~mv2.jpg",
+    "type": "official_menu_image_with_food_photo",
+    "status": "candidate_only",
+    "permission": null,
+    "downloaded_for_reuse": false,
+    "attached": false,
+    "notes": "Orca 화면으로 주문 구조 확인. 시각 확인용 화면은 비공개 연구 디렉터리만 보관."
+  },
+  {
+    "content_id": "GL-A004",
+    "source_page": "https://www.instagram.com/p/DcoXOu2FLTK/",
+    "type": "official_restaurant_intro_carousel",
+    "status": "candidate_only",
+    "permission": null,
+    "downloaded_for_reuse": false,
+    "attached": false,
+    "notes": "공식 자체 소개 게시물 후보. 협업 크리에이터 릴스는 제외."
+  }
+]

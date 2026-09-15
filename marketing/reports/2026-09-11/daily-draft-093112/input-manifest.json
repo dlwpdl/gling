@@ -1,0 +1,48 @@
+{
+  "observed_at": "2026-09-11T09:35:13.614708-07:00",
+  "canonical_root": "/Users/ash/Desktop/Git/unknown/mobile",
+  "files": [
+    {
+      "path": "/Users/ash/Desktop/Git/unknown/mobile/AGENTS.md",
+      "sha256": "5b867a94fbc667f3b5747d451e61e79beb7de2e5944a464de0ac29a8203313be"
+    },
+    {
+      "path": "/Users/ash/Desktop/Git/USER.md",
+      "sha256": "d0b58cce71c1dc7b47663515086daddd2eb12638a2224600fc8d800cf54664f5"
+    },
+    {
+      "path": "/Users/ash/.codex/memories/marketing-sales-playbook.md",
+      "sha256": "49cedce59eab99d89abca2e106809b39ae9f3721d23c9c41951ae5338a36c826"
+    },
+    {
+      "path": "/Users/ash/Desktop/Git/unknown/mobile/.claude/product-marketing-context.md",
+      "sha256": "e6f1337a908b7a83f9253288e479671279ac9715b5b8bc058db9d4238d55a320"
+    },
+    {
+      "path": "/Users/ash/Desktop/Git/unknown/mobile/marketing/launch-kit.md",
+      "sha256": "36090f20e99041daaaaf12a0891441159421ffdd91868f591f30016816607387"
+    },
+    {
+      "path": "/Users/ash/Desktop/Git/unknown/mobile/marketing/social-calendar.csv",
+      "sha256": "f14a1cde26e974c8d9d621ec6f315197087b253f96a11651c7f8c139f530c585"
+    },
+    {
+      "path": "/Users/ash/Desktop/Git/unknown/mobile/marketing/learning-2026-09-09-nick-saraev.md",
+      "sha256": "9180d3a815a64df33a108d39b7bd2666b8f2526ce51f3c184322bd13c653d063"
+    },
+    {
+      "path": "/Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-draft-093300.json",
+      "sha256": "da41f5b01bf017a824d4b9ef3150efdeaebb23726ed92a25efe5cfc94245fdf9"
+    },
+    {
+      "path": "/Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/draft-only-082840.json",
+      "sha256": "a3a35d86e546342c15197335e55ee026576f4bff3144ac23c0d60fc4c9b49cea"
+    }
+  ],
+  "period": {
+    "from": "2026-09-10T00:00:00-07:00",
+    "to_exclusive": "2026-09-11T00:00:00-07:00"
+  },
+  "mode": "local_drafts_only",
+  "primary_improvement": "GL-P005/006 도입을 밴쿠버 저녁 메뉴 상황에 연결. 기존 평가 전 GL-L001/003/005 본문 보존."
+}

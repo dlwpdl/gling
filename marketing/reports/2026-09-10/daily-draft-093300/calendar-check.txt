@@ -1,0 +1,1 @@
+PASS: 12 calendar rows; local consistency only, publication not verified

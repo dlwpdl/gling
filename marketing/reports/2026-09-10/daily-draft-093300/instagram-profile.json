@@ -1,0 +1,427 @@
+{
+  "observed_at": "2026-09-10T09:33:29.791278-07:00",
+  "id": "bbadbf81-3953-4e7e-bead-0f26855c2f2a",
+  "ok": true,
+  "result": {
+    "origin": "https://www.instagram.com/gling.app/",
+    "refs": {
+      "e1": {
+        "name": "",
+        "role": "generic"
+      },
+      "e10": {
+        "name": "알림",
+        "role": "link"
+      },
+      "e100": {
+        "name": "사진을 공유하면 회원님의 프로필에 표시됩니다. 사진 공유 사진을 공유하면 회원님의 프로필에 표시됩니다. 첫 사진 공유하기",
+        "role": "button"
+      },
+      "e101": {
+        "name": "비밀번호를 재설정하고 친구를 찾는 등 다양한 기능에 활용할 수 있도록 전화번호를 추가하세요. 전화번호 추가 비밀번호를 재설정하고 친구를 찾는 등 다양한 기능에 활용할 수 있도록 전화번호를 추가하세요. 전화번호 추가",
+        "role": "button"
+      },
+      "e102": {
+        "name": "첫 사진 공유하기",
+        "role": "button"
+      },
+      "e103": {
+        "name": "전화번호 추가",
+        "role": "button"
+      },
+      "e11": {
+        "name": "프로페셔널 대시보드",
+        "role": "link"
+      },
+      "e12": {
+        "name": "설정",
+        "role": "link"
+      },
+      "e13": {
+        "name": "Meta의 다른 앱",
+        "role": "link"
+      },
+      "e14": {
+        "name": "gling.app",
+        "role": "link"
+      },
+      "e15": {
+        "name": "옵션",
+        "role": "button"
+      },
+      "e16": {
+        "name": "밴쿠버·토론토의 오늘을 한국어로. 동네 이야기, 정착 질문, 취향이 닮은 이웃. 출시 준비 중 gling.ej-entertainment.com",
+        "role": "button"
+      },
+      "e17": {
+        "name": "Threads gling.app",
+        "role": "link"
+      },
+      "e18": {
+        "name": "Instagram",
+        "role": "link"
+      },
+      "e19": {
+        "name": "홈",
+        "role": "link"
+      },
+      "e2": {
+        "name": "메시지",
+        "role": "button"
+      },
+      "e20": {
+        "name": "새로운 게시물",
+        "role": "link"
+      },
+      "e21": {
+        "name": "gling.app님의 프로필 사진",
+        "role": "link"
+      },
+      "e22": {
+        "name": "메모...",
+        "role": "button"
+      },
+      "e23": {
+        "name": "gling.app",
+        "role": "heading"
+      },
+      "e24": {
+        "name": "팔로워 0",
+        "role": "link"
+      },
+      "e25": {
+        "name": "팔로우 0",
+        "role": "link"
+      },
+      "e26": {
+        "name": "Meta",
+        "role": "link"
+      },
+      "e27": {
+        "name": "소개",
+        "role": "link"
+      },
+      "e28": {
+        "name": "블로그",
+        "role": "link"
+      },
+      "e29": {
+        "name": "채용 정보",
+        "role": "link"
+      },
+      "e3": {
+        "name": "게시물",
+        "role": "link"
+      },
+      "e30": {
+        "name": "도움말",
+        "role": "link"
+      },
+      "e31": {
+        "name": "API",
+        "role": "link"
+      },
+      "e32": {
+        "name": "개인정보처리방침",
+        "role": "link"
+      },
+      "e33": {
+        "name": "약관",
+        "role": "link"
+      },
+      "e34": {
+        "name": "위치",
+        "role": "link"
+      },
+      "e35": {
+        "name": "인기",
+        "role": "link"
+      },
+      "e36": {
+        "name": "Instagram Lite",
+        "role": "link"
+      },
+      "e37": {
+        "name": "Meta AI",
+        "role": "link"
+      },
+      "e38": {
+        "name": "Muse",
+        "role": "link"
+      },
+      "e39": {
+        "name": "Threads",
+        "role": "link"
+      },
+      "e4": {
+        "name": "저장됨",
+        "role": "link"
+      },
+      "e40": {
+        "name": "연락처 업로드 & 비사용자",
+        "role": "link"
+      },
+      "e41": {
+        "name": "Meta Verified",
+        "role": "link"
+      },
+      "e42": {
+        "name": "Afrikaans",
+        "role": "option"
+      },
+      "e43": {
+        "name": "العربية",
+        "role": "option"
+      },
+      "e44": {
+        "name": "Čeština",
+        "role": "option"
+      },
+      "e45": {
+        "name": "Dansk",
+        "role": "option"
+      },
+      "e46": {
+        "name": "Deutsch",
+        "role": "option"
+      },
+      "e47": {
+        "name": "Ελληνικά",
+        "role": "option"
+      },
+      "e48": {
+        "name": "English",
+        "role": "option"
+      },
+      "e49": {
+        "name": "English (UK)",
+        "role": "option"
+      },
+      "e5": {
+        "name": "태그됨",
+        "role": "link"
+      },
+      "e50": {
+        "name": "Español (España)",
+        "role": "option"
+      },
+      "e51": {
+        "name": "Español",
+        "role": "option"
+      },
+      "e52": {
+        "name": "فارسی",
+        "role": "option"
+      },
+      "e53": {
+        "name": "Suomi",
+        "role": "option"
+      },
+      "e54": {
+        "name": "Français",
+        "role": "option"
+      },
+      "e55": {
+        "name": "עברית",
+        "role": "option"
+      },
+      "e56": {
+        "name": "Bahasa Indonesia",
+        "role": "option"
+      },
+      "e57": {
+        "name": "Italiano",
+        "role": "option"
+      },
+      "e58": {
+        "name": "日本語",
+        "role": "option"
+      },
+      "e59": {
+        "name": "한국어",
+        "role": "option"
+      },
+      "e6": {
+        "name": "표시 언어 변경",
+        "role": "combobox"
+      },
+      "e60": {
+        "name": "Bahasa Melayu",
+        "role": "option"
+      },
+      "e61": {
+        "name": "Norsk",
+        "role": "option"
+      },
+      "e62": {
+        "name": "Nederlands",
+        "role": "option"
+      },
+      "e63": {
+        "name": "Polski",
+        "role": "option"
+      },
+      "e64": {
+        "name": "Português (Brasil)",
+        "role": "option"
+      },
+      "e65": {
+        "name": "Português (Portugal)",
+        "role": "option"
+      },
+      "e66": {
+        "name": "Русский",
+        "role": "option"
+      },
+      "e67": {
+        "name": "Svenska",
+        "role": "option"
+      },
+      "e68": {
+        "name": "ภาษาไทย",
+        "role": "option"
+      },
+      "e69": {
+        "name": "Filipino",
+        "role": "option"
+      },
+      "e7": {
+        "name": "릴스",
+        "role": "link"
+      },
+      "e70": {
+        "name": "Türkçe",
+        "role": "option"
+      },
+      "e71": {
+        "name": "中文(简体)",
+        "role": "option"
+      },
+      "e72": {
+        "name": "中文(台灣)",
+        "role": "option"
+      },
+      "e73": {
+        "name": "বাংলা",
+        "role": "option"
+      },
+      "e74": {
+        "name": "ગુજરાતી",
+        "role": "option"
+      },
+      "e75": {
+        "name": "हिन्दी",
+        "role": "option"
+      },
+      "e76": {
+        "name": "Hrvatski",
+        "role": "option"
+      },
+      "e77": {
+        "name": "Magyar",
+        "role": "option"
+      },
+      "e78": {
+        "name": "ಕನ್ನಡ",
+        "role": "option"
+      },
+      "e79": {
+        "name": "മലയാളം",
+        "role": "option"
+      },
+      "e8": {
+        "name": "메시지",
+        "role": "link"
+      },
+      "e80": {
+        "name": "मराठी",
+        "role": "option"
+      },
+      "e81": {
+        "name": "नेपाली",
+        "role": "option"
+      },
+      "e82": {
+        "name": "ਪੰਜਾਬੀ",
+        "role": "option"
+      },
+      "e83": {
+        "name": "සිංහල",
+        "role": "option"
+      },
+      "e84": {
+        "name": "Slovenčina",
+        "role": "option"
+      },
+      "e85": {
+        "name": "தமிழ்",
+        "role": "option"
+      },
+      "e86": {
+        "name": "తెలుగు",
+        "role": "option"
+      },
+      "e87": {
+        "name": "اردو",
+        "role": "option"
+      },
+      "e88": {
+        "name": "Tiếng Việt",
+        "role": "option"
+      },
+      "e89": {
+        "name": "中文(香港)",
+        "role": "option"
+      },
+      "e9": {
+        "name": "검색",
+        "role": "link"
+      },
+      "e90": {
+        "name": "Български",
+        "role": "option"
+      },
+      "e91": {
+        "name": "Français (Canada)",
+        "role": "option"
+      },
+      "e92": {
+        "name": "Română",
+        "role": "option"
+      },
+      "e93": {
+        "name": "Српски",
+        "role": "option"
+      },
+      "e94": {
+        "name": "Українська",
+        "role": "option"
+      },
+      "e95": {
+        "name": "프로필 편집",
+        "role": "link"
+      },
+      "e96": {
+        "name": "보관함 보기",
+        "role": "link"
+      },
+      "e97": {
+        "name": "프로필 사진 바꾸기",
+        "role": "button"
+      },
+      "e98": {
+        "name": "gling.app님의 프로필 사진",
+        "role": "link"
+      },
+      "e99": {
+        "name": "+ 아이콘 New",
+        "role": "button"
+      }
+    },
+    "snapshot": "- generic\n  - generic [ref=e1] clickable [onclick]\n    - generic\n      - generic\n        - generic\n          - link \"Instagram\" [ref=e18]\n            - image \"Instagram\"\n          - link \"홈\" [ref=e19]\n            - image \"홈\"\n          - link \"릴스\" [ref=e7]\n            - image \"릴스\"\n          - link \"메시지\" [ref=e8]\n            - generic\n              - image \"메시지\"\n          - link \"검색\" [ref=e9]\n            - image \"검색\"\n          - link \"알림\" [ref=e10]\n            - image \"알림\"\n          - generic\n            - link \"새로운 게시물\" [ref=e20]\n              - image \"새로운 게시물\"\n          - link \"프로페셔널 대시보드\" [ref=e11]\n            - image \"프로페셔널 대시보드\"\n          - link \"gling.app님의 프로필 사진\" [ref=e21]\n            - generic\n              - link \"gling.app님의 프로필 사진\" [ref=e98]\n                - image \"gling.app님의 프로필 사진\"\n          - link \"설정\" [ref=e12]\n            - image \"설정\"\n          - link \"Meta의 다른 앱\" [ref=e13]\n            - image \"Meta의 다른 앱\"\n          - generic\n            - main\n              - sectionheader\n                - generic\n                  - button \"메모...\" [ref=e22]\n                    - StaticText \"메모...\"\n                  - generic\n                    - button \"프로필 사진 바꾸기\" [ref=e97]\n                      - image \"프로필 사진 바꾸기\"\n                - generic\n                  - generic\n                    - link \"gling.app\" [ref=e14]\n                      - heading \"gling.app\" [level=2, ref=e23]\n                        - StaticText \"gling.app\"\n                    - button \"옵션\" [expanded=false, ref=e15]\n                      - image \"옵션\"\n                    - StaticText \"글링 | 캐나다 한인 커뮤니티\"\n                    - StaticText \"게시물 \"\n                    - StaticText \"0\"\n                    - link \"팔로워 0\" [ref=e24]\n                      - StaticText \"팔로워 \"\n                      - StaticText \"0\"\n                    - link \"팔로우 0\" [ref=e25]\n                      - StaticText \"팔로우 \"\n                      - StaticText \"0\"\n                  - button \"밴쿠버·토론토의 오늘을 한국어로. 동네 이야기, 정착 질문, 취향이 닮은 이웃. 출시 준비 중 gling.ej-entertainment.com\" [ref=e16]\n                    - StaticText \"밴쿠버·토론토의 오늘을 한국어로.\"\n                    - LineBreak \"\\n\"\n                    - StaticText \"동네 이야기, 정착 질문, 취향이 닮은 이웃.\"\n                    - LineBreak \"\\n\"\n                    - StaticText \"출시 준비 중\"\n                    - LineBreak \"\\n\"\n                    - StaticText \"gling.ej-entertainment.com\"\n                  - heading [level=1]\n                  - link \"Threads gling.app\" [ref=e17]\n                    - image \"Threads\"\n                    - StaticText \"gling.app\"\n                - generic\n                  - link \"프로필 편집\" [ref=e95]\n                  - link \"보관함 보기\" [ref=e96]\n                - menu\n                  - list\n                    - listitem [level=1]\n                    - listitem [level=1]\n                    - listitem [level=1]\n                      - button \"+ 아이콘 New\" [ref=e99]\n                        - generic\n                          - Canvas\n                          - image \"+ 아이콘\"\n                        - StaticText \"New\"\n              - tablist\n                - link \"게시물\" [ref=e3]\n                  - image \"게시물\"\n                - link \"저장됨\" [ref=e4]\n                  - image \"저장됨\"\n                - link \"태그됨\" [ref=e5]\n                  - image \"태그됨\"\n              - tabpanel\n              - generic\n                - generic\n                  - StaticText \"시작하기\"\n                  - list\n                    - listitem [level=1]\n                    - listitem [level=1]\n                    - listitem [level=1]\n                      - button \"사진을 공유하면 회원님의 프로필에 표시됩니다. 사진 공유 사진을 공유하면 회원님의 프로필에 표시됩니다. 첫 사진 공유하기\" [ref=e100]\n                        - image \"사진을 공유하면 회원님의 프로필에 표시됩니다.\"\n                        - StaticText \"사진 공유\"\n                        - StaticText \"사진을 공유하면 회원님의 프로필에 표시됩니다.\"\n                        - button \"첫 사진 공유하기\" [ref=e102]\n                    - listitem [level=1]\n                      - button \"비밀번호를 재설정하고 친구를 찾는 등 다양한 기능에 활용할 수 있도록 전화번호를 추가하세요. 전화번호 추가 비밀번호를 재설정하고 친구를 찾는 등 다양한 기능에 활용할 수 있도록 전화번호를 추가하세요. 전화번호 추가\" [ref=e101]\n                        - image \"비밀번호를 재설정하고 친구를 찾는 등 다양한 기능에 활용할 수 있도록 전화번호를 추가하세요.\"\n                        - StaticText \"전화번호 추가\"\n                        - StaticText \"비밀번호를 재설정하고 친구를 찾는 등 다양한 기능에 활용할 수 있도록 전화번호를 추가하세요.\"\n                        - button \"전화번호 추가\" [ref=e103]\n            - contentinfo\n              - generic\n                - generic\n                  - link \"Meta\" [ref=e26]\n                    - StaticText \"Meta\"\n                  - link \"소개\" [ref=e27]\n                    - StaticText \"소개\"\n                  - link \"블로그\" [ref=e28]\n                    - StaticText \"블로그\"\n                  - link \"채용 정보\" [ref=e29]\n                    - StaticText \"채용 정보\"\n                  - link \"도움말\" [ref=e30]\n                    - StaticText \"도움말\"\n                  - link \"API\" [ref=e31]\n                    - StaticText \"API\"\n                  - link \"개인정보처리방침\" [ref=e32]\n                    - StaticText \"개인정보처리방침\"\n                  - link \"약관\" [ref=e33]\n                    - StaticText \"약관\"\n                  - link \"위치\" [ref=e34]\n                    - StaticText \"위치\"\n                  - link \"인기\" [ref=e35]\n                    - StaticText \"인기\"\n                  - link \"Instagram Lite\" [ref=e36]\n                    - StaticText \"Instagram Lite\"\n                  - link \"Meta AI\" [ref=e37]\n                    - StaticText \"Meta AI\"\n                  - link \"Muse\" [ref=e38]\n                    - StaticText \"Muse\"\n                  - link \"Threads\" [ref=e39]\n                    - StaticText \"Threads\"\n                  - link \"연락처 업로드 & 비사용자\" [ref=e40]\n                    - StaticText \"연락처 업로드 & 비사용자\"\n                  - link \"Meta Verified\" [ref=e41]\n                    - StaticText \"Meta Verified\"\n                - generic\n                  - StaticText \"한국어\"\n                  - image \"아래쪽 V자형 아이콘\"\n                  - combobox \"표시 언어 변경\" [expanded=false, ref=e6]: 한국어\n                    - MenuListPopup\n                      - option \"Afrikaans\" [ref=e42]\n                      - option \"العربية\" [ref=e43]\n                      - option \"Čeština\" [ref=e44]\n                      - option \"Dansk\" [ref=e45]\n                      - option \"Deutsch\" [ref=e46]\n                      - option \"Ελληνικά\" [ref=e47]\n                      - option \"English\" [ref=e48]\n                      - option \"English (UK)\" [ref=e49]\n                      - option \"Español (España)\" [ref=e50]\n                      - option \"Español\" [ref=e51]\n                      - option \"فارسی\" [ref=e52]\n                      - option \"Suomi\" [ref=e53]\n                      - option \"Français\" [ref=e54]\n                      - option \"עברית\" [ref=e55]\n                      - option \"Bahasa Indonesia\" [ref=e56]\n                      - option \"Italiano\" [ref=e57]\n                      - option \"日本語\" [ref=e58]\n                      - option \"한국어\" [selected, ref=e59]\n                      - option \"Bahasa Melayu\" [ref=e60]\n                      - option \"Norsk\" [ref=e61]\n                      - option \"Nederlands\" [ref=e62]\n                      - option \"Polski\" [ref=e63]\n                      - option \"Português (Brasil)\" [ref=e64]\n                      - option \"Português (Portugal)\" [ref=e65]\n                      - option \"Русский\" [ref=e66]\n                      - option \"Svenska\" [ref=e67]\n                      - option \"ภาษาไทย\" [ref=e68]\n                      - option \"Filipino\" [ref=e69]\n                      - option \"Türkçe\" [ref=e70]\n                      - option \"中文(简体)\" [ref=e71]\n                      - option \"中文(台灣)\" [ref=e72]\n                      - option \"বাংলা\" [ref=e73]\n                      - option \"ગુજરાતી\" [ref=e74]\n                      - option \"हिन्दी\" [ref=e75]\n                      - option \"Hrvatski\" [ref=e76]\n                      - option \"Magyar\" [ref=e77]\n                      - option \"ಕನ್ನಡ\" [ref=e78]\n                      - option \"മലയാളം\" [ref=e79]\n                      - option \"मराठी\" [ref=e80]\n                      - option \"नेपाली\" [ref=e81]\n                      - option \"ਪੰਜਾਬੀ\" [ref=e82]\n                      - option \"සිංහල\" [ref=e83]\n                      - option \"Slovenčina\" [ref=e84]\n                      - option \"தமிழ்\" [ref=e85]\n                      - option \"తెలుగు\" [ref=e86]\n                      - option \"اردو\" [ref=e87]\n                      - option \"Tiếng Việt\" [ref=e88]\n                      - option \"中文(香港)\" [ref=e89]\n                      - option \"Български\" [ref=e90]\n                      - option \"Français (Canada)\" [ref=e91]\n                      - option \"Română\" [ref=e92]\n                      - option \"Српски\" [ref=e93]\n                      - option \"Українська\" [ref=e94]\n                  - StaticText \"© 2026 Instagram from Meta\"\n    - button \"메시지\" [ref=e2]\n      - generic \"메시지\"\n        - image \"메시지\"\n        - StaticText \"메시지\"",
+    "browserPageId": "4f49b454-3c71-4610-b603-251fa3443026"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

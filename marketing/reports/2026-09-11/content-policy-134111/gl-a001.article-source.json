@@ -1,0 +1,27 @@
+{
+  "article_id": "GL-A001",
+  "status": "local_draft",
+  "app_post_id": null,
+  "app_url": null,
+  "source_origin": "Independent official-source pilot; not taken from Hello Vancouver member posts",
+  "source": "https://maruhachi.ca/",
+  "source_evidence": "restaurant-official.json",
+  "visited": false,
+  "source_images_used": false,
+  "source_member_text_used": false,
+  "facts": [
+    "Central Library: 270 Robson Street, Sun–Thu 11:00–21:30; Fri–Sat 11:00–22:00",
+    "Westend: 780 Bidwell Street, Sun–Thu 11:30–21:30; Fri–Sat 11:30–22:00",
+    "Official site introduces creamy chicken broth ramen",
+    "Table reservations not accepted; first come first served"
+  ],
+  "unknown": [
+    "taste",
+    "wait_time",
+    "solo_seating",
+    "current_prices"
+  ],
+  "sns_status": "local_draft_pending_patina",
+  "continuation_cta_status": "not_included_until_article_exists_in_app",
+  "candidate_role": "one pilot outside the 12-row cadence; no live-queue additions"
+}

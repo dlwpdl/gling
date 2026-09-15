@@ -1,0 +1,83 @@
+{
+  "observed_at": "2026-09-10T09:36:03.166357-07:00",
+  "id": "2c32ddc8-03da-467d-8f90-ba83a84fc911",
+  "ok": true,
+  "result": {
+    "origin": "https://www.instagram.com/direct/requests/hidden/",
+    "refs": {
+      "e1": {
+        "name": "",
+        "role": "generic"
+      },
+      "e10": {
+        "name": "홈",
+        "role": "link"
+      },
+      "e11": {
+        "name": "새로운 게시물",
+        "role": "link"
+      },
+      "e12": {
+        "name": "gling.app님의 프로필 사진",
+        "role": "link"
+      },
+      "e13": {
+        "name": "대화 리스트",
+        "role": "navigation"
+      },
+      "e14": {
+        "name": "돌아가기",
+        "role": "button"
+      },
+      "e15": {
+        "name": "gling.app님의 프로필 사진",
+        "role": "link"
+      },
+      "e16": {
+        "name": "0개 모두 삭제",
+        "role": "button"
+      },
+      "e17": {
+        "name": "숨겨진 요청",
+        "role": "heading"
+      },
+      "e2": {
+        "name": "릴스",
+        "role": "link"
+      },
+      "e3": {
+        "name": "메시지",
+        "role": "link"
+      },
+      "e4": {
+        "name": "검색",
+        "role": "link"
+      },
+      "e5": {
+        "name": "알림",
+        "role": "link"
+      },
+      "e6": {
+        "name": "프로페셔널 대시보드",
+        "role": "link"
+      },
+      "e7": {
+        "name": "설정",
+        "role": "link"
+      },
+      "e8": {
+        "name": "Meta의 다른 앱",
+        "role": "link"
+      },
+      "e9": {
+        "name": "Instagram",
+        "role": "link"
+      }
+    },
+    "snapshot": "- generic\n  - generic [ref=e1] clickable [onclick]\n    - generic\n      - generic\n        - link \"Instagram\" [ref=e9]\n          - image \"Instagram\"\n        - link \"홈\" [ref=e10]\n          - image \"홈\"\n        - link \"릴스\" [ref=e2]\n          - image \"릴스\"\n        - link \"메시지\" [ref=e3]\n          - generic\n            - image \"메시지\"\n        - link \"검색\" [ref=e4]\n          - image \"검색\"\n        - link \"알림\" [ref=e5]\n          - image \"알림\"\n        - generic\n          - link \"새로운 게시물\" [ref=e11]\n            - image \"새로운 게시물\"\n        - link \"프로페셔널 대시보드\" [ref=e6]\n          - image \"프로페셔널 대시보드\"\n        - link \"gling.app님의 프로필 사진\" [ref=e12]\n          - link \"gling.app님의 프로필 사진\" [ref=e15]\n            - image \"gling.app님의 프로필 사진\"\n        - link \"설정\" [ref=e7]\n          - image \"설정\"\n        - link \"Meta의 다른 앱\" [ref=e8]\n          - image \"Meta의 다른 앱\"\n        - generic\n          - main\n            - generic\n              - generic\n                - navigation \"대화 리스트\" [ref=e13]\n                  - generic\n                    - button \"돌아가기\" [ref=e14]\n                      - image \"돌아가기\"\n                    - StaticText \"숨겨진 요청\"\n                    - generic\n                      - StaticText \"Chats will appear here after you send or receive a message\"\n                    - generic\n                      - separator\n                      - button \"0개 모두 삭제\" [ref=e16]\n                        - StaticText \"0개 모두 삭제\"\n                - generic\n                  - image\n                  - heading \"숨겨진 요청\" [level=2, ref=e17]\n                  - StaticText \"불쾌하거나 원치 않을 가능성이 있는 메시지 요청입니다.\"",
+    "browserPageId": "4f49b454-3c71-4610-b603-251fa3443026"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

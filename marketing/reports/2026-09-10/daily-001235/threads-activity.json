@@ -1,0 +1,151 @@
+{
+  "id": "d402426d-aca3-4d0e-be22-7ed40ddf9d74",
+  "ok": true,
+  "result": {
+    "origin": "https://www.threads.com/activity",
+    "refs": {
+      "e1": {
+        "name": "",
+        "role": "generic"
+      },
+      "e10": {
+        "name": "인사이트 인사이트",
+        "role": "link"
+      },
+      "e11": {
+        "name": "피드 수정",
+        "role": "button"
+      },
+      "e12": {
+        "name": "팔로잉",
+        "role": "link"
+      },
+      "e13": {
+        "name": "저장됨 저장됨",
+        "role": "link"
+      },
+      "e14": {
+        "name": "좋아요 좋아요",
+        "role": "link"
+      },
+      "e15": {
+        "name": "유령 게시물",
+        "role": "link"
+      },
+      "e16": {
+        "name": "보관함 보관함",
+        "role": "link"
+      },
+      "e17": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e18": {
+        "name": "칼럼 본문",
+        "role": "region"
+      },
+      "e19": {
+        "name": "열 제목",
+        "role": "link"
+      },
+      "e2": {
+        "name": "만들기",
+        "role": "button"
+      },
+      "e20": {
+        "name": "모두",
+        "role": "button"
+      },
+      "e21": {
+        "name": "활동",
+        "role": "heading"
+      },
+      "e22": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e23": {
+        "name": "Threads 약관",
+        "role": "link"
+      },
+      "e24": {
+        "name": "개인정보처리방침",
+        "role": "link"
+      },
+      "e25": {
+        "name": "쿠키 정책",
+        "role": "link"
+      },
+      "e26": {
+        "name": "",
+        "role": "generic"
+      },
+      "e27": {
+        "name": "",
+        "role": "generic"
+      },
+      "e28": {
+        "name": "",
+        "role": "generic"
+      },
+      "e29": {
+        "name": "",
+        "role": "generic"
+      },
+      "e3": {
+        "name": "Threads",
+        "role": "link"
+      },
+      "e30": {
+        "name": "약 1시간 전",
+        "role": "link"
+      },
+      "e31": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e32": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e33": {
+        "name": "threads님의 프로필 사진",
+        "role": "link"
+      },
+      "e34": {
+        "name": "회원님의 프로필은 공개 상태입니다. 설정에서 언제든지 공개 범위를 관리할 수 있습니다.",
+        "role": "link"
+      },
+      "e4": {
+        "name": "추천",
+        "role": "link"
+      },
+      "e5": {
+        "name": "새로운 스레드",
+        "role": "button"
+      },
+      "e6": {
+        "name": "검색 검색",
+        "role": "link"
+      },
+      "e7": {
+        "name": "메시지 메시지",
+        "role": "link"
+      },
+      "e8": {
+        "name": "알림 활동",
+        "role": "link"
+      },
+      "e9": {
+        "name": "프로필 프로필",
+        "role": "link"
+      }
+    },
+    "snapshot": "- generic [ref=e1] clickable [onclick]\n  - navigation\n    - link \"Threads\" [ref=e3]\n      - image \"Threads\"\n    - button \"더 보기\" [expanded=false, ref=e17]\n      - image \"더 보기\"\n    - link \"추천\" [ref=e4]\n      - generic\n        - image\n        - StaticText \"추천\"\n    - button \"새로운 스레드\" [ref=e5]\n      - generic\n        - image\n        - StaticText \"새로운 스레드\"\n    - link \"검색 검색\" [ref=e6]\n      - generic\n        - image \"검색\"\n        - StaticText \"검색\"\n    - link \"메시지 메시지\" [ref=e7]\n      - generic\n        - image \"메시지\"\n        - StaticText \"메시지\"\n    - link \"알림 활동\" [ref=e8]\n      - generic\n        - image \"알림\"\n        - StaticText \"활동\"\n    - link \"프로필 프로필\" [ref=e9]\n      - generic\n        - image \"프로필\"\n        - StaticText \"프로필\"\n    - link \"인사이트 인사이트\" [ref=e10]\n      - generic\n        - image \"인사이트\"\n        - StaticText \"인사이트\"\n    - StaticText \"기타 피드\"\n    - button \"피드 수정\" [ref=e11]\n      - StaticText \"수정\"\n    - link \"팔로잉\" [ref=e12]\n      - StaticText \"팔로잉\"\n    - link \"저장됨 저장됨\" [ref=e13]\n      - generic\n        - image \"저장됨\"\n        - StaticText \"저장됨\"\n    - link \"좋아요 좋아요\" [ref=e14]\n      - generic\n        - image \"좋아요\"\n        - StaticText \"좋아요\"\n    - link \"유령 게시물\" [ref=e15]\n      - generic\n        - StaticText \"유령 게시물\"\n        - image\n    - link \"보관함 보관함\" [ref=e16]\n      - generic\n        - image \"보관함\"\n        - StaticText \"보관함\"\n  - generic\n    - generic\n      - generic\n        - link \"열 제목\" [ref=e19]\n          - heading \"활동\" [level=1, ref=e21]\n            - StaticText \"활동\"\n        - button \"모두\" [expanded=false, ref=e20]\n          - StaticText \"모두\"\n          - image\n        - button \"더 보기\" [expanded=false, ref=e22]\n          - image \"더 보기\"\n      - region \"칼럼 본문\" [ref=e18] focusable [tabindex]\n        - generic\n          - generic [ref=e26] clickable [cursor:pointer, onclick]\n          - generic [ref=e27] clickable [cursor:pointer, onclick]\n            - StaticText \"계정 1개가 동일한 계정 센터에 추가된 후 설정이 업데이트되었습니다.\"\n            - link \"약 1시간 전\" [ref=e30]\n              - time \"약 1시간 전\"\n                - Abbr \"약 1시간 전\"\n                  - StaticText \"1시간\"\n            - button \"더 보기\" [expanded=false, ref=e31]\n              - image \"더 보기\"\n          - generic [ref=e28] clickable [cursor:pointer, onclick]\n            - link \"threads님의 프로필 사진\" [ref=e33]\n              - image \"threads님의 프로필 사진\"\n          - generic [ref=e29] clickable [cursor:pointer, onclick]\n            - StaticText \"threads\"\n            - time \"약 1시간 전\"\n              - Abbr \"약 1시간 전\"\n                - StaticText \"1시간\"\n            - button \"더 보기\" [expanded=false, ref=e32]\n              - image \"더 보기\"\n            - link \"회원님의 프로필은 공개 상태입니다. 설정에서 언제든지 공개 범위를 관리할 수 있습니다.\" [ref=e34]\n              - StaticText \"회원님의 프로필은 공개 상태입니다. 설정에서 언제든지 공개 범위를 관리할 수 있습니다.\"\n      - contentinfo\n        - list\n          - listitem [level=1]\n            - StaticText \"© 2026\"\n          - listitem [level=1]\n            - link \"Threads 약관\" [ref=e23]\n          - listitem [level=1]\n            - link \"개인정보처리방침\" [ref=e24]\n          - listitem [level=1]\n            - link \"쿠키 정책\" [ref=e25]\n  - button \"만들기\" [expanded=false, ref=e2]\n    - image \"만들기\"",
+    "browserPageId": "72425d9f-1d20-488b-92bd-8780972cb49c"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  },
+  "observed_at": "2026-09-10T07:16:59.137099+00:00"
+}

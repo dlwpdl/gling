@@ -1,0 +1,3 @@
+[patina] profile "social" no longer provides voice — profiles are pattern-policy only now. For genre voice use a persona (e.g. patina --lang ko --persona <id> ...); run `patina persona list --lang ko`.
+[patina] verify: rewrite below floor (MPS 83.3333333333, fidelity 50); retrying with stricter meaning preservation…
+[patina] verify: MPS 100, fidelity 100 (passed) [retried]

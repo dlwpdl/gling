@@ -1,0 +1,1278 @@
+{
+  "id": "d661d690-9c40-42c7-8f48-ac38d39423a4",
+  "ok": true,
+  "result": {
+    "origin": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/latest.html",
+    "refs": {
+      "e1": {
+        "name": "글링 일일 마케팅 실행 결과",
+        "role": "heading"
+      },
+      "e10": {
+        "name": "누적 학습과 실험",
+        "role": "heading"
+      },
+      "e100": {
+        "name": "2",
+        "role": "cell"
+      },
+      "e101": {
+        "name": "threads",
+        "role": "cell"
+      },
+      "e102": {
+        "name": "조회수",
+        "role": "cell"
+      },
+      "e103": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e104": {
+        "name": "최근 30일 · 8월 11일부터",
+        "role": "cell"
+      },
+      "e105": {
+        "name": "threads",
+        "role": "cell"
+      },
+      "e106": {
+        "name": "조회한 사람",
+        "role": "cell"
+      },
+      "e107": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e108": {
+        "name": "최근 30일 · 8월 11일부터",
+        "role": "cell"
+      },
+      "e109": {
+        "name": "threads",
+        "role": "cell"
+      },
+      "e11": {
+        "name": "24시간·72시간·7일 관측",
+        "role": "heading"
+      },
+      "e110": {
+        "name": "순 팔로워",
+        "role": "cell"
+      },
+      "e111": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e112": {
+        "name": "최근 30일 · 8월 11일부터",
+        "role": "cell"
+      },
+      "e113": {
+        "name": "threads",
+        "role": "cell"
+      },
+      "e114": {
+        "name": "반응",
+        "role": "cell"
+      },
+      "e115": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e116": {
+        "name": "최근 30일 · 8월 11일부터",
+        "role": "cell"
+      },
+      "e117": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e118": {
+        "name": "조회수",
+        "role": "cell"
+      },
+      "e119": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e12": {
+        "name": "접근 제한·누락과 다음 조치",
+        "role": "heading"
+      },
+      "e120": {
+        "name": "최근 30일",
+        "role": "cell"
+      },
+      "e121": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e122": {
+        "name": "조회한 사람",
+        "role": "cell"
+      },
+      "e123": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e124": {
+        "name": "최근 30일",
+        "role": "cell"
+      },
+      "e125": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e126": {
+        "name": "반응",
+        "role": "cell"
+      },
+      "e127": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e128": {
+        "name": "최근 30일",
+        "role": "cell"
+      },
+      "e129": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e13": {
+        "name": "검증·운영 기록",
+        "role": "heading"
+      },
+      "e130": {
+        "name": "참여한 계정",
+        "role": "cell"
+      },
+      "e131": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e132": {
+        "name": "최근 30일",
+        "role": "cell"
+      },
+      "e133": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e134": {
+        "name": "프로필 활동",
+        "role": "cell"
+      },
+      "e135": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e136": {
+        "name": "최근 30일",
+        "role": "cell"
+      },
+      "e137": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e138": {
+        "name": "프로필 방문",
+        "role": "cell"
+      },
+      "e139": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e14": {
+        "name": "전체 JSON",
+        "role": "link"
+      },
+      "e140": {
+        "name": "최근 30일",
+        "role": "cell"
+      },
+      "e141": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e142": {
+        "name": "총 팔로워",
+        "role": "cell"
+      },
+      "e143": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e144": {
+        "name": "최근 30일",
+        "role": "cell"
+      },
+      "e145": {
+        "name": "GL-P001",
+        "role": "cell"
+      },
+      "e146": {
+        "name": "두 도시와 출시 준비 상태가 구체적",
+        "role": "cell"
+      },
+      "e147": {
+        "name": "완성 소재·클릭 가능한 프로필 링크·예약 경로 준비 후에만 발행",
+        "role": "cell"
+      },
+      "e148": {
+        "name": "GL-P001",
+        "role": "cell"
+      },
+      "e149": {
+        "name": "draft_preserved",
+        "role": "cell"
+      },
+      "e15": {
+        "name": "1회차 미완료 기록",
+        "role": "link"
+      },
+      "e150": {
+        "name": "GL-P002",
+        "role": "cell"
+      },
+      "e151": {
+        "name": "동네 식사 질문과 실제 앱 화면 CTA가 연결됨",
+        "role": "cell"
+      },
+      "e152": {
+        "name": "GL-L001 본문·일정 유지; 실제 발행 URL 확보 후 관측",
+        "role": "cell"
+      },
+      "e153": {
+        "name": "GL-P004",
+        "role": "cell"
+      },
+      "e154": {
+        "name": "scheduled_preserved",
+        "role": "cell"
+      },
+      "e155": {
+        "name": "GL-P003",
+        "role": "cell"
+      },
+      "e156": {
+        "name": "생활 질문 예시와 개인정보 안내가 있음",
+        "role": "cell"
+      },
+      "e157": {
+        "name": "도시 응답을 선택 사항으로 변경",
+        "role": "cell"
+      },
+      "e158": {
+        "name": "GL-P003",
+        "role": "cell"
+      },
+      "e159": {
+        "name": "draft_updated",
+        "role": "cell"
+      },
+      "e16": {
+        "name": "첫 예약 비교 자료",
+        "role": "link"
+      },
+      "e160": {
+        "name": "GL-P004",
+        "role": "cell"
+      },
+      "e161": {
+        "name": "작은 생활 질문 하나로 대화를 시작함",
+        "role": "cell"
+      },
+      "e162": {
+        "name": "도시 응답을 선택 사항으로 변경",
+        "role": "cell"
+      },
+      "e163": {
+        "name": "GL-P004",
+        "role": "cell"
+      },
+      "e164": {
+        "name": "scheduled",
+        "role": "cell"
+      },
+      "e165": {
+        "name": "GL-P005",
+        "role": "cell"
+      },
+      "e166": {
+        "name": "확인 가능한 도시·카테고리 화면을 제안함",
+        "role": "cell"
+      },
+      "e167": {
+        "name": "최신 실제 화면 녹화와 링크 확인 필요",
+        "role": "cell"
+      },
+      "e168": {
+        "name": "GL-P005",
+        "role": "cell"
+      },
+      "e169": {
+        "name": "draft_preserved",
+        "role": "cell"
+      },
+      "e17": {
+        "name": "네이티브 최종 큐",
+        "role": "link"
+      },
+      "e170": {
+        "name": "GL-P006",
+        "role": "cell"
+      },
+      "e171": {
+        "name": "실제 9개 카테고리와 운영자 초기 콘텐츠를 설명함",
+        "role": "cell"
+      },
+      "e172": {
+        "name": "의미를 유지한 Patina 최종 편집 후 기존 간격으로 예약",
+        "role": "cell"
+      },
+      "e173": {
+        "name": "GL-P012",
+        "role": "cell"
+      },
+      "e174": {
+        "name": "scheduled",
+        "role": "cell"
+      },
+      "e175": {
+        "name": "GL-P007",
+        "role": "cell"
+      },
+      "e176": {
+        "name": "독자가 해볼 수 있는 작은 루틴",
+        "role": "cell"
+      },
+      "e177": {
+        "name": "현재 원고 유지; 비교 가능한 정착 반응이 생기면 예시 하나 선택",
+        "role": "cell"
+      },
+      "e178": {
+        "name": "GL-P007",
+        "role": "cell"
+      },
+      "e179": {
+        "name": "draft_preserved",
+        "role": "cell"
+      },
+      "e18": {
+        "name": "메일 중복 제거 근거",
+        "role": "link"
+      },
+      "e180": {
+        "name": "GL-P008",
+        "role": "cell"
+      },
+      "e181": {
+        "name": "정착 경험을 떠올릴 구체적 장면",
+        "role": "cell"
+      },
+      "e182": {
+        "name": "현재 원고 유지; 실제 답글에 나온 정착 장면만 후속 소재로 사용",
+        "role": "cell"
+      },
+      "e183": {
+        "name": "GL-P008",
+        "role": "cell"
+      },
+      "e184": {
+        "name": "draft_preserved",
+        "role": "cell"
+      },
+      "e185": {
+        "name": "GL-P009",
+        "role": "cell"
+      },
+      "e186": {
+        "name": "실제 행사 모집과 아이디어 수집을 구분함",
+        "role": "cell"
+      },
+      "e187": {
+        "name": "미확정 일정·인원 없이 아이디어 질문 유지",
+        "role": "cell"
+      },
+      "e188": {
+        "name": "GL-P009",
+        "role": "cell"
+      },
+      "e189": {
+        "name": "draft_preserved",
+        "role": "cell"
+      },
+      "e19": {
+        "name": "제목 검색 결과",
+        "role": "link"
+      },
+      "e190": {
+        "name": "GL-P010",
+        "role": "cell"
+      },
+      "e191": {
+        "name": "짧은 모임 선택지와 모집 아님 표시",
+        "role": "cell"
+      },
+      "e192": {
+        "name": "현재 원고 유지; 실제 모임 선호 응답 후 선택지 검토",
+        "role": "cell"
+      },
+      "e193": {
+        "name": "GL-P010",
+        "role": "cell"
+      },
+      "e194": {
+        "name": "draft_preserved",
+        "role": "cell"
+      },
+      "e195": {
+        "name": "GL-P011",
+        "role": "cell"
+      },
+      "e196": {
+        "name": "초기 화면에 필요한 주제를 묻는 목적이 명료함",
+        "role": "cell"
+      },
+      "e197": {
+        "name": "실제 도시·주제 응답이 생긴 뒤 한 주제만 후속 반영",
+        "role": "cell"
+      },
+      "e198": {
+        "name": "GL-P011",
+        "role": "cell"
+      },
+      "e199": {
+        "name": "draft_preserved",
+        "role": "cell"
+      },
+      "e2": {
+        "name": "배운 점",
+        "role": "heading"
+      },
+      "e20": {
+        "name": "Instagram 원본",
+        "role": "link"
+      },
+      "e200": {
+        "name": "GL-P012",
+        "role": "cell"
+      },
+      "e201": {
+        "name": "작은 선택지로 의견을 받는 구성",
+        "role": "cell"
+      },
+      "e202": {
+        "name": "현재 원고 유지; GL-P006 응답 관측 뒤 중복 질문 여부 검토",
+        "role": "cell"
+      },
+      "e203": {
+        "name": "GL-P012",
+        "role": "cell"
+      },
+      "e204": {
+        "name": "draft_preserved",
+        "role": "cell"
+      },
+      "e205": {
+        "name": "실행 로그",
+        "role": "link"
+      },
+      "e206": {
+        "name": "본문·예약 재조회 영수증",
+        "role": "link"
+      },
+      "e207": {
+        "name": "실행 로그",
+        "role": "link"
+      },
+      "e208": {
+        "name": "본문·예약 재조회 영수증",
+        "role": "link"
+      },
+      "e209": {
+        "name": "실행 로그",
+        "role": "link"
+      },
+      "e21": {
+        "name": "Threads 원본",
+        "role": "link"
+      },
+      "e210": {
+        "name": "GL-L001",
+        "role": "cell"
+      },
+      "e211": {
+        "name": "preserve_observing_pending",
+        "role": "cell"
+      },
+      "e212": {
+        "name": "GL-P002 한 건이 9/10 18:30으로 유지되고 원문이 이전 영수증과 일치함. 공개 글 없음. 첫 문장 성과를 판단할 근거 없음.",
+        "role": "cell"
+      },
+      "e213": {
+        "name": "실제 공개 URL 확인 후 24h/72h/7d 첫 실행",
+        "role": "cell"
+      },
+      "e214": {
+        "name": "GL-L002",
+        "role": "cell"
+      },
+      "e215": {
+        "name": "maintain",
+        "role": "cell"
+      },
+      "e216": {
+        "name": "GL-P004·006에서 빈 작성창 paste와 저장 후 전체 본문 대조가 일치함. GL-P006 날짜 선택 후 ref가 바뀌어 설정 시도 1회 실패; 새 snapshot으로 설정을 복구하고 제출은 1회만 수행.",
+        "role": "cell"
+      },
+      "e217": {
+        "name": "매 예약 전후",
+        "role": "cell"
+      },
+      "e218": {
+        "name": "GL-L003",
+        "role": "cell"
+      },
+      "e219": {
+        "name": "apply_and_observe",
+        "role": "cell"
+      },
+      "e22": {
+        "name": "캘린더 검사",
+        "role": "link"
+      },
+      "e220": {
+        "name": "초기 원고는 도시부터 알려달라고 요청하지만 실제 고객 피드백은 아직 없음. 제품 컨텍스트는 개인정보·응답을 강요하지 않는 기준. 도시를 선택 사항으로 바꾸면 질문 하나를 남기기 편할 수 있다는 가설. 문의 0을 원고 실패 근거로 삼지 않음.",
+        "role": "cell"
+      },
+      "e221": {
+        "name": "GL-P004 실제 발행 후 24h/72h/7d; Instagram 발행 이후 별도 관측",
+        "role": "cell"
+      },
+      "e222": {
+        "name": "GL-L004",
+        "role": "cell"
+      },
+      "e223": {
+        "name": "maintain_scoped_search_union",
+        "role": "cell"
+      },
+      "e224": {
+        "name": "실제 오픈 알림 mailto는 지정 Gmail 직통. 사용자 허용으로 별칭 검색에 subject:글링 검색을 보완. 4+0건, ID 중복 0건, 시스템 3·내부 테스트 1. 검색어와 실제 CTA 목적지를 함께 확인해야 누락 범위를 설명할 수 있음.",
+        "role": "cell"
+      },
+      "e225": {
+        "name": "다음 일일 실행에서 겹치는 기간과 같은 ID로 중복 제거",
+        "role": "cell"
+      },
+      "e226": {
+        "name": "GL-P002",
+        "role": "cell"
+      },
+      "e227": {
+        "name": "24h",
+        "role": "cell"
+      },
+      "e228": {
+        "name": "2026-09-11T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e229": {
+        "name": "2026-09-12T09:30:00-07:00",
+        "role": "cell"
+      },
+      "e23": {
+        "name": "3건 원문 대조",
+        "role": "link"
+      },
+      "e230": {
+        "name": "GL-P002",
+        "role": "cell"
+      },
+      "e231": {
+        "name": "72h",
+        "role": "cell"
+      },
+      "e232": {
+        "name": "2026-09-13T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e233": {
+        "name": "2026-09-14T09:30:00-07:00",
+        "role": "cell"
+      },
+      "e234": {
+        "name": "GL-P002",
+        "role": "cell"
+      },
+      "e235": {
+        "name": "168h",
+        "role": "cell"
+      },
+      "e236": {
+        "name": "2026-09-17T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e237": {
+        "name": "2026-09-18T09:30:00-07:00",
+        "role": "cell"
+      },
+      "e238": {
+        "name": "GL-P004",
+        "role": "cell"
+      },
+      "e239": {
+        "name": "24h",
+        "role": "cell"
+      },
+      "e24": {
+        "name": "HTML·JSON 최종 확인",
+        "role": "link"
+      },
+      "e240": {
+        "name": "2026-09-13T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e241": {
+        "name": "2026-09-14T09:30:00-07:00",
+        "role": "cell"
+      },
+      "e242": {
+        "name": "GL-P004",
+        "role": "cell"
+      },
+      "e243": {
+        "name": "72h",
+        "role": "cell"
+      },
+      "e244": {
+        "name": "2026-09-15T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e245": {
+        "name": "2026-09-16T09:30:00-07:00",
+        "role": "cell"
+      },
+      "e246": {
+        "name": "GL-P004",
+        "role": "cell"
+      },
+      "e247": {
+        "name": "168h",
+        "role": "cell"
+      },
+      "e248": {
+        "name": "2026-09-19T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e249": {
+        "name": "2026-09-20T09:30:00-07:00",
+        "role": "cell"
+      },
+      "e25": {
+        "name": "누적 학습 원장",
+        "role": "link"
+      },
+      "e250": {
+        "name": "GL-P006",
+        "role": "cell"
+      },
+      "e251": {
+        "name": "24h",
+        "role": "cell"
+      },
+      "e252": {
+        "name": "2026-09-15T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e253": {
+        "name": "2026-09-16T09:30:00-07:00",
+        "role": "cell"
+      },
+      "e254": {
+        "name": "GL-P006",
+        "role": "cell"
+      },
+      "e255": {
+        "name": "72h",
+        "role": "cell"
+      },
+      "e256": {
+        "name": "2026-09-17T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e257": {
+        "name": "2026-09-18T09:30:00-07:00",
+        "role": "cell"
+      },
+      "e258": {
+        "name": "GL-P006",
+        "role": "cell"
+      },
+      "e259": {
+        "name": "168h",
+        "role": "cell"
+      },
+      "e26": {
+        "name": "GL-P001",
+        "role": "cell"
+      },
+      "e260": {
+        "name": "2026-09-21T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e261": {
+        "name": "2026-09-22T09:30:00-07:00",
+        "role": "cell"
+      },
+      "e262": {
+        "name": "native per-post insights",
+        "role": "cell"
+      },
+      "e263": {
+        "name": "not_due",
+        "role": "cell"
+      },
+      "e264": {
+        "name": "두 채널 공개 게시물 없음. 개별 글 수치·24h/72h/7d 나이는 null.",
+        "role": "cell"
+      },
+      "e265": {
+        "name": "실제 발행 URL·시각 확인 후 관측",
+        "role": "cell"
+      },
+      "e266": {
+        "name": "Instagram native scheduling / Meta Business Suite",
+        "role": "cell"
+      },
+      "e267": {
+        "name": "unavailable",
+        "role": "cell"
+      },
+      "e268": {
+        "name": "현재 Meta 로그인 화면. 이전 예약 시도에서 gling.app 팝업 window_not_focused; 이번에는 인증 장벽 반복하지 않고 읽기 1회로 확인. 소재·클릭 링크도 미완료.",
+        "role": "cell"
+      },
+      "e269": {
+        "name": "기존 gling.app 로그인 경로 해결 후 현재 큐를 다시 확인",
+        "role": "cell"
+      },
+      "e27": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e270": {
+        "name": "Instagram profile website",
+        "role": "cell"
+      },
+      "e271": {
+        "name": "blocked",
+        "role": "cell"
+      },
+      "e272": {
+        "name": "웹사이트 필드가 비어 있고 disabled. UI가 링크 수정은 모바일에서만 가능하다고 안내.",
+        "role": "cell"
+      },
+      "e273": {
+        "name": "Instagram 앱 @gling.app 프로필에 기존 UTM 외부 링크 추가",
+        "role": "cell"
+      },
+      "e274": {
+        "name": "audience geography",
+        "role": "cell"
+      },
+      "e275": {
+        "name": "unavailable",
+        "role": "cell"
+      },
+      "e276": {
+        "name": "조회한 사람 0 표시; 도시·국가 집계가 현재 화면에 제공되지 않음. 전체 열람자 신원 추정 없음.",
+        "role": "cell"
+      },
+      "e277": {
+        "name": "노출 뒤 플랫폼이 집계를 제공하는 경우 출처·기간·분모 기록",
+        "role": "cell"
+      },
+      "e278": {
+        "name": "web conversion and direct Gmail without Gling clue",
+        "role": "cell"
+      },
+      "e279": {
+        "name": "partial",
+        "role": "cell"
+      },
+      "e28": {
+        "name": "2026-09-10T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e280": {
+        "name": "UTM 유지와 mailto는 확인했지만 전환 보고 접근 없음. 별칭+subject:글링 외 제품 단서 없는 직통 문의까지 전수 확인하지 않음.",
+        "role": "cell"
+      },
+      "e281": {
+        "name": "정해진 글링 검색을 유지하고 출처 불명 문의는 개별 글에 귀속하지 않음",
+        "role": "cell"
+      },
+      "e282": {
+        "name": "Gmail Gling profile authentication",
+        "role": "cell"
+      },
+      "e283": {
+        "name": "resolved_with_authorized_exception",
+        "role": "cell"
+      },
+      "e284": {
+        "name": "처음은 로그아웃. 사용자 지정 Default Gmail 탭에서 계정 라벨·검색을 확인해 분류 완료. 중복 로그인 창 닫음. SNS에는 예외 적용 안 함.",
+        "role": "cell"
+      },
+      "e285": {
+        "name": "지정 Gmail 읽기 예외 유지",
+        "role": "cell"
+      },
+      "e286": {
+        "name": "게시물",
+        "role": "columnheader"
+      },
+      "e287": {
+        "name": "채널",
+        "role": "columnheader"
+      },
+      "e288": {
+        "name": "계획 시각 (Vancouver)",
+        "role": "columnheader"
+      },
+      "e289": {
+        "name": "실제 상태",
+        "role": "columnheader"
+      },
+      "e29": {
+        "name": "draft",
+        "role": "cell"
+      },
+      "e290": {
+        "name": "남은 조건",
+        "role": "columnheader"
+      },
+      "e291": {
+        "name": "채널",
+        "role": "columnheader"
+      },
+      "e292": {
+        "name": "폴더",
+        "role": "columnheader"
+      },
+      "e293": {
+        "name": "현재 항목",
+        "role": "columnheader"
+      },
+      "e294": {
+        "name": "고객 문의",
+        "role": "columnheader"
+      },
+      "e295": {
+        "name": "시스템 안내",
+        "role": "columnheader"
+      },
+      "e296": {
+        "name": "채널",
+        "role": "columnheader"
+      },
+      "e297": {
+        "name": "원본 지표",
+        "role": "columnheader"
+      },
+      "e298": {
+        "name": "값",
+        "role": "columnheader"
+      },
+      "e299": {
+        "name": "기간",
+        "role": "columnheader"
+      },
+      "e3": {
+        "name": "실제 적용",
+        "role": "heading"
+      },
+      "e30": {
+        "name": "소재·클릭 가능한 프로필 링크·예약 도구 미완료",
+        "role": "cell"
+      },
+      "e300": {
+        "name": "ID",
+        "role": "columnheader"
+      },
+      "e301": {
+        "name": "강점",
+        "role": "columnheader"
+      },
+      "e302": {
+        "name": "개선 하나 / 다음 조건",
+        "role": "columnheader"
+      },
+      "e303": {
+        "name": "다음 대상",
+        "role": "columnheader"
+      },
+      "e304": {
+        "name": "반영",
+        "role": "columnheader"
+      },
+      "e305": {
+        "name": "ID",
+        "role": "columnheader"
+      },
+      "e306": {
+        "name": "결정",
+        "role": "columnheader"
+      },
+      "e307": {
+        "name": "관측·한계",
+        "role": "columnheader"
+      },
+      "e308": {
+        "name": "다음 확인",
+        "role": "columnheader"
+      },
+      "e309": {
+        "name": "ID",
+        "role": "columnheader"
+      },
+      "e31": {
+        "name": "GL-P002",
+        "role": "cell"
+      },
+      "e310": {
+        "name": "창",
+        "role": "columnheader"
+      },
+      "e311": {
+        "name": "임시 기준 시각",
+        "role": "columnheader"
+      },
+      "e312": {
+        "name": "이후 첫 일일 실행",
+        "role": "columnheader"
+      },
+      "e313": {
+        "name": "출처",
+        "role": "columnheader"
+      },
+      "e314": {
+        "name": "상태",
+        "role": "columnheader"
+      },
+      "e315": {
+        "name": "확인된 이유",
+        "role": "columnheader"
+      },
+      "e316": {
+        "name": "다음 조치",
+        "role": "columnheader"
+      },
+      "e32": {
+        "name": "threads",
+        "role": "cell"
+      },
+      "e33": {
+        "name": "2026-09-10T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e34": {
+        "name": "scheduled",
+        "role": "cell"
+      },
+      "e35": {
+        "name": "네이티브 저장·재조회 완료",
+        "role": "cell"
+      },
+      "e36": {
+        "name": "GL-P003",
+        "role": "cell"
+      },
+      "e37": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e38": {
+        "name": "2026-09-12T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e39": {
+        "name": "draft",
+        "role": "cell"
+      },
+      "e4": {
+        "name": "아직 모르는 점",
+        "role": "heading"
+      },
+      "e40": {
+        "name": "소재·클릭 가능한 프로필 링크·예약 도구 미완료",
+        "role": "cell"
+      },
+      "e41": {
+        "name": "GL-P004",
+        "role": "cell"
+      },
+      "e42": {
+        "name": "threads",
+        "role": "cell"
+      },
+      "e43": {
+        "name": "2026-09-12T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e44": {
+        "name": "scheduled",
+        "role": "cell"
+      },
+      "e45": {
+        "name": "네이티브 저장·재조회 완료",
+        "role": "cell"
+      },
+      "e46": {
+        "name": "GL-P005",
+        "role": "cell"
+      },
+      "e47": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e48": {
+        "name": "2026-09-14T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e49": {
+        "name": "draft",
+        "role": "cell"
+      },
+      "e5": {
+        "name": "앞으로 7일 큐 · 채널당 주 3회",
+        "role": "heading"
+      },
+      "e50": {
+        "name": "소재·클릭 가능한 프로필 링크·예약 도구 미완료",
+        "role": "cell"
+      },
+      "e51": {
+        "name": "GL-P006",
+        "role": "cell"
+      },
+      "e52": {
+        "name": "threads",
+        "role": "cell"
+      },
+      "e53": {
+        "name": "2026-09-14T18:30:00-07:00",
+        "role": "cell"
+      },
+      "e54": {
+        "name": "scheduled",
+        "role": "cell"
+      },
+      "e55": {
+        "name": "네이티브 저장·재조회 완료",
+        "role": "cell"
+      },
+      "e56": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e57": {
+        "name": "Primary",
+        "role": "cell"
+      },
+      "e58": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e59": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e6": {
+        "name": "수신함 · 검색 범위와 분류",
+        "role": "heading"
+      },
+      "e60": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e61": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e62": {
+        "name": "General",
+        "role": "cell"
+      },
+      "e63": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e64": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e65": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e66": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e67": {
+        "name": "요청",
+        "role": "cell"
+      },
+      "e68": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e69": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e7": {
+        "name": "원본 성과와 독자",
+        "role": "heading"
+      },
+      "e70": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e71": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e72": {
+        "name": "숨겨진 요청",
+        "role": "cell"
+      },
+      "e73": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e74": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e75": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e76": {
+        "name": "instagram",
+        "role": "cell"
+      },
+      "e77": {
+        "name": "활동 · 모두",
+        "role": "cell"
+      },
+      "e78": {
+        "name": "1",
+        "role": "cell"
+      },
+      "e79": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e8": {
+        "name": "게시물별 개선과 실제 반영 단계",
+        "role": "heading"
+      },
+      "e80": {
+        "name": "1",
+        "role": "cell"
+      },
+      "e81": {
+        "name": "threads",
+        "role": "cell"
+      },
+      "e82": {
+        "name": "받은 메시지함",
+        "role": "cell"
+      },
+      "e83": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e84": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e85": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e86": {
+        "name": "threads",
+        "role": "cell"
+      },
+      "e87": {
+        "name": "요청",
+        "role": "cell"
+      },
+      "e88": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e89": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e9": {
+        "name": "이번에 저장한 원고",
+        "role": "heading"
+      },
+      "e90": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e91": {
+        "name": "threads",
+        "role": "cell"
+      },
+      "e92": {
+        "name": "숨겨진 요청",
+        "role": "cell"
+      },
+      "e93": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e94": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e95": {
+        "name": "0",
+        "role": "cell"
+      },
+      "e96": {
+        "name": "threads",
+        "role": "cell"
+      },
+      "e97": {
+        "name": "활동 · 모두",
+        "role": "cell"
+      },
+      "e98": {
+        "name": "2",
+        "role": "cell"
+      },
+      "e99": {
+        "name": "0",
+        "role": "cell"
+      }
+    },
+    "snapshot": "- main\n  - heading \"글링 일일 마케팅 실행 결과\" [level=1, ref=e1]\n  - paragraph\n    - StaticText \"2026-09-10 · daily-001235 · Git → gling · @gling.app\"\n  - paragraph\n    - strong\n      - StaticText \"Threads 2건 추가 예약, 기존 GL-P002 보존. 7일 큐는 Threads 3건 예약·Instagram 3건 초안입니다.\"\n  - paragraph\n    - StaticText \"기본 보고 기간: 9/9 00:00–9/10 00:00 Vancouver. 이번 작업과 아래 현재 관측은 9/10 실행 시점의 결과입니다. 공개 발행·성장 효과는 아직 확인되지 않았습니다.\"\n  - paragraph\n    - link \"전체 JSON\" [ref=e14]\n    - StaticText \" · \"\n    - link \"1회차 미완료 기록\" [ref=e15]\n    - StaticText \" · \"\n    - link \"첫 예약 비교 자료\" [ref=e16]\n    - StaticText \" · \"\n    - link \"네이티브 최종 큐\" [ref=e17]\n  - heading \"배운 점\" [level=2, ref=e2]\n  - list\n    - listitem [level=1]\n      - ListMarker \"• \"\n      - StaticText \"공개 발행 전이므로 카피 성과나 승자를 판단할 근거가 없다.\"\n    - listitem [level=1]\n      - ListMarker \"• \"\n      - StaticText \"Gmail 별칭·글링 제목 검색의 합집합 4건은 시스템 3건과 내부 테스트 1건이다.\"\n    - listitem [level=1]\n      - ListMarker \"• \"\n      - StaticText \"실제 mailto 수신처와 검색 범위를 함께 확인해야 한다.\"\n  - heading \"실제 적용\" [level=2, ref=e3]\n  - list\n    - listitem [level=1]\n      - ListMarker \"• \"\n      - StaticText \"GL-P004 도시 응답을 선택 사항으로 수정하고 9/12 예약; GL-P003 같은 원칙을 로컬 초안에 반영.\"\n    - listitem [level=1]\n      - ListMarker \"• \"\n      - StaticText \"GL-P002 보존 + GL-P006 9/14 예약으로 Threads 7일 큐 3건.\"\n    - listitem [level=1]\n      - ListMarker \"• \"\n      - StaticText \"빈 편집창 → Patina 본문 → 저장 후 전체 본문·시각 재조회.\"\n  - heading \"아직 모르는 점\" [level=2, ref=e4]\n  - list\n    - listitem [level=1]\n      - ListMarker \"• \"\n      - StaticText \"개별 글 도달·반응·직접 클릭과 고객 행동 효과\"\n    - listitem [level=1]\n      - ListMarker \"• \"\n      - StaticText \"도시·국가 독자 분포와 제품 단서 없는 직통 문의\"\n    - listitem [level=1]\n      - ListMarker \"• \"\n      - StaticText \"설치·첫 이용·재방문·지불\"\n  - heading \"앞으로 7일 큐 · 채널당 주 3회\" [level=2, ref=e5]\n  - table\n    - rowgroup\n      - row\n        - columnheader \"게시물\" [ref=e286]\n        - columnheader \"채널\" [ref=e287]\n        - columnheader \"계획 시각 (Vancouver)\" [ref=e288]\n        - columnheader \"실제 상태\" [ref=e289]\n        - columnheader \"남은 조건\" [ref=e290]\n    - row\n      - cell \"GL-P001\" [ref=e26]\n      - cell \"instagram\" [ref=e27]\n      - cell \"2026-09-10T18:30:00-07:00\" [ref=e28]\n      - cell \"draft\" [ref=e29]\n      - cell \"소재·클릭 가능한 프로필 링크·예약 도구 미완료\" [ref=e30]\n    - row\n      - cell \"GL-P002\" [ref=e31]\n      - cell \"threads\" [ref=e32]\n      - cell \"2026-09-10T18:30:00-07:00\" [ref=e33]\n      - cell \"scheduled\" [ref=e34]\n      - cell \"네이티브 저장·재조회 완료\" [ref=e35]\n    - row\n      - cell \"GL-P003\" [ref=e36]\n      - cell \"instagram\" [ref=e37]\n      - cell \"2026-09-12T18:30:00-07:00\" [ref=e38]\n      - cell \"draft\" [ref=e39]\n      - cell \"소재·클릭 가능한 프로필 링크·예약 도구 미완료\" [ref=e40]\n    - row\n      - cell \"GL-P004\" [ref=e41]\n      - cell \"threads\" [ref=e42]\n      - cell \"2026-09-12T18:30:00-07:00\" [ref=e43]\n      - cell \"scheduled\" [ref=e44]\n      - cell \"네이티브 저장·재조회 완료\" [ref=e45]\n    - row\n      - cell \"GL-P005\" [ref=e46]\n      - cell \"instagram\" [ref=e47]\n      - cell \"2026-09-14T18:30:00-07:00\" [ref=e48]\n      - cell \"draft\" [ref=e49]\n      - cell \"소재·클릭 가능한 프로필 링크·예약 도구 미완료\" [ref=e50]\n    - row\n      - cell \"GL-P006\" [ref=e51]\n      - cell \"threads\" [ref=e52]\n      - cell \"2026-09-14T18:30:00-07:00\" [ref=e53]\n      - cell \"scheduled\" [ref=e54]\n      - cell \"네이티브 저장·재조회 완료\" [ref=e55]\n  - paragraph\n    - StaticText \"동일 시각 Toronto 21:30. draft는 예약 완료가 아닙니다. Instagram의 미준비 슬롯을 과거 시각으로 소급하거나 몰아서 발행하지 않습니다. 다음 회차는 남은 미래 슬롯에서 같은 간격을 유지합니다.\"\n  - heading \"수신함 · 검색 범위와 분류\" [level=2, ref=e6]\n  - paragraph\n    - StaticText \"Gmail: 지정 계정 eunsense0308@gmail.com, 사용자 허용 Default 세션. \"\n    - code\n      - StaticText \"in:anywhere \\\"gling@ej-entertainment.com\\\" newer_than:7d\"\n    - StaticText \" 4건 + \"\n    - code\n      - StaticText \"in:anywhere subject:글링 newer_than:7d\"\n    - StaticText \" 0건. 스레드 ID로 중복 제거 후 4건입니다. 시스템·인증 3건, 내부 전달 테스트 1건이며 고객 문의·오픈 알림 신청은 이 범위에서 0건입니다. 전부 9/9 22:39–22:55에 표시된 메일입니다. 인증 코드와 고객 원문은 수집하지 않았습니다.\"\n  - paragraph\n    - StaticText \"최근 7일 검색의 기준선입니다. 4건을 새 고객 유입으로 세지 않습니다. 제품 단서가 없는 직통 운영문의는 확인 범위 밖입니다. 아래 SNS 수치는 현재 폴더 전체이며 전날 신규 유입과 다릅니다.\"\n  - table\n    - rowgroup\n      - row\n        - columnheader \"채널\" [ref=e291]\n        - columnheader \"폴더\" [ref=e292]\n        - columnheader \"현재 항목\" [ref=e293]\n        - columnheader \"고객 문의\" [ref=e294]\n        - columnheader \"시스템 안내\" [ref=e295]\n    - row\n      - cell \"instagram\" [ref=e56]\n      - cell \"Primary\" [ref=e57]\n      - cell \"0\" [ref=e58]\n      - cell \"0\" [ref=e59]\n      - cell \"0\" [ref=e60]\n    - row\n      - cell \"instagram\" [ref=e61]\n      - cell \"General\" [ref=e62]\n      - cell \"0\" [ref=e63]\n      - cell \"0\" [ref=e64]\n      - cell \"0\" [ref=e65]\n    - row\n      - cell \"instagram\" [ref=e66]\n      - cell \"요청\" [ref=e67]\n      - cell \"0\" [ref=e68]\n      - cell \"0\" [ref=e69]\n      - cell \"0\" [ref=e70]\n    - row\n      - cell \"instagram\" [ref=e71]\n      - cell \"숨겨진 요청\" [ref=e72]\n      - cell \"0\" [ref=e73]\n      - cell \"0\" [ref=e74]\n      - cell \"0\" [ref=e75]\n    - row\n      - cell \"instagram\" [ref=e76]\n      - cell \"활동 · 모두\" [ref=e77]\n      - cell \"1\" [ref=e78]\n      - cell \"0\" [ref=e79]\n      - cell \"1\" [ref=e80]\n    - row\n      - cell \"threads\" [ref=e81]\n      - cell \"받은 메시지함\" [ref=e82]\n      - cell \"0\" [ref=e83]\n      - cell \"0\" [ref=e84]\n      - cell \"0\" [ref=e85]\n    - row\n      - cell \"threads\" [ref=e86]\n      - cell \"요청\" [ref=e87]\n      - cell \"0\" [ref=e88]\n      - cell \"0\" [ref=e89]\n      - cell \"0\" [ref=e90]\n    - row\n      - cell \"threads\" [ref=e91]\n      - cell \"숨겨진 요청\" [ref=e92]\n      - cell \"0\" [ref=e93]\n      - cell \"0\" [ref=e94]\n      - cell \"0\" [ref=e95]\n    - row\n      - cell \"threads\" [ref=e96]\n      - cell \"활동 · 모두\" [ref=e97]\n      - cell \"2\" [ref=e98]\n      - cell \"0\" [ref=e99]\n      - cell \"2\" [ref=e100]\n  - paragraph\n    - link \"메일 중복 제거 근거\" [ref=e18]\n    - StaticText \" · \"\n    - link \"제목 검색 결과\" [ref=e19]\n    - StaticText \". 외부 이메일·DM·댓글 답장은 발송하지 않았습니다.\"\n  - heading \"원본 성과와 독자\" [level=2, ref=e7]\n  - paragraph\n    - StaticText \"두 채널에 공개 글이 없어 모든 개별 게시물 지표는 미관측(null)입니다. 아래는 계정 전체 최근 30일의 실제 화면 값입니다. 전날 성과나 GL-P002 성과로 옮겨 적지 않았습니다.\"\n  - table\n    - rowgroup\n      - row\n        - columnheader \"채널\" [ref=e296]\n        - columnheader \"원본 지표\" [ref=e297]\n        - columnheader \"값\" [ref=e298]\n        - columnheader \"기간\" [ref=e299]\n    - row\n      - cell \"threads\" [ref=e101]\n      - cell \"조회수\" [ref=e102]\n      - cell \"0\" [ref=e103]\n      - cell \"최근 30일 · 8월 11일부터\" [ref=e104]\n    - row\n      - cell \"threads\" [ref=e105]\n      - cell \"조회한 사람\" [ref=e106]\n      - cell \"0\" [ref=e107]\n      - cell \"최근 30일 · 8월 11일부터\" [ref=e108]\n    - row\n      - cell \"threads\" [ref=e109]\n      - cell \"순 팔로워\" [ref=e110]\n      - cell \"0\" [ref=e111]\n      - cell \"최근 30일 · 8월 11일부터\" [ref=e112]\n    - row\n      - cell \"threads\" [ref=e113]\n      - cell \"반응\" [ref=e114]\n      - cell \"0\" [ref=e115]\n      - cell \"최근 30일 · 8월 11일부터\" [ref=e116]\n    - row\n      - cell \"instagram\" [ref=e117]\n      - cell \"조회수\" [ref=e118]\n      - cell \"0\" [ref=e119]\n      - cell \"최근 30일\" [ref=e120]\n    - row\n      - cell \"instagram\" [ref=e121]\n      - cell \"조회한 사람\" [ref=e122]\n      - cell \"0\" [ref=e123]\n      - cell \"최근 30일\" [ref=e124]\n    - row\n      - cell \"instagram\" [ref=e125]\n      - cell \"반응\" [ref=e126]\n      - cell \"0\" [ref=e127]\n      - cell \"최근 30일\" [ref=e128]\n    - row\n      - cell \"instagram\" [ref=e129]\n      - cell \"참여한 계정\" [ref=e130]\n      - cell \"0\" [ref=e131]\n      - cell \"최근 30일\" [ref=e132]\n    - row\n      - cell \"instagram\" [ref=e133]\n      - cell \"프로필 활동\" [ref=e134]\n      - cell \"0\" [ref=e135]\n      - cell \"최근 30일\" [ref=e136]\n    - row\n      - cell \"instagram\" [ref=e137]\n      - cell \"프로필 방문\" [ref=e138]\n      - cell \"0\" [ref=e139]\n      - cell \"최근 30일\" [ref=e140]\n    - row\n      - cell \"instagram\" [ref=e141]\n      - cell \"총 팔로워\" [ref=e142]\n      - cell \"0\" [ref=e143]\n      - cell \"최근 30일\" [ref=e144]\n  - paragraph\n    - StaticText \"조회한 사람 0, 팔로워/비팔로워 분해 표시도 각각 0입니다. Instagram 분해 단위는 조회수, Threads는 조회한 사람입니다. 분모가 0이므로 비율을 새로 계산하지 않았습니다. 도시·국가 집계는 제공되지 않았고 공개 반응 계정은 없습니다. 익명 열람자 신원을 추정하지 않았습니다.\"\n  - paragraph\n    - link \"Instagram 원본\" [ref=e20]\n    - StaticText \" · \"\n    - link \"Threads 원본\" [ref=e21]\n  - heading \"게시물별 개선과 실제 반영 단계\" [level=2, ref=e8]\n  - table\n    - rowgroup\n      - row\n        - columnheader \"ID\" [ref=e300]\n        - columnheader \"강점\" [ref=e301]\n        - columnheader \"개선 하나 / 다음 조건\" [ref=e302]\n        - columnheader \"다음 대상\" [ref=e303]\n        - columnheader \"반영\" [ref=e304]\n    - row\n      - cell \"GL-P001\" [ref=e145]\n      - cell \"두 도시와 출시 준비 상태가 구체적\" [ref=e146]\n      - cell \"완성 소재·클릭 가능한 프로필 링크·예약 경로 준비 후에만 발행\" [ref=e147]\n      - cell \"GL-P001\" [ref=e148]\n      - cell \"draft_preserved\" [ref=e149]\n    - row\n      - cell \"GL-P002\" [ref=e150]\n      - cell \"동네 식사 질문과 실제 앱 화면 CTA가 연결됨\" [ref=e151]\n      - cell \"GL-L001 본문·일정 유지; 실제 발행 URL 확보 후 관측\" [ref=e152]\n      - cell \"GL-P004\" [ref=e153]\n      - cell \"scheduled_preserved\" [ref=e154]\n    - row\n      - cell \"GL-P003\" [ref=e155]\n      - cell \"생활 질문 예시와 개인정보 안내가 있음\" [ref=e156]\n      - cell \"도시 응답을 선택 사항으로 변경\" [ref=e157]\n      - cell \"GL-P003\" [ref=e158]\n      - cell \"draft_updated\" [ref=e159]\n    - row\n      - cell \"GL-P004\" [ref=e160]\n      - cell \"작은 생활 질문 하나로 대화를 시작함\" [ref=e161]\n      - cell \"도시 응답을 선택 사항으로 변경\" [ref=e162]\n      - cell \"GL-P004\" [ref=e163]\n      - cell \"scheduled\" [ref=e164]\n    - row\n      - cell \"GL-P005\" [ref=e165]\n      - cell \"확인 가능한 도시·카테고리 화면을 제안함\" [ref=e166]\n      - cell \"최신 실제 화면 녹화와 링크 확인 필요\" [ref=e167]\n      - cell \"GL-P005\" [ref=e168]\n      - cell \"draft_preserved\" [ref=e169]\n    - row\n      - cell \"GL-P006\" [ref=e170]\n      - cell \"실제 9개 카테고리와 운영자 초기 콘텐츠를 설명함\" [ref=e171]\n      - cell \"의미를 유지한 Patina 최종 편집 후 기존 간격으로 예약\" [ref=e172]\n      - cell \"GL-P012\" [ref=e173]\n      - cell \"scheduled\" [ref=e174]\n    - row\n      - cell \"GL-P007\" [ref=e175]\n      - cell \"독자가 해볼 수 있는 작은 루틴\" [ref=e176]\n      - cell \"현재 원고 유지; 비교 가능한 정착 반응이 생기면 예시 하나 선택\" [ref=e177]\n      - cell \"GL-P007\" [ref=e178]\n      - cell \"draft_preserved\" [ref=e179]\n    - row\n      - cell \"GL-P008\" [ref=e180]\n      - cell \"정착 경험을 떠올릴 구체적 장면\" [ref=e181]\n      - cell \"현재 원고 유지; 실제 답글에 나온 정착 장면만 후속 소재로 사용\" [ref=e182]\n      - cell \"GL-P008\" [ref=e183]\n      - cell \"draft_preserved\" [ref=e184]\n    - row\n      - cell \"GL-P009\" [ref=e185]\n      - cell \"실제 행사 모집과 아이디어 수집을 구분함\" [ref=e186]\n      - cell \"미확정 일정·인원 없이 아이디어 질문 유지\" [ref=e187]\n      - cell \"GL-P009\" [ref=e188]\n      - cell \"draft_preserved\" [ref=e189]\n    - row\n      - cell \"GL-P010\" [ref=e190]\n      - cell \"짧은 모임 선택지와 모집 아님 표시\" [ref=e191]\n      - cell \"현재 원고 유지; 실제 모임 선호 응답 후 선택지 검토\" [ref=e192]\n      - cell \"GL-P010\" [ref=e193]\n      - cell \"draft_preserved\" [ref=e194]\n    - row\n      - cell \"GL-P011\" [ref=e195]\n      - cell \"초기 화면에 필요한 주제를 묻는 목적이 명료함\" [ref=e196]\n      - cell \"실제 도시·주제 응답이 생긴 뒤 한 주제만 후속 반영\" [ref=e197]\n      - cell \"GL-P011\" [ref=e198]\n      - cell \"draft_preserved\" [ref=e199]\n    - row\n      - cell \"GL-P012\" [ref=e200]\n      - cell \"작은 선택지로 의견을 받는 구성\" [ref=e201]\n      - cell \"현재 원고 유지; GL-P006 응답 관측 뒤 중복 질문 여부 검토\" [ref=e202]\n      - cell \"GL-P012\" [ref=e203]\n      - cell \"draft_preserved\" [ref=e204]\n  - heading \"이번에 저장한 원고\" [level=2, ref=e9]\n  - group\n    - DisclosureTriangle \"GL-P004 · scheduled · 도시 응답 선택 사항\" [expanded=true]\n      - StaticText \"GL-P004 · scheduled · 도시 응답 선택 사항\"\n    - StaticText \"검색창에는 못 적겠고, 동네 사람한테는 물어보고 싶은 질문 있나요?\\n\\n저녁 메뉴 같은 작은 질문이어도 좋아요. 밴쿠버·토론토 동네 질문 하나만 남겨주세요. 도시는 편하면 같이 적어주세요.\"\n    - paragraph\n      - StaticText \"Patina 상태: passed_after_internal_meaning_retry. \"\n      - link \"실행 로그\" [ref=e205]\n      - StaticText \" · \"\n      - link \"본문·예약 재조회 영수증\" [ref=e206]\n  - group\n    - DisclosureTriangle \"GL-P006 · scheduled · 기존 주제·CTA 의미 유지; 최종 문장 편집\" [expanded=true]\n      - StaticText \"GL-P006 · scheduled · 기존 주제·CTA 의미 유지; 최종 문장 편집\"\n    - StaticText \"글링에는 라이프·맛집·여행·쇼핑·정착·이동·주거·교육·모임까지, 모두 9개 카테고리가 있어요.\\n첫 화면에 어떤 이야기가 보여야 다시 들어와 보고 싶을까요?\\n운영자가 먼저 준비한 이야기로, 함께 시작해 볼 분들을 기다리고 있어요.\"\n    - paragraph\n      - StaticText \"Patina 상태: passed. \"\n      - link \"실행 로그\" [ref=e207]\n      - StaticText \" · \"\n      - link \"본문·예약 재조회 영수증\" [ref=e208]\n  - group\n    - DisclosureTriangle \"GL-P003 · draft · 도시 응답 선택 사항\" [expanded=true]\n      - StaticText \"GL-P003 · draft · 도시 응답 선택 사항\"\n    - StaticText \"검색까지 하기엔 너무 사소해서, 그냥 사람한테 묻고 싶은 질문.\\n\\n혼자 밥 먹기 편한 분위기, 비 오는 날 걷기 좋은 길, 퇴근하고 잠깐 쉬어갈 곳. 동네에서는 이런 질문도 자주 생기죠.\\n\\n묻고 싶은 질문 하나만 남겨주세요. 도시도 편하면 같이 적어주세요. 정확한 주소나 개인정보는 안 남겨도 괜찮아요.\\n\\n#글링 #우리동네 #캐나다일상 #밴쿠버생활 #토론토생활\"\n    - paragraph\n      - StaticText \"Patina 상태: passed. \"\n      - link \"실행 로그\" [ref=e209]\n  - paragraph\n    - StaticText \"GL-P006은 Patina 출력의 뒤쪽 tone 메타데이터만 분리했고 본문은 그대로 저장했습니다. GL-P003은 원격 초안이 아니라 CSV의 로컬 초안입니다. Patina 점수는 노출이나 성장 보장이 아닙니다.\"\n  - heading \"누적 학습과 실험\" [level=2, ref=e10]\n  - table\n    - rowgroup\n      - row\n        - columnheader \"ID\" [ref=e305]\n        - columnheader \"결정\" [ref=e306]\n        - columnheader \"관측·한계\" [ref=e307]\n        - columnheader \"다음 확인\" [ref=e308]\n    - row\n      - cell \"GL-L001\" [ref=e210]\n      - cell \"preserve_observing_pending\" [ref=e211]\n      - cell \"GL-P002 한 건이 9/10 18:30으로 유지되고 원문이 이전 영수증과 일치함. 공개 글 없음. 첫 문장 성과를 판단할 근거 없음.\" [ref=e212]\n      - cell \"실제 공개 URL 확인 후 24h/72h/7d 첫 실행\" [ref=e213]\n    - row\n      - cell \"GL-L002\" [ref=e214]\n      - cell \"maintain\" [ref=e215]\n      - cell \"GL-P004·006에서 빈 작성창 paste와 저장 후 전체 본문 대조가 일치함. GL-P006 날짜 선택 후 ref가 바뀌어 설정 시도 1회 실패; 새 snapshot으로 설정을 복구하고 제출은 1회만 수행.\" [ref=e216]\n      - cell \"매 예약 전후\" [ref=e217]\n    - row\n      - cell \"GL-L003\" [ref=e218]\n      - cell \"apply_and_observe\" [ref=e219]\n      - cell \"초기 원고는 도시부터 알려달라고 요청하지만 실제 고객 피드백은 아직 없음. 제품 컨텍스트는 개인정보·응답을 강요하지 않는 기준. 도시를 선택 사항으로 바꾸면 질문 하나를 남기기 편할 수 있다는 가설. 문의 0을 원고 실패 근거로 삼지 않음.\" [ref=e220]\n      - cell \"GL-P004 실제 발행 후 24h/72h/7d; Instagram 발행 이후 별도 관측\" [ref=e221]\n    - row\n      - cell \"GL-L004\" [ref=e222]\n      - cell \"maintain_scoped_search_union\" [ref=e223]\n      - cell \"실제 오픈 알림 mailto는 지정 Gmail 직통. 사용자 허용으로 별칭 검색에 subject:글링 검색을 보완. 4+0건, ID 중복 0건, 시스템 3·내부 테스트 1. 검색어와 실제 CTA 목적지를 함께 확인해야 누락 범위를 설명할 수 있음.\" [ref=e224]\n      - cell \"다음 일일 실행에서 겹치는 기간과 같은 ID로 중복 제거\" [ref=e225]\n  - paragraph\n    - StaticText \"주된 콘텐츠 실험은 GL-L003의 도시 응답 선택화 하나입니다. GL-L001의 예정 원고는 평가 전 그대로 유지했습니다. GL-P006은 기존 주제의 최종 편집·큐 보충이며 별도 승자 실험으로 취급하지 않습니다.\"\n  - heading \"24시간·72시간·7일 관측\" [level=2, ref=e11]\n  - table\n    - rowgroup\n      - row\n        - columnheader \"ID\" [ref=e309]\n        - columnheader \"창\" [ref=e310]\n        - columnheader \"임시 기준 시각\" [ref=e311]\n        - columnheader \"이후 첫 일일 실행\" [ref=e312]\n    - row\n      - cell \"GL-P002\" [ref=e226]\n      - cell \"24h\" [ref=e227]\n      - cell \"2026-09-11T18:30:00-07:00\" [ref=e228]\n      - cell \"2026-09-12T09:30:00-07:00\" [ref=e229]\n    - row\n      - cell \"GL-P002\" [ref=e230]\n      - cell \"72h\" [ref=e231]\n      - cell \"2026-09-13T18:30:00-07:00\" [ref=e232]\n      - cell \"2026-09-14T09:30:00-07:00\" [ref=e233]\n    - row\n      - cell \"GL-P002\" [ref=e234]\n      - cell \"168h\" [ref=e235]\n      - cell \"2026-09-17T18:30:00-07:00\" [ref=e236]\n      - cell \"2026-09-18T09:30:00-07:00\" [ref=e237]\n    - row\n      - cell \"GL-P004\" [ref=e238]\n      - cell \"24h\" [ref=e239]\n      - cell \"2026-09-13T18:30:00-07:00\" [ref=e240]\n      - cell \"2026-09-14T09:30:00-07:00\" [ref=e241]\n    - row\n      - cell \"GL-P004\" [ref=e242]\n      - cell \"72h\" [ref=e243]\n      - cell \"2026-09-15T18:30:00-07:00\" [ref=e244]\n      - cell \"2026-09-16T09:30:00-07:00\" [ref=e245]\n    - row\n      - cell \"GL-P004\" [ref=e246]\n      - cell \"168h\" [ref=e247]\n      - cell \"2026-09-19T18:30:00-07:00\" [ref=e248]\n      - cell \"2026-09-20T09:30:00-07:00\" [ref=e249]\n    - row\n      - cell \"GL-P006\" [ref=e250]\n      - cell \"24h\" [ref=e251]\n      - cell \"2026-09-15T18:30:00-07:00\" [ref=e252]\n      - cell \"2026-09-16T09:30:00-07:00\" [ref=e253]\n    - row\n      - cell \"GL-P006\" [ref=e254]\n      - cell \"72h\" [ref=e255]\n      - cell \"2026-09-17T18:30:00-07:00\" [ref=e256]\n      - cell \"2026-09-18T09:30:00-07:00\" [ref=e257]\n    - row\n      - cell \"GL-P006\" [ref=e258]\n      - cell \"168h\" [ref=e259]\n      - cell \"2026-09-21T18:30:00-07:00\" [ref=e260]\n      - cell \"2026-09-22T09:30:00-07:00\" [ref=e261]\n  - paragraph\n    - StaticText \"아직 실제 발행 시각이 없어 예약 시각에 근거한 임시 계획입니다. 발행 URL·실제 시각 확인 후 다시 계산하며, 놓친 창은 현재 누적값과 실제 경과 시간으로 기록합니다. 목요일 실행이므로 주간 검토는 다음 월요일 9/14에 진행합니다.\"\n  - heading \"접근 제한·누락과 다음 조치\" [level=2, ref=e12]\n  - table\n    - rowgroup\n      - row\n        - columnheader \"출처\" [ref=e313]\n        - columnheader \"상태\" [ref=e314]\n        - columnheader \"확인된 이유\" [ref=e315]\n        - columnheader \"다음 조치\" [ref=e316]\n    - row\n      - cell \"native per-post insights\" [ref=e262]\n      - cell \"not_due\" [ref=e263]\n      - cell \"두 채널 공개 게시물 없음. 개별 글 수치·24h/72h/7d 나이는 null.\" [ref=e264]\n      - cell \"실제 발행 URL·시각 확인 후 관측\" [ref=e265]\n    - row\n      - cell \"Instagram native scheduling / Meta Business Suite\" [ref=e266]\n      - cell \"unavailable\" [ref=e267]\n      - cell \"현재 Meta 로그인 화면. 이전 예약 시도에서 gling.app 팝업 window_not_focused; 이번에는 인증 장벽 반복하지 않고 읽기 1회로 확인. 소재·클릭 링크도 미완료.\" [ref=e268]\n      - cell \"기존 gling.app 로그인 경로 해결 후 현재 큐를 다시 확인\" [ref=e269]\n    - row\n      - cell \"Instagram profile website\" [ref=e270]\n      - cell \"blocked\" [ref=e271]\n      - cell \"웹사이트 필드가 비어 있고 disabled. UI가 링크 수정은 모바일에서만 가능하다고 안내.\" [ref=e272]\n      - cell \"Instagram 앱 @gling.app 프로필에 기존 UTM 외부 링크 추가\" [ref=e273]\n    - row\n      - cell \"audience geography\" [ref=e274]\n      - cell \"unavailable\" [ref=e275]\n      - cell \"조회한 사람 0 표시; 도시·국가 집계가 현재 화면에 제공되지 않음. 전체 열람자 신원 추정 없음.\" [ref=e276]\n      - cell \"노출 뒤 플랫폼이 집계를 제공하는 경우 출처·기간·분모 기록\" [ref=e277]\n    - row\n      - cell \"web conversion and direct Gmail without Gling clue\" [ref=e278]\n      - cell \"partial\" [ref=e279]\n      - cell \"UTM 유지와 mailto는 확인했지만 전환 보고 접근 없음. 별칭+subject:글링 외 제품 단서 없는 직통 문의까지 전수 확인하지 않음.\" [ref=e280]\n      - cell \"정해진 글링 검색을 유지하고 출처 불명 문의는 개별 글에 귀속하지 않음\" [ref=e281]\n    - row\n      - cell \"Gmail Gling profile authentication\" [ref=e282]\n      - cell \"resolved_with_authorized_exception\" [ref=e283]\n      - cell \"처음은 로그아웃. 사용자 지정 Default Gmail 탭에서 계정 라벨·검색을 확인해 분류 완료. 중복 로그인 창 닫음. SNS에는 예외 적용 안 함.\" [ref=e284]\n      - cell \"지정 Gmail 읽기 예외 유지\" [ref=e285]\n  - heading \"검증·운영 기록\" [level=2, ref=e13]\n  - paragraph\n    - StaticText \"CSV 12행 점검 통과, 수정 본문을 CSV에서 재조회해 일치 확인. Threads 저장 본문 3건과 기존 GL-P002 원문·시각을 대조했습니다. 1회차 0바이트 출력은 미완료로 보존했습니다. 최초 자동 완료 신호의 원인은 확정하지 않았습니다. 이번에 자동화 설정·앱 코드·다른 프로젝트를 변경하지 않았고, 유료 행동·외부 답장은 0건입니다.\"\n  - paragraph\n    - link \"캘린더 검사\" [ref=e22]\n    - StaticText \" · \"\n    - link \"3건 원문 대조\" [ref=e23]\n    - StaticText \" · \"\n    - link \"HTML·JSON 최종 확인\" [ref=e24]\n    - StaticText \" · \"\n    - link \"누적 학습 원장\" [ref=e25]",
+    "browserPageId": "1e4ed7a5-6629-42e7-9c85-f84b971feb69"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

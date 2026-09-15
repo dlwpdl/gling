@@ -1,0 +1,2 @@
+[patina] profile "social" no longer provides voice — profiles are pattern-policy only now. For genre voice use a persona (e.g. patina --lang ko --persona <id> ...); run `patina persona list --lang ko`.
+[patina] verify: MPS 100, fidelity 83.3 (passed)

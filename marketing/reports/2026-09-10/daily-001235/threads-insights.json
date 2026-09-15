@@ -1,0 +1,147 @@
+{
+  "id": "b09e3391-045e-49e0-8555-8a0ac590fd55",
+  "ok": true,
+  "result": {
+    "origin": "https://www.threads.com/insights",
+    "refs": {
+      "e1": {
+        "name": "",
+        "role": "generic"
+      },
+      "e10": {
+        "name": "인사이트 인사이트",
+        "role": "link"
+      },
+      "e11": {
+        "name": "피드 수정",
+        "role": "button"
+      },
+      "e12": {
+        "name": "팔로잉",
+        "role": "link"
+      },
+      "e13": {
+        "name": "저장됨 저장됨",
+        "role": "link"
+      },
+      "e14": {
+        "name": "좋아요 좋아요",
+        "role": "link"
+      },
+      "e15": {
+        "name": "유령 게시물",
+        "role": "link"
+      },
+      "e16": {
+        "name": "보관함 보관함",
+        "role": "link"
+      },
+      "e17": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e18": {
+        "name": "칼럼 본문",
+        "role": "region"
+      },
+      "e19": {
+        "name": "",
+        "role": "generic"
+      },
+      "e2": {
+        "name": "만들기",
+        "role": "button"
+      },
+      "e20": {
+        "name": "개요 프로필, 조회한 사람 및 팔로워 인사이트",
+        "role": "link"
+      },
+      "e21": {
+        "name": "열 제목",
+        "role": "link"
+      },
+      "e22": {
+        "name": "최근 30일",
+        "role": "button"
+      },
+      "e23": {
+        "name": "검색",
+        "role": "textbox"
+      },
+      "e24": {
+        "name": "게시물 필터링 Threads",
+        "role": "button"
+      },
+      "e25": {
+        "name": "최신 게시물 게시물 정렬",
+        "role": "button"
+      },
+      "e26": {
+        "name": "개요",
+        "role": "heading"
+      },
+      "e27": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e28": {
+        "name": "추가 정보",
+        "role": "button"
+      },
+      "e29": {
+        "name": "조회수: 0",
+        "role": "button"
+      },
+      "e3": {
+        "name": "Threads",
+        "role": "link"
+      },
+      "e30": {
+        "name": "조회한 사람: 0",
+        "role": "button"
+      },
+      "e31": {
+        "name": "순 팔로워: +0",
+        "role": "button"
+      },
+      "e32": {
+        "name": "반응: 0",
+        "role": "button"
+      },
+      "e33": {
+        "name": "추가 정보",
+        "role": "button"
+      },
+      "e4": {
+        "name": "추천",
+        "role": "link"
+      },
+      "e5": {
+        "name": "새로운 스레드",
+        "role": "button"
+      },
+      "e6": {
+        "name": "검색 검색",
+        "role": "link"
+      },
+      "e7": {
+        "name": "메시지 메시지",
+        "role": "link"
+      },
+      "e8": {
+        "name": "알림 활동",
+        "role": "link"
+      },
+      "e9": {
+        "name": "프로필 프로필",
+        "role": "link"
+      }
+    },
+    "snapshot": "- generic [ref=e1] clickable [onclick]\n  - navigation\n    - link \"Threads\" [ref=e3]\n      - image \"Threads\"\n    - button \"더 보기\" [expanded=false, ref=e17]\n      - image \"더 보기\"\n    - link \"추천\" [ref=e4]\n      - generic\n        - image\n        - StaticText \"추천\"\n    - button \"새로운 스레드\" [ref=e5]\n      - generic\n        - image\n        - StaticText \"새로운 스레드\"\n    - link \"검색 검색\" [ref=e6]\n      - generic\n        - image \"검색\"\n        - StaticText \"검색\"\n    - link \"메시지 메시지\" [ref=e7]\n      - generic\n        - image \"메시지\"\n        - StaticText \"메시지\"\n    - link \"알림 활동\" [ref=e8]\n      - generic\n        - image \"알림\"\n        - StaticText \"활동\"\n    - link \"프로필 프로필\" [ref=e9]\n      - generic\n        - image \"프로필\"\n        - StaticText \"프로필\"\n    - link \"인사이트 인사이트\" [ref=e10]\n      - generic\n        - image \"인사이트\"\n        - StaticText \"인사이트\"\n    - StaticText \"기타 피드\"\n    - button \"피드 수정\" [ref=e11]\n      - StaticText \"수정\"\n    - link \"팔로잉\" [ref=e12]\n      - StaticText \"팔로잉\"\n    - link \"저장됨 저장됨\" [ref=e13]\n      - generic\n        - image \"저장됨\"\n        - StaticText \"저장됨\"\n    - link \"좋아요 좋아요\" [ref=e14]\n      - generic\n        - image \"좋아요\"\n        - StaticText \"좋아요\"\n    - link \"유령 게시물\" [ref=e15]\n      - generic\n        - StaticText \"유령 게시물\"\n        - image\n    - link \"보관함 보관함\" [ref=e16]\n      - generic\n        - image \"보관함\"\n        - StaticText \"보관함\"\n  - generic\n    - generic\n      - generic\n        - generic\n          - StaticText \"인사이트\"\n          - generic [ref=e19] clickable [onclick]\n            - image\n            - textbox \"검색\" [ref=e23]\n          - link \"개요 프로필, 조회한 사람 및 팔로워 인사이트\" [ref=e20]\n            - image\n            - StaticText \"개요\"\n            - StaticText \"프로필, 조회한 사람 및 팔로워 인사이트\"\n          - generic\n            - button \"게시물 필터링 Threads\" [expanded=false, ref=e24]\n              - image \"게시물 필터링\"\n              - StaticText \"Threads\"\n            - button \"최신 게시물 게시물 정렬\" [expanded=false, ref=e25]\n              - StaticText \"최신 게시물\"\n              - image \"게시물 정렬\"\n          - StaticText \"아직 스레드 없음\"\n        - link \"열 제목\" [ref=e21]\n          - heading \"개요\" [level=1, ref=e26]\n            - StaticText \"개요\"\n        - button \"최근 30일\" [expanded=false, ref=e22]\n          - StaticText \"최근 30일\"\n          - image\n        - button \"더 보기\" [expanded=false, ref=e27]\n          - image \"더 보기\"\n        - region \"칼럼 본문\" [ref=e18] focusable [tabindex]\n          - generic\n            - StaticText \"요약\"\n            - button \"추가 정보\" [ref=e28]\n              - image\n            - button \"조회수: 0\" [ref=e29]\n              - StaticText \"조회수\"\n              - StaticText \"0\"\n              - StaticText \"0.0%\"\n            - button \"조회한 사람: 0\" [ref=e30]\n              - StaticText \"조회한 사람\"\n              - StaticText \"0\"\n              - StaticText \"0.0%\"\n            - button \"순 팔로워: +0\" [ref=e31]\n              - StaticText \"순 팔로워\"\n              - StaticText \"+0\"\n              - StaticText \"0.0%\"\n            - button \"반응: 0\" [ref=e32]\n              - StaticText \"반응\"\n              - StaticText \"0\"\n              - StaticText \"0.0%\"\n            - StaticText \"조회한 사람\"\n            - button \"추가 정보\" [ref=e33]\n              - image\n            - StaticText \"0\"\n            - generic\n              - StaticText \"0.0% 8월 11일부터\"\n            - StaticText \"조회한 사람 유형\"\n            - generic\n              - StaticText \"팔로워\"\n              - StaticText \"0\"\n              - StaticText \"0.0%\"\n            - generic\n              - StaticText \"팔로워가 아닌 사람\"\n              - StaticText \"0\"\n              - StaticText \"0.0%\"\n  - button \"만들기\" [expanded=false, ref=e2]\n    - image \"만들기\"",
+    "browserPageId": "72425d9f-1d20-488b-92bd-8780972cb49c"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  },
+  "observed_at": "2026-09-10T07:14:23.856212+00:00"
+}

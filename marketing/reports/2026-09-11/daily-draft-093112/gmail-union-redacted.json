@@ -1,0 +1,60 @@
+{
+  "observed_at": "2026-09-11T09:33:23.372929-07:00",
+  "queries": [
+    "in:anywhere \"gling@ej-entertainment.com\" newer_than:7d",
+    "in:anywhere subject:글링 newer_than:7d"
+  ],
+  "unique_threads": [
+    {
+      "threadId": "1a089dc5f154f5a0",
+      "sender": "Instagram",
+      "subject": "[인증정보 숨김] is your Instagram code",
+      "date": "2026년 9월 9일 (수) 오후 10:48"
+    },
+    {
+      "threadId": "1a089e2fd9e307b8",
+      "sender": "Instagram",
+      "subject": "Did you just add a new account to your Accounts Center?",
+      "date": "2026년 9월 9일 (수) 오후 10:55"
+    },
+    {
+      "threadId": "1a089d3d9696e016",
+      "sender": "내부 전달 테스트",
+      "subject": "Gling 이메일 전달 확인 · GL-MAIL-[인증정보 숨김]-01",
+      "date": "2026년 9월 9일 (수) 오후 10:39"
+    },
+    {
+      "threadId": "1a08bc4a9a5bf386",
+      "sender": "RevenueCat Team",
+      "subject": "Your app is ready for its first product",
+      "date": "2026년 9월 10일 (목) 오전 7:41"
+    },
+    {
+      "threadId": "1a089d60966ef970",
+      "sender": "RevenueCat",
+      "subject": "[Action required] Verify your RevenueCat e-mail",
+      "date": "2026년 9월 9일 (수) 오후 10:41"
+    }
+  ],
+  "dedupe_key": "visible Gmail data-legacy-thread-id",
+  "prior_observed_at": "2026-09-10T09:36:20.837808-07:00",
+  "prior_ids": [
+    "1a089d3d9696e016",
+    "1a089d60966ef970",
+    "1a089dc5f154f5a0",
+    "1a089e2fd9e307b8",
+    "1a08bc4a9a5bf386"
+  ],
+  "new_ids": [],
+  "new_thread_count": 0,
+  "same_existing_thread_dates": true,
+  "new_message_count": null,
+  "current_customer_inquiry_count": 0,
+  "current_voluntary_alert_count": 0,
+  "current_system_auth_onboarding_count": 4,
+  "current_internal_test_count": 1,
+  "period_scope": "Gmail newer_than:7d; 5 threads, not message totals",
+  "previous_day_threads": 1,
+  "today_threads": 0,
+  "classification_basis": "표시된 제품 검색 발신자·제목 기준. 인증 본문 미열람. 제품 단서 없는 직통 문의는 범위 밖."
+}

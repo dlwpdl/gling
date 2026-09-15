@@ -1,0 +1,87 @@
+{
+  "observed_at": "2026-09-11T09:33:51.305953-07:00",
+  "id": "ecb0c464-a738-470b-b9f5-b152bd4b763a",
+  "ok": true,
+  "result": {
+    "origin": "https://www.instagram.com/direct/requests/",
+    "refs": {
+      "e1": {
+        "name": "",
+        "role": "generic"
+      },
+      "e10": {
+        "name": "홈",
+        "role": "link"
+      },
+      "e11": {
+        "name": "새로운 게시물",
+        "role": "link"
+      },
+      "e12": {
+        "name": "gling.app님의 프로필 사진",
+        "role": "link"
+      },
+      "e13": {
+        "name": "대화 리스트",
+        "role": "navigation"
+      },
+      "e14": {
+        "name": "돌아가기",
+        "role": "button"
+      },
+      "e15": {
+        "name": "gling.app님의 프로필 사진",
+        "role": "link"
+      },
+      "e16": {
+        "name": "0개 모두 삭제",
+        "role": "button"
+      },
+      "e17": {
+        "name": "숨겨진 요청을 나타내는 눈 모양 해제 아이콘 숨겨진 요청 숨겨진 요청 창 시작을 나타내는 V자형 아이콘",
+        "role": "button"
+      },
+      "e18": {
+        "name": "메시지 요청",
+        "role": "heading"
+      },
+      "e2": {
+        "name": "릴스",
+        "role": "link"
+      },
+      "e3": {
+        "name": "메시지",
+        "role": "link"
+      },
+      "e4": {
+        "name": "검색",
+        "role": "link"
+      },
+      "e5": {
+        "name": "알림",
+        "role": "link"
+      },
+      "e6": {
+        "name": "프로페셔널 대시보드",
+        "role": "link"
+      },
+      "e7": {
+        "name": "설정",
+        "role": "link"
+      },
+      "e8": {
+        "name": "Meta의 다른 앱",
+        "role": "link"
+      },
+      "e9": {
+        "name": "Instagram",
+        "role": "link"
+      }
+    },
+    "snapshot": "- generic\n  - generic [ref=e1] clickable [onclick]\n    - generic\n      - generic\n        - link \"Instagram\" [ref=e9]\n          - image \"Instagram\"\n        - link \"홈\" [ref=e10]\n          - image \"홈\"\n        - link \"릴스\" [ref=e2]\n          - image \"릴스\"\n        - link \"메시지\" [ref=e3]\n          - generic\n            - image \"메시지\"\n        - link \"검색\" [ref=e4]\n          - image \"검색\"\n        - link \"알림\" [ref=e5]\n          - generic\n            - image \"알림\"\n        - generic\n          - link \"새로운 게시물\" [ref=e11]\n            - image \"새로운 게시물\"\n        - link \"프로페셔널 대시보드\" [ref=e6]\n          - image \"프로페셔널 대시보드\"\n        - link \"gling.app님의 프로필 사진\" [ref=e12]\n          - link \"gling.app님의 프로필 사진\" [ref=e15]\n            - image \"gling.app님의 프로필 사진\"\n        - link \"설정\" [ref=e7]\n          - image \"설정\"\n        - link \"Meta의 다른 앱\" [ref=e8]\n          - image \"Meta의 다른 앱\"\n        - generic\n          - main\n            - generic\n              - generic\n                - navigation \"대화 리스트\" [ref=e13]\n                  - generic\n                    - button \"돌아가기\" [ref=e14]\n                      - image \"돌아가기\"\n                    - StaticText \"메시지 요청\"\n                    - generic\n                      - generic\n                        - button \"숨겨진 요청을 나타내는 눈 모양 해제 아이콘 숨겨진 요청 숨겨진 요청 창 시작을 나타내는 V자형 아이콘\" [ref=e17]\n                          - generic\n                            - image \"숨겨진 요청을 나타내는 눈 모양 해제 아이콘\"\n                            - StaticText \"숨겨진 요청\"\n                            - image \"숨겨진 요청 창 시작을 나타내는 V자형 아이콘\"\n                        - StaticText \"Chats will appear here after you send or receive a message\"\n                    - generic\n                      - separator\n                      - button \"0개 모두 삭제\" [ref=e16]\n                        - StaticText \"0개 모두 삭제\"\n                - generic\n                  - image\n                  - heading \"메시지 요청\" [level=2, ref=e18]\n                  - StaticText \"회원님이 제한하거나 팔로우하지 않는 사람에게 받은 메시지입니다. 회원님에게 메시지를 보낼 수 있도록 허용하지 않는 이상 상대방은 회원님이 요청을 확인했다는 사실을 알 수 없습니다.\"",
+    "browserPageId": "d70dc524-70b0-4c8e-83a6-a9a15adec974"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

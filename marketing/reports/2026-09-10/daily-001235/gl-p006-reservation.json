@@ -1,0 +1,20 @@
+{
+  "content_id": "GL-P006",
+  "platform": "threads",
+  "account_handle": "@gling.app",
+  "status": "scheduled",
+  "scheduled_at": "2026-09-14T18:30:00-07:00",
+  "verified_at": "2026-09-10T07:27:21.124319+00:00",
+  "native_reservation_id": null,
+  "native_public_url": null,
+  "queue_url": "https://www.threads.com/@gling.app",
+  "queue_items_observed": 3,
+  "copy": "글링에는 라이프·맛집·여행·쇼핑·정착·이동·주거·교육·모임까지, 모두 9개 카테고리가 있어요.\n첫 화면에 어떤 이야기가 보여야 다시 들어와 보고 싶을까요?\n운영자가 먼저 준비한 이야기로, 함께 시작해 볼 분들을 기다리고 있어요.",
+  "copy_sha256": "bf78aa6a7378bec4ed115024d95302e8150ef4599b869d07bd444fa16c888631",
+  "snapshot": "threads-queue-final.json",
+  "patina_output": "gl-p006.patina.txt",
+  "final_body": "gl-p006.final-body.txt",
+  "patina_log": "gl-p006.patina.log",
+  "body_readback_match": true,
+  "note": "Patina trailing tone metadata separated without prose edits; native UI has no individual reservation ID/permalink."
+}

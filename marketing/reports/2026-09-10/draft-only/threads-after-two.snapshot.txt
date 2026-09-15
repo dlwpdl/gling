@@ -1,0 +1,19 @@
+- dialog
+  - generic
+    - generic
+      - button "돌아가기" [ref=e1]
+        - image "돌아가기"
+      - heading "임시 저장본" [level=1, ref=e2]
+        - StaticText "임시 저장본"
+      - button "월요일 오후 6:30 GMT-7에 게시 예정 gling.app님의 프로필 사진 gling.app 7시간 전 더 보기 글링에는 라이프·맛집·여행·쇼핑·정착·이동·주거·교육·모임까지, 모두 9개 카테고리가 있어요. 첫 화면에 어떤 이야기가 보여야 다시 들어와 보고 싶을까요? 운영자가 먼저 준비한 이야기로, 함께 시작해 볼 분들을 기다리고 있어요." [ref=e3]
+        - image
+        - StaticText "월요일 오후 6:30 GMT-7에 게시 예정"
+        - image "gling.app님의 프로필 사진"
+        - StaticText "gling.app"
+        - time
+          - Abbr "7시간 전"
+            - StaticText "7시간"
+        - button "더 보기" [expanded=false, ref=e4]
+          - image "더 보기"
+        - StaticText "글링에는 라이프·맛집·여행·쇼핑·정착·이동·주거·교육·모임까지, 모두 9개 카테고리가 있어요.\n첫 화면에 어떤 이야기가 보여야 다시 들어와 보고 싶을까요?\n운영자가 먼저 준비한 이야기로, 함께 시작해 볼 분들을 기다리고 있어요."
+      - separator

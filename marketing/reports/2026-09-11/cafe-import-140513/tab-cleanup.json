@@ -1,0 +1,118 @@
+{
+  "observed_at": "2026-09-11T14:20:42.221598-07:00",
+  "results": [
+    {
+      "name": "cafe-phnom-penh",
+      "page_id": "74162469-5a9f-4f03-94a5-77f5964c1daf",
+      "status": "already_absent",
+      "reason": "not in current parent tab list; disappearance cause unknown"
+    },
+    {
+      "name": "cafe-deer-garden",
+      "page_id": "cb27862a-f7a1-4fca-809a-89578bcff05f",
+      "status": "already_absent",
+      "reason": "not in current parent tab list; disappearance cause unknown"
+    },
+    {
+      "name": "cafe-bodo",
+      "page_id": "91f5f38f-1885-4317-8b97-de13c4763b25",
+      "status": "already_absent",
+      "reason": "not in current parent tab list; disappearance cause unknown"
+    },
+    {
+      "name": "official-phnom-penh",
+      "page_id": "cd7333d6-88e0-482f-b95d-53a0f2626c24",
+      "status": "already_absent",
+      "reason": "not in current parent tab list; disappearance cause unknown"
+    },
+    {
+      "name": "official-deer-garden",
+      "page_id": "f5d5dfa5-aa3e-45fb-a3ef-90ca5f262013",
+      "status": "closed",
+      "ok": true
+    },
+    {
+      "name": "bodo-official-search",
+      "page_id": "726f23d8-efb4-476b-9467-ae008e739a33",
+      "status": "already_absent",
+      "reason": "not in current parent tab list; disappearance cause unknown"
+    },
+    {
+      "name": "phnom-official-search",
+      "page_id": "bce7a5c7-fe5e-426e-9cf2-98757309e235",
+      "status": "closed",
+      "ok": true
+    },
+    {
+      "name": "openai-safety-price",
+      "page_id": "4244c5a5-14ad-4bda-a140-d85193974891",
+      "status": "closed",
+      "ok": true
+    },
+    {
+      "name": "bodo-search-retry",
+      "page_id": "851a63e8-bd9a-442e-9547-76963998d805",
+      "status": "closed",
+      "ok": true
+    },
+    {
+      "name": "official-deer-signature",
+      "page_id": "f60c7ff0-3775-4002-9a6c-8cfccf432497",
+      "status": "closed",
+      "ok": true
+    },
+    {
+      "name": "official-bodo-instagram",
+      "page_id": "b9aab06c-adad-48a4-9848-de1cd68657f4",
+      "status": "closed",
+      "ok": true
+    },
+    {
+      "name": "official-phnom-http",
+      "page_id": "92387447-4fff-4b6a-9f9c-67d455ae4032",
+      "status": "closed",
+      "ok": true
+    },
+    {
+      "name": "official-phnom-instagram",
+      "page_id": "40ae4ad5-bc21-4975-8758-51af4d8ccf6e",
+      "status": "closed",
+      "ok": true
+    },
+    {
+      "name": "phnom-michelin",
+      "page_id": "8e08e5c9-7914-4c20-bfd6-623da83d5fe7",
+      "status": "closed",
+      "ok": true
+    }
+  ],
+  "preserved_user_naver_tab": "d47dd04d-135a-4ebf-a5cd-87349e3abe64",
+  "review_tab": "13982e5a-f021-47c9-9a91-8cbe7f51e195",
+  "remaining_parent_tabs": [
+    {
+      "page_id": "007cb0b2-390d-4805-94b7-628fad64cd5a",
+      "profile": "Gling",
+      "title": "프로필 편집 • Instagram"
+    },
+    {
+      "page_id": "6f11e5e4-031a-420f-a84d-67bd6302c6f7",
+      "profile": "Default",
+      "title": "127.0.0.1:8181/?build=10-final"
+    },
+    {
+      "page_id": "02e76f34-365b-4fa5-ae77-71e82298e26b",
+      "profile": "Default",
+      "title": "App Store Connect"
+    },
+    {
+      "page_id": "d47dd04d-135a-4ebf-a5cd-87349e3abe64",
+      "profile": "Gling",
+      "title": "즐거운 캐나다 라이프 ~ 헬로! 밴쿠버 : 네이버 카페"
+    },
+    {
+      "page_id": "13982e5a-f021-47c9-9a91-8cbe7f51e195",
+      "profile": "Gling",
+      "title": "글링 · 카페 조사와 맛집 원고 3편"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-09-11T14:21:10.018220-07:00",
+  "page_id": "13982e5a-f021-47c9-9a91-8cbe7f51e195",
+  "url": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/latest.html",
+  "exact_bodies": true,
+  "base": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-11/",
+  "width_ok": true,
+  "immutable_sha256": {
+    "cafe-import-140513.html": "9f72568ba3d5946d09c2f628c36b9622edc170255af36fba14b1ca2d898a7d7f",
+    "cafe-import-140513.json": "1f6bf2386eae73f5f741c4fd2ed3381e1f31d37fba53fd55db2946c3267ddfee"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "1569d317-e85a-43c8-a432-ca35a044e856",
+  "ok": true,
+  "result": {
+    "origin": "https://www.threads.com/@gling.app",
+    "refs": {
+      "e1": {
+        "name": "취소",
+        "role": "button"
+      },
+      "e10": {
+        "name": "위치 추가",
+        "role": "button"
+      },
+      "e11": {
+        "name": "음악 추가",
+        "role": "button"
+      },
+      "e12": {
+        "name": "스레드에 추가",
+        "role": "button"
+      },
+      "e13": {
+        "name": "돌아가기",
+        "role": "button"
+      },
+      "e14": {
+        "name": "임시 저장본",
+        "role": "heading"
+      },
+      "e15": {
+        "name": "오늘 오후 6:30 GMT-7에 게시 예정 gling.app님의 프로필 사진 gling.app 31분 전 더 보기 밴쿠버에서 혼자 밥 먹기 편한 곳, 동네 사람에게 물어볼 수 있다면? 도시별로 글과 댓글을 나누는 글링을 준비하고 있어요. 먼저 시작하는 도시는 밴쿠버와 토론토예요. 출시 준비 중인 앱 화면은 아래 링크에서 볼 수 있어요. https://gling.ej-entertainment.com/?utm_source=threads&utm_medium=organic_social&utm_campaign=prelaunch&utm_content=gl_p002",
+        "role": "button"
+      },
+      "e16": {
+        "name": "임시 저장본",
+        "role": "button"
+      },
+      "e17": {
+        "name": "커뮤니티 또는 주제",
+        "role": "searchbox"
+      },
+      "e18": {
+        "name": "텍스트 필드가 비어 있습니다. 입력하여 새 게시물을 작성해보세요.",
+        "role": "textbox"
+      },
+      "e19": {
+        "name": "게시",
+        "role": "button"
+      },
+      "e2": {
+        "name": "새로운 스레드",
+        "role": "heading"
+      },
+      "e20": {
+        "name": "게시물 옵션",
+        "role": "button"
+      },
+      "e21": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e3": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e4": {
+        "name": "미디어 첨부",
+        "role": "button"
+      },
+      "e5": {
+        "name": "GIF 추가",
+        "role": "button"
+      },
+      "e6": {
+        "name": "이모티콘 추가",
+        "role": "button"
+      },
+      "e7": {
+        "name": "스티커 추가",
+        "role": "button"
+      },
+      "e8": {
+        "name": "설문 추가",
+        "role": "button"
+      },
+      "e9": {
+        "name": "텍스트 첨부",
+        "role": "button"
+      }
+    },
+    "snapshot": "- dialog\n  - generic\n    - generic\n      - button \"취소\" [ref=e1]\n        - StaticText \"취소\"\n      - heading \"새로운 스레드\" [level=1, ref=e2]\n        - StaticText \"새로운 스레드\"\n      - button \"임시 저장본\" [ref=e16]\n        - image \"임시 저장본\"\n      - button \"더 보기\" [expanded=false, ref=e3]\n        - image \"더 보기\"\n      - image \"gling.app님의 프로필 사진\"\n      - StaticText \"gling.app\"\n      - image\n      - searchbox \"커뮤니티 또는 주제\" [ref=e17]\n      - generic\n        - textbox \"텍스트 필드가 비어 있습니다. 입력하여 새 게시물을 작성해보세요.\" [ref=e18]: \n\n          - paragraph\n            - LineBreak \"\\n\"\n      - button \"미디어 첨부\" [ref=e4]\n        - image \"미디어 첨부\"\n      - button \"GIF 추가\" [ref=e5]\n        - image \"GIF 추가\"\n      - button \"이모티콘 추가\" [expanded=false, ref=e6]\n        - image \"이모티콘 추가\"\n      - button \"스티커 추가\" [expanded=false, ref=e7]\n        - image \"스티커 추가\"\n      - button \"설문 추가\" [ref=e8]\n        - image \"설문 추가\"\n      - button \"텍스트 첨부\" [ref=e9]\n        - image \"텍스트 첨부\"\n      - button \"위치 추가\" [ref=e10]\n        - image \"위치 추가\"\n      - button \"음악 추가\" [ref=e11]\n        - image \"음악 추가\"\n      - image \"gling.app님의 프로필 사진\"\n      - button \"스레드에 추가\" [disabled, ref=e12]\n        - StaticText \"스레드에 추가\"\n      - button \"게시\" [ref=e19]\n        - StaticText \"게시\"\n      - button \"게시물 옵션\" [expanded=false, ref=e20]\n        - image\n        - StaticText \"게시물 옵션\"\n    - generic\n      - button \"돌아가기\" [ref=e13]\n        - image \"돌아가기\"\n      - heading \"임시 저장본\" [level=1, ref=e14]\n        - StaticText \"임시 저장본\"\n      - button \"오늘 오후 6:30 GMT-7에 게시 예정 gling.app님의 프로필 사진 gling.app 31분 전 더 보기 밴쿠버에서 혼자 밥 먹기 편한 곳, 동네 사람에게 물어볼 수 있다면? 도시별로 글과 댓글을 나누는 글링을 준비하고 있어요. 먼저 시작하는 도시는 밴쿠버와 토론토예요. 출시 준비 중인 앱 화면은 아래 링크에서 볼 수 있어요. https://gling.ej-entertainment.com/?utm_source=threads&utm_medium=organic_social&utm_campaign=prelaunch&utm_content=gl_p002\" [ref=e15]\n        - image\n        - StaticText \"오늘 오후 6:30 GMT-7에 게시 예정\"\n        - image \"gling.app님의 프로필 사진\"\n        - StaticText \"gling.app\"\n        - time\n          - Abbr \"31분 전\"\n            - StaticText \"31분\"\n        - button \"더 보기\" [expanded=false, ref=e21]\n          - image \"더 보기\"\n        - StaticText \"밴쿠버에서 혼자 밥 먹기 편한 곳, 동네 사람에게 물어볼 수 있다면?\\n\\n도시별로 글과 댓글을 나누는 글링을 준비하고 있어요. 먼저 시작하는 도시는 밴쿠버와 토론토예요. 출시 준비 중인 앱 화면은 아래 링크에서 볼 수 있어요.\\n\\nhttps://gling.ej-entertainment.com/?utm_source=threads&utm_medium=organic_social&utm_campaign=prelaunch&utm_content=gl_p002\"\n      - separator",
+    "browserPageId": "72425d9f-1d20-488b-92bd-8780972cb49c"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  },
+  "observed_at": "2026-09-10T07:13:43.685787+00:00"
+}

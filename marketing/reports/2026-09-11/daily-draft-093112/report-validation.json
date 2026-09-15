@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-09-11T09:39:23.979173-07:00",
+  "status": "passed",
+  "command": "python3 marketing/reports/2026-09-11/daily-draft-093112/validate.py",
+  "output": "PASS: daily-draft-093112; 12 local drafts, 2 Patina/readback matches, 10 preserved, 6 local preparation slots, 21 links, no external writes.",
+  "calendar": "passed 12 rows",
+  "all_run_json_syntax": "passed",
+  "latest_json_matches_archive": true,
+  "html_browser_view": "initial viewport visually verified",
+  "browser_body_match": "12/12",
+  "links_checked": 21,
+  "all_browser_resolved_file_links_exist": true,
+  "horizontal_overflow": false,
+  "task_tabs_closed": 5,
+  "archive_sha256": {
+    "daily-draft-093112.html": "fc4ffa006351c896066f41a97c04ddaa05cc3cb1a32510c07a965cd751804806",
+    "daily-draft-093112.json": "9183e3f58fa6b2479f4aeaa57fe494be85eb3e4a76900a71cb8cc80ebf7c64ef"
+  }
+}

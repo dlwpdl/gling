@@ -1,0 +1,31 @@
+{
+  "observed_at": "2026-09-11T14:07:15.649882-07:00",
+  "articles": [
+    {
+      "url": "https://cafe.naver.com/yoehang/724617",
+      "title": "Phnom Penh 맛집 후기",
+      "date": "2026.09.08. 11:13",
+      "accessible": true,
+      "observed_at": "2026-09-11T14:07:10.792259-07:00",
+      "message": null
+    },
+    {
+      "url": "https://cafe.naver.com/yoehang/724605",
+      "title": "락사 맛집 추천! Deer Garden 🦌",
+      "date": "2026.09.08. 08:33",
+      "accessible": true,
+      "observed_at": "2026-09-11T14:07:12.802500-07:00",
+      "message": null
+    },
+    {
+      "url": "https://cafe.naver.com/yoehang/724231",
+      "title": "로히드 새로 오픈한 일본 라멘 식당 Bodo Japanese Rojiura Ramen",
+      "date": "2026.09.05. 08:40",
+      "accessible": true,
+      "observed_at": "2026-09-11T14:07:15.649285-07:00",
+      "message": null
+    }
+  ],
+  "scope": "body only; no comments, author identities, images or login secrets retained",
+  "transport": "Orca Gling profile; DOM capture for offline Crawl4AI extraction"
+}

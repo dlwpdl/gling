@@ -1,0 +1,103 @@
+{
+  "observed_at": "2026-09-11T09:33:26.563646-07:00",
+  "id": "b18d9cb9-ee20-4ac0-b34c-8b849bacda34",
+  "ok": true,
+  "result": {
+    "origin": "https://www.threads.com/messages/requests",
+    "refs": {
+      "e1": {
+        "name": "",
+        "role": "generic"
+      },
+      "e10": {
+        "name": "피드 수정",
+        "role": "button"
+      },
+      "e11": {
+        "name": "팔로잉",
+        "role": "link"
+      },
+      "e12": {
+        "name": "저장됨 저장됨",
+        "role": "link"
+      },
+      "e13": {
+        "name": "좋아요 좋아요",
+        "role": "link"
+      },
+      "e14": {
+        "name": "유령 게시물",
+        "role": "link"
+      },
+      "e15": {
+        "name": "보관함 보관함",
+        "role": "link"
+      },
+      "e16": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e17": {
+        "name": "돌아가기",
+        "role": "link"
+      },
+      "e18": {
+        "name": "요청",
+        "role": "button"
+      },
+      "e19": {
+        "name": "새 메시지",
+        "role": "link"
+      },
+      "e2": {
+        "name": "Threads",
+        "role": "link"
+      },
+      "e20": {
+        "name": "요청",
+        "role": "link"
+      },
+      "e21": {
+        "name": "숨겨진 메시지",
+        "role": "link"
+      },
+      "e22": {
+        "name": "설정 관리",
+        "role": "link"
+      },
+      "e3": {
+        "name": "추천",
+        "role": "link"
+      },
+      "e4": {
+        "name": "새로운 스레드",
+        "role": "button"
+      },
+      "e5": {
+        "name": "검색 검색",
+        "role": "link"
+      },
+      "e6": {
+        "name": "메시지 메시지",
+        "role": "link"
+      },
+      "e7": {
+        "name": "알림 활동",
+        "role": "link"
+      },
+      "e8": {
+        "name": "프로필 프로필",
+        "role": "link"
+      },
+      "e9": {
+        "name": "인사이트 인사이트",
+        "role": "link"
+      }
+    },
+    "snapshot": "- generic [ref=e1] clickable [onclick]\n  - navigation\n    - link \"Threads\" [ref=e2]\n      - image \"Threads\"\n    - button \"더 보기\" [expanded=false, ref=e16]\n      - image \"더 보기\"\n    - link \"추천\" [ref=e3]\n      - generic\n        - image\n        - StaticText \"추천\"\n    - button \"새로운 스레드\" [ref=e4]\n      - generic\n        - image\n        - StaticText \"새로운 스레드\"\n    - link \"검색 검색\" [ref=e5]\n      - generic\n        - image \"검색\"\n        - StaticText \"검색\"\n    - link \"메시지 메시지\" [ref=e6]\n      - generic\n        - image \"메시지\"\n        - StaticText \"메시지\"\n    - link \"알림 활동\" [ref=e7]\n      - generic\n        - image \"알림\"\n        - StaticText \"활동\"\n    - link \"프로필 프로필\" [ref=e8]\n      - generic\n        - image \"프로필\"\n        - StaticText \"프로필\"\n    - link \"인사이트 인사이트\" [ref=e9]\n      - generic\n        - image \"인사이트\"\n        - StaticText \"인사이트\"\n    - StaticText \"기타 피드\"\n    - button \"피드 수정\" [ref=e10]\n      - StaticText \"수정\"\n    - link \"팔로잉\" [ref=e11]\n      - StaticText \"팔로잉\"\n    - link \"저장됨 저장됨\" [ref=e12]\n      - generic\n        - image \"저장됨\"\n        - StaticText \"저장됨\"\n    - link \"좋아요 좋아요\" [ref=e13]\n      - generic\n        - image \"좋아요\"\n        - StaticText \"좋아요\"\n    - link \"유령 게시물\" [ref=e14]\n      - generic\n        - StaticText \"유령 게시물\"\n        - image\n    - link \"보관함 보관함\" [ref=e15]\n      - generic\n        - image \"보관함\"\n        - StaticText \"보관함\"\n  - generic\n    - generic\n      - link \"돌아가기\" [ref=e17]\n        - image \"돌아가기\"\n      - button \"요청\" [ref=e18]\n        - StaticText \"요청\"\n      - link \"새 메시지\" [ref=e19]\n        - image \"새 메시지\"\n      - link \"요청\" [ref=e20]\n        - StaticText \"요청\"\n      - link \"숨겨진 메시지\" [ref=e21]\n        - StaticText \"숨겨진 메시지\"\n      - StaticText \"아직 메시지 요청이 없습니다\"\n      - image\n      - StaticText \"메시지 요청\"\n      - StaticText \"회원님이 팔로우하지 않는 사람들의 메시지가 여기에 표시됩니다. 언제든지 이 기능을 해제할 수 있습니다.\"\n      - link \"설정 관리\" [ref=e22]\n        - StaticText \"설정 관리\"",
+    "browserPageId": "bb4fd529-be19-48f5-bfde-bf1d9d9a56b3"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

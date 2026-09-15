@@ -1,0 +1,79 @@
+{
+  "observed_at": "2026-09-10T09:36:04.767966-07:00",
+  "id": "2432eea5-8a09-4785-81f7-54e351a8119a",
+  "ok": true,
+  "result": {
+    "origin": "https://www.instagram.com/direct/requests/hidden/",
+    "refs": {
+      "e1": {
+        "name": "",
+        "role": "generic"
+      },
+      "e10": {
+        "name": "태그 및 언급",
+        "role": "button"
+      },
+      "e11": {
+        "name": "인증됨",
+        "role": "button"
+      },
+      "e12": {
+        "name": "Meta",
+        "role": "link"
+      },
+      "e13": {
+        "name": "대화 리스트",
+        "role": "navigation"
+      },
+      "e14": {
+        "name": "돌아가기",
+        "role": "button"
+      },
+      "e15": {
+        "name": "0개 모두 삭제",
+        "role": "button"
+      },
+      "e16": {
+        "name": "숨겨진 요청",
+        "role": "heading"
+      },
+      "e2": {
+        "name": "알림",
+        "role": "heading"
+      },
+      "e3": {
+        "name": "오늘",
+        "role": "heading"
+      },
+      "e4": {
+        "name": "",
+        "role": "generic"
+      },
+      "e5": {
+        "name": "닫기",
+        "role": "button"
+      },
+      "e6": {
+        "name": "모두",
+        "role": "button"
+      },
+      "e7": {
+        "name": "내가 팔로우하는 사람",
+        "role": "button"
+      },
+      "e8": {
+        "name": "댓글",
+        "role": "button"
+      },
+      "e9": {
+        "name": "팔로우",
+        "role": "button"
+      }
+    },
+    "snapshot": "- generic\n  - generic [ref=e1] clickable [onclick]\n    - generic\n      - generic\n        - button \"닫기\" [ref=e5]\n          - image \"닫기\"\n        - heading \"알림\" [level=1, ref=e2]\n          - StaticText \"알림\"\n        - generic\n          - button \"모두\" [ref=e6]\n            - StaticText \"모두\"\n          - button \"내가 팔로우하는 사람\" [ref=e7]\n            - StaticText \"내가 팔로우하는 사람\"\n          - button \"댓글\" [ref=e8]\n            - StaticText \"댓글\"\n          - button \"팔로우\" [ref=e9]\n            - StaticText \"팔로우\"\n          - button \"태그 및 언급\" [ref=e10]\n            - StaticText \"태그 및 언급\"\n          - button \"인증됨\" [ref=e11]\n            - StaticText \"인증됨\"\n        - heading \"오늘\" [level=1, ref=e3]\n          - StaticText \"오늘\"\n        - generic [ref=e4] clickable [cursor:pointer, onclick]\n          - link \"Meta\" [ref=e12]\n            - image \"Meta\"\n          - StaticText \"계정 1개가 동일한 계정 센터에 추가된 후 설정이 업데이트되었습니다.\"\n          - StaticText \" \"\n          - Abbr \"10시간 전\"\n            - StaticText \"10시간\"\n        - generic\n          - main\n            - generic\n              - generic\n                - navigation \"대화 리스트\" [ref=e13]\n                  - generic\n                    - button \"돌아가기\" [ref=e14]\n                      - image \"돌아가기\"\n                    - StaticText \"숨겨진 요청\"\n                    - generic\n                      - StaticText \"Chats will appear here after you send or receive a message\"\n                    - generic\n                      - separator\n                      - button \"0개 모두 삭제\" [ref=e15]\n                        - StaticText \"0개 모두 삭제\"\n                - generic\n                  - image\n                  - heading \"숨겨진 요청\" [level=2, ref=e16]\n                  - StaticText \"불쾌하거나 원치 않을 가능성이 있는 메시지 요청입니다.\"",
+    "browserPageId": "4f49b454-3c71-4610-b603-251fa3443026"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

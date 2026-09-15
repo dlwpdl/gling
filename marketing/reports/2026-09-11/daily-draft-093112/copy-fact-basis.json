@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-09-11T09:32:25.374595-07:00",
+  "source_file": "src/components/feed-screen.tsx",
+  "lines": "128–135",
+  "observed_logic": "도시 id로 posts 제한 후 tagFilter 조건 적용",
+  "context": ".claude/product-marketing-context.md / 밴쿠버·토론토·9개 카테고리·운영자 초기 글",
+  "interpretation": "기능 존재와 탐색 경로의 근거이며 식당 품질·이용자 경험·응답 보장은 아님",
+  "primary_change": "기능 설명 앞에 구체적인 지역·생활 질문을 배치; 나머지 본문·CTA는 입력에서 유지"
+}

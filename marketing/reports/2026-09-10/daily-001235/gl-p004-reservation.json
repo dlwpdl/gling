@@ -1,0 +1,19 @@
+{
+  "content_id": "GL-P004",
+  "platform": "threads",
+  "account_handle": "@gling.app",
+  "status": "scheduled",
+  "scheduled_at": "2026-09-12T18:30:00-07:00",
+  "verified_at": "2026-09-10T07:22:31.278264+00:00",
+  "native_reservation_id": null,
+  "native_public_url": null,
+  "queue_url": "https://www.threads.com/@gling.app",
+  "queue_items_observed": 2,
+  "copy": "검색창에는 못 적겠고, 동네 사람한테는 물어보고 싶은 질문 있나요?\n\n저녁 메뉴 같은 작은 질문이어도 좋아요. 밴쿠버·토론토 동네 질문 하나만 남겨주세요. 도시는 편하면 같이 적어주세요.",
+  "copy_sha256": "f36ffe83188c4f0f928178929f811e5880f509e0abd3dbddbf5ef5b5da1eb2cb",
+  "snapshot": "threads-queue-after-p004.json",
+  "patina_output": "gl-p004.patina.txt",
+  "patina_log": "gl-p004.patina.log",
+  "body_readback_match": true,
+  "note": "UI has no individual reservation ID or permalink; this local receipt records account, exact body, schedule and native queue."
+}

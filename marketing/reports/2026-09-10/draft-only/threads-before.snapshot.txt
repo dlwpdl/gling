@@ -1,0 +1,216 @@
+- generic
+  - navigation
+    - link "Threads" [ref=e2]
+      - image "Threads"
+    - button "더 보기" [expanded=false, ref=e16]
+      - image "더 보기"
+    - link "추천" [ref=e3]
+      - generic
+        - image
+        - StaticText "추천"
+    - button "새로운 스레드" [ref=e4]
+      - generic
+        - image
+        - StaticText "새로운 스레드"
+    - link "검색 검색" [ref=e5]
+      - generic
+        - image "검색"
+        - StaticText "검색"
+    - link "메시지 메시지" [ref=e6]
+      - generic
+        - image "메시지"
+        - StaticText "메시지"
+    - link "알림 활동" [ref=e7]
+      - generic
+        - image "알림"
+        - StaticText "활동"
+    - link "프로필 프로필" [ref=e8]
+      - generic
+        - image "프로필"
+        - StaticText "프로필"
+    - link "인사이트 인사이트" [ref=e9]
+      - generic
+        - image "인사이트"
+        - StaticText "인사이트"
+    - StaticText "기타 피드"
+    - button "피드 수정" [ref=e10]
+      - StaticText "수정"
+    - link "팔로잉" [ref=e11]
+      - StaticText "팔로잉"
+    - link "저장됨 저장됨" [ref=e12]
+      - generic
+        - image "저장됨"
+        - StaticText "저장됨"
+    - link "좋아요 좋아요" [ref=e13]
+      - generic
+        - image "좋아요"
+        - StaticText "좋아요"
+    - link "유령 게시물" [ref=e14]
+      - generic
+        - StaticText "유령 게시물"
+        - image
+    - link "보관함 보관함" [ref=e15]
+      - generic
+        - image "보관함"
+        - StaticText "보관함"
+  - button "만들기" [expanded=false, ref=e1]
+    - image "만들기"
+  - generic
+    - generic
+      - dialog
+        - generic
+          - generic
+            - button "돌아가기" [ref=e18]
+              - image "돌아가기"
+            - heading "임시 저장본" [level=1, ref=e19]
+              - StaticText "임시 저장본"
+            - button "월요일 오후 6:30 GMT-7에 게시 예정 gling.app님의 프로필 사진 gling.app 7시간 전 더 보기 글링에는 라이프·맛집·여행·쇼핑·정착·이동·주거·교육·모임까지, 모두 9개 카테고리가 있어요. 첫 화면에 어떤 이야기가 보여야 다시 들어와 보고 싶을까요? 운영자가 먼저 준비한 이야기로, 함께 시작해 볼 분들을 기다리고 있어요." [ref=e20]
+              - image
+              - StaticText "월요일 오후 6:30 GMT-7에 게시 예정"
+              - image "gling.app님의 프로필 사진"
+              - StaticText "gling.app"
+              - time
+                - Abbr "7시간 전"
+                  - StaticText "7시간"
+              - button "더 보기" [expanded=false, ref=e23]
+                - image "더 보기"
+              - StaticText "글링에는 라이프·맛집·여행·쇼핑·정착·이동·주거·교육·모임까지, 모두 9개 카테고리가 있어요.\n첫 화면에 어떤 이야기가 보여야 다시 들어와 보고 싶을까요?\n운영자가 먼저 준비한 이야기로, 함께 시작해 볼 분들을 기다리고 있어요."
+            - separator
+            - button "토요일 오후 6:30 GMT-7에 게시 예정 gling.app님의 프로필 사진 gling.app 8시간 전 더 보기 검색창에는 못 적겠고, 동네 사람한테는 물어보고 싶은 질문 있나요? 저녁 메뉴 같은 작은 질문이어도 좋아요. 밴쿠버·토론토 동네 질문 하나만 남겨주세요. 도시는 편하면 같이 적어주세요." [ref=e21]
+              - image
+              - StaticText "토요일 오후 6:30 GMT-7에 게시 예정"
+              - image "gling.app님의 프로필 사진"
+              - StaticText "gling.app"
+              - time
+                - Abbr "8시간 전"
+                  - StaticText "8시간"
+              - button "더 보기" [expanded=false, ref=e24]
+                - image "더 보기"
+              - StaticText "검색창에는 못 적겠고, 동네 사람한테는 물어보고 싶은 질문 있나요?\n\n저녁 메뉴 같은 작은 질문이어도 좋아요. 밴쿠버·토론토 동네 질문 하나만 남겨주세요. 도시는 편하면 같이 적어주세요."
+            - separator
+            - button "오늘 오후 6:30 GMT-7에 게시 예정 gling.app님의 프로필 사진 gling.app 8시간 전 더 보기 밴쿠버에서 혼자 밥 먹기 편한 곳, 동네 사람에게 물어볼 수 있다면? 도시별로 글과 댓글을 나누는 글링을 준비하고 있어요. 먼저 시작하는 도시는 밴쿠버와 토론토예요. 출시 준비 중인 앱 화면은 아래 링크에서 볼 수 있어요. https://gling.ej-entertainment.com/?utm_source=threads&utm_medium=organic_social&utm_campaign=prelaunch&utm_content=gl_p002" [ref=e22]
+              - image
+              - StaticText "오늘 오후 6:30 GMT-7에 게시 예정"
+              - image "gling.app님의 프로필 사진"
+              - StaticText "gling.app"
+              - time
+                - Abbr "8시간 전"
+                  - StaticText "8시간"
+              - button "더 보기" [expanded=true, ref=e25]
+                - image "더 보기"
+              - StaticText "밴쿠버에서 혼자 밥 먹기 편한 곳, 동네 사람에게 물어볼 수 있다면?\n\n도시별로 글과 댓글을 나누는 글링을 준비하고 있어요. 먼저 시작하는 도시는 밴쿠버와 토론토예요. 출시 준비 중인 앱 화면은 아래 링크에서 볼 수 있어요.\n\nhttps://gling.ej-entertainment.com/?utm_source=threads&utm_medium=organic_social&utm_campaign=prelaunch&utm_content=gl_p002"
+            - separator
+      - generic
+        - menu
+          - generic [ref=e17] clickable [onclick]
+            - generic
+              - group
+                - status
+                  - heading "2026년 9월" [level=2, ref=e31]
+                    - StaticText "2026년 9월"
+                - button "지난달" [ref=e26]
+                  - image
+                - button "다음 달" [ref=e27]
+                  - image
+                - grid "날짜 선택" [ref=e28] focusable [tabindex]
+                  - row "월 화 수 목 금 토 일" [ref=e32] clickable [cursor:pointer]
+                    - gridcell "월" [ref=e41]
+                      - StaticText "월"
+                    - gridcell "화" [ref=e42]
+                      - StaticText "화"
+                    - gridcell "수" [ref=e43]
+                      - StaticText "수"
+                    - gridcell "목" [ref=e44]
+                      - StaticText "목"
+                    - gridcell "금" [ref=e45]
+                      - StaticText "금"
+                    - gridcell "토" [ref=e46]
+                      - StaticText "토"
+                    - gridcell "일" [ref=e47]
+                      - StaticText "일"
+                  - row "2026년 8월 31일 월요일 2026년 9월 1일 화요일 2026년 9월 2일 수요일 2026년 9월 3일 목요일 2026년 9월 4일 금요일 2026년 9월 5일 토요일 2026년 9월 6일 일요일" [ref=e33] clickable [cursor:pointer]
+                    - gridcell "2026년 8월 31일 월요일" [disabled, ref=e48]
+                      - StaticText "2026년 8월 31일 월요일"
+                    - gridcell "2026년 9월 1일 화요일" [disabled, ref=e49]
+                      - StaticText "2026년 9월 1일 화요일"
+                    - gridcell "2026년 9월 2일 수요일" [disabled, ref=e50]
+                      - StaticText "2026년 9월 2일 수요일"
+                    - gridcell "2026년 9월 3일 목요일" [disabled, ref=e51]
+                      - StaticText "2026년 9월 3일 목요일"
+                    - gridcell "2026년 9월 4일 금요일" [disabled, ref=e52]
+                      - StaticText "2026년 9월 4일 금요일"
+                    - gridcell "2026년 9월 5일 토요일" [disabled, ref=e53]
+                      - StaticText "2026년 9월 5일 토요일"
+                    - gridcell "2026년 9월 6일 일요일" [disabled, ref=e54]
+                      - StaticText "2026년 9월 6일 일요일"
+                  - row "2026년 9월 7일 월요일 2026년 9월 8일 화요일 2026년 9월 9일 수요일 2026년 9월 10일 목요일, 선택됨 2026년 9월 11일 금요일 2026년 9월 12일 토요일 2026년 9월 13일 일요일" [ref=e34] clickable [cursor:pointer]
+                    - gridcell "2026년 9월 7일 월요일" [disabled, ref=e55]
+                      - StaticText "2026년 9월 7일 월요일"
+                    - gridcell "2026년 9월 8일 화요일" [disabled, ref=e56]
+                      - StaticText "2026년 9월 8일 화요일"
+                    - gridcell "2026년 9월 9일 수요일" [disabled, ref=e57]
+                      - StaticText "2026년 9월 9일 수요일"
+                    - gridcell "2026년 9월 10일 목요일, 선택됨" [ref=e58] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 10일 목요일, 선택됨"
+                    - gridcell "2026년 9월 11일 금요일" [ref=e59] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 11일 금요일"
+                    - gridcell "2026년 9월 12일 토요일" [ref=e60] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 12일 토요일"
+                    - gridcell "2026년 9월 13일 일요일" [ref=e61] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 13일 일요일"
+                  - row "2026년 9월 14일 월요일 2026년 9월 15일 화요일 2026년 9월 16일 수요일 2026년 9월 17일 목요일 2026년 9월 18일 금요일 2026년 9월 19일 토요일 2026년 9월 20일 일요일" [ref=e35] clickable [cursor:pointer]
+                    - gridcell "2026년 9월 14일 월요일" [ref=e62] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 14일 월요일"
+                    - gridcell "2026년 9월 15일 화요일" [ref=e63] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 15일 화요일"
+                    - gridcell "2026년 9월 16일 수요일" [ref=e64] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 16일 수요일"
+                    - gridcell "2026년 9월 17일 목요일" [ref=e65] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 17일 목요일"
+                    - gridcell "2026년 9월 18일 금요일" [ref=e66] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 18일 금요일"
+                    - gridcell "2026년 9월 19일 토요일" [ref=e67] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 19일 토요일"
+                    - gridcell "2026년 9월 20일 일요일" [ref=e68] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 20일 일요일"
+                  - row "2026년 9월 21일 월요일 2026년 9월 22일 화요일 2026년 9월 23일 수요일 2026년 9월 24일 목요일 2026년 9월 25일 금요일 2026년 9월 26일 토요일 2026년 9월 27일 일요일" [ref=e36] clickable [cursor:pointer]
+                    - gridcell "2026년 9월 21일 월요일" [ref=e69] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 21일 월요일"
+                    - gridcell "2026년 9월 22일 화요일" [ref=e70] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 22일 화요일"
+                    - gridcell "2026년 9월 23일 수요일" [ref=e71] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 23일 수요일"
+                    - gridcell "2026년 9월 24일 목요일" [ref=e72] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 24일 목요일"
+                    - gridcell "2026년 9월 25일 금요일" [ref=e73] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 25일 금요일"
+                    - gridcell "2026년 9월 26일 토요일" [ref=e74] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 26일 토요일"
+                    - gridcell "2026년 9월 27일 일요일" [ref=e75] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 27일 일요일"
+                  - row "2026년 9월 28일 월요일 2026년 9월 29일 화요일 2026년 9월 30일 수요일 2026년 10월 1일 목요일 2026년 10월 2일 금요일 2026년 10월 3일 토요일 2026년 10월 4일 일요일" [ref=e37] clickable [cursor:pointer]
+                    - gridcell "2026년 9월 28일 월요일" [ref=e76] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 28일 월요일"
+                    - gridcell "2026년 9월 29일 화요일" [ref=e77] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 29일 화요일"
+                    - gridcell "2026년 9월 30일 수요일" [ref=e78] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 9월 30일 수요일"
+                    - gridcell "2026년 10월 1일 목요일" [ref=e79] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 10월 1일 목요일"
+                    - gridcell "2026년 10월 2일 금요일" [ref=e80] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 10월 2일 금요일"
+                    - gridcell "2026년 10월 3일 토요일" [ref=e81] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 10월 3일 토요일"
+                    - gridcell "2026년 10월 4일 일요일" [ref=e82] clickable [cursor:pointer, onclick]
+                      - StaticText "2026년 10월 4일 일요일"
+                - separator
+                - image "시간 선택 도구"
+                - generic [ref=e29] clickable [onclick]
+                  - textbox "hh" [ref=e38]: 18
+                    - StaticText "18"
+                - StaticText ":"
+                - generic [ref=e30] clickable [onclick]
+                  - textbox "mm" [ref=e39]: 30
+                    - StaticText "30"
+                - button "업데이트" [ref=e40]
+                  - StaticText "업데이트"

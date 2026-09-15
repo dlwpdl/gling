@@ -1,0 +1,14 @@
+{
+  "completed_at": "2026-09-11T13:58:55.966023-07:00",
+  "immutable_archives": {
+    "html": {
+      "path": "/Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-11/content-policy-134111.html",
+      "sha256": "e8b214308db26fafe68df635dc9aa12d959d05b19bf773ab33bc5cfbab307530"
+    },
+    "json": {
+      "path": "/Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-11/content-policy-134111.json",
+      "sha256": "5cb92c746f8cd5595df47fa0f9498d15800226c150139118e75ebf6a95e06aa9"
+    }
+  },
+  "latest_matches": true
+}

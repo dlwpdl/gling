@@ -1,0 +1,50 @@
+{
+  "title": "검색결과 - eunsense0308@gmail.com - Gmail",
+  "url": "https://mail.google.com/mail/u/2/#search/in%3Aanywhere+%22gling%40ej-entertainment.com%22+newer_than%3A7d",
+  "accountLabels": [
+    "Google 계정: eun sense  \n(eunsense0308@gmail.com)"
+  ],
+  "range": [
+    "4개 중 1–4"
+  ],
+  "rows": [
+    {
+      "threadId": "1a089dc5f154f5a0",
+      "sender": "Instagram",
+      "subject": "[인증정보 숨김] is your Instagram code",
+      "date": "2026년 9월 9일 (수) 오후 10:48",
+      "labels": [
+        "받은편지함"
+      ]
+    },
+    {
+      "threadId": "1a089e2fd9e307b8",
+      "sender": "Instagram",
+      "subject": "Did you just add a new account to your Accounts Center?",
+      "date": "2026년 9월 9일 (수) 오후 10:55",
+      "labels": [
+        "받은편지함"
+      ]
+    },
+    {
+      "threadId": "1a089d3d9696e016",
+      "sender": "내부 전달 테스트",
+      "subject": "Gling 이메일 전달 확인 · GL-MAIL-[인증정보 숨김]-01",
+      "date": "2026년 9월 9일 (수) 오후 10:39",
+      "labels": [
+        "받은편지함"
+      ]
+    },
+    {
+      "threadId": "1a089d60966ef970",
+      "sender": "RevenueCat",
+      "subject": "[Action required] Verify your RevenueCat e-mail",
+      "date": "2026년 9월 9일 (수) 오후 10:41",
+      "labels": [
+        "받은편지함"
+      ]
+    }
+  ],
+  "observed_at": "2026-09-10T07:17:16.879010+00:00",
+  "authorized_profile_exception": "User-authorized Default only for designated Gmail reading; SNS remains Gling"
+}

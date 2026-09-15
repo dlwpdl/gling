@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-09-11T09:33:04.335621-07:00",
+  "id": "05aeb6e8-f5e3-4861-a6fd-5a4e06b1b1b0",
+  "ok": true,
+  "result": {
+    "result": "{\"title\":\"검색결과 - eunsense0308@gmail.com - Gmail\",\"url\":\"https://mail.google.com/mail/u/2/#search/in%3Aanywhere+subject%3A%EA%B8%80%EB%A7%81+newer_than%3A7d\",\"range\":[],\"emptyConfirmed\":true,\"rows\":[]}",
+    "origin": "https://mail.google.com/mail/u/2/#search/in%3Aanywhere+subject%3A%EA%B8%80%EB%A7%81+newer_than%3A7d"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

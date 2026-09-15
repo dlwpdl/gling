@@ -1,0 +1,115 @@
+{
+  "observed_at": "2026-09-11T09:33:35.647233-07:00",
+  "id": "1261aefd-c687-4182-a996-c1d11fbcd333",
+  "ok": true,
+  "result": {
+    "origin": "https://www.instagram.com/direct/inbox/",
+    "refs": {
+      "e1": {
+        "name": "",
+        "role": "generic"
+      },
+      "e10": {
+        "name": "홈",
+        "role": "link"
+      },
+      "e11": {
+        "name": "새로운 게시물",
+        "role": "link"
+      },
+      "e12": {
+        "name": "gling.app님의 프로필 사진",
+        "role": "link"
+      },
+      "e13": {
+        "name": "대화 리스트",
+        "role": "navigation"
+      },
+      "e14": {
+        "name": "gling.app 아래쪽 V자형 아이콘",
+        "role": "button"
+      },
+      "e15": {
+        "name": "새로운 메시지",
+        "role": "button"
+      },
+      "e16": {
+        "name": "gling.app님의 프로필 사진",
+        "role": "link"
+      },
+      "e17": {
+        "name": "gling.app",
+        "role": "heading"
+      },
+      "e18": {
+        "name": "Primary",
+        "role": "tab"
+      },
+      "e19": {
+        "name": "General",
+        "role": "tab"
+      },
+      "e2": {
+        "name": "릴스",
+        "role": "link"
+      },
+      "e20": {
+        "name": "요청",
+        "role": "tab"
+      },
+      "e21": {
+        "name": "검색",
+        "role": "textbox"
+      },
+      "e22": {
+        "name": "내 메시지",
+        "role": "heading"
+      },
+      "e23": {
+        "name": "메시지 보내기",
+        "role": "button"
+      },
+      "e24": {
+        "name": "주말 계획은? 내 메모",
+        "role": "button"
+      },
+      "e25": {
+        "name": "",
+        "role": "link"
+      },
+      "e3": {
+        "name": "메시지",
+        "role": "link"
+      },
+      "e4": {
+        "name": "검색",
+        "role": "link"
+      },
+      "e5": {
+        "name": "알림",
+        "role": "link"
+      },
+      "e6": {
+        "name": "프로페셔널 대시보드",
+        "role": "link"
+      },
+      "e7": {
+        "name": "설정",
+        "role": "link"
+      },
+      "e8": {
+        "name": "Meta의 다른 앱",
+        "role": "link"
+      },
+      "e9": {
+        "name": "Instagram",
+        "role": "link"
+      }
+    },
+    "snapshot": "- generic\n  - generic [ref=e1] clickable [onclick]\n    - generic\n      - generic\n        - link \"Instagram\" [ref=e9]\n          - image \"Instagram\"\n        - link \"홈\" [ref=e10]\n          - image \"홈\"\n        - link \"릴스\" [ref=e2]\n          - image \"릴스\"\n        - link \"메시지\" [ref=e3]\n          - generic\n            - image \"메시지\"\n        - link \"검색\" [ref=e4]\n          - image \"검색\"\n        - link \"알림\" [ref=e5]\n          - generic\n            - image \"알림\"\n        - generic\n          - link \"새로운 게시물\" [ref=e11]\n            - image \"새로운 게시물\"\n        - link \"프로페셔널 대시보드\" [ref=e6]\n          - image \"프로페셔널 대시보드\"\n        - link \"gling.app님의 프로필 사진\" [ref=e12]\n          - link \"gling.app님의 프로필 사진\" [ref=e16]\n            - image \"gling.app님의 프로필 사진\"\n        - link \"설정\" [ref=e7]\n          - image \"설정\"\n        - link \"Meta의 다른 앱\" [ref=e8]\n          - image \"Meta의 다른 앱\"\n        - generic\n          - main\n            - generic\n              - generic\n                - navigation \"대화 리스트\" [ref=e13]\n                  - generic\n                    - button \"gling.app 아래쪽 V자형 아이콘\" [ref=e14]\n                      - heading \"gling.app\" [level=2, ref=e17]\n                        - StaticText \"gling.app\"\n                      - image \"아래쪽 V자형 아이콘\"\n                    - button \"새로운 메시지\" [ref=e15]\n                      - image \"새로운 메시지\"\n                    - tablist\n                      - tab \"Primary\" [ref=e18]\n                        - StaticText \"Primary\"\n                      - tab \"General\" [selected, ref=e19]\n                        - StaticText \"General\"\n                      - tab \"요청\" [ref=e20]\n                        - StaticText \"요청\"\n                    - LabelText\n                      - image \"검색\"\n                      - textbox \"검색\" [ref=e21]\n                    - generic\n                      - list\n                        - listitem [level=1]\n                        - listitem [level=1]\n                          - button \"주말 계획은? 내 메모\" [ref=e24]\n                            - generic\n                              - StaticText \"주말 계획은?\"\n                              - link [ref=e25]\n                              - StaticText \"내 메모\"\n                      - generic\n                        - StaticText \"Chats will appear here after you send or receive a message\"\n                - generic\n                  - image\n                  - heading \"내 메시지\" [level=2, ref=e22]\n                  - StaticText \"친구나 그룹에 비공개 사진과 메시지를 보내보세요\"\n                  - button \"메시지 보내기\" [ref=e23]",
+    "browserPageId": "d70dc524-70b0-4c8e-83a6-a9a15adec974"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

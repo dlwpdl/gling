@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-09-10T09:42:37.835296-07:00",
+  "status": "passed",
+  "check_output": "PASS: daily-draft-093300; 12 local drafts, 2 Patina/readback matches, 10 preserved, 6 local preparation slots, 20 links, no external writes.",
+  "json_files": "all run evidence JSON parsed; latest JSON equals dated report",
+  "html_initial_view": "visually verified in Gling Orca",
+  "html_12_body_dom": "passed",
+  "html_links": "all browser-resolved file links exist",
+  "html_no_horizontal_overflow": true,
+  "scroll_screenshot": "blank after 3 attempts; bounded stop and recorded limitation",
+  "task_tabs_closed": 4,
+  "immutable_archive_sha256": {
+    "daily-draft-093300.html": "eadd0c82d98959827ce4d3047d940fafd71ee003c4d46c0c858c453c04829470",
+    "daily-draft-093300.json": "da41f5b01bf017a824d4b9ef3150efdeaebb23726ed92a25efe5cfc94245fdf9"
+  },
+  "validation_command": "python3 marketing/reports/2026-09-10/daily-draft-093300/validate.py"
+}

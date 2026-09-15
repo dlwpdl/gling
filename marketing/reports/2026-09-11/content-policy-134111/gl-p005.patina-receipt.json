@@ -1,0 +1,28 @@
+{
+  "content_id": "GL-P005",
+  "started_at": "2026-09-11T13:44:08.388245-07:00",
+  "finished_at": "2026-09-11T13:47:29.531928-07:00",
+  "command": [
+    "node",
+    "/Users/ash/Desktop/Git/patina/bin/patina.js",
+    "--lang",
+    "ko",
+    "--profile",
+    "social",
+    "--tone",
+    "casual",
+    "--persona",
+    "preserve",
+    "--verify",
+    "--config",
+    "marketing/patina-social.yaml",
+    "--backend",
+    "codex-cli",
+    "--timeout-ms",
+    "240000",
+    "--format",
+    "text",
+    "/Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-11/content-policy-134111/gl-p005.input.txt"
+  ],
+  "exit_code": 0
+}

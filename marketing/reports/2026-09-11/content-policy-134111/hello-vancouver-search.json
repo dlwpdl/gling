@@ -1,0 +1,411 @@
+{
+  "observed_at": "2026-09-11T13:47:00.575515-07:00",
+  "id": "3d264c3c-a932-414e-8653-ac964290cfbd",
+  "ok": true,
+  "result": {
+    "origin": "https://www.google.com/search?q=%ED%97%AC%EB%A1%9C%EB%B0%B4%EC%BF%A0%EB%B2%84+%EB%84%A4%EC%9D%B4%EB%B2%84+%EC%B9%B4%ED%8E%98&sei=tGikarT8F_-r0PEPkrDsgQI",
+    "refs": {
+      "e1": {
+        "name": "주요 콘텐츠로 이동",
+        "role": "link"
+      },
+      "e10": {
+        "name": "검색",
+        "role": "combobox"
+      },
+      "e11": {
+        "name": "지우기",
+        "role": "button"
+      },
+      "e12": {
+        "name": "입력 도구",
+        "role": "button"
+      },
+      "e13": {
+        "name": "음성 검색",
+        "role": "button"
+      },
+      "e14": {
+        "name": "이미지로 검색",
+        "role": "button"
+      },
+      "e15": {
+        "name": "검색",
+        "role": "button"
+      },
+      "e16": {
+        "name": "페이지 탐색",
+        "role": "heading"
+      },
+      "e17": {
+        "name": "Page 2",
+        "role": "link"
+      },
+      "e18": {
+        "name": "Page 3",
+        "role": "link"
+      },
+      "e19": {
+        "name": "Page 4",
+        "role": "link"
+      },
+      "e2": {
+        "name": "접근성 도움말",
+        "role": "link"
+      },
+      "e20": {
+        "name": "Page 5",
+        "role": "link"
+      },
+      "e21": {
+        "name": "Page 6",
+        "role": "link"
+      },
+      "e22": {
+        "name": "Page 7",
+        "role": "link"
+      },
+      "e23": {
+        "name": "Page 8",
+        "role": "link"
+      },
+      "e24": {
+        "name": "Page 9",
+        "role": "link"
+      },
+      "e25": {
+        "name": "Page 10",
+        "role": "link"
+      },
+      "e26": {
+        "name": "다음",
+        "role": "heading"
+      },
+      "e27": {
+        "name": "다음",
+        "role": "link"
+      },
+      "e28": {
+        "name": "도움말",
+        "role": "link"
+      },
+      "e29": {
+        "name": "의견 보내기",
+        "role": "link"
+      },
+      "e3": {
+        "name": "공유",
+        "role": "button"
+      },
+      "e30": {
+        "name": "개인정보처리방침",
+        "role": "link"
+      },
+      "e31": {
+        "name": "약관",
+        "role": "link"
+      },
+      "e32": {
+        "name": "Web results",
+        "role": "heading"
+      },
+      "e33": {
+        "name": "관련 검색어",
+        "role": "heading"
+      },
+      "e34": {
+        "name": "헬로 밴 구인구직",
+        "role": "link"
+      },
+      "e35": {
+        "name": "헬로밴 렌트",
+        "role": "link"
+      },
+      "e36": {
+        "name": "밴조선",
+        "role": "link"
+      },
+      "e37": {
+        "name": "캐 사사 네이버 카페",
+        "role": "link"
+      },
+      "e38": {
+        "name": "다음 캐나다 카페",
+        "role": "link"
+      },
+      "e39": {
+        "name": "Daum Cafe",
+        "role": "link"
+      },
+      "e4": {
+        "name": "검색결과",
+        "role": "heading"
+      },
+      "e40": {
+        "name": "여행카페",
+        "role": "link"
+      },
+      "e41": {
+        "name": "워홀 카페",
+        "role": "link"
+      },
+      "e42": {
+        "name": "V3J 브리티시컬럼비아 코퀴틀럼  - IP 주소 기반",
+        "role": "button"
+      },
+      "e43": {
+        "name": "",
+        "role": "generic"
+      },
+      "e44": {
+        "name": "헬로! 밴쿠버 네이버 카페(Naver Cafe) https://cafe.naver.com › yoehang",
+        "role": "link"
+      },
+      "e45": {
+        "name": "이 페이지 번역하기",
+        "role": "link"
+      },
+      "e46": {
+        "name": "밴쿠버 - 중고물품을 사고, 생활정보를 얻고 싶을 때 Naver Blog https://blog.naver.com › hitzza",
+        "role": "link"
+      },
+      "e47": {
+        "name": "[🍁둥지이민🐥] 캐나다 밴쿠버 조기유학 정착을 위한 학부모 ... Daum 카페 https://cafe.daum.net › ourvancouver › EOUY",
+        "role": "link"
+      },
+      "e48": {
+        "name": "캐나다 밴쿠버 오기전에 알았더라면, 유용한 사이트 뭐가 있을까? 블로그 https://m.blog.naver.com › ...",
+        "role": "link"
+      },
+      "e49": {
+        "name": "Hello, Vancouver : 네이버 블로그 Naver Blog https://blog.naver.com › wje6212",
+        "role": "link"
+      },
+      "e5": {
+        "name": "설정",
+        "role": "button"
+      },
+      "e50": {
+        "name": "헬로밴! Facebook · 헬로밴! 팔로어 3명",
+        "role": "link"
+      },
+      "e51": {
+        "name": "4. 캐나다에서 한국인에게 유용한 사이트는? - Summer in Canada 티스토리 https://summerincanada.tistory.com › ...",
+        "role": "link"
+      },
+      "e52": {
+        "name": "[밴쿠버 가볼만한 곳] 로히드 헤이하이헬로 카페 Hey Hi Hello ... Naver Blog https://blog.naver.com › sysy8587",
+        "role": "link"
+      },
+      "e53": {
+        "name": "hello vancouver YouTube · hello vancouver 팔로어 50명 이상",
+        "role": "link"
+      },
+      "e54": {
+        "name": "위치 업데이트",
+        "role": "button"
+      },
+      "e55": {
+        "name": "도구",
+        "role": "button"
+      },
+      "e56": {
+        "name": "헬로! 밴쿠버",
+        "role": "heading"
+      },
+      "e57": {
+        "name": "이유 알아보기",
+        "role": "link"
+      },
+      "e58": {
+        "name": "밴쿠버 - 중고물품을 사고, 생활정보를 얻고 싶을 때",
+        "role": "heading"
+      },
+      "e59": {
+        "name": "[🍁둥지이민🐥] 캐나다 밴쿠버 조기유학 정착을 위한 학부모 ...",
+        "role": "heading"
+      },
+      "e6": {
+        "name": "로그인",
+        "role": "link"
+      },
+      "e60": {
+        "name": "캐나다 밴쿠버 오기전에 알았더라면, 유용한 사이트 뭐가 있을까?",
+        "role": "heading"
+      },
+      "e61": {
+        "name": "Hello, Vancouver : 네이버 블로그",
+        "role": "heading"
+      },
+      "e62": {
+        "name": "헬로밴!",
+        "role": "heading"
+      },
+      "e63": {
+        "name": "4. 캐나다에서 한국인에게 유용한 사이트는? - Summer in Canada",
+        "role": "heading"
+      },
+      "e64": {
+        "name": "[밴쿠버 가볼만한 곳] 로히드 헤이하이헬로 카페 Hey Hi Hello ...",
+        "role": "heading"
+      },
+      "e65": {
+        "name": "hello vancouver",
+        "role": "heading"
+      },
+      "e66": {
+        "name": "AI 모드",
+        "role": "link"
+      },
+      "e67": {
+        "name": "전체",
+        "role": "link"
+      },
+      "e68": {
+        "name": "이미지",
+        "role": "link"
+      },
+      "e69": {
+        "name": "뉴스",
+        "role": "link"
+      },
+      "e7": {
+        "name": "바닥글 링크",
+        "role": "heading"
+      },
+      "e70": {
+        "name": "동영상",
+        "role": "link"
+      },
+      "e71": {
+        "name": "쇼핑",
+        "role": "link"
+      },
+      "e72": {
+        "name": "짧은 동영상",
+        "role": "link"
+      },
+      "e73": {
+        "name": "필터 더보기",
+        "role": "button"
+      },
+      "e74": {
+        "name": "검색결과에 관한 정보",
+        "role": "button"
+      },
+      "e75": {
+        "name": "검색결과에 관한 정보",
+        "role": "button"
+      },
+      "e76": {
+        "name": "검색결과에 관한 정보",
+        "role": "button"
+      },
+      "e77": {
+        "name": "검색결과에 관한 정보",
+        "role": "button"
+      },
+      "e78": {
+        "name": "검색결과에 관한 정보",
+        "role": "button"
+      },
+      "e79": {
+        "name": "검색결과에 관한 정보",
+        "role": "button"
+      },
+      "e8": {
+        "name": "Google 앱",
+        "role": "button"
+      },
+      "e80": {
+        "name": "검색결과에 관한 정보",
+        "role": "button"
+      },
+      "e81": {
+        "name": "검색결과에 관한 정보",
+        "role": "button"
+      },
+      "e82": {
+        "name": "검색결과에 관한 정보",
+        "role": "button"
+      },
+      "e83": {
+        "name": "AI 개요 더보기",
+        "role": "button"
+      },
+      "e84": {
+        "name": "AI 개요",
+        "role": "heading"
+      },
+      "e85": {
+        "name": "주요 정보",
+        "role": "heading"
+      },
+      "e86": {
+        "name": "Naver Blog(+1) - 밴쿠버 - 중고물품을 사고, 생활정보를 얻고 싶을 때 - Naver Blog. 관련 검색 결과",
+        "role": "link"
+      },
+      "e87": {
+        "name": "Naver Blog(+1) - 밴쿠버 - 중고물품을 사고, 생활정보를 얻고 싶을 때 - Naver Blog. 관련 검색 결과",
+        "role": "button"
+      },
+      "e88": {
+        "name": "헬로밴! 네이버 카페",
+        "role": "link"
+      },
+      "e89": {
+        "name": "Next",
+        "role": "button"
+      },
+      "e9": {
+        "name": "Google 홈페이지로 이동",
+        "role": "link"
+      },
+      "e90": {
+        "name": "블로그(+3) - 캐나다 중고거래 다 모았다. in 밴쿠버 - 네이버 블로그. 관련 검색 결과",
+        "role": "link"
+      },
+      "e91": {
+        "name": "블로그(+3) - 캐나다 중고거래 다 모았다. in 밴쿠버 - 네이버 블로그. 관련 검색 결과",
+        "role": "button"
+      },
+      "e92": {
+        "name": "밴쿠버 - 중고물품을 사고, 생활정보를 얻고 싶을 때 - Naver Blog. 새 탭에서 열립니다.",
+        "role": "link"
+      },
+      "e93": {
+        "name": "[ 둥지이민 ] 캐나다 밴쿠버 조기유학 정착을 위한 학부모 .... 새 탭에서 열립니다.",
+        "role": "link"
+      },
+      "e94": {
+        "name": "캐나다 중고거래 다 모았다. in 밴쿠버 - 네이버 블로그. 새 탭에서 열립니다.",
+        "role": "link"
+      },
+      "e95": {
+        "name": "헬로밴!. 새 탭에서 열립니다.",
+        "role": "link"
+      },
+      "e96": {
+        "name": "검색 결과 정보",
+        "role": "button"
+      },
+      "e97": {
+        "name": "검색 결과 정보",
+        "role": "button"
+      },
+      "e98": {
+        "name": "검색 결과 정보",
+        "role": "button"
+      },
+      "e99": {
+        "name": "검색 결과 정보",
+        "role": "button"
+      }
+    },
+    "snapshot": "- generic\n  - link \"주요 콘텐츠로 이동\" [ref=e1]\n  - link \"접근성 도움말\" [ref=e2]\n  - search\n    - generic\n      - link \"Google 홈페이지로 이동\" [ref=e9]\n      - generic\n        - combobox \"검색\" [expanded=false, ref=e10]: 헬로밴쿠버 네이버 카페\n          - StaticText \"헬로밴쿠버 네이버 카페\"\n        - button \"지우기\" [ref=e11]\n        - button \"입력 도구\" [ref=e12]\n        - button \"음성 검색\" [ref=e13]\n        - button \"이미지로 검색\" [ref=e14]\n        - button \"검색\" [ref=e15]\n  - button \"설정\" [ref=e5]\n  - button \"공유\" [ref=e3]\n  - button \"Google 앱\" [expanded=false, ref=e8]\n  - link \"로그인\" [ref=e6]\n    - StaticText \"로그인\"\n  - generic\n    - generic\n      - navigation\n        - generic\n          - generic\n            - list\n              - listitem [level=1]\n                - link \"AI 모드\" [ref=e66]\n                  - StaticText \"AI 모드\"\n              - listitem [level=1]\n                - link \"전체\" [disabled, ref=e67]\n                  - StaticText \"전체\"\n              - listitem [level=1]\n                - link \"이미지\" [ref=e68]\n                  - StaticText \"이미지\"\n              - listitem [level=1]\n                - link \"뉴스\" [ref=e69]\n                  - StaticText \"뉴스\"\n              - listitem [level=1]\n                - link \"동영상\" [ref=e70]\n                  - StaticText \"동영상\"\n              - listitem [level=1]\n                - link \"쇼핑\" [ref=e71]\n                  - StaticText \"쇼핑\"\n              - listitem [level=1]\n                - link \"짧은 동영상\" [ref=e72]\n                  - StaticText \"짧은 동영상\"\n              - listitem [level=1]\n                - button \"필터 더보기\" [expanded=false, ref=e73]\n                  - StaticText \"더보기\"\n            - button \"도구\" [expanded=false, ref=e55]\n              - StaticText \"도구\"\n    - heading \"검색결과\" [level=1, ref=e4]\n    - main\n      - generic\n        - generic\n      - generic\n        - generic\n          - generic\n            - heading \"Web results\" [level=2, ref=e32]\n            - generic\n              - link \"헬로! 밴쿠버 네이버 카페(Naver Cafe) https://cafe.naver.com › yoehang\" [ref=e44]\n                - heading \"헬로! 밴쿠버\" [level=3, ref=e56]\n                - LineBreak \"\\n\"\n                - StaticText \"네이버 카페(Naver Cafe)\"\n                - generic\n                  - StaticText \"https://cafe.naver.com › yoehang\"\n              - StaticText \"·\"\n              - link \"이 페이지 번역하기\" [ref=e45]\n              - button \"검색결과에 관한 정보\" [ref=e74]\n              - StaticText \"이 페이지에 관한 정보가 없습니다.\"\n              - link \"이유 알아보기\" [ref=e57]\n          - generic\n            - link \"밴쿠버 - 중고물품을 사고, 생활정보를 얻고 싶을 때 Naver Blog https://blog.naver.com › hitzza\" [ref=e46]\n              - heading \"밴쿠버 - 중고물품을 사고, 생활정보를 얻고 싶을 때\" [level=3, ref=e58]\n              - LineBreak \"\\n\"\n              - StaticText \"Naver Blog\"\n              - generic\n                - StaticText \"https://blog.naver.com › hitzza\"\n            - button \"검색결과에 관한 정보\" [ref=e75]\n            - generic\n              - StaticText \"2024. 8. 8. — 다음은 #\"\n              - emphasis\n                - StaticText \"네이버카페\"\n              - StaticText \" 인. #\"\n              - emphasis\n                - StaticText \"헬로밴쿠버\"\n              - StaticText \" #헬로밴 입니다. . \"\n              - emphasis\n                - StaticText \"네이버 카페\"\n              - StaticText \"여서 그런지. 멤버로 가입을 해야 하고. 정보를 보기 위해서. 등업을 하고...\"\n          - generic\n            - link \"[🍁둥지이민🐥] 캐나다 밴쿠버 조기유학 정착을 위한 학부모 ... Daum 카페 https://cafe.daum.net › ourvancouver › EOUY\" [ref=e47]\n              - heading \"[🍁둥지이민🐥] 캐나다 밴쿠버 조기유학 정착을 위한 학부모 ...\" [level=3, ref=e59]\n              - LineBreak \"\\n\"\n              - StaticText \"Daum 카페\"\n              - generic\n                - StaticText \"https://cafe.daum.net › ourvancouver › EOUY\"\n            - button \"검색결과에 관한 정보\" [ref=e76]\n            - generic\n              - StaticText \"2024. 5. 8. — 1) 헬로 밴쿠버. \"\n              - emphasis\n                - StaticText \"헬로 밴쿠버는 밴쿠버 지역에서 활동하는 한인들을 위한 네이버 카페\"\n              - StaticText \"입니다. 해당 카페에서는 밴쿠버 생활 정보, 학교, 주거, 음식점...\"\n          - generic\n            - link \"캐나다 밴쿠버 오기전에 알았더라면, 유용한 사이트 뭐가 있을까? 블로그 https://m.blog.naver.com › ...\" [ref=e48]\n              - heading \"캐나다 밴쿠버 오기전에 알았더라면, 유용한 사이트 뭐가 있을까?\" [level=3, ref=e60]\n              - LineBreak \"\\n\"\n              - StaticText \"블로그\"\n              - generic\n                - StaticText \"https://m.blog.naver.com › ...\"\n            - button \"검색결과에 관한 정보\" [ref=e77]\n            - generic\n              - StaticText \"2018. 8. 5. — 마이유나 \"\n              - emphasis\n                - StaticText \"헬로밴쿠버\"\n              - StaticText \" 등 \"\n              - emphasis\n                - StaticText \"카페\"\n              - StaticText \"도 동시에 올리더라구요 ! . . 저는 \"\n              - emphasis\n                - StaticText \"카페\"\n              - StaticText \"를 전혀 안들여다 보는 편인데. . 근데 진짜 유용하기는 해요. . . 자주 찾아...\"\n          - generic\n            - link \"Hello, Vancouver : 네이버 블로그 Naver Blog https://blog.naver.com › wje6212\" [ref=e49]\n              - heading \"Hello, Vancouver : 네이버 블로그\" [level=3, ref=e61]\n              - LineBreak \"\\n\"\n              - StaticText \"Naver Blog\"\n              - generic\n                - StaticText \"https://blog.naver.com › wje6212\"\n            - button \"검색결과에 관한 정보\" [ref=e78]\n            - generic\n              - StaticText \"2016. 4. 23. — 2년전 지금은 호주에 있었고, 1년전 지금은 한국에 다시 그리고 지금은 캐나다 도착한지 2일째 시차적응도 아직 좀 덜 된거 같고, 이것저것 알아볼...\"\n          - generic\n            - generic\n              - generic\n                - generic\n                  - heading \"AI 개요\" [level=2, ref=e84]\n                  - generic\n                    - generic\n                      - generic\n                        - StaticText \"밴쿠버 한인 커뮤니티인 '헬로밴쿠버(헬로밴!)' 네이버 카페는 \"\n                        - mark\n                          - link \"헬로밴! 네이버 카페\" [ref=e88]\n                        - StaticText \"에서 방문하실 수 있습니다.\"\n                        - link \"Naver Blog(+1) - 밴쿠버 - 중고물품을 사고, 생활정보를 얻고 싶을 때 - Naver Blog. 관련 검색 결과\" [ref=e86]\n                        - button \"Naver Blog(+1) - 밴쿠버 - 중고물품을 사고, 생활정보를 얻고 싶을 때 - Naver Blog. 관련 검색 결과\" [ref=e87]\n                          - StaticText \"Naver Blog\"\n                          - StaticText \"+1\"\n                          - image\n                      - heading \"주요 정보\" [level=3, ref=e85]\n                      - list\n                        - listitem [level=1]\n                          - ListMarker \"• \"\n                          - strong\n                            - StaticText \"주요 내용\"\n                          - StaticText \": 밴쿠버 이민, 유학, 취업, 창업, 여행, 주거 및 생활 정보 공유\"\n                        - listitem [level=1]\n                          - ListMarker \"• \"\n                          - strong\n                            - StaticText \"특징\"\n                          - StaticText \": 현지 한인들 간의 활발한 중고 직거래 장터 및 동네 소모임 운영\"\n                        - listitem [level=1]\n                          - ListMarker \"• \"\n                          - strong\n                            - StaticText \"가입 방식\"\n                          - StaticText \": 네이버 계정으로 가입 후 이용 가능하며, 일부 게시판은 등업 절차가 필요할 수 있습니다.\"\n                          - link \"블로그(+3) - 캐나다 중고거래 다 모았다. in 밴쿠버 - 네이버 블로그. 관련 검색 결과\" [ref=e90]\n                          - button \"블로그(+3) - 캐나다 중고거래 다 모았다. in 밴쿠버 - 네이버 블로그. 관련 검색 결과\" [ref=e91]\n                            - StaticText \"블로그\"\n                            - StaticText \"+3\"\n                      - generic\n                        - list\n                          - listitem [level=1]\n                            - generic\n                              - link \"밴쿠버 - 중고물품을 사고, 생활정보를 얻고 싶을 때 - Naver Blog. 새 탭에서 열립니다.\" [ref=e92]\n                              - StaticText \"Naver Blog\"\n                              - button \"검색 결과 정보\" [ref=e96]\n                              - StaticText \"2024. 8. 8. — \"\n                              - StaticText \"다음은 #네이버카페 인. #헬로밴쿠버 #헬로밴 입니다. . 네이버 카페여서 그런지. 멤버로 가입을 해야 하...\"\n                          - listitem [level=1]\n                            - generic\n                              - link \"[ 둥지이민 ] 캐나다 밴쿠버 조기유학 정착을 위한 학부모 .... 새 탭에서 열립니다.\" [ref=e93]\n                              - StaticText \"Daum 카페\"\n                              - button \"검색 결과 정보\" [ref=e97]\n                              - StaticText \"2024. 5. 8. — \"\n                              - StaticText \"1) 헬로 밴쿠버. 헬로 밴쿠버는 밴쿠버 지역에서 활동하는 한인들을 위한 네이버 카페입니다. 해당 카페에서는...\"\n                          - listitem [level=1]\n                            - generic\n                              - link \"캐나다 중고거래 다 모았다. in 밴쿠버 - 네이버 블로그. 새 탭에서 열립니다.\" [ref=e94]\n                              - StaticText \"블로그\"\n                              - button \"검색 결과 정보\" [ref=e98]\n                              - StaticText \"2023. 1. 12. — \"\n                              - StaticText \"우선, 한국인들끼리의 거래가 활발한 사이트를 찾습니다. . . . 1. 헬로밴쿠버 네이버카페. . 존...\"\n                          - listitem [level=1]\n                            - generic\n                              - link \"헬로밴!. 새 탭에서 열립니다.\" [ref=e95]\n                              - generic\n                                - StaticText \"Facebook·헬로밴!\"\n                              - button \"검색 결과 정보\" [ref=e99]\n                              - StaticText \"광역 밴쿠버, 현지 꿀팁부터 최신 소식, 그리고 우리 동네 이웃들의 활발한 직거래 장터까지! 우리 동네 이웃...\"\n                        - button \"Next\" [ref=e89]\n                - button \"AI 개요 더보기\" [expanded=false, ref=e83]\n                  - generic\n                    - StaticText \"더보기\"\n          - generic\n            - link \"헬로밴! Facebook·헬로밴! 팔로어 3명\" [ref=e50]\n              - heading \"헬로밴!\" [level=3, ref=e62]\n              - LineBreak \"\\n\"\n              - StaticText \"Facebook·헬로밴!\"\n              - StaticText \"팔로어 3명\"\n            - button \"검색결과에 관한 정보\" [ref=e79]\n            - generic\n              - StaticText \"광역 \"\n              - emphasis\n                - StaticText \"밴쿠버\"\n              - StaticText \", 현지 꿀팁부터 최신 소식, 그리고 우리 동네 이웃들의 활발한 직거래 장터까지! 우리 동네 이웃들의 필수 공간, \"\n              - emphasis\n                - StaticText \"네이버 카페\"\n              - StaticText \", '\"\n              - emphasis\n                - StaticText \"헬로\"\n              - StaticText \"밴!'의 페이스북입니다.\"\n          - generic\n            - link \"4. 캐나다에서 한국인에게 유용한 사이트는? - Summer in Canada 티스토리 https://summerincanada.tistory.com › ...\" [ref=e51]\n              - heading \"4. 캐나다에서 한국인에게 유용한 사이트는? - Summer in Canada\" [level=3, ref=e63]\n              - LineBreak \"\\n\"\n              - StaticText \"티스토리\"\n              - generic\n                - StaticText \"https://summerincanada.tistory.com › ...\"\n            - button \"검색결과에 관한 정보\" [ref=e80]\n            - generic\n              - StaticText \"2020. 12. 3. — 앞서 \"\n              - emphasis\n                - StaticText \"헬로\"\n              - StaticText \"밴 \"\n              - emphasis\n                - StaticText \"카페\"\n              - StaticText \" 함께 요즘 제일 자주 들어가는 사이트이다. 정확히 \"\n              - emphasis\n                - StaticText \"밴쿠버\"\n              - StaticText \" 조선일보의 약자이며, 한국어로 캐나다 뉴스 기사를 전달해주는 곳이다. 영어...\"\n          - generic\n            - link \"[밴쿠버 가볼만한 곳] 로히드 헤이하이헬로 카페 Hey Hi Hello ... Naver Blog https://blog.naver.com › sysy8587\" [ref=e52]\n              - heading \"[밴쿠버 가볼만한 곳] 로히드 헤이하이헬로 카페 Hey Hi Hello ...\" [level=3, ref=e64]\n              - LineBreak \"\\n\"\n              - StaticText \"Naver Blog\"\n              - generic\n                - StaticText \"https://blog.naver.com › sysy8587\"\n            - button \"검색결과에 관한 정보\" [ref=e81]\n            - generic\n              - StaticText \"2024. 2. 25. — 첫째 축구시합 끝나고 로히드 노스로드에 위치한 한남마트에 장보러 왔다가 캐나다 와서 처음으로, 한인이 운영하시는 \"\n              - emphasis\n                - StaticText \"카페\"\n              - StaticText \"에 방문했어요.\"\n          - generic\n            - link \"hello vancouver YouTube·hello vancouver 팔로어 50명 이상\" [ref=e53]\n              - heading \"hello vancouver\" [level=3, ref=e65]\n              - LineBreak \"\\n\"\n              - StaticText \"YouTube·hello vancouver\"\n              - StaticText \"팔로어 50명 이상\"\n            - button \"검색결과에 관한 정보\" [ref=e82]\n            - generic\n              - emphasis\n                - StaticText \"naver\"\n              - StaticText \".com/ksjmtm. Subscribe. Home. Videos. Search. Videos · 2: ... [ 맛집 ] 캐나다 \"\n              - emphasis\n                - StaticText \"밴쿠버\"\n              - StaticText \" 커피숍 [\"\n              - emphasis\n                - StaticText \"카페\"\n              - StaticText \" 보노\"\n              - emphasis\n                - StaticText \"CAFE\"\n              - StaticText \" BONO]. 221 views. 5 years...\"\n      - generic\n        - generic\n          - heading \"관련 검색어\" [level=2, ref=e33]\n        - link \"헬로 밴 구인구직\" [ref=e34]\n          - StaticText \"헬로 밴 구인구직\"\n        - link \"헬로밴 렌트\" [ref=e35]\n          - StaticText \"헬로밴 렌트\"\n        - link \"밴조선\" [ref=e36]\n          - StaticText \"밴조선\"\n        - link \"캐 사사 네이버 카페\" [ref=e37]\n          - StaticText \"캐 사사\"\n          - StaticText \" 네이버 카페\"\n        - link \"다음 캐나다 카페\" [ref=e38]\n          - StaticText \"다음 캐나다\"\n          - StaticText \" 카페\"\n        - link \"Daum Cafe\" [ref=e39]\n          - StaticText \"Daum Cafe\"\n        - link \"여행카페\" [ref=e40]\n          - StaticText \"여행카페\"\n        - link \"워홀 카페\" [ref=e41]\n          - StaticText \"워홀\"\n          - StaticText \" 카페\"\n        - navigation\n          - heading \"페이지 탐색\" [level=1, ref=e16]\n          - StaticText \"1\"\n          - link \"Page 2\" [ref=e17]\n            - StaticText \"2\"\n          - link \"Page 3\" [ref=e18]\n            - StaticText \"3\"\n          - link \"Page 4\" [ref=e19]\n            - StaticText \"4\"\n          - link \"Page 5\" [ref=e20]\n            - StaticText \"5\"\n          - link \"Page 6\" [ref=e21]\n            - StaticText \"6\"\n          - link \"Page 7\" [ref=e22]\n            - StaticText \"7\"\n          - link \"Page 8\" [ref=e23]\n            - StaticText \"8\"\n          - link \"Page 9\" [ref=e24]\n            - StaticText \"9\"\n          - link \"Page 10\" [ref=e25]\n            - StaticText \"10\"\n          - heading \"다음\" [level=2, ref=e26]\n            - link \"다음\" [ref=e27]\n              - StaticText \"다음\"\n      - navigation\n    - generic\n    - contentinfo\n      - heading \"바닥글 링크\" [level=1, ref=e7]\n      - generic\n        - StaticText \"캐나다\"\n        - generic\n          - button \"V3J 브리티시컬럼비아 코퀴틀럼 -IP 주소 기반\" [ref=e42]\n            - StaticText \"V3J 브리티시컬럼비아 코퀴틀럼\"\n            - generic\n              - StaticText \"-IP 주소 기반\"\n          - StaticText \"-\"\n          - generic [ref=e43] clickable [cursor:pointer]\n            - button \"위치 업데이트\" [ref=e54]\n              - StaticText \"위치 업데이트\"\n      - generic\n        - link \"도움말\" [ref=e28]\n        - link \"의견 보내기\" [ref=e29]\n        - link \"개인정보처리방침\" [ref=e30]\n        - link \"약관\" [ref=e31]",
+    "browserPageId": "727b24b6-7a24-487e-a4cb-d9373511a514"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "observed_at": "2026-09-10T09:41:28.333611-07:00",
+  "closed_task_owned": [
+    {
+      "name": "threads",
+      "page": "92c2976a-c4ef-4841-9556-45313b8cbe64",
+      "status": "closed"
+    },
+    {
+      "name": "instagram",
+      "page": "4f49b454-3c71-4610-b603-251fa3443026",
+      "status": "closed"
+    },
+    {
+      "name": "gmail",
+      "page": "58977869-7d1b-46b7-900d-ab491373a8fd",
+      "status": "closed"
+    },
+    {
+      "name": "landing",
+      "page": "b0723ad6-d9e0-4c5b-9d32-bd276a5e542c",
+      "status": "closed"
+    }
+  ],
+  "retained_report_page": "1e4ed7a5-6629-42e7-9c85-f84b971feb69",
+  "other_tabs": "preserved",
+  "user_action_blockers": "existing Instagram link editor and Meta Business Suite login tabs preserved"
+}

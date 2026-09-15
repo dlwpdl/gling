@@ -1,0 +1,41 @@
+{
+  "article_id": "GL-A001",
+  "status": "local_draft",
+  "app_post_id": null,
+  "app_url": null,
+  "source_origin": "Independent official-source pilot; not taken from Hello Vancouver member posts",
+  "source": "https://maruhachi.ca/",
+  "source_evidence": "restaurant-official.json",
+  "visited": false,
+  "source_images_used": false,
+  "source_member_text_used": false,
+  "facts": [
+    "Central Library: 270 Robson Street, Sun–Thu 11:00–21:30; Fri–Sat 11:00–22:00",
+    "Westend: 780 Bidwell Street, Sun–Thu 11:30–21:30; Fri–Sat 11:30–22:00",
+    "Official site introduces creamy chicken broth ramen",
+    "Table reservations not accepted; first come first served"
+  ],
+  "unknown": [
+    "taste",
+    "wait_time",
+    "solo_seating",
+    "current_prices"
+  ],
+  "sns_status": "local_draft_patina_passed",
+  "continuation_cta_status": "not_included_until_article_exists_in_app",
+  "candidate_role": "one pilot outside the 12-row cadence; no live-queue additions",
+  "sns_copy": "밴쿠버에서 마루하치 라멘 먹기로 했다면, 일단 지점부터 확인해봐요.\n\nCentral Library는 270 Robson Street, Westend는 780 Bidwell Street에 있어요. 공식 안내 기준으로 여는 시간도 달라서, Central Library는 오전 11시, Westend는 오전 11시 30분부터예요.\n\n테이블 예약은 따로 받지 않고, 도착한 순서대로 안내한다고 해요. 가기 전에는 최신 영업시간을 한 번 더 확인해 주세요.\n\n#글링 #밴쿠버맛집 #라멘",
+  "patina": {
+    "input": "content-policy-134111/gl-a001-sns.input.txt",
+    "output": "content-policy-134111/gl-a001-sns.patina.txt",
+    "body": "content-policy-134111/gl-a001-sns.final-body.txt",
+    "log": "content-policy-134111/gl-a001-sns.patina.log",
+    "mps": 85.7142857143,
+    "fidelity": 83.3,
+    "metadata_removed": true,
+    "body_sha256": "fb6734e09515408acf2769a0f97564341c7f5cb3a30b70d1ef2a1ede8f9e86db",
+    "invocations": 1
+  },
+  "article_body": "밴쿠버 도서관 근처에서 라멘 찾을 때: 마루하치 두 지점 비교\n\n같은 마루하치라도 Central Library와 Westend는 주소와 여는 시간이 달라요.\n\nCentral Library 지점은 270 Robson Street에 있어요. 공식 안내 기준 일~목은 오전 11시~오후 9시 30분, 금·토는 오전 11시~오후 10시예요.\n\nWestend 지점은 780 Bidwell Street예요. 일~목은 오전 11시 30분~오후 9시 30분, 금·토는 오전 11시 30분~오후 10시로 안내돼 있어요.\n\n마루하치는 닭 육수 라멘을 대표 메뉴로 소개해요. 테이블 예약은 받지 않고 먼저 온 순서로 안내한다고 해요. 약속 전에 어느 지점으로 갈지 주소부터 맞춰두면 좋겠어요.\n\n공식 정보를 정리한 글이며 직접 먹어본 후기는 아니에요. 맛·대기 시간·혼밥 좌석·현재 가격은 확인하지 않았어요. 영업 안내는 2026년 9월 11일 확인했으며 방문 전 공식 페이지에서 다시 확인해 주세요.\n\n출처: 마루하치 공식 홈페이지 https://maruhachi.ca/\n",
+  "saved_body_readback": true
+}

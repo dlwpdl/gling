@@ -1,0 +1,211 @@
+{
+  "observed_at": "2026-09-11T09:31:52.110274-07:00",
+  "id": "e5e6180d-56c4-416a-992b-7ba66efe2113",
+  "ok": true,
+  "result": {
+    "origin": "https://www.threads.com/@gling.app",
+    "refs": {
+      "e1": {
+        "name": "",
+        "role": "generic"
+      },
+      "e10": {
+        "name": "인사이트 인사이트",
+        "role": "link"
+      },
+      "e11": {
+        "name": "피드 수정",
+        "role": "button"
+      },
+      "e12": {
+        "name": "팔로잉",
+        "role": "link"
+      },
+      "e13": {
+        "name": "저장됨 저장됨",
+        "role": "link"
+      },
+      "e14": {
+        "name": "좋아요 좋아요",
+        "role": "link"
+      },
+      "e15": {
+        "name": "유령 게시물",
+        "role": "link"
+      },
+      "e16": {
+        "name": "보관함 보관함",
+        "role": "link"
+      },
+      "e17": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e18": {
+        "name": "칼럼 본문",
+        "role": "region"
+      },
+      "e19": {
+        "name": "열 제목",
+        "role": "link"
+      },
+      "e2": {
+        "name": "만들기",
+        "role": "button"
+      },
+      "e20": {
+        "name": "gling.app",
+        "role": "heading"
+      },
+      "e21": {
+        "name": "gling.app님의 게시물 검색",
+        "role": "link"
+      },
+      "e22": {
+        "name": "더 보기",
+        "role": "button"
+      },
+      "e23": {
+        "name": "글링 | 캐나다 한인 커뮤니티",
+        "role": "heading"
+      },
+      "e24": {
+        "name": "gling.app님의 프로필 사진",
+        "role": "button"
+      },
+      "e25": {
+        "name": "팔로워 0명",
+        "role": "button"
+      },
+      "e26": {
+        "name": "인사이트",
+        "role": "link"
+      },
+      "e27": {
+        "name": "Instagram",
+        "role": "link"
+      },
+      "e28": {
+        "name": "프로필 편집",
+        "role": "button"
+      },
+      "e29": {
+        "name": "gling.app님의 프로필 사진",
+        "role": "link"
+      },
+      "e3": {
+        "name": "Threads",
+        "role": "link"
+      },
+      "e30": {
+        "name": "텍스트 필드가 비어 있습니다. 입력하여 새 게시물을 작성해보세요.",
+        "role": "button"
+      },
+      "e31": {
+        "name": "프로필 완성하기",
+        "role": "heading"
+      },
+      "e32": {
+        "name": "Threads 약관",
+        "role": "link"
+      },
+      "e33": {
+        "name": "개인정보처리방침",
+        "role": "link"
+      },
+      "e34": {
+        "name": "쿠키 정책",
+        "role": "link"
+      },
+      "e35": {
+        "name": "gling.ej-entertainment.com/",
+        "role": "link"
+      },
+      "e36": {
+        "name": "스레드",
+        "role": "link"
+      },
+      "e37": {
+        "name": "답글",
+        "role": "link"
+      },
+      "e38": {
+        "name": "미디어",
+        "role": "link"
+      },
+      "e39": {
+        "name": "리포스트",
+        "role": "link"
+      },
+      "e4": {
+        "name": "추천",
+        "role": "link"
+      },
+      "e40": {
+        "name": "게시",
+        "role": "button"
+      },
+      "e41": {
+        "name": "계속",
+        "role": "button"
+      },
+      "e42": {
+        "name": "소개 추가",
+        "role": "heading"
+      },
+      "e43": {
+        "name": "완료",
+        "role": "button"
+      },
+      "e44": {
+        "name": "스레드 만들기",
+        "role": "heading"
+      },
+      "e45": {
+        "name": "만들기",
+        "role": "button"
+      },
+      "e46": {
+        "name": "프로필 10개 팔로우",
+        "role": "heading"
+      },
+      "e47": {
+        "name": "프로필 보기",
+        "role": "link"
+      },
+      "e48": {
+        "name": "프로필 사진 추가",
+        "role": "heading"
+      },
+      "e49": {
+        "name": "완료",
+        "role": "button"
+      },
+      "e5": {
+        "name": "새로운 스레드",
+        "role": "button"
+      },
+      "e6": {
+        "name": "검색 검색",
+        "role": "link"
+      },
+      "e7": {
+        "name": "메시지 메시지",
+        "role": "link"
+      },
+      "e8": {
+        "name": "알림 활동",
+        "role": "link"
+      },
+      "e9": {
+        "name": "프로필 프로필",
+        "role": "link"
+      }
+    },
+    "snapshot": "- generic [ref=e1] clickable [onclick]\n  - navigation\n    - link \"Threads\" [ref=e3]\n      - image \"Threads\"\n    - button \"더 보기\" [expanded=false, ref=e17]\n      - image \"더 보기\"\n    - link \"추천\" [ref=e4]\n      - generic\n        - image\n        - StaticText \"추천\"\n    - button \"새로운 스레드\" [ref=e5]\n      - generic\n        - image\n        - StaticText \"새로운 스레드\"\n    - link \"검색 검색\" [ref=e6]\n      - generic\n        - image \"검색\"\n        - StaticText \"검색\"\n    - link \"메시지 메시지\" [ref=e7]\n      - generic\n        - image \"메시지\"\n        - StaticText \"메시지\"\n    - link \"알림 활동\" [ref=e8]\n      - generic\n        - image \"알림\"\n        - StaticText \"활동\"\n    - link \"프로필 프로필\" [ref=e9]\n      - generic\n        - image \"프로필\"\n        - StaticText \"프로필\"\n    - link \"인사이트 인사이트\" [ref=e10]\n      - generic\n        - image \"인사이트\"\n        - StaticText \"인사이트\"\n    - StaticText \"기타 피드\"\n    - button \"피드 수정\" [ref=e11]\n      - StaticText \"수정\"\n    - link \"팔로잉\" [ref=e12]\n      - StaticText \"팔로잉\"\n    - link \"저장됨 저장됨\" [ref=e13]\n      - generic\n        - image \"저장됨\"\n        - StaticText \"저장됨\"\n    - link \"좋아요 좋아요\" [ref=e14]\n      - generic\n        - image \"좋아요\"\n        - StaticText \"좋아요\"\n    - link \"유령 게시물\" [ref=e15]\n      - generic\n        - StaticText \"유령 게시물\"\n        - image\n    - link \"보관함 보관함\" [ref=e16]\n      - generic\n        - image \"보관함\"\n        - StaticText \"보관함\"\n  - generic\n    - generic\n      - generic\n        - link \"열 제목\" [ref=e19]\n          - heading \"gling.app\" [level=1, ref=e20]\n            - StaticText \"gling.app\"\n        - generic\n          - link \"gling.app님의 게시물 검색\" [ref=e21]\n            - image \"gling.app님의 게시물 검색\"\n          - button \"더 보기\" [expanded=false, ref=e22]\n            - image \"더 보기\"\n      - region \"칼럼 본문\" [ref=e18] focusable [tabindex]\n        - generic\n          - heading \"글링 | 캐나다 한인 커뮤니티\" [level=1, ref=e23]\n          - StaticText \"gling.app\"\n          - button \"gling.app님의 프로필 사진\" [ref=e24]\n            - image \"gling.app님의 프로필 사진\"\n          - StaticText \"밴쿠버·토론토의 오늘을 한국어로.\\n동네 이야기, 정착 질문, 취향이 닮은 이웃.\\n출시 준비 중\\ngling.ej-entertainment.com\"\n          - link \"gling.ej-entertainment.com/\" [ref=e35]\n            - StaticText \"gling.ej-entertainment.com/\"\n          - button \"팔로워 0명\" [ref=e25]\n            - StaticText \"팔로워 \"\n            - StaticText \"0\"\n            - StaticText \"명\"\n          - link \"인사이트\" [ref=e26]\n            - image \"인사이트\"\n          - link \"Instagram\" [ref=e27]\n            - image \"Instagram\"\n          - button \"프로필 편집\" [ref=e28]\n            - StaticText \"프로필 편집\"\n          - generic\n            - link \"스레드\" [ref=e36]\n              - StaticText \"스레드\"\n          - link \"답글\" [ref=e37]\n            - StaticText \"답글\"\n          - link \"미디어\" [ref=e38]\n            - StaticText \"미디어\"\n          - link \"리포스트\" [ref=e39]\n            - StaticText \"리포스트\"\n          - link \"gling.app님의 프로필 사진\" [ref=e29]\n            - image \"gling.app님의 프로필 사진\"\n          - button \"텍스트 필드가 비어 있습니다. 입력하여 새 게시물을 작성해보세요.\" [ref=e30]\n            - StaticText \"새로운 소식이 있나요?\"\n          - button \"게시\" [ref=e40]\n            - StaticText \"게시\"\n          - separator\n          - heading \"프로필 완성하기\" [level=2, ref=e31]\n          - StaticText \"2개 남음\"\n          - generic\n            - generic\n              - image\n              - heading \"소개 추가\" [level=3, ref=e42]\n              - StaticText \"회원님을 소개하고 사람들에게 회원님의 관심사를 알려주세요.\"\n              - button \"완료\" [disabled, ref=e43]\n                - StaticText \"완료\"\n              - image\n              - heading \"스레드 만들기\" [level=3, ref=e44]\n              - StaticText \"회원님의 생각을 이야기하거나 요즘 기억에 남았던 일을 공유해보세요.\"\n              - button \"만들기\" [ref=e45]\n                - StaticText \"만들기\"\n              - image\n              - heading \"프로필 10개 팔로우\" [level=3, ref=e46]\n              - StaticText \"관심 있는 스레드로 피드를 채워보세요.\"\n              - link \"프로필 보기\" [ref=e47]\n                - StaticText \"프로필 보기\"\n              - image\n              - heading \"프로필 사진 추가\" [level=3, ref=e48]\n              - StaticText \"사람들이 회원님을 알아볼 수 있게 설정해보세요.\"\n              - button \"완료\" [disabled, ref=e49]\n                - StaticText \"완료\"\n            - button \"계속\" [ref=e41]\n              - image \"계속\"\n      - contentinfo\n        - list\n          - listitem [level=1]\n            - StaticText \"© 2026\"\n          - listitem [level=1]\n            - link \"Threads 약관\" [ref=e32]\n          - listitem [level=1]\n            - link \"개인정보처리방침\" [ref=e33]\n          - listitem [level=1]\n            - link \"쿠키 정책\" [ref=e34]\n  - button \"만들기\" [expanded=false, ref=e2]\n    - image \"만들기\"",
+    "browserPageId": "bb4fd529-be19-48f5-bfde-bf1d9d9a56b3"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

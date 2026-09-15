@@ -1,0 +1,38 @@
+{
+  "name": "즐거운 캐나다 라이프 ~ 헬로! 밴쿠버",
+  "url": "https://cafe.naver.com/yoehang",
+  "board_url": "https://cafe.naver.com/ArticleList.nhn?search.clubid=20907486&search.menuid=111&search.boardtype=L",
+  "observed_at": "2026-09-11T13:50:38.141298-07:00",
+  "access": "logged_out_public_board_list",
+  "scope": "공개 홈 메뉴·레스토랑 게시판 첫 페이지 제목; 회원 본문·사진·댓글 미열람/미반입",
+  "attempts": {
+    "initial_list_read": 1,
+    "loading_recheck": 1
+  },
+  "actual_observation": "레스토랑·카페&베이커리·맛집 정보·맛집 Q&A 메뉴 확인. 레스토랑 목록에 딤섬, 라멘, 지점별 식당 정보 등의 주제가 보였다. 이는 주제 후보이며 글링 수요나 추천 품질의 증거가 아니다.",
+  "topic_candidates": [
+    {
+      "topic": "Phnom Penh 방문 전 정보",
+      "source_post_id": "724617",
+      "source_url": "https://cafe.naver.com/yoehang/724617",
+      "status": "topic_only_official_facts_not_verified"
+    },
+    {
+      "topic": "Deer Garden 메뉴·지점 정보",
+      "source_post_id": "724605",
+      "source_url": "https://cafe.naver.com/yoehang/724605",
+      "status": "topic_only_official_facts_not_verified"
+    },
+    {
+      "topic": "Bodo Japanese Rojiura Ramen 로히드 지점 정보",
+      "source_post_id": "724231",
+      "source_url": "https://cafe.naver.com/yoehang/724231",
+      "status": "topic_only_official_facts_not_verified"
+    }
+  ],
+  "reuse_permission": null,
+  "full_text_copied": false,
+  "photos_copied": false,
+  "article_relationship": "GL-A001 마루하치는 별도의 공식 자료 파일럿; 이 카페 글에서 가져왔다고 주장하지 않음",
+  "evidence": "hello-vancouver-restaurants-final.json"
+}

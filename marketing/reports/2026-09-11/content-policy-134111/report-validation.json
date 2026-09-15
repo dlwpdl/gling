@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-09-11T13:58:29.088534-07:00",
+  "json_parsed": true,
+  "browser_dom_all_12_bodies_and_pilot_match": true,
+  "visual_review": "Initial Orca viewport viewed; readable, no clipping in displayed content. Remaining copy verified by DOM, not full-page screenshot.",
+  "screenshot": "report-rendered.png",
+  "parent_worktree": "folder:e88d505b-f6bb-47d6-ba41-904ef2a72a8b",
+  "profile_id": "08a4dd8b-db5a-4255-b587-9da0b94df934",
+  "task_tabs_closed": 5,
+  "runnable_check": "passed",
+  "check_output": "PASS: 12 drafts, 7 copy changes, 8 Patina readbacks, no SNS links/writes; HTML bodies and local links match",
+  "completed_at": "2026-09-11T13:58:55.966023-07:00"
+}

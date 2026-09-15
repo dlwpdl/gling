@@ -1,0 +1,79 @@
+{
+  "title": "글링 일일 마케팅 · 2026-09-10",
+  "visibility": "visible",
+  "hasFocus": false,
+  "background": "rgb(255, 255, 255)",
+  "baseURI": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/",
+  "links": [
+    {
+      "text": "전체 JSON",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235.json"
+    },
+    {
+      "text": "1회차 미완료 기록",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/automation-run-1-incomplete.html"
+    },
+    {
+      "text": "첫 예약 비교 자료",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-09/first-reservation-2342.html"
+    },
+    {
+      "text": "네이티브 최종 큐",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/threads-queue-final.json"
+    },
+    {
+      "text": "메일 중복 제거 근거",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/gmail-union-redacted.json"
+    },
+    {
+      "text": "제목 검색 결과",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/gmail-subject-empty-confirmation.json"
+    },
+    {
+      "text": "Instagram 원본",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/instagram-insights.json"
+    },
+    {
+      "text": "Threads 원본",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/threads-insights.json"
+    },
+    {
+      "text": "실행 로그",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/gl-p004.patina.log"
+    },
+    {
+      "text": "본문·예약 재조회 영수증",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/gl-p004-reservation.json"
+    },
+    {
+      "text": "실행 로그",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/gl-p006.patina.log"
+    },
+    {
+      "text": "본문·예약 재조회 영수증",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/gl-p006-reservation.json"
+    },
+    {
+      "text": "실행 로그",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/gl-p003.retry.patina.log"
+    },
+    {
+      "text": "캘린더 검사",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/calendar-check.txt"
+    },
+    {
+      "text": "3건 원문 대조",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/three-body-readback.json"
+    },
+    {
+      "text": "HTML·JSON 최종 확인",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/reports/2026-09-10/daily-001235/report-validation.json"
+    },
+    {
+      "text": "누적 학습 원장",
+      "href": "file:///Users/ash/Desktop/Git/unknown/mobile/marketing/learning-2026-09-09-nick-saraev.md"
+    }
+  ],
+  "tables": 7,
+  "bodyTextLength": 7267
+}

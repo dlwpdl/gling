@@ -1,0 +1,65 @@
+{
+  "run_id": "automation-setup-235931",
+  "observed_at": "2026-09-09T23:59:31.370055-07:00",
+  "period": {
+    "kind": "setup",
+    "timezone": "America/Vancouver"
+  },
+  "automation": {
+    "id": "cd56b1fc-9f2e-4fa2-8aa5-44e8db7661c0",
+    "name": "글링 SNS 예약·성과·누적 개선",
+    "enabled": true,
+    "rrule": "FREQ=DAILY;BYHOUR=9;BYMINUTE=30",
+    "timezone": "America/Vancouver",
+    "workspaceId": "ce467b56-671e-4b76-b5cd-9c12d7cb908b::/Users/ash/Desktop/Git/Orca/workspace/mobile/gling-marketing",
+    "nextRunAt": 1789057800000
+  },
+  "test_run": {
+    "id": "18743547-2828-4d4a-b6e8-67cb282d1aca",
+    "status": "dispatched_pending_verification"
+  },
+  "posts": [
+    {
+      "content_id": "GL-P002",
+      "account": "@gling.app",
+      "status": "scheduled",
+      "scheduled_at": "2026-09-10T18:30:00-07:00",
+      "published_at": null,
+      "metrics": null,
+      "reason": "Not yet published",
+      "receipt": "../2026-09-09/gl-p002-reservation.json"
+    }
+  ],
+  "metric_observations": [],
+  "inbox_checks": [],
+  "experiments": [
+    {
+      "id": "GL-L001",
+      "status": "scheduled_observing_pending",
+      "content_id": "GL-P002",
+      "outcome": null
+    }
+  ],
+  "learning_basis": [
+    "GL-L001",
+    "GL-L002"
+  ],
+  "content_actions": [
+    {
+      "content_id": "GL-P002",
+      "action": "preserve_existing_schedule",
+      "evidence": "../2026-09-09/gl-p002-reservation.json"
+    }
+  ],
+  "blockers": [
+    "Instagram mobile profile link and Meta Business Suite OAuth remain incomplete.",
+    "Daily automation test was dispatched; its completion is not yet verified."
+  ],
+  "highlights": {
+    "learned": "Threads final paste and queue readback verified; this is operational evidence, not growth.",
+    "applying": "Daily inbox → per-post metrics → cumulative learning → future copy and native scheduling.",
+    "unknown": "Published post performance, inquiries, installs and retention."
+  },
+  "paid_actions": 0,
+  "cost_rule": "Every paid action requires explicit user confirmation of amount and terms."
+}

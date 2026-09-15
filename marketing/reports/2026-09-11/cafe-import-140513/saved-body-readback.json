@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-09-11T14:18:42.310612-07:00",
+  "posts": [
+    {
+      "content_id": "GL-A002",
+      "exact_body_match": true,
+      "sha256": "4dad942bf0e14c2ca99ad992e85cf83bb9d4b2153eaeb2458a68ebfbe88d37d1"
+    },
+    {
+      "content_id": "GL-A003",
+      "exact_body_match": true,
+      "sha256": "97220cc44100cead39c6715233edcff201882b8f225cb20d9fd1863a031b2e5f"
+    },
+    {
+      "content_id": "GL-A004",
+      "exact_body_match": true,
+      "sha256": "b06a80cda27c594d0287aec9c06485bb8d92d8a9b8bf429b00606644a1d97303"
+    }
+  ],
+  "sns_calendar_unchanged": true,
+  "sns_rows": 12,
+  "patina": "not_applicable: app information drafts only; no new or edited SNS copy"
+}

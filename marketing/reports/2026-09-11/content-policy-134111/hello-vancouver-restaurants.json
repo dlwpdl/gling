@@ -1,0 +1,159 @@
+{
+  "observed_at": "2026-09-11T13:49:57.783873-07:00",
+  "id": "49af3ab6-20a8-4579-9308-541f37028e7d",
+  "ok": true,
+  "result": {
+    "origin": "https://cafe.naver.com/f-e/cafes/20907486/menus/111?viewType=L",
+    "refs": {
+      "e1": {
+        "name": "",
+        "role": "button"
+      },
+      "e10": {
+        "name": "레스토랑",
+        "role": "link"
+      },
+      "e11": {
+        "name": "카페 & 베이커리",
+        "role": "link"
+      },
+      "e12": {
+        "name": "쇼핑 플레이스",
+        "role": "link"
+      },
+      "e13": {
+        "name": "카페정보",
+        "role": "tab"
+      },
+      "e14": {
+        "name": "나의활동",
+        "role": "tab"
+      },
+      "e15": {
+        "name": "카페소개",
+        "role": "link"
+      },
+      "e16": {
+        "name": "카페글 검색어 입력",
+        "role": "textbox"
+      },
+      "e17": {
+        "name": "검색",
+        "role": "button"
+      },
+      "e18": {
+        "name": "카드형",
+        "role": "button"
+      },
+      "e19": {
+        "name": "앨범형",
+        "role": "button"
+      },
+      "e2": {
+        "name": "카페 채팅",
+        "role": "button"
+      },
+      "e20": {
+        "name": "목록형",
+        "role": "button"
+      },
+      "e21": {
+        "name": "15개씩",
+        "role": "button"
+      },
+      "e22": {
+        "name": "카페아이콘",
+        "role": "link"
+      },
+      "e23": {
+        "name": "푸저",
+        "role": "link"
+      },
+      "e24": {
+        "name": "2010.06.10. 개설",
+        "role": "link"
+      },
+      "e25": {
+        "name": "레스토랑",
+        "role": "heading"
+      },
+      "e26": {
+        "name": "즐겨찾는 게시판 설정",
+        "role": "button"
+      },
+      "e27": {
+        "name": "공지 숨기기",
+        "role": "checkbox"
+      },
+      "e28": {
+        "name": "카페홈",
+        "role": "link"
+      },
+      "e29": {
+        "name": "이웃",
+        "role": "link"
+      },
+      "e3": {
+        "name": "즐거운 캐나다 라이프 ~ 헬로! 밴쿠버",
+        "role": "heading"
+      },
+      "e30": {
+        "name": "가입카페",
+        "role": "button"
+      },
+      "e31": {
+        "name": "새글",
+        "role": "link"
+      },
+      "e32": {
+        "name": "내소식",
+        "role": "button"
+      },
+      "e33": {
+        "name": "채팅",
+        "role": "button"
+      },
+      "e34": {
+        "name": "카페등급 나무3단계",
+        "role": "link"
+      },
+      "e35": {
+        "name": "카페멤버수 125,478 멤버목록 비공개",
+        "role": "button"
+      },
+      "e36": {
+        "name": "초대",
+        "role": "link"
+      },
+      "e4": {
+        "name": "https://cafe.naver.com/yoehang",
+        "role": "link"
+      },
+      "e5": {
+        "name": "NAVER 카페",
+        "role": "link"
+      },
+      "e6": {
+        "name": "",
+        "role": "link"
+      },
+      "e7": {
+        "name": "즐거운 캐나다 라이프 ~ 헬로! 밴쿠버",
+        "role": "link"
+      },
+      "e8": {
+        "name": "나들이 명소",
+        "role": "link"
+      },
+      "e9": {
+        "name": "포토 스토리",
+        "role": "link"
+      }
+    },
+    "snapshot": "- generic\n  - banner\n    - generic\n      - link [ref=e6]\n      - generic\n        - generic\n          - link \"카페홈\" [ref=e28]\n        - generic\n          - link \"이웃\" [ref=e29]\n        - generic\n          - button \"가입카페\" [expanded=false, ref=e30]\n            - StaticText \"가입카페\"\n        - generic\n          - link \"새글\" [ref=e31]\n        - generic\n          - button \"내소식\" [expanded=false, ref=e32]\n        - generic\n          - button \"채팅\" [ref=e33]\n        - generic\n          - strong\n            - StaticText \"사용자 링크\"\n    - link \"즐거운 캐나다 라이프 ~ 헬로! 밴쿠버\" [ref=e7]\n      - image \"즐거운 캐나다 라이프 ~ 헬로! 밴쿠버\"\n  - list\n    - listitem [level=1]\n      - link \"나들이 명소\" [ref=e8]\n    - listitem [level=1]\n      - link \"포토 스토리\" [ref=e9]\n    - listitem [level=1]\n      - link \"레스토랑\" [ref=e10]\n    - listitem [level=1]\n      - link \"카페 & 베이커리\" [ref=e11]\n    - listitem [level=1]\n      - link \"쇼핑 플레이스\" [ref=e12]\n  - complementary\n    - tablist\n      - tab \"카페정보\" [selected, ref=e13]\n      - tab \"나의활동\" [ref=e14]\n    - tabpanel\n      - link \"카페아이콘\" [ref=e22]\n        - image \"카페아이콘\"\n      - generic\n        - link \"푸저\" [ref=e23]\n        - emphasis\n          - StaticText \"매니저\"\n      - link \"2010.06.10. 개설\" [ref=e24]\n        - StaticText \"2010.06.10. 개설\"\n      - link \"카페소개\" [ref=e15]\n      - list\n        - listitem [level=1]\n          - link \"카페등급 나무3단계\" [ref=e34]\n            - strong\n              - StaticText \"카페등급\"\n            - emphasis\n              - StaticText \"나무3단계\"\n        - listitem [level=1]\n          - button \"카페멤버수 125,478 멤버목록 비공개\" [ref=e35]\n            - generic\n              - image\n              - StaticText \"카페멤버수\"\n            - emphasis\n              - StaticText \"125,478\"\n              - image \"멤버목록 비공개\"\n          - link \"초대\" [ref=e36]\n        - listitem [level=1]\n          - strong\n            - StaticText \"카페지역\"\n          - image \"지역\"\n          - emphasis\n            - StaticText \"캐나다\"\n        - listitem [level=1]\n          - strong\n            - StaticText \"대표 인기카페\"\n          - image \"NAVER 대표카페\"\n    - button [ref=e1]\n    - button \"카페 채팅\" [ref=e2]\n    - generic\n      - textbox \"카페글 검색어 입력\" [ref=e16]\n      - button \"검색\" [ref=e17]\n    - generic\n  - generic\n    - LayoutTable\n      - generic\n        - heading \"레스토랑\" [level=3, ref=e25]\n        - button \"즐겨찾는 게시판 설정\" [ref=e26]\n          - StaticText \"즐겨찾는 게시판 설정\"\n    - paragraph\n      - StaticText \"캐나다 지역 게시판입니다.\"\n    - generic\n      - checkbox \"공지 숨기기\" [checked=false, ref=e27]\n    - generic\n      - button \"카드형\" [ref=e18]\n        - image\n        - StaticText \"카드형\"\n      - button \"앨범형\" [ref=e19]\n        - image\n        - StaticText \"앨범형\"\n      - button \"목록형\" [ref=e20]\n        - image\n        - StaticText \"목록형\"\n    - button \"15개씩\" [ref=e21]\n      - StaticText \"15개씩\"\n      - image\n    - generic\n      - StaticText \"로딩중...\"\n      - generic\n  - contentinfo\n    - heading \"즐거운 캐나다 라이프 ~ 헬로! 밴쿠버\" [level=2, ref=e3]\n    - link \"https://cafe.naver.com/yoehang\" [ref=e4]\n      - StaticText \"https://cafe.naver.com/yoehang\"\n    - link \"NAVER 카페\" [ref=e5]\n      - StaticText \"NAVER 카페\"\n      - image\n  - alert",
+    "browserPageId": "677200c6-ecce-419b-810d-3d21e81c4d11"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}

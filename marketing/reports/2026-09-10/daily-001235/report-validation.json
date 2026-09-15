@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "validated_at": "2026-09-10T07:35:48.903667+00:00",
+  "calendar": "PASS: 12 rows; exact saved-copy readback",
+  "json_files_parsed": 42,
+  "required_report_keys": "present",
+  "post_metrics": "all null; account observations separate",
+  "GL_P002": "unchanged CSV row and native body",
+  "Patina": "all three final copy outputs passed; initial GL-P003 capacity failure retained",
+  "html": "Orca Gling tab loaded, snapshot and final screenshot visually reviewed; transparent initial background fixed before sealing",
+  "local_html_links_checked": 17,
+  "missing_local_links": [],
+  "report_tab": "1e4ed7a5-6629-42e7-9c85-f84b971feb69",
+  "visual_evidence": "report-rendered-final.png",
+  "final_sha256": {
+    "daily-001235.html": "0bc9e0728c901daca1c76eee1b956695ceaec58f24d364b97b93eeb3f5af7406",
+    "daily-001235.json": "08c6ea18f8a57e6a5cbd6268021962134a31650345ccfaa6007ef4b619a86a87"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-09-10T09:34:38.353042-07:00",
+  "id": "3149065a-c573-403f-a4ec-ef29d8b3d98e",
+  "ok": true,
+  "result": {
+    "result": "{\"title\":\"검색결과 - eunsense0308@gmail.com - Gmail\",\"url\":\"https://mail.google.com/mail/u/2/#search/in%3Aanywhere+%22gling%40ej-entertainment.com%22+newer_than%3A7d\",\"range\":[\"5개 중 1–5\"],\"emptyConfirmed\":false,\"rows\":[{\"threadId\":\"1a08bc4a9a5bf386\",\"sender\":\"RevenueCat Team\",\"subject\":\"Your app is ready for its first product\",\"date\":\"2026년 9월 10일 (목) 오전 7:41\"},{\"threadId\":\"1a089dc5f154f5a0\",\"sender\":\"Instagram\",\"subject\":\"[인증정보 숨김] is your Instagram code\",\"date\":\"2026년 9월 9일 (수) 오후 10:48\"},{\"threadId\":\"1a089d3d9696e016\",\"sender\":\"내부 전달 테스트\",\"subject\":\"Gling 이메일 전달 확인 · GL-MAIL-[인증정보 숨김]-01\",\"date\":\"2026년 9월 9일 (수) 오후 10:39\"},{\"threadId\":\"1a089e2fd9e307b8\",\"sender\":\"Instagram\",\"subject\":\"Did you just add a new account to your Accounts Center?\",\"date\":\"2026년 9월 9일 (수) 오후 10:55\"},{\"threadId\":\"1a089d60966ef970\",\"sender\":\"RevenueCat\",\"subject\":\"[Action required] Verify your RevenueCat e-mail\",\"date\":\"2026년 9월 9일 (수) 오후 10:41\"}]}",
+    "origin": "https://mail.google.com/mail/u/2/#search/in%3Aanywhere+%22gling%40ej-entertainment.com%22+newer_than%3A7d"
+  },
+  "_meta": {
+    "runtimeId": "7a68019b-7743-4a79-83ff-d2b91a50bf4c"
+  }
+}
