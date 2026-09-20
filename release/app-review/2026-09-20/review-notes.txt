@@ -1,0 +1,24 @@
+Gling 1.0.1 (32) is a Korean-language public community for Vancouver, Toronto and Edmonton, Canada. It is open to the public, not restricted to an organization.
+
+CHANGES FOR RE-REVIEW — SIGNUP CONSENT
+After social authentication, a new member sees the nickname/city profile-setup screen BEFORE profile creation or member-only access. This screen has initially unchecked, separate required agreements for Terms/community rules, personal-data collection/use, and external AI (OpenAI) safety processing. Each has a View link or expandable explanation. A select-all control and individual checkboxes are available. The required agreements must be accepted to finish signup; their versions and server timestamps are recorded. Optional name/date-of-birth collection has its own optional agreement and is not required for signup or meetup applications. Consent is collected on this profile step, not before the social-login button.
+Terms: https://gling.ej-entertainment.com/terms
+Privacy: https://gling.ej-entertainment.com/privacy
+The terms prohibit objectionable content, harassment, hate and threats and explain removal/account restrictions.
+
+NEW PHYSICAL-DEVICE EVIDENCE
+Attached: gling-build32-consent-and-historical-demo.mp4.
+0:00–approximately 0:27: September 20 recording supplied by the developer. It begins in TestFlight showing 1.0.1 (32), then shows profile setup, individual consent checkboxes, opening Terms and Privacy links, select-all, the AI consent explanation, and completing signup with optional name/date-of-birth fields empty, followed by the app feed.
+From approximately 0:27 onward: the previously submitted historical video (September 11 build 9 demo and September 17 reporting/blocking demo). These older segments are retained as supplemental feature evidence; they are not recordings of build 32. The new signup segment is first so reviewers can locate the current consent flow immediately.
+
+REVIEW ACCESS
+Me (나)/profile icon > 심사용 계정 로그인 / Review access. Enter the unchanged username/password in App Review Information and sign in. This ordinary member account already has a profile and therefore does not repeat first-signup onboarding; use the first video segment to inspect the new-member consent flow. No social account, OTP, purchase or presence in Canada is required to use the supplied review account.
+
+SAFETY AND FEATURES
+Guests can browse and select a city manually. Post detail offers reporting and blocking. Direct chats require recipient acceptance; meetups require host approval. Automated safety analysis covers all new posts, comments and conversation messages after consent; authorized human review is audited and humans decide permanent bans. Chats are not end-to-end encrypted.
+Build 32 adds optional recommended meetup ages; people outside the range or without a birth date may apply. Birth dates are self-reported, explicitly unverified, and do not raise verification level. New-purpose consent is required before using previously supplied birth dates for age guidance. Optional cover photos and group-chat members/timestamps are also included.
+Delete account: Me > Settings > Delete account; Apple-linked accounts reauthenticate. Seeded examples are review content, not real-user activity.
+
+SUBSCRIPTIONS AND SERVICES
+The existing four Plus/Premium monthly/yearly subscriptions and subscription group are included for review. Me > Membership shows localized prices and purchase/restore controls. No payment is needed for the review flows above. Supabase, Apple/Google/Kakao authentication, OpenAI, RevenueCat/StoreKit and Google AdMob are used. Foreground location sharing and photo-to-draft assistance are optional; manual city selection is available, with no continuous/background tracking. Interface is Korean.
+Support: gling@ej-entertainment.com
