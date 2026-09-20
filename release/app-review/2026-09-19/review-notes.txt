@@ -1,0 +1,29 @@
+Gling 1.0.1 (30) is a Korean-language public community for Vancouver, Toronto and Edmonton, Canada. It is open to the public, not restricted to an organization.
+
+CHANGES FOR RE-REVIEW
+Before signup or login, the screen now requires two separate, initially unchecked agreements:
+- [필수] 이용약관과 커뮤니티 행동 기준에 동의합니다. (Terms of Use and community rules)
+- [필수] 개인정보 수집·이용에 동의합니다. (Personal-data collection and use)
+Each agreement has a visible URL and an independently clickable full-policy link. Neither is preselected. Apple, Google, Kakao and Review access cannot continue until both are checked. The account-bound agreement version and server timestamp are recorded after authentication. The notice explicitly prohibits objectionable content, harassment, hate and threats and explains content removal and account restrictions.
+Terms: https://gling.ej-entertainment.com/terms
+Privacy: https://gling.ej-entertainment.com/privacy
+Optional name/date-of-birth collection remains optional. Separate explicit OpenAI safety-processing consent is presented during profile onboarding.
+Build 30 also adds an optional free cover photo for one-off and recurring meetups, and group-chat members and message timestamps.
+
+REVIEW ACCESS
+Open Me (나) or the profile icon, then 심사용 계정 로그인 / Review access. Check both required agreements, enter the existing App Review Information username/password, and tap 심사 계정으로 로그인 / Sign in. This account has ordinary member permissions. No social account, OTP, purchase or presence in Canada is required. The same agreements apply to this review route.
+
+SAFETY AND MAIN FLOWS
+Guests can browse public posts and choose a city manually. Post detail offers reporting and user blocking. Direct chats require recipient acceptance; meetups require host approval. Automated safety analysis covers all new posts, comments and conversation messages after consent; authorized human review is audited and humans decide permanent bans. Chats are not end-to-end encrypted.
+Delete account: Me > Settings > Delete account; Apple-linked accounts reauthenticate. Seeded examples are review content, not real-user activity.
+
+SUBSCRIPTIONS
+Gling Plus/Premium monthly and yearly subscriptions are included in the existing review submission. They increase the member's own limits; membership tier is not shown to other members. Me > Membership shows localized prices and store purchase/restore controls. No payment is needed for the review flows above.
+
+EXTERNAL SERVICES AND LOCATION
+Supabase, Apple/Google/Kakao authentication, OpenAI, RevenueCat/StoreKit and Google AdMob (in-feed ads). Photo-to-draft assistance is optional. Foreground location sharing is optional: users can instead select a city manually. No continuous/background location tracking. The same features apply in every supported city. Interface is Korean.
+
+EXISTING PHYSICAL-DEVICE VIDEO
+The attached gling-combined-review-2026-09-17.mp4 (about 103 seconds) combines the September 11 demo of build 9 with a September 17 recording of reporting/blocking. The latter segment does not show its build number. This historical recording predates build 30's new consent screen; please verify the two new checkboxes directly in build 30. It is not presented as a recording of build 30.
+
+Support: gling@ej-entertainment.com
