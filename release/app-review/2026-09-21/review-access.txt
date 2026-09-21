@@ -1,0 +1,9 @@
+REVIEW ACCESS — 1.0.2 (33), rebuilt after removing the public review link
+
+The normal sign-in screen now shows only the existing social sign-in options. The review account entry is no longer advertised to ordinary users.
+
+After installing this build, open the deep link gling://auth/review on the same device. Enter the existing review username and password supplied separately in App Review Information (Apple) or App Access (Google Play), then tap "심사 계정으로 로그인 / Sign in".
+
+This is the existing authenticated review login, not an authentication bypass. The account has ordinary member permissions and uses the same features and server rules as other members. No review-only feature behavior was added. Credentials and server authorization requirements are unchanged.
+
+Replace the previous instruction to tap "Review access" on the profile sign-in screen before submitting this build. Do not change review instructions for the already-published build 32, which still uses the previous entry link.
