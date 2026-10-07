@@ -70,7 +70,8 @@ if ! jq -e '.posts | all(.[]; (.author_nickname | type) == "string" and (.author
   exit 1
 fi
 
-SQL_FILE="$(mktemp -t gling-city-posts)"
+SQL_FILE="$(mktemp "${TMPDIR:-/tmp}/gling-city-posts.XXXXXX")" || exit 1
+trap 'rm -f "$SQL_FILE"' EXIT
 {
   cat <<'HEAD'
 begin;
