@@ -1,14 +1,16 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ComponentProps, type ReactNode } from 'react';
+import { SymbolView } from 'expo-symbols';
 import { Alert, Platform, Share, StyleSheet, TextInput, View } from 'react-native';
 
-import { Pressable, ScrollView } from '@/components/analytics-controls';
+import { Pressable, Switch } from '@/components/analytics-controls';
 import { GlingLoader } from '@/components/gling-loader';
 import { RaisedActionButton } from '@/components/raised-action-button';
 import { ThemedText } from '@/components/themed-text';
 import { useTheme } from '@/hooks/use-theme';
 import { useAuth } from '@/lib/auth';
 import { merchantReportText } from '@/lib/admin-merchants';
+import { parseAiDraftResponse } from '@/lib/ai-draft';
 import { useInteractionFeedback } from '@/lib/interaction-feedback';
 import { CITIES, TAGS } from '@/lib/mock';
 import { merchantEventId } from '@/lib/merchant-source';
@@ -34,12 +36,18 @@ const errorText = (error: unknown) => ({
   INVALID_ORIGINAL_URL: '원문 주소는 공개된 HTTPS 링크여야 해요.', ACCOUNT_CHANGED: '계정이 바뀌었어요. 현재 계정으로 다시 열어주세요.',
   INVALID_COST_INPUT: '금액은 0 이상, 수량은 0 초과, 수수료율은 100 미만으로 입력해 주세요.',
   CONTENT_REJECTED: '게시 기준에 맞지 않는 내용이에요. 초안을 확인해 주세요.', RATE_LIMITED: '요청이 많아요. 잠시 후 다시 시도해 주세요.',
+  DRAFT_FAILED: '초안을 만들지 못했어요. 입력은 그대로 두었으니 잠시 후 다시 시도해 주세요.',
+  INVALID_AI_DRAFT: 'AI 응답을 읽지 못했어요. 작성한 내용은 그대로예요.',
+  DAILY_LIMIT_REACHED: '오늘의 AI 초안 5회를 모두 사용했어요. 직접 작성은 계속할 수 있어요.',
+  AI_CONSENT_REQUIRED: 'AI 데이터 처리 동의를 확인한 뒤 다시 이용해 주세요.',
+  INVALID_INPUT: '이번에 알릴 내용과 글의 목적을 확인해 주세요.',
 } as Record<string, string>)[error instanceof Error ? error.message : '']
   ?? '처리하지 못했어요. 입력은 그대로 두었으니 연결 상태를 확인한 뒤 다시 시도해 주세요.';
 const amount = (value: string) => value.trim() ? Number(value.replace(',', '.')) : NaN;
 const money = (value: number) => `CAD ${Number(value).toFixed(2)}`;
 type DraftInput = Pick<MerchantDraft, 'id' | 'channel' | 'title' | 'body' | 'tag_slug' | 'kind'> & { original_url: string };
 const emptyDraft = (): DraftInput => ({ id: merchantEventId(), channel: 'gling', title: '', body: '', original_url: '', tag_slug: 'life', kind: 'story' });
+const draftPurposes = ['가게 소식', '메뉴·서비스 소개', '구인구직'] as const;
 const sameDraftContent = (a: DraftInput | MerchantDraft, b: DraftInput | MerchantDraft) => a.id === b.id && a.channel === b.channel
   && a.title === b.title && a.body === b.body && (a.original_url ?? '') === (b.original_url ?? '') && a.tag_slug === b.tag_slug && a.kind === b.kind;
 type StockRequest = { id: string; changes: { item_id: string; delta: number; note: string }[] };
@@ -78,27 +86,37 @@ function Action({ label, onPress, disabled, selected, primary = false, role = 'b
   const press = () => { play('selection'); onPress(); };
   if (primary) return <RaisedActionButton analyticsId="merchant.primary" label={label} onPress={press} disabled={disabled} />;
   return <Pressable analyticsId="merchant.action" accessibilityRole={role} accessibilityLabel={label} accessibilityState={{ disabled: !!disabled, selected: !!selected }} aria-selected={role === 'tab' ? !!selected : undefined} disabled={disabled} onPress={press}
-    style={[styles.action, { borderColor: selected ? theme.accent : theme.line, backgroundColor: selected ? theme.backgroundSelected : theme.backgroundElement, opacity: disabled ? 0.5 : 1 }]}>
-    <ThemedText type="smallBold">{label}</ThemedText>
+    style={({ pressed }) => [styles.action, { borderColor: selected ? theme.accent : theme.line, backgroundColor: selected ? theme.backgroundSelected : theme.backgroundElement, opacity: disabled ? 0.5 : pressed ? 0.65 : 1 }]}>
+    <ThemedText type="smallBold" themeColor={selected ? 'accent' : 'text'}>{label}</ThemedText>
   </Pressable>;
 }
-function Field({ label, value, onChange, numeric = false, signed = false, multiline = false, maxLength = 120, disabled = false }: { label: string; value: string; onChange: (value: string) => void; numeric?: boolean; signed?: boolean; multiline?: boolean; maxLength?: number; disabled?: boolean }) {
+function Field({ label, value, onChange, placeholder, numeric = false, signed = false, multiline = false, maxLength = 120, disabled = false }: { label: string; value: string; onChange: (value: string) => void; placeholder?: string; numeric?: boolean; signed?: boolean; multiline?: boolean; maxLength?: number; disabled?: boolean }) {
   const theme = useTheme();
   return <View style={styles.field}><ThemedText type="small" themeColor="textSecondary">{label}</ThemedText>
-    <TextInput accessibilityLabel={label} value={value} onChangeText={onChange} editable={!disabled} maxLength={maxLength}
+    <TextInput accessibilityLabel={label} value={value} onChangeText={onChange} placeholder={placeholder} editable={!disabled} maxLength={maxLength}
       keyboardType={signed ? Platform.OS === 'ios' ? 'numbers-and-punctuation' : 'default' : numeric ? 'decimal-pad' : 'default'} multiline={multiline} placeholderTextColor={theme.textSecondary}
       style={[styles.input, { color: theme.text, borderColor: theme.line, backgroundColor: theme.backgroundElement }, multiline && styles.multiline]} />
   </View>;
 }
 function Section({ title, children }: { title: string; children: ReactNode }) {
   const theme = useTheme();
-  return <View style={[styles.section, { backgroundColor: theme.card, borderColor: theme.line }]}><ThemedText type="subtitle">{title}</ThemedText>{children}</View>;
+  return <View style={[styles.section, { backgroundColor: theme.card }]}><ThemedText accessibilityRole="header" style={styles.sectionTitle}>{title}</ThemedText>{children}</View>;
+}
+function ToolRow({ title, detail, icon, onPress, disabled = false }: { title: string; detail: string; icon: ComponentProps<typeof SymbolView>['name']; onPress: () => void; disabled?: boolean }) {
+  const theme = useTheme(); const { play } = useInteractionFeedback();
+  return <Pressable analyticsId="merchant.tool" accessibilityRole="button" accessibilityLabel={title} accessibilityHint={detail} accessibilityState={{ disabled }} disabled={disabled}
+    onPress={() => { play('selection'); onPress(); }} style={({ pressed }) => [styles.toolRow, { backgroundColor: pressed ? theme.backgroundSelected : theme.card, opacity: disabled ? 0.5 : 1 }]}>
+    <View style={[styles.toolIcon, { backgroundColor: theme.backgroundElement }]}><SymbolView name={icon} size={22} tintColor={theme.textSecondary} /></View>
+    <View style={styles.toolText}><ThemedText style={styles.rowTitle}>{title}</ThemedText><ThemedText type="small" themeColor="textSecondary">{detail}</ThemedText></View>
+    <SymbolView name={{ ios: 'chevron.right', android: 'chevron_right', web: 'chevron_right' }} size={16} tintColor={theme.textSecondary} />
+  </Pressable>;
 }
 
 export function MerchantWorkspace({ merchantId, refreshSignal = 0 }: { merchantId?: string; refreshSignal?: number }) {
   const { me, isAuthed } = useAuth();
   const [response, setResponse] = useState<{ user: string; rows: BusinessMerchant[] } | null>(null);
   const [selected, setSelected] = useState<string | null>(merchantId ?? null);
+  const [choosing, setChoosing] = useState(false);
   const [registering, setRegistering] = useState(false), [error, setError] = useState(''), [busy, setBusy] = useState(false);
   const [revision, setRevision] = useState(0), [dirty, setDirty] = useState(false);
   const [registration, setRegistration] = useState(() => ({ id: merchantEventId(), name: '', contact: '', city_id: 'vancouver' }));
@@ -107,15 +125,19 @@ export function MerchantWorkspace({ merchantId, refreshSignal = 0 }: { merchantI
   useEffect(() => {
     let active = true;
     if (!isAuthed || merchantId) return;
-    void loadMyMerchants(supabase).then((next) => { if (active) setResponse({ user: me.id, rows: next }); })
+    void loadMyMerchants(supabase).then((next) => { if (active) {
+      setResponse({ user: me.id, rows: next });
+      setSelected((current) => next.some((m) => m.id === current) ? current : next.length === 1 ? next[0].id : null);
+    } })
       .catch((e) => { if (active) setError(errorText(e)); });
     return () => { active = false; };
   }, [isAuthed, me.id, merchantId, revision]);
   if (!isAuthed) return <ThemedText>로그인한 뒤 소상공인 도구를 이용해 주세요.</ThemedText>;
   if (merchantId) return <MerchantTools key={`${me.id}:${merchantId}`} id={merchantId} refreshSignal={refreshSignal} onDirty={() => {}} />;
   async function choose(id: string | null) {
+    if (id === selected && id !== null) { setChoosing(false); return; }
     if (dirty && !await confirmAction('저장하지 않은 초안', '다른 업체를 열면 저장하지 않은 수정 내용이 사라져요.')) return;
-    setDirty(false); setSelected(id); setRegistering(id === null); setError('');
+    setDirty(false); setSelected(id); setRegistering(id === null); setChoosing(false); setError('');
   }
   async function register() {
     if (busyRef.current) return; busyRef.current = true; setBusy(true); setError('');
@@ -129,31 +151,48 @@ export function MerchantWorkspace({ merchantId, refreshSignal = 0 }: { merchantI
     finally { busyRef.current = false; setBusy(false); }
   }
   return <View style={styles.workspace}>
-    <ThemedText type="small" themeColor="textSecondary">평소 쓰던 글링 계정으로 업체의 글·원가·재고를 관리해요. 개인 멤버십과 업체 이용 기간은 별도예요.</ThemedText>
     {error && <ThemedText accessibilityRole="alert">{error}</ThemedText>}
-    <View style={styles.actions}>{rows?.map((m) => <Action key={m.id} label={m.name} selected={selected === m.id} disabled={busy} onPress={() => { void choose(m.id); }} />)}<Action label="업체 등록" disabled={busy} onPress={() => { void choose(null); }} /></View>
+    {(choosing || (!selected && !registering && !!rows?.length)) && <Section title="관리할 업체">
+      {rows?.map((m) => <ToolRow key={m.id} title={m.name} detail={m.city_name} icon={{ ios: 'storefront', android: 'store', web: 'store' }} disabled={busy} onPress={() => { void choose(m.id); }} />)}
+      <View style={styles.actions}><Action label="업체 등록" disabled={busy} onPress={() => { void choose(null); }} />{selected && <Action label="선택 닫기" onPress={() => setChoosing(false)} />}</View>
+    </Section>}
     {!rows && !error && <GlingLoader accessibilityLabel="내 업체를 불러오는 중" />}
     {!rows && error && <Action label="다시 불러오기" onPress={() => { setError(''); setRevision((v) => v + 1); }} />}
-    {rows?.length === 0 && !registering && <ThemedText>아직 등록한 업체가 없어요. 업체 등록으로 시작해 주세요.</ThemedText>}
+    {rows?.length === 0 && !registering && <Section title="내 가게 관리의 시작">
+      <ThemedText themeColor="textSecondary">아직 등록한 업체가 없어요. 가게를 등록하고 홍보글·원가·재고를 한곳에서 관리해요.</ThemedText>
+      <Action primary label="업체 등록" disabled={busy} onPress={() => { void choose(null); }} />
+    </Section>}
     {registering && <Section title="내 업체 등록">
       <Field label="업체 이름" value={registration.name} disabled={busy} onChange={(name) => setRegistration({ ...registration, name })} />
       <Field label="담당자 · 연락처" value={registration.contact} maxLength={1000} disabled={busy} onChange={(contact) => setRegistration({ ...registration, contact })} />
       <ThemedText type="small">운영 도시</ThemedText><View style={styles.actions}>{CITIES.filter((c) => c.state === 'open').map((c) => <Action key={c.id} label={c.name} selected={registration.city_id === c.id} disabled={busy} onPress={() => setRegistration({ ...registration, city_id: c.id })} />)}</View>
       <ThemedText type="small" themeColor="textSecondary">기본 도구는 무료예요. 등록일부터 14일 동안 일괄 승인·입출고도 체험할 수 있어요. 공개 게시 전에는 업체 소유를 확인해요.</ThemedText>
       <Action primary label={busy ? '등록 중…' : '업체 등록하기'} disabled={busy || !registration.name.trim()} onPress={() => { void register(); }} />
+      <Action label="업체 등록 취소" disabled={busy} onPress={() => { setRegistering(false); setChoosing(false); }} />
     </Section>}
-    {!registering && selected && rows && <MerchantTools key={`${me.id}:${selected}`} id={selected} refreshSignal={refreshSignal} onDirty={setDirty} />}
+    {!registering && selected && rows?.some((m) => m.id === selected) && <View style={{ display: choosing ? 'none' : 'flex' }}>
+      <MerchantTools key={`${me.id}:${selected}`} id={selected} refreshSignal={refreshSignal} onDirty={setDirty} onChoose={() => setChoosing(true)} />
+    </View>}
   </View>;
 }
 
-function MerchantTools({ id, refreshSignal, onDirty }: { id: string; refreshSignal: number; onDirty: (dirty: boolean) => void }) {
+function MerchantTools({ id, refreshSignal, onDirty, onChoose }: { id: string; refreshSignal: number; onDirty: (dirty: boolean) => void; onChoose?: () => void }) {
+  const theme = useTheme();
   const { me } = useAuth(); const { play } = useInteractionFeedback();
-  const [revision, setRevision] = useState(0), [tab, setTab] = useState<'drafts' | 'cost' | 'stock' | 'membership'>('drafts');
+  const [revision, setRevision] = useState(0), [tab, setTab] = useState<'overview' | 'drafts' | 'cost' | 'stock' | 'membership'>('overview');
+  const [draftView, setDraftView] = useState<'list' | 'composer'>('list');
+  const [showItemForm, setShowItemForm] = useState(false), [showPlanDetails, setShowPlanDetails] = useState(false), [showMetricDetails, setShowMetricDetails] = useState(false);
   const [response, setResponse] = useState<{ user: string; revision: number; refreshSignal: number; data: Workspace } | null>(null);
   const data = response?.user === me.id && response.revision === revision && response.refreshSignal === refreshSignal ? response.data : null;
   const [busy, setBusy] = useState(false), [error, setError] = useState(''), [notice, setNotice] = useState('');
   const busyRef = useRef(false), mounted = useRef(true);
   const [editor, setEditor] = useState(emptyDraft), [dirty, setDirty] = useState(false), [selection, setSelection] = useState<string[]>([]);
+  const [draftStep, setDraftStep] = useState<'idea' | 'edit' | 'channels'>('idea');
+  const [facts, setFacts] = useState(''), [purpose, setPurpose] = useState<(typeof draftPurposes)[number]>('가게 소식');
+  const [aiDraftReady, setAiDraftReady] = useState(false);
+  const [draftOptions, setDraftOptions] = useState(false);
+  const [channels, setChannels] = useState({ gling: true, naver: false, daum: false });
+  const [preparedChannels, setPreparedChannels] = useState<{ naver: boolean; daum: boolean } | null>(null);
   const [openedDraft, setOpenedDraft] = useState<MerchantDraft | null>(null);
   const editorReload = useRef<DraftInput | null>(null);
   const [showArchived, setShowArchived] = useState(false), [externalUrl, setExternalUrl] = useState('');
@@ -204,11 +243,66 @@ function MerchantTools({ id, refreshSignal, onDirty }: { id: string; refreshSign
     } catch (e) { if (mounted.current) { setError(errorText(e)); play('warning'); if (e instanceof Error && e.message === 'MERCHANT_DRAFT_CHANGED') setRevision((v) => v + 1); } }
     finally { busyRef.current = false; if (mounted.current) setBusy(false); }
   }
-  function changeDraft(next: Partial<DraftInput>) { setEditor({ ...editor, ...next }); setDirty(true); }
+  function changeDraft(next: Partial<DraftInput>) { setEditor({ ...editor, ...next }); setDirty(true); setPreparedChannels(null); }
+  async function generateDraft() {
+    const merchant = data?.merchant, bodyHint = facts.trim();
+    if (!merchant || !bodyHint || busyRef.current) return;
+    if ((editor.title.trim() || editor.body.trim()) && !await confirmAction('작성한 초안을 바꿀까요?', '직접 수정한 내용이 새 AI 초안으로 바뀌어요.')) { setDraftStep('edit'); return; }
+    await run(async () => {
+      const { data: result, error: failure } = await supabase.functions.invoke('draft-post', { body: {
+        intent: 'merchant_promotion', merchantId: id, purpose, cityName: merchant.city_name,
+        selectedCategory: editor.tag_slug === 'festival' ? 'life' : editor.tag_slug, bodyHint,
+      } });
+      if (failure) {
+        let code = 'DRAFT_FAILED';
+        if (failure.context instanceof Response) { try { code = (await failure.context.json()).error?.code ?? code; } catch {} }
+        throw new Error(code);
+      }
+      const draft = parseAiDraftResponse(result), session = await supabase.auth.getSession();
+      if (!mounted.current || session.data.session?.user.id !== me.id) throw new Error('ACCOUNT_CHANGED');
+      changeDraft({ title: draft.title, body: draft.body, kind: purpose === '구인구직' ? 'listing' : editor.kind });
+      setAiDraftReady(true); setDraftStep('edit');
+    }, '', false);
+  }
+  async function saveEditor(nextStep?: 'channels') {
+    const draft = { ...editor, title: editor.title.trim(), body: editor.body.trim(), original_url: editor.original_url.trim() };
+    await run(async () => {
+      await saveMerchantDraft(supabase, id, { ...draft, original_url: draft.original_url || null });
+      if (!mounted.current) return;
+      editorReload.current = draft; setEditor(draft); setDirty(false);
+      if (nextStep) setDraftStep(nextStep);
+    }, '초안을 저장했어요. 아직 게시되지 않았어요.');
+  }
+  async function confirmChannels() {
+    if (!saved || !draftReady || busyRef.current || published || (!channels.gling && !channels.naver && !channels.daum)) return;
+    const source = saved, chosen = { ...channels };
+    const places = [chosen.gling && `글링 · ${data!.merchant.city_name}`, chosen.naver && '네이버 카페 · 원고 복사 후 직접 등록', chosen.daum && '다음 카페 · 원고 복사 후 직접 등록'].filter(Boolean).join('\n');
+    if (!await confirmAction('게시 전 확인', `「${source.title}」\n\n${places}\n\n위에서 확인한 저장 원고를 사용해요. 카페에는 자동으로 게시되지 않아요.`) || !mounted.current) return;
+    setPreparedChannels({ naver: chosen.naver, daum: chosen.daum });
+    if (!chosen.gling) { setNotice('원고를 준비했어요. 선택한 카페에서 직접 등록해 주세요.'); return; }
+    await run(async () => {
+      editorReload.current = editor;
+      try {
+        let reviewedAt = source.updated_at;
+        if (!source.approved_at) {
+          await approveMerchantDrafts(supabase, id, [source.id], true, { [source.id]: reviewedAt });
+          const latest = (await loadMerchantWorkspace(supabase, id)).drafts.find((d) => d.id === source.id);
+          if (!latest || !sameDraftContent(latest, source) || !latest.approved_at || latest.archived_at) throw new Error('MERCHANT_DRAFT_CHANGED');
+          reviewedAt = latest.updated_at;
+        }
+        const session = await supabase.auth.getSession();
+        if (!mounted.current || session.data.session?.user.id !== me.id) throw new Error('ACCOUNT_CHANGED');
+        await publishMerchantDraft(supabase, id, source.id, reviewedAt);
+      } catch (failure) { if (mounted.current) setRevision((v) => v + 1); throw failure; }
+    }, chosen.naver || chosen.daum ? '글링에 게시했어요. 카페는 원고 복사 후 직접 등록해 주세요.' : '글링에 게시했어요.');
+  }
   async function openDraft(draft?: MerchantDraft) {
     if (dirty && !await confirmAction('저장하지 않은 초안', '다른 원고를 열면 저장하지 않은 수정 내용이 사라져요.')) return;
     setEditor(draft ? { ...draft, original_url: draft.original_url ?? '' } : emptyDraft()); setOpenedDraft(draft ?? null); editorReload.current = null;
+    setDraftStep(draft ? 'edit' : 'idea'); setFacts(''); setAiDraftReady(false); setDraftOptions(false);
+    setChannels({ gling: true, naver: false, daum: false }); setPreparedChannels(null);
     setDirty(false); setExternalUrl(draft?.external_url ?? ''); setError('');
+    setDraftView('composer'); setTab('drafts');
   }
   function toggleDraft(draftId: string) {
     if (busy) return;
@@ -264,14 +358,40 @@ function MerchantTools({ id, refreshSignal, onDirty }: { id: string; refreshSign
     } finally { stockOperations.delete(stockKey); release(); }
   }
   return <View style={styles.workspace}>
-    <View><ThemedText type="title">{data.merchant.name}</ThemedText><ThemedText type="small" themeColor="textSecondary">{data.merchant.city_name} · {data.merchant.owner_verified_at ? '업체 소유 확인됨' : '업체 소유 확인 대기'}</ThemedText></View>
-    <ScrollView analyticsId="merchant.tabs" horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.actions} accessibilityRole="tablist">
-      {([['drafts', '홍보글'], ['cost', '원가 계산'], ['stock', '재고'], ['membership', '성과·멤버십']] as const).map(([key, label]) => <Action role="tab" key={key} label={label} selected={tab === key} disabled={busy} onPress={() => setTab(key)} />)}
-    </ScrollView>
+    {tab === 'overview' ? <View style={styles.businessHeader}>
+      <View style={[styles.businessIcon, { backgroundColor: theme.backgroundSelected }]}><SymbolView name={{ ios: 'storefront', android: 'store', web: 'store' }} size={26} tintColor={theme.text} /></View>
+      <View style={styles.toolText}><ThemedText accessibilityRole="header" style={styles.businessName}>{data.merchant.name}</ThemedText><ThemedText type="small" themeColor="textSecondary">{data.merchant.city_name} · {data.merchant.owner_verified_at ? '소유 확인됨' : '소유 확인 대기'}</ThemedText></View>
+      {onChoose && <Action label="업체 변경" disabled={busy} onPress={onChoose} />}
+    </View> : <View style={styles.toolbar}>
+      <Pressable analyticsId="merchant.back" accessibilityRole="button" accessibilityLabel="업체 관리로" disabled={busy} onPress={() => { play('selection'); setNotice(''); setTab('overview'); }}
+        style={({ pressed }) => [styles.back, { opacity: pressed || busy ? 0.5 : 1 }]}>
+        <SymbolView name={{ ios: 'chevron.left', android: 'arrow_back', web: 'arrow_back' }} size={18} tintColor={theme.accent} /><ThemedText themeColor="accent">업체 관리</ThemedText>
+      </Pressable><ThemedText type="small" themeColor="textSecondary" style={styles.toolbarName}>{data.merchant.name}</ThemedText>
+    </View>}
     {error && <><ThemedText accessibilityRole="alert">{error}</ThemedText><Action label="자료 새로 확인" disabled={busy} onPress={() => { setError(''); setRevision((v) => v + 1); }} /></>}{notice && <ThemedText accessibilityLiveRegion="polite">{notice}</ThemedText>}
+    {tab === 'overview' && <>
+      <View style={styles.writeIntro}><ThemedText style={styles.introTitle}>가게 소식을 전해보세요</ThemedText><ThemedText themeColor="textSecondary">알릴 내용을 적으면 AI가 초안을 도와드려요.</ThemedText></View>
+      <Action primary label="홍보글 작성" disabled={busy} onPress={() => { void openDraft(); }} />
+      {dirty && <Action label="작성 중인 초안 이어쓰기" disabled={busy} onPress={() => { setDraftView('composer'); setTab('drafts'); }} />}
+      <View style={[styles.toolGroup, { backgroundColor: theme.card }]}>
+        <ToolRow title="홍보글 관리" detail="저장한 초안과 게시한 원고" icon={{ ios: 'doc.text', android: 'article', web: 'article' }} disabled={busy} onPress={() => { setDraftView('list'); setTab('drafts'); }} />
+        <View style={[styles.rowDivider, { backgroundColor: theme.line }]} />
+        <ToolRow title="원가 계산" detail="개당 비용과 공헌이익 계산" icon={{ ios: 'plus.forwardslash.minus', android: 'calculate', web: 'calculate' }} disabled={busy} onPress={() => setTab('cost')} />
+        <View style={[styles.rowDivider, { backgroundColor: theme.line }]} />
+        <ToolRow title="재고 관리" detail={data.items.length ? `${data.items.length}개 품목 · 재고 부족 ${data.items.filter((i) => Number(i.quantity) <= Number(i.low_stock)).length}개` : '품목 등록과 입출고 기록'} icon={{ ios: 'shippingbox', android: 'inventory_2', web: 'inventory_2' }} disabled={busy} onPress={() => setTab('stock')} />
+        <View style={[styles.rowDivider, { backgroundColor: theme.line }]} />
+        <ToolRow title="성과·이용 상태" detail="최근 14일 활동과 업체 이용 기간" icon={{ ios: 'chart.bar', android: 'bar_chart', web: 'bar_chart' }} disabled={busy} onPress={() => setTab('membership')} />
+      </View>
+      <View style={[styles.planSummary, { backgroundColor: theme.card }]}>
+        <View style={styles.toolText}><ThemedText type="smallBold">{data.merchant.status === 'paused' ? '업체 운영 중단' : ({ basic: '무료 기본 도구', trial: '업체 체험 중', pro: '업체 유료 운영' })[data.merchant.plan]}</ThemedText>
+          <ThemedText type="small" themeColor="textSecondary">{data.merchant.plan === 'trial' ? `${data.merchant.trial_ends_at}까지` : data.merchant.plan === 'pro' ? `${data.merchant.workspace_until}까지` : '초안·원가·품목별 입출고 이용 가능'}</ThemedText></View>
+        <Action label="이용 안내" disabled={busy} onPress={() => { setShowPlanDetails(true); setTab('membership'); }} />
+      </View>
+    </>}
     {tab === 'drafts' && <>
-      <Section title="게시물 관리">
-        <View style={styles.actions}><Action label="새 초안" disabled={busy} onPress={() => { void openDraft(); }} /><Action label={showArchived ? '작성 중인 원고 보기' : '보관한 원고 보기'} disabled={busy} onPress={() => { setShowArchived(!showArchived); setSelection([]); }} /></View>
+      {draftView === 'list' && <Section title="홍보글 관리">
+        <Action primary label="새 초안" disabled={busy} onPress={() => { void openDraft(); }} />
+        <View style={styles.actions}><Action label={showArchived ? '작성 중인 원고 보기' : '보관한 원고 보기'} disabled={busy} onPress={() => { setShowArchived(!showArchived); setSelection([]); }} />{dirty && <Action label="작성 중인 초안 이어쓰기" disabled={busy} onPress={() => setDraftView('composer')} />}</View>
         {data.drafts.filter((d) => !!d.archived_at === showArchived).map((d) => <View key={d.id} style={styles.draftRow}>
           <Pressable analyticsId="merchant.select_draft" accessibilityRole="checkbox" accessibilityLabel={`${d.title} 선택`} accessibilityState={{ checked: selection.includes(d.id), disabled: busy }} aria-checked={selection.includes(d.id)} disabled={busy} onPress={() => toggleDraft(d.id)}
             {...(Platform.OS === 'web' ? { onKeyDown: (event: { key: string; preventDefault: () => void }) => { if (event.key === ' ') { event.preventDefault(); toggleDraft(d.id); } } } : {})}
@@ -287,30 +407,41 @@ function MerchantTools({ id, refreshSignal, onDirty }: { id: string; refreshSign
           <Action label={showArchived ? '선택 원고 복원' : '선택 원고 보관'} disabled={busy} onPress={() => { void run(async () => { await archiveMerchantDrafts(supabase, id, selection, !showArchived); setSelection([]); }, showArchived ? '원고를 복원했어요.' : '원고를 보관했어요. 공개된 게시글은 그대로예요.'); }} />
           <Action label="선택 해제" disabled={busy} onPress={() => setSelection([])} />
         </View>{!canApprove && selection.length > 1 && <ThemedText type="small" themeColor="textSecondary">기본 이용에서는 한 건씩 승인할 수 있어요.</ThemedText>}</>}
-      </Section>
-      <Section title={published ? '게시한 원고' : '초안 편집'}>
+      </Section>}
+      {draftView === 'composer' && <><View style={styles.composerNav}>
+        <Action label="원고 목록" disabled={busy} onPress={() => setDraftView('list')} />
+        <ThemedText type="small" themeColor="textSecondary">{draftStep === 'idea' ? '내용 입력' : draftStep === 'edit' ? '초안 편집' : '게시 채널'}</ThemedText>
+      </View><Section title={draftStep === 'idea' ? '어떤 소식을 알릴까요?' : draftStep === 'channels' ? '게시 전 확인' : published ? '게시한 원고' : '초안을 확인해 주세요'}>
         {draftChanged && <ThemedText accessibilityRole="alert">{errorText(new Error('MERCHANT_DRAFT_CHANGED'))}</ThemedText>}
-        <ThemedText type="small">게시할 채널</ThemedText><View style={styles.actions}>{Object.entries(MERCHANT_CHANNELS).map(([key, label]) => <Action key={key} label={label} selected={editor.channel === key} disabled={busy || published} onPress={() => changeDraft({ channel: key as MerchantChannel })} />)}</View>
+        {draftStep === 'idea' ? <>
+          <ThemedText type="small" themeColor="textSecondary">가게 이름·도시와 이번 소식으로 초안을 만들어요.</ThemedText>
+          <View style={styles.actions}>{draftPurposes.map((label) => <Action key={label} label={label} selected={purpose === label} disabled={busy} onPress={() => { setPurpose(label); setDirty(true); }} />)}</View>
+          <Field label="이번에 알릴 내용 (필수)" value={facts} maxLength={1000} multiline disabled={busy} placeholder={'예: 새 닭강정 도시락을 소개하고 싶어요.\n12달러이고 토요일부터 판매해요.'} onChange={(value) => { setFacts(value); setDirty(true); }} />
+          <ThemedText type="small" themeColor="textSecondary">입력하지 않은 가격·날짜는 만들어 넣지 않아요. 가게 이름·도시와 입력 내용이 AI에 전달돼요.</ThemedText>
+          <Action primary label={busy ? '초안 만드는 중…' : 'AI로 초안 만들기'} disabled={busy || !facts.trim()} onPress={() => { void generateDraft(); }} />
+          <Action label="직접 작성할게요" disabled={busy} onPress={() => setDraftStep('edit')} />
+        </> : draftStep === 'edit' ? <>
+        {!published && <View style={styles.actions}><Action label="AI로 다시 작성" disabled={busy} onPress={() => setDraftStep('idea')} /><Action label="초안 저장" disabled={busy || draftChanged || !editor.title.trim() || !editor.body.trim() || !!saved?.archived_at} onPress={() => { void saveEditor(); }} /></View>}
+        {aiDraftReady && <ThemedText type="small" accessibilityLiveRegion="polite" themeColor="textSecondary">AI 초안이에요. 가격·시간·연락처를 확인하고 사장님 말투로 고쳐도 좋아요.</ThemedText>}
+        {editor.channel !== 'gling' && <><ThemedText type="small">원고 채널</ThemedText><View style={styles.actions}>{Object.entries(MERCHANT_CHANNELS).map(([key, label]) => <Action key={key} label={label} selected={editor.channel === key} disabled={busy || published} onPress={() => changeDraft({ channel: key as MerchantChannel })} />)}</View></>}
         <Field label="제목" value={editor.title} maxLength={100} disabled={busy || published} onChange={(title) => changeDraft({ title })} />
         <Field label="게시글 본문" value={editor.body} maxLength={4700} multiline disabled={busy || published} onChange={(body) => changeDraft({ body })} />
+        <Action label={draftOptions ? '추가 설정 닫기' : '분류·원문 주소'} disabled={busy} onPress={() => setDraftOptions(!draftOptions)} />
+        {(draftOptions || editor.channel !== 'gling') && <>
         <Field label="원문 주소 · 선택" value={editor.original_url} maxLength={2048} disabled={busy || published} onChange={(original_url) => changeDraft({ original_url })} />
         <View style={styles.actions}>{TAGS.filter((t) => t.kind === 'post').map((t) => <Action key={t.slug} label={t.label} selected={editor.tag_slug === t.slug} disabled={busy || published} onPress={() => changeDraft({ tag_slug: t.slug })} />)}</View>
         <View style={styles.actions}><Action label="업체 안내" selected={editor.kind === 'story'} disabled={busy || published} onPress={() => changeDraft({ kind: 'story' })} /><Action label="구인구직·거래" selected={editor.kind === 'listing'} disabled={busy || published} onPress={() => changeDraft({ kind: 'listing' })} /></View>
-        {published ? <Action label="새 초안으로 복제" disabled={busy} onPress={() => { setEditor({ ...editor, id: merchantEventId() }); setOpenedDraft(null); setDirty(true); setExternalUrl(''); }} /> : <Action primary label={busy ? '처리 중…' : '초안 저장'} disabled={busy || draftChanged || !editor.title.trim() || !editor.body.trim() || !!saved?.archived_at} onPress={() => {
-          const draft = { ...editor, title: editor.title.trim(), body: editor.body.trim(), original_url: editor.original_url.trim() };
-          void run(async () => { await saveMerchantDraft(supabase, id, { ...draft, original_url: draft.original_url || null }); editorReload.current = draft; setEditor(draft); setDirty(false); }, '초안을 저장했어요. 게시하려면 최신 저장본을 승인해 주세요.');
-        }} />}
+        </>}
+        {published ? <>{editor.channel === 'gling' && <Action primary label="카페용 원고 준비" disabled={busy || !draftReady} onPress={() => setDraftStep('channels')} />}<Action label="새 초안으로 복제" disabled={busy} onPress={() => { setEditor({ ...editor, id: merchantEventId() }); setOpenedDraft(null); setDirty(true); setExternalUrl(''); setPreparedChannels(null); setChannels({ gling: true, naver: false, daum: false }); }} /></> : editor.channel === 'gling' ? <>
+          <ThemedText type="small" themeColor="textSecondary">채널 선택 전에 초안을 저장해요. 아직 게시되지 않아요.</ThemedText>
+          <Action primary label="게시 채널 선택" disabled={busy || draftChanged || !editor.title.trim() || !editor.body.trim() || !!saved?.archived_at} onPress={() => { if (draftReady) setDraftStep('channels'); else void saveEditor('channels'); }} />
+        </> : null}
+        {editor.channel !== 'gling' && <>
         {saved && !published && !saved.archived_at && <Action label={saved.approved_at ? '승인 취소' : '이 저장본 승인'} disabled={busy || !draftReady} onPress={() => {
           const expected = { [saved.id]: saved.updated_at };
           void run(async () => { await approveMerchantDrafts(supabase, id, [saved.id], !saved.approved_at, expected); editorReload.current = editor; }, saved.approved_at ? '승인을 취소했어요.' : '최신 저장본을 승인했어요.');
         }} />}
-        {editor.channel === 'gling' ? <><ThemedText type="small" themeColor="textSecondary">승인은 공개 게시와 별개예요. 수정하면 다시 승인해야 해요. 공개 글에는 업체 안내 표시와 글링 게시 기준이 적용돼요.</ThemedText>
-          {!published && <Action label="글링에 게시" disabled={busy || !draftReady || !saved?.approved_at || !!saved.archived_at || !data.merchant.owner_verified_at || data.merchant.status === 'paused'} onPress={() => {
-            if (!saved || !draftReady) return;
-            const expected = saved.updated_at;
-            void (async () => { if (await confirmAction('글링에 게시', `「${editor.title}」의 승인된 저장본을 ${data.merchant.city_name}에 공개해요.`)) await run(async () => { await publishMerchantDraft(supabase, id, saved.id, expected); editorReload.current = editor; }, '글링에 게시했어요.'); })();
-          }} />}
-        </> : <><Action label={Platform.OS === 'web' ? '게시글 복사' : '게시글 공유·복사'} disabled={busy || !draftReady || !saved?.approved_at} onPress={() => { void run(() => shareText(merchantDraftCopy(saved!)), '저장된 원고를 준비했어요.', false); }} />
+        <Action label={Platform.OS === 'web' ? '게시글 복사' : '게시글 공유·복사'} disabled={busy || !draftReady || !saved?.approved_at} onPress={() => { void run(() => shareText(merchantDraftCopy(saved!)), '저장된 원고를 준비했어요.', false); }} />
           <ThemedText type="small" themeColor="textSecondary">카페의 가입·게시 규칙을 확인한 뒤 직접 올려주세요. 아래 주소는 직접 올린 글을 관리하기 위한 기록이에요.</ThemedText>
           <Field label="직접 올린 카페 게시글 주소" value={externalUrl} maxLength={2048} disabled={busy} onChange={setExternalUrl} />
           <Action label="게시 URL 기록" disabled={busy || !draftReady || !saved?.approved_at || !externalUrl.trim() || !!saved.archived_at} onPress={() => {
@@ -319,26 +450,45 @@ function MerchantTools({ id, refreshSignal, onDirty }: { id: string; refreshSign
             void run(async () => { await recordMerchantExternalPost(supabase, id, saved.id, externalUrl.trim(), expected); editorReload.current = editor; }, '카페 게시 URL을 기록했어요.');
           }} />
         </>}
-      </Section>
+        </> : <>
+          <ThemedText type="smallBold">{editor.title}</ThemedText><ThemedText>{editor.body}</ThemedText>
+          {!!editor.original_url && <ThemedText type="small" themeColor="textSecondary">{editor.original_url}</ThemedText>}
+          {([['gling', '글링에 게시', `${data.merchant.city_name} · 업체 안내`], ['naver', '네이버 카페용 원고 준비', '원고 복사 후 직접 등록'], ['daum', '다음 카페용 원고 준비', '원고 복사 후 직접 등록']] as const).map(([key, label, detail]) => <View key={key} style={styles.channelRow}>
+            <View style={styles.channelText}><ThemedText type="smallBold">{key === 'gling' ? '글링' : key === 'naver' ? '네이버 카페' : '다음 카페'}</ThemedText><ThemedText type="small" themeColor="textSecondary">{detail}</ThemedText></View>
+            <Switch analyticsId={`merchant.channel.${key}`} accessibilityLabel={label} value={channels[key]} disabled={busy || (key === 'gling' && published)} onValueChange={(value) => { play('selection'); setChannels({ ...channels, [key]: value }); }} style={styles.channelSwitch}
+              thumbColor={channels[key] ? theme.accentInk : theme.text} {...(Platform.OS === 'web' ? { activeThumbColor: theme.accentInk } : {})} trackColor={{ false: theme.line, true: theme.accent }} ios_backgroundColor={theme.line} />
+          </View>)}
+          {channels.gling && !data.merchant.owner_verified_at && <ThemedText type="small" themeColor="textSecondary">글링 공개 게시에는 업체 소유 확인이 필요해요.</ThemedText>}
+          <ThemedText type="small" themeColor="textSecondary">글링에는 업체 안내 표시와 게시 기준이 적용돼요. 카페는 가입·게시 규칙을 확인해 직접 올려주세요.</ThemedText>
+          {published ? <ThemedText accessibilityLiveRegion="polite">글링에 게시된 원고예요.</ThemedText> : <Action primary label={channels.gling ? '선택한 내용으로 게시 확인' : channels.naver || channels.daum ? '원고 준비 확인' : '게시할 채널을 선택해 주세요'} disabled={busy || !draftReady || !!saved?.archived_at || (!channels.gling && !channels.naver && !channels.daum) || (channels.gling && (!data.merchant.owner_verified_at || data.merchant.status === 'paused'))} onPress={() => { void confirmChannels(); }} />}
+          {(['naver', 'daum'] as const).map((key) => channels[key] && (preparedChannels?.[key] || published) && <Action key={key} label={`${key === 'naver' ? '네이버' : '다음'} 카페용 원고 ${Platform.OS === 'web' ? '복사' : '공유·복사'}`} disabled={busy || !draftReady} onPress={() => { void run(() => shareText(merchantDraftCopy(saved!)), '원고를 준비했어요. 카페에서 직접 등록해 주세요.', false); }} />)}
+          <Action label="원고 수정" disabled={busy} onPress={() => setDraftStep('edit')} />
+        </>}
+      </Section></>}
     </>}
     {tab === 'cost' && <Section title="개당 원가 계산">
-      <ThemedText type="small" themeColor="textSecondary">한 번 만드는 묶음 기준으로 입력해요. 금액은 CAD예요.</ThemedText>
-      {([['batchCost', '묶음 전체 재료비'], ['yield', '판매 가능한 수량'], ['packaging', '개당 포장비'], ['other', '개당 기타비'], ['price', '개당 판매가'], ['feePercent', '결제·판매 수수료율 (%)']] as const).map(([key, label]) => <Field key={key} label={label} value={cost[key]} numeric onChange={(value) => setCost({ ...cost, [key]: value })} />)}
-      {calculated ? <View style={styles.result}><ThemedText type="subtitle">개당 변동 원가 {money(calculated.unitCost)}</ThemedText><ThemedText>개당 공헌이익 {money(calculated.contribution)}</ThemedText><ThemedText type="small">원가율 {calculated.costPercent?.toFixed(1) ?? '—'}% · 공헌이익률 {calculated.marginPercent?.toFixed(1) ?? '—'}%</ThemedText></View> : <ThemedText accessibilityRole="alert">{errorText(new Error('INVALID_COST_INPUT'))}</ThemedText>}
+      <ThemedText type="small" themeColor="textSecondary">한 번 만드는 묶음 기준 · 금액 CAD</ThemedText>
+      <View style={styles.fieldGrid}>{([['batchCost', '전체 재료비'], ['yield', '판매 가능 수량'], ['packaging', '개당 포장비'], ['other', '개당 기타비'], ['price', '개당 판매가'], ['feePercent', '수수료율 (%)']] as const).map(([key, label]) => <View key={key} style={styles.halfField}><Field label={label} value={cost[key]} numeric onChange={(value) => setCost({ ...cost, [key]: value })} /></View>)}</View>
+      {calculated ? <View style={[styles.result, { borderColor: theme.line }]}><View style={styles.resultPair}>
+        <View style={styles.toolText}><ThemedText type="small" themeColor="textSecondary">개당 변동 원가</ThemedText><ThemedText style={styles.resultAmount}>{money(calculated.unitCost)}</ThemedText></View>
+        <View style={styles.toolText}><ThemedText type="small" themeColor="textSecondary">개당 공헌이익</ThemedText><ThemedText style={styles.resultAmount}>{money(calculated.contribution)}</ThemedText></View>
+      </View><ThemedText type="small" themeColor="textSecondary">원가율 {calculated.costPercent?.toFixed(1) ?? '—'}% · 공헌이익률 {calculated.marginPercent?.toFixed(1) ?? '—'}%</ThemedText></View> : <ThemedText accessibilityRole="alert">{errorText(new Error('INVALID_COST_INPUT'))}</ThemedText>}
       <ThemedText type="small" themeColor="textSecondary">공헌이익은 입력한 변동 비용을 뺀 금액이에요. 임대료·인건비·세금 등을 반영하기 전이므로 순이익과 달라요.</ThemedText>
       <Action label="계산 내역 복사·공유" disabled={!calculated || busy} onPress={() => { if (calculated) void run(() => shareText(`${data.merchant.name} 원가 계산\n전체 재료비 ${money(amount(cost.batchCost))} / 수량 ${cost.yield}\n개당 포장비 ${money(amount(cost.packaging))} · 기타비 ${money(amount(cost.other))}\n판매가 ${money(amount(cost.price))} · 수수료 ${cost.feePercent}%\n개당 변동 원가 ${money(calculated.unitCost)}\n개당 공헌이익 ${money(calculated.contribution)} (고정비·세금 반영 전)`), '계산 내역을 준비했어요.', false); }} />
     </Section>}
     {tab === 'stock' && <>
-      <Section title="품목 관리">
+      {showItemForm ? <Section title="품목 관리">
         <Field label="품목 이름" value={item.name} disabled={stockLocked} onChange={(name) => setItem({ ...item, name })} /><Field label="단위" value={item.unit} maxLength={20} disabled={stockLocked} onChange={(unit) => setItem({ ...item, unit })} />
         <Field label="개당 원가 (CAD)" value={item.unit_cost} numeric disabled={stockLocked} onChange={(unit_cost) => setItem({ ...item, unit_cost })} /><Field label="재고 부족 기준" value={item.low_stock} numeric disabled={stockLocked} onChange={(low_stock) => setItem({ ...item, low_stock })} />
-        <Action primary label="품목 저장" disabled={stockLocked || !item.name.trim() || !item.unit.trim() || !Number.isFinite(amount(item.unit_cost)) || amount(item.unit_cost) < 0 || !Number.isFinite(amount(item.low_stock)) || amount(item.low_stock) < 0} onPress={() => { void run(async () => { await saveMerchantItem(supabase, id, { ...item, unit_cost: amount(item.unit_cost), low_stock: amount(item.low_stock) }); setItem({ id: merchantEventId(), name: '', unit: '개', unit_cost: '0', low_stock: '0' }); }, '품목을 저장했어요. 재고는 아래 입출고로 기록해 주세요.'); }} />
-      </Section>
+        <Action primary label="품목 저장" disabled={stockLocked || !item.name.trim() || !item.unit.trim() || !Number.isFinite(amount(item.unit_cost)) || amount(item.unit_cost) < 0 || !Number.isFinite(amount(item.low_stock)) || amount(item.low_stock) < 0} onPress={() => { void run(async () => { await saveMerchantItem(supabase, id, { ...item, unit_cost: amount(item.unit_cost), low_stock: amount(item.low_stock) }); if (mounted.current) { setItem({ id: merchantEventId(), name: '', unit: '개', unit_cost: '0', low_stock: '0' }); setShowItemForm(false); } }, '품목을 저장했어요. 재고는 아래 입출고로 기록해 주세요.'); }} />
+        <Action label="재고 목록으로" disabled={busy} onPress={() => setShowItemForm(false)} />
+      </Section> : <><View style={styles.stockHeading}><ThemedText accessibilityRole="header" style={styles.sectionTitle}>재고 관리</ThemedText><Action label="품목 추가" disabled={stockLocked} onPress={() => { setItem({ id: merchantEventId(), name: '', unit: '개', unit_cost: '0', low_stock: '0' }); setShowItemForm(true); }} /></View>
       <Section title="입출고 기록">
         <ThemedText type="small" themeColor="textSecondary">입고는 양수, 출고는 음수로 입력해요. 소수점은 세 자리까지 지원해요.</ThemedText>
         {!data.items.length && <ThemedText>품목을 먼저 등록해 주세요.</ThemedText>}
-        {data.items.map((i) => <View key={i.id} style={styles.stockRow}><ThemedText type="smallBold">{i.name} · {Number(i.quantity)}{i.unit}{Number(i.quantity) <= Number(i.low_stock) ? ' · 재고 부족' : ''}</ThemedText><View style={styles.actions}>
-          <Action label={`${i.name} 수정`} disabled={stockLocked} onPress={() => setItem({ ...i, unit_cost: String(i.unit_cost), low_stock: String(i.low_stock) })} />
+        {data.items.map((i) => <View key={i.id} style={[styles.stockRow, { borderColor: theme.line }]}><View style={styles.stockHeading}>
+          <View style={styles.toolText}><ThemedText style={styles.rowTitle}>{i.name}</ThemedText><ThemedText type="small" themeColor={Number(i.quantity) <= Number(i.low_stock) ? 'text' : 'textSecondary'}>{Number(i.quantity)}{i.unit}{Number(i.quantity) <= Number(i.low_stock) ? ' · 재고 부족' : ''}</ThemedText></View>
+          <Action label={`${i.name} 수정`} disabled={stockLocked} onPress={() => { setItem({ ...i, unit_cost: String(i.unit_cost), low_stock: String(i.low_stock) }); setShowItemForm(true); }} />
         </View><Field label={`${i.name} 입출고 수량`} value={changes[i.id] ?? ''} numeric signed disabled={stockLocked} onChange={(value) => setChanges({ ...changes, [i.id]: value })} />
           {!stockPending && (changes[i.id] ?? '').trim() && <ThemedText type="small">변경 후 {Number(i.quantity) + amount(changes[i.id])}{i.unit}</ThemedText>}
         </View>)}
@@ -349,31 +499,50 @@ function MerchantTools({ id, refreshSignal, onDirty }: { id: string; refreshSign
         <Action primary label={stockPending ? '같은 입출고 요청 재확인' : '입출고 기록'} disabled={busy || !stockReady || (!stockPending && !stockValid)} onPress={() => { void submitStock(); }} />
         {stockPending && <ThemedText type="small" accessibilityLiveRegion="polite" themeColor="textSecondary">입출고 요청을 보관했어요. 결과가 확인될 때까지 수량과 사유는 고정돼요. 매장을 바꾸거나 앱을 다시 열어도 같은 요청 재확인 버튼으로 원래 요청의 결과를 확인할 수 있어요.</ThemedText>}
         {data.movements.slice(0, 20).map((m) => <ThemedText key={m.id} type="small" themeColor="textSecondary">{m.item_name} {Number(m.delta) > 0 ? '+' : ''}{m.delta} · {m.note} · {new Date(m.created_at).toLocaleDateString('ko-KR')}</ThemedText>)}
-      </Section>
+      </Section></>}
     </>}
     {tab === 'membership' && <>
+      <Section title="최근 14일 활동"><View style={styles.fieldGrid}>
+        {([['연결 게시글', `${data.metrics.linked_posts}편`], ['열람한 로그인 회원', `${data.metrics.unique_readers}명`], ['원문 클릭', `${data.metrics.source_clicks}회`], ['새 게시글', `${data.metrics.new_posts}편`]] as const).map(([label, value]) => <View key={label} style={styles.halfField}><ThemedText type="small" themeColor="textSecondary">{label}</ThemedText><ThemedText style={styles.resultAmount}>{value}</ThemedText></View>)}
+      </View>
+        <ThemedText type="small" themeColor="textSecondary">원문 클릭은 문의·주문 완료를 뜻하지 않아요.</ThemedText>
+        <Action label={showMetricDetails ? '측정 기준 접기' : '측정 기준과 상세 수치'} disabled={busy} onPress={() => setShowMetricDetails(!showMetricDetails)} />
+        {showMetricDetails && <><ThemedText type="small">로그인 회원 최초 열람 {data.metrics.first_reads}회</ThemedText><ThemedText type="small">로그인 클릭 회원 {data.metrics.member_clickers}명 · 익명 클릭 세션 {data.metrics.anonymous_sessions}개</ThemedText>
+        <ThemedText type="small" themeColor="textSecondary">누적 표시 조회 {data.metrics.displayed_views}회 · 익명 조회·운영 조정 포함. 실제 열람 인원과 달라요. 업체 소유자·작성자·관리자 기록은 측정 성과에서 제외해요.</ThemedText></>}
+        {data.reports.map((report) => <Action key={report.id} label={`${report.period_end} 보고서 공유`} disabled={busy} onPress={() => { void run(() => shareText(merchantReportText(report)), '저장된 보고서를 준비했어요.', false); }} />)}
+      </Section>
       <Section title="업체 이용 상태"><ThemedText type="subtitle">{({ basic: '기본 이용', trial: '업체 체험', pro: '업체 유료 운영' })[data.merchant.plan]}</ThemedText>
         <ThemedText>{data.merchant.plan === 'trial' ? `${data.merchant.trial_ends_at}까지 체험` : data.merchant.plan === 'pro' ? `${data.merchant.workspace_until}까지 운영` : '개별 초안·승인, 원가 계산, 품목별 입출고를 계속 이용할 수 있어요.'}</ThemedText>
-        <ThemedText type="small" themeColor="textSecondary">체험·유료 운영 기간에는 여러 건을 한 번에 승인하거나 입출고할 수 있어요. 기간이 끝나도 저장한 자료는 남아요. 업체 요금과 결제 상품은 아직 준비 중이며 자동 결제되지 않아요. 개인 플러스·프리미엄과 별도로 관리해요.</ThemedText>
-      </Section>
-      <Section title="최근 14일 성과"><ThemedText>연결 게시글 {data.metrics.linked_posts}편 · 새 글 {data.metrics.new_posts}편</ThemedText>
-        <ThemedText>로그인 회원 최초 열람 {data.metrics.first_reads}회 · {data.metrics.unique_readers}명</ThemedText><ThemedText>원문 클릭 {data.metrics.source_clicks}회</ThemedText>
-        <ThemedText type="small">로그인 클릭 회원 {data.metrics.member_clickers}명 · 익명 클릭 세션 {data.metrics.anonymous_sessions}개</ThemedText>
-        <ThemedText type="small" themeColor="textSecondary">누적 표시 조회 {data.metrics.displayed_views}회 · 익명 조회·운영 조정 포함. 실제 열람 인원과 달라요. 원문 클릭은 문의·주문 완료를 뜻하지 않아요. 업체 소유자·작성자·관리자 기록은 측정 성과에서 제외해요.</ThemedText>
-        {data.reports.map((report) => <Action key={report.id} label={`${report.period_end} 보고서 공유`} disabled={busy} onPress={() => { void run(() => shareText(merchantReportText(report)), '저장된 보고서를 준비했어요.', false); }} />)}
+        <ThemedText type="small" themeColor="textSecondary">개인 멤버십과 별도예요. 업체 요금은 준비 중이며 자동 결제되지 않아요.</ThemedText>
+        <Action label={showPlanDetails ? '이용 범위 접기' : '이용 범위 자세히'} disabled={busy} onPress={() => setShowPlanDetails(!showPlanDetails)} />
+        {showPlanDetails && <ThemedText type="small" themeColor="textSecondary">체험·유료 운영 기간에는 여러 건을 한 번에 승인하거나 입출고할 수 있어요. 기간이 끝나도 저장한 자료는 남아요. 개인 플러스·프리미엄과 별도로 관리해요.</ThemedText>}
       </Section>
     </>}
   </View>;
 }
 
 const styles = StyleSheet.create({
-  workspace: { gap: 16, width: '100%', maxWidth: 760, alignSelf: 'center' },
-  section: { gap: 14, padding: 18, borderWidth: 1, borderRadius: 20, borderCurve: 'continuous' },
+  workspace: { gap: 20, width: '100%', maxWidth: 760, alignSelf: 'center' },
+  section: { gap: 16, padding: 20, borderRadius: 16, borderCurve: 'continuous' },
+  sectionTitle: { fontSize: 22, lineHeight: 30, fontWeight: 600, letterSpacing: -0.3 },
   actions: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, alignItems: 'center' },
-  action: { minHeight: 44, borderRadius: 14, borderWidth: 1, paddingHorizontal: 14, paddingVertical: 10, justifyContent: 'center', maxWidth: '100%' },
-  field: { gap: 6 }, input: { minHeight: 48, minWidth: 0, borderWidth: 1, borderRadius: 12, paddingHorizontal: 12, paddingVertical: 12, fontSize: 15, lineHeight: 22 },
-  multiline: { minHeight: 160, textAlignVertical: 'top' },
+  action: { minHeight: 44, borderRadius: 10, paddingHorizontal: 12, paddingVertical: 10, justifyContent: 'center', maxWidth: '100%' },
+  field: { gap: 8 }, input: { minHeight: 52, minWidth: 0, borderWidth: 1, borderRadius: 10, paddingHorizontal: 12, paddingVertical: 14, fontSize: 15, lineHeight: 22 },
+  multiline: { minHeight: 144, textAlignVertical: 'top' },
   draftRow: { flexDirection: 'row', gap: 8, alignItems: 'center' }, checkbox: { minWidth: 44, minHeight: 44, justifyContent: 'center', alignItems: 'center' },
   draftTitle: { flex: 1, minWidth: 0, minHeight: 44, gap: 4, paddingVertical: 8 },
-  stockRow: { gap: 8, paddingVertical: 8 }, result: { gap: 8, paddingVertical: 8 },
+  stockRow: { gap: 12, paddingVertical: 16, borderBottomWidth: StyleSheet.hairlineWidth }, result: { gap: 12, paddingTop: 20, borderTopWidth: StyleSheet.hairlineWidth },
+  channelRow: { flexDirection: 'row', alignItems: 'center', gap: 12, minHeight: 56 }, channelText: { flex: 1, minWidth: 0, gap: 4 }, channelSwitch: { width: 52, height: 44 },
+  businessHeader: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 8 }, businessIcon: { width: 48, height: 48, borderRadius: 14, alignItems: 'center', justifyContent: 'center' },
+  businessName: { fontSize: 24, lineHeight: 32, fontWeight: 600, letterSpacing: -0.3 }, toolText: { flex: 1, minWidth: 0, gap: 4 },
+  writeIntro: { gap: 6, paddingTop: 8 }, introTitle: { fontSize: 22, lineHeight: 30, fontWeight: 600 },
+  toolGroup: { borderRadius: 16, overflow: 'hidden' }, toolRow: { flexDirection: 'row', alignItems: 'center', gap: 12, minHeight: 76, paddingHorizontal: 16, paddingVertical: 14 },
+  toolIcon: { width: 36, height: 36, borderRadius: 10, alignItems: 'center', justifyContent: 'center' }, rowTitle: { fontSize: 16, lineHeight: 22, fontWeight: 600 },
+  rowDivider: { height: StyleSheet.hairlineWidth, marginLeft: 64, marginRight: 16 },
+  planSummary: { flexDirection: 'row', alignItems: 'center', gap: 8, padding: 16, borderRadius: 16 },
+  toolbar: { flexDirection: 'row', alignItems: 'center', gap: 12 }, back: { minHeight: 44, flexDirection: 'row', alignItems: 'center', gap: 4 }, toolbarName: { flex: 1, textAlign: 'right' },
+  composerNav: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 12 },
+  fieldGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 16 }, halfField: { flexGrow: 1, flexBasis: '46%', minWidth: 120, gap: 6 },
+  resultPair: { flexDirection: 'row', flexWrap: 'wrap', gap: 16 }, resultAmount: { fontSize: 24, lineHeight: 34, fontWeight: 600, fontVariant: ['tabular-nums'] },
+  stockHeading: { flexDirection: 'row', alignItems: 'center', gap: 12, justifyContent: 'space-between' },
 });
