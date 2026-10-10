@@ -211,7 +211,7 @@ if [ -z "$TOKEN" ]; then
   exit 1
 fi
 
-RESULT="$(jq -Rs '{query: .}' "$SQL_FILE" | curl -s -X POST \
+RESULT="$(python3 -c 'import json,sys; print(json.dumps({"query": open(sys.argv[1], encoding="utf-8").read()}, ensure_ascii=True))' "$SQL_FILE" | curl -s -X POST \
   "https://api.supabase.com/v1/projects/$PROJECT_REF/database/query" \
   -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" --data-binary @-)"
 
