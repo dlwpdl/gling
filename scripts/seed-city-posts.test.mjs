@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
-import { mkdtempSync, writeFileSync } from 'node:fs';
-import { tmpdir } from 'node:os';
+import { mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { homedir, tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
 
@@ -85,4 +85,32 @@ test('작성자를 고르지 않은 원고는 등록하지 않는다', () => {
   assert.throws(() => dryRun([
     { ord: 1, city_id: 'vancouver', tag_slug: 'life', title: '누가 썼지', body: '내용' },
   ]), /author_nickname/);
+});
+
+test('실제 HTTP 전송 JSON에서도 긴 한글 원고와 유니코드를 손상 없이 보존한다', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'gling-city-transport-'));
+  const day = `transport-test-${process.pid}`;
+  const file = join(dir, 'posts.json');
+  const capture = join(dir, 'request.json');
+  const bashEnv = join(dir, 'bash-env');
+  const posts = [{
+    ord: 1, city_id: 'toronto', author_nickname: '서비스온타리오', tag_slug: 'life',
+    title: '한글·Montréal·☕ 원고', body: '가나다라마바사 Montréal ☕ "인용"\n'.repeat(1200),
+    source: 'https://example.com/transport',
+  }];
+  writeFileSync(file, JSON.stringify({ posts }));
+  // 실제 직렬화는 실행하고 키체인·외부 HTTP 경계만 차단한다.
+  writeFileSync(bashEnv, 'security() { printf fixture-token; }\ncurl() { cat > "$CAPTURE_FILE"; printf "[]\\n"; }\n');
+  try {
+    execFileSync(script, [day], {
+      env: { ...process.env, POSTS_FILE: file, DRY_RUN: '0', GROW: '0', BASH_ENV: bashEnv, CAPTURE_FILE: capture },
+      encoding: 'utf8',
+    });
+    const { query } = JSON.parse(readFileSync(capture, 'utf8'));
+    const payload = query.split('$GLING$')[1];
+    assert.deepEqual(JSON.parse(payload), posts);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+    rmSync(join(homedir(), 'Library/Application Support/gling/city-posts', `${day}.log`), { force: true });
+  }
 });
